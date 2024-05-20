@@ -1,0 +1,25 @@
+{
+ "format_version": 1,
+ "header": {
+  "description": "Textures/Pack By : @VEDA_RAIDEN\nTerture Langka Konon Katanya\nTertarik? Suka? Ou makasih... :)",
+  "name": "VEDA PACK SERVER",
+  "uuid": "67b10235-00f4-0484-8b1d-80a110011997",
+  "version": [
+   1,
+   5,
+   6
+  ]
+ },
+ "modules": [
+  {
+   "description": "Jih tch Mada kono sekaiwa",
+   "type": "resources",
+   "uuid": "04b7e6f2-311d-4bc7-ba0e-183fa719f638",
+   "version": [
+    1,
+    5,
+    6
+   ]
+  }
+ ]
+}

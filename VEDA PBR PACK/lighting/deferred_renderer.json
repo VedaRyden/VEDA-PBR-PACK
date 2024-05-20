@@ -1,0 +1,11 @@
+{
+  "deferred_shading_parameters": {
+    "block_light_indirect_contribution_multiplier": 0.05,
+    "sky_light_indirect_contribution_multiplier": 0.055,
+    "volumetric_fog_min_ambient_value": 2.0,
+    "emissive_brightness_multiplier": 1,
+    "emissive_desaturation": 1.0,
+    "start_ibl_fade_light_level": 15,
+    "end_ibl_fade_light_level": 12
+  }
+}

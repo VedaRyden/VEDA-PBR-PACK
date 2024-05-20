@@ -1,0 +1,40 @@
+{
+ "capabilities": [
+  "pbr"
+ ],
+ "format_version": 1,
+ "header": {
+  "description": "VEDA_PACK PBR For Deffered And Ray Tracing Textures\nPBR By : @VEDA_RAIDEN",
+  "name": "VEDA PACK PBR",
+  "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
+  "version": [
+   1,
+   5,
+   6
+  ]
+ },
+ "modules": [
+  {
+   "description": "Jih tch cuih Mada kono sekaiwa yahaha hayyuk papale papale Free Fire Max HDR HD 8K 165FPS",
+   "type": "resources",
+   "uuid": "04b7e6f2-311d-4bc7-ba0e-183fa719f256",
+   "version": [
+    1,
+    5,
+    6
+   ]
+  }
+ ],
+ "subpacks": [
+  {
+   "folder_name": "Masa sih kamu ga suka",
+   "memory_tier": 1,
+   "name": "-50% Brightness (Buat Yg sakit Mata)"
+  },
+  {
+   "folder_name": "Original",
+   "memory_tier": 1,
+   "name": "Original (Normal Dan Bersih)"
+  }
+ ]
+}
