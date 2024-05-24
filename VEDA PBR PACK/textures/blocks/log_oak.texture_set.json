@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "log_oak",
 		"metalness_emissive_roughness": "log_oak_mer",
-		"heightmap": "log_oak_heightmap"
+		"heightmap": "log_oak_m"
 	}
 }

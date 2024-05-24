@@ -7,7 +7,7 @@
     "volumetric": {
       "density": {
         "air": { // Copy dari Setingan Custom Render Graphic mine imator 2.0.2
-          "max_density": 100,
+          "max_density": 1000,
           "zero_density_height": 99,
           "max_density_height": 125,
           "uniform": false
