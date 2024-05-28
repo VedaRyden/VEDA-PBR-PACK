@@ -1,0 +1,208 @@
+{
+ "namespace": "bed",
+ "in_bed_screen@common.base_screen": {
+  "button_mappings": [
+   {
+    "from_button_id": "button.menu_cancel",
+    "to_button_id": "button.wake_up_button",
+    "mapping_type": "global"
+   },
+   {
+    "from_button_id": "button.menu_exit",
+    "to_button_id": "button.wake_up_button",
+    "mapping_type": "global"
+   }
+  ],
+  "$screen_content": "bed.in_bed_screen_content",
+  "$screen_bg_content": "bed.background"
+ },
+ "in_bed_screen_content": {
+  "type": "panel",
+  "controls": [
+   {
+    "wake_up_button_panel": {
+     "type": "stack_panel",
+     "orientation": "horizontal",
+     "size": [
+      128,
+      "15%"
+     ],
+     "anchor_from": "bottom_middle",
+     "anchor_to": "bottom_middle",
+     "offset": [
+      0,
+      "-15.0%"
+     ],
+     "controls": [
+      {
+       "wake_up_button@common_buttons.light_text_form_fitting_button": {
+        "layer": 1,
+        "$button_text_max_size": [
+         120,
+         10
+        ],
+        "$button_text": "multiplayer.stopSleeping",
+        "button_mappings": [
+         {
+          "from_button_id": "button.menu_select",
+          "to_button_id": "button.wake_up_button",
+          "mapping_type": "pressed"
+         },
+         {
+          "from_button_id": "button.menu_ok",
+          "to_button_id": "button.wake_up_button",
+          "mapping_type": "pressed"
+         }
+        ]
+       }
+      },
+      {
+       "spacer": {
+        "type": "panel",
+        "size": [
+         20,
+         0
+        ]
+       }
+      },
+      {
+       "chat_button@common_buttons.light_text_form_fitting_button": {
+        "layer": 1,
+        "$button_text_max_size": [
+         120,
+         10
+        ],
+        "$button_text": "multiplayer.inBedOpenChat",
+        "button_mappings": [
+         {
+          "from_button_id": "button.menu_select",
+          "to_button_id": "button.chat",
+          "mapping_type": "pressed"
+         },
+         {
+          "from_button_id": "button.menu_ok",
+          "to_button_id": "button.chat",
+          "mapping_type": "pressed"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "wake_up_label_panel": {
+     "type": "label",
+     "size": [
+      "default",
+      49
+     ],
+     "offset": [
+      0,
+      "15.0%"
+     ],
+     "text": "#wake_up_label_panel",
+     "color": "$main_header_text_color",
+     "bindings": [
+      {
+       "binding_name": "#wake_up_label_panel"
+      }
+     ]
+    }
+   },
+   {
+    "select_button@death.a_button_panel": {
+     "layer": 1,
+     "offset": [
+      0,
+      "-5%"
+     ]
+    }
+   },
+   {
+    "turu@bed.turu": {}
+   },
+   {
+    "amimir@bed.amimir": {}
+   },
+   {
+    "sare@bed.sare": {}
+   },
+   {
+    "tidur@bed.tidur": {}
+   },
+   {
+    "sodap@bed.sodap": {}
+   }
+  ]
+ },
+ "background": {
+  "type": "image",
+  "size": [
+   "100%",
+   "100%"
+  ],
+  "texture": "textures/ui/White",
+  "color": [
+   0,
+   0,
+   0
+  ],
+  "alpha": 0.5
+ },
+ "turu": {
+  "type": "image",
+  "anchor_from": "bottom_right",
+  "anchor_to": "bottom_right",
+  "texture": "ui/turu",
+  "size": [
+   75,
+   75
+  ],
+  "layer": 1
+ },
+ "amimir": {
+  "type": "image",
+  "anchor_from": "top_left",
+  "anchor_to": "top_left",
+  "texture": "ui/amimir",
+  "size": [
+   75,
+   75
+  ],
+  "layer": 2
+ },
+ "sare": {
+  "type": "image",
+  "anchor_from": "top_right",
+  "anchor_to": "top_right",
+  "texture": "ui/sare",
+  "size": [
+   75,
+   75
+  ],
+  "layer": 3
+ },
+ "tidur": {
+  "type": "image",
+  "anchor_from": "bottom_left",
+  "anchor_to": "bottom_left",
+  "texture": "ui/tidur",
+  "size": [
+   75,
+   75
+  ],
+  "layer": 4
+ },
+ "sodap": {
+  "type": "image",
+  "anchor_from": "top_middle",
+  "anchor_to": "top_middle",
+  "texture": "ui/sodap",
+  "size": [
+   70,
+   70
+  ],
+  "layer": 5
+ }
+}

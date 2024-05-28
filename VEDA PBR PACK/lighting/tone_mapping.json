@@ -4,7 +4,7 @@
   "contrast": 1,
   "saturation": 1,
 
-  "exposure_compensation_type": "constant",
+  "exposure_compensation_type": "aces",
   "custom_exposure_compensation": {
     "-6.9": -5.0,
     "-3.75": -3.0,
@@ -13,9 +13,9 @@
     "6.8": 7.0,
     "10.9": 11.0
   },
-  "exposure_compensation": 1.0,
+  "exposure_compensation": 0.0,
   "min_luminance": -0.9,
-  "max_luminance": 10.0,
-  "f_stop": 1.0,
+  "max_luminance": 20.0,
+  "f_stop": 19.0,
   "min_white_point": 1.0
 } 

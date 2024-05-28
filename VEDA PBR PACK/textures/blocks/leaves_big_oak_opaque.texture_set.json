@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "leaves_big_oak_opaque",
 		"metalness_emissive_roughness": "leaves_oak_mer",
-		"heightmap": "leaves_oak_heightmap"
+		"heightmap": "leaves_big_oak_opaque"
 	}
 }

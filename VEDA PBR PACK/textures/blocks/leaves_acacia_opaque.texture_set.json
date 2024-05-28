@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "leaves_acacia_opaque",
 		"metalness_emissive_roughness": "leaves_acacia_mer",
-		"heightmap": "leaves_acacia_heightmap"
+		"heightmap": "leaves_acacia_height"
 	}
 }
