@@ -62,14 +62,14 @@
   "ultra": {
     "cascade_bias": [ 0.00010, 0.00010, 0.00010, 0.00010 ],
     "cascade_slope_bias": [ 0.00042, 0.00042, 0.00042, 0.00042 ],
-    "cascade_resolution": [ 2048, 2048, 2048, 2048 ],
+    "cascade_resolution": [ 4096, 4096, 4096, 4096 ],
     "num_cascade_levels": 1,
     "num_variable_cascade_levels": 1,
     "shadow_range": {
       "near": 0.025,
       "far": 64.0
     },
-    "max_shadow_distance": 128.0,
+    "max_shadow_distance": 256.0,
     "cascade_range": [ 0.25, 1.0, 1.0, 1.0 ],
     "cascade_pcf_width": [ 1.0, 1.0, 1.0, 1.0 ],
     "shadow_clamp_angle": 30,
