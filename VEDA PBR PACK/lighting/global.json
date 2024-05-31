@@ -15,13 +15,13 @@
     },
     "moon": { 
         "illuminance": 0.27,
-        "color": "#ffffffff"
+        "color": "#F6F1D5FF"
     }, 
     "orbital_offset_degrees": 3.0
   },
   "point_lights": { 
       "colors": { 
-         "minecraft:soul_torch": "#FFFFFF"
+         "minecraft:soul_torch": "##7BFAFE"
       } 
   },
   "pbr": { 
