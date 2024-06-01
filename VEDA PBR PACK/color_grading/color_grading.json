@@ -5,10 +5,10 @@
         },
         "color_grading": {
             "midtones": {
-                "contrast": [
-                    1.3,
-                    1.3,
-                    1.3
+                "contrast": [ //Asalnya 1.3
+                    1,
+                    1,
+                    1
                 ],
                 "gamma": [ // Gamma Aces dari mine imator cuy
                     2,
