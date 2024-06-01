@@ -1,0 +1,47 @@
+{
+    "minecraft:color_grading_settings": {
+        "description": {
+            "identifier": "vedapack:default_color_grading"
+        },
+        "color_grading": {
+            "midtones": {
+                "contrast": [ //Asalnya 1.3
+                    1.3,
+                    1.3,
+                    1.3
+                ],
+                "gamma": [ // Gamma Aces dari mine imator cuy
+                    2,
+                    2,
+                    2
+                ],
+                "saturation": [
+                    2.15, // Increased for more vibrant colors
+                    2.0,
+                    2.0
+                ]
+            },
+            "shadows": {
+                "shadowsMax": 0.7,
+                "contrast": [
+                    1.2, // Increased for deeper shadows
+                    1.2,
+                    1.2
+                ],
+                "gamma": [ // Gamma Aces dari mine imator cuy
+                    2,
+                    2,
+                    2
+                ],
+                "gain": [
+                    1.1, // Decreased for darker shadows
+                    1.1,
+                    1.1
+                ]
+            }
+        },
+        "tone_mapping": {
+            "operator": "aces"
+        }
+    }
+}
