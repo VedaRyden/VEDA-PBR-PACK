@@ -21,18 +21,21 @@
   },
   "point_lights": { 
       "colors": { 
-         "minecraft:soul_torch": "##7BFAFE"
+         "minecraft:soul_torch": "#7BFAFE"
       } 
   },
   "pbr": { 
       "blocks": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 1.0]  
+        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
+      }, 
+      "items": { 
+        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
       }, 
       "actors": { 
         "global_metalness_emissive_roughness": "#0000ff"
       },
       "particles": { 
-         "global_metalness_emissive_roughness": [0.0, 0.0, 255.0]  
+         "global_metalness_emissive_roughness": [0.0, 0.0, 1.0]  
       }
   } 
 }

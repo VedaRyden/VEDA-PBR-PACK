@@ -1,9 +1,4 @@
 {
-  "technique": "aces",
-  "brightness": 0,
-  "contrast": 1,
-  "saturation": 1,
-
   "exposure_compensation_type": "aces",
   "custom_exposure_compensation": {
     "-6.9": -5.0,
@@ -18,4 +13,4 @@
   "max_luminance": 20.0,
   "f_stop": 19.0,
   "min_white_point": 1.0
-} 
+}

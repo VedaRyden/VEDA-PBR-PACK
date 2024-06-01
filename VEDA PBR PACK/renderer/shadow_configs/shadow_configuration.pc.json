@@ -15,9 +15,9 @@
     "shadow_clamp_angle": 30,
     "cloud_shadow_contribution": 0.5,
     "cloud_shadow_pcf_width": 2.0,
-    "sun_shadows": true,
-    "moon_shadows": true,
-    "cloud_shadows": true
+    "sun_shadows": false,
+    "moon_shadows": false,
+    "cloud_shadows": false
   },
   "medium": {
     "cascade_bias": [ 0.00010, 0.00010, 0.00010, 0.00010 ],
@@ -37,7 +37,7 @@
     "cloud_shadow_pcf_width": 4.0,
     "sun_shadows": true,
     "moon_shadows": true,
-    "cloud_shadows": true
+    "cloud_shadows": false
   },
   "high": {
     "cascade_bias": [ 0.00010, 0.00010, 0.00010, 0.00010 ],

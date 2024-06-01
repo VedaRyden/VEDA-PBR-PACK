@@ -7,13 +7,13 @@
     "volumetric": {
       "density": {
         "air": { // Copy dari Setingan Custom Render Graphic mine imator 2.0.2
-          "max_density": 0.1,
+          "max_density": 1,
           "zero_density_height": 99,
-          "max_density_height": 125,
+          "max_density_height": 64,
           "uniform": false
         },
         "water": {
-          "max_density": 0.1,
+          "max_density": 0.2,
           "uniform": true
         }
       },
@@ -24,10 +24,10 @@
             0.0275,
             0.0275
           ],
-          "absorption": [
-            0.0,
-            0.0,
-            0.0
+          "absorption": [ //0 semua
+            0,
+            0,
+            0
           ]
           // "absorption": [ 0.008, 0.008, 0.005 ]
         },
