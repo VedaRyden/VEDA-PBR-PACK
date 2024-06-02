@@ -13,7 +13,7 @@
           "uniform": false
         },
         "water": {
-          "max_density": 0.2,
+          "max_density": 0.1,
           "uniform": true
         }
       },
@@ -25,9 +25,9 @@
             0.0275
           ],
           "absorption": [ //0 semua
-            0.1,
-            0.1,
-            0.1
+            0,
+            0,
+            0
           ]
           // "absorption": [ 0.008, 0.008, 0.005 ]
         },
