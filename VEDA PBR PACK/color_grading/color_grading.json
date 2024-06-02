@@ -29,14 +29,14 @@
                     1.2
                 ],
                 "gamma": [ // Gamma Aces dari mine imator cuy
-                    1,
-                    1,
-                    1
+                    2,
+                    2,
+                    2
                 ],
                 "gain": [
-                    1.1, // Decreased for darker shadows
-                    1.1,
-                    1.1
+                    2.25, // Decreased for darker shadows
+                    2.1,
+                    2.1
                 ]
             }
         },
