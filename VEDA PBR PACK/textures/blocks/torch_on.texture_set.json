@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:texture_set": {
 		"color": "torch_on",
-		"metalness_emissive_roughness": "torch_on_m",
-		"heightmap": "torch_on_h"
+		"metalness_emissive_roughness": "soul_torch_m",
+		"heightmap": "soul_torch_h"
 	}
 }

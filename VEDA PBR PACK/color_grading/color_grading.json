@@ -16,9 +16,9 @@
                     2
                 ],
                 "saturation": [
-                    2.15, // Increased for more vibrant colors
-                    2.0,
-                    2.0
+                    1.15, // Increased for more vibrant colors
+                    1.0,
+                    1.0
                 ]
             },
             "shadows": {
@@ -34,9 +34,9 @@
                     2
                 ],
                 "gain": [
-                    2.25, // Decreased for darker shadows
-                    2.1,
-                    2.1
+                    1.25, // Decreased for darker shadows
+                    1.1,
+                    1.1
                 ]
             }
         },
