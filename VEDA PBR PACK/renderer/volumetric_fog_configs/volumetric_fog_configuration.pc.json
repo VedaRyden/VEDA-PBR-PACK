@@ -4,7 +4,7 @@
 		"tile_height": 1,
 		"depth_slices": 1,
 		"near_plane": 0.1,
-		"far_plane": 1.0,
+		"far_plane": 10.0,
 		"shadow_pcf_scale": 0.1
 	},
 	"medium": {
@@ -26,9 +26,9 @@
 	"ultra": {
 		"tile_width": 32,
 		"tile_height": 32,
-		"depth_slices": 0.1,
+		"depth_slices": 1,
 		"near_plane": 0.1,
-		"far_plane": 1,
-		"shadow_pcf_scale": 0.1
+		"far_plane": 10.0,
+		"shadow_pcf_scale": 1
 	}
 }
