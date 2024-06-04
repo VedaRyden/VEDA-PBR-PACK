@@ -14,14 +14,19 @@
       "color": [ 255.0, 255.0, 255.0, 255.0 ]
     },
     "moon": { 
-        "illuminance": 0.27,
-        "color": "#F6F1D5FF"
+        "illuminance": 14.27,
+        "color": "#41A3DDFF"
     }, 
     "orbital_offset_degrees": 3.0
   },
   "point_lights": { 
       "colors": { 
-         "minecraft:soul_torch": "#7BFAFE"
+         "minecraft:soul_torch": "#7BFAFE",
+         "minecraft:torch as": "#EFE39D",
+         "minecraft:redstone_torch as": "#FF0000",
+         "minecraft:end_rod as": "#FFFFFF",
+         "minecraft:lantern as": "#CE8133",
+         "minecraft:soul_lantern as": "#00FFFF"
       } 
   },
   "pbr": { 
@@ -38,7 +43,7 @@
         "global_metalness_emissive_roughness": [0.0, 0.0, 255]
       },
       "particles": { 
-         "global_metalness_emissive_roughness": [0.0, 0.0, 1.0]  
+        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
       }
   } 
 }
