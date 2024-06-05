@@ -85,22 +85,24 @@
   },
   "sky_zenith_color": { //Warna SKY Zenith Atas, kalau yg horizon dibawah pewarnaan nya.
   "0.0": [73, 105, 149],                                 //Siang
-  "0.125": [67, 97, 138],                               //rada Siang
+  "0.15": [67, 97, 138],                                //rada Siang
   "0.20": [51, 73, 103],                               //Mau Sore
   "0.25": [53, 54, 61],                               //Sore udah
   "0.35": [32, 34, 39],                              //Masih Sore Dah Mau Malem
   "0.47": [19, 29, 43],                             //Malam
   "0.5": [25, 38, 59],                             //Tengah Malam
-  "0.75": [32, 45, 67]                            //Kepagian
+  "0.75": [73, 105, 149],                           //Kepagian
+  "1.0": [73, 105, 149]
   }, 
   "sky_horizon_color": { //VEDA SKY STYLE?, Gw Sering Pake Pewarnaan langit di render mine imator pake langit rtx dari assets ray tracing minecraft bedrock.
   "0.0": [186, 236, 255],                       //Siang
-  "0.125": [211, 251, 255],                    //rada Siang
+  "0.15": [211, 251, 255],                    //rada Siang
   "0.20": [153, 197, 220],                    //Mau Sore
   "0.25": [108, 31, 9],                      //Sore udah
   "0.35": [80, 20, 7],                      //Masih Sore Dah Mau Malem
   "0.47": [52, 69, 85],                    //Malam
   "0.5": [63, 87, 107],                   //Tengah Malam
-  "0.75": [57, 83, 112]                  //Kepagian
+  "0.75": [186, 236, 255],               //Kepagian
+  "1.0": [186, 236, 255]                //Persiapan Pagi      
   } 
 }

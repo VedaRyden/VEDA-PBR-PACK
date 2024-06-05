@@ -20,7 +20,7 @@
       }
     },
     "moon": { 
-        "illuminance": 15.0, //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
+        "illuminance": 10.0, //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
         "color": [13,85,255,225] //Warna Bulan Biru
     }, 
     "orbital_offset_degrees": {
