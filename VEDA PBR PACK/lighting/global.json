@@ -2,27 +2,27 @@
   "format_version": [1, 0, 0], 
   "directional_lights": {
     "sun": {
-      "illuminance": {
-        "0.0": 1.0,
-        "0.25": 400.0,
-        "0.35": 20000.0,
-        "0.5": 109880.0,
-        "0.65": 20000.0,
-        "0.75": 400.0,
-        "1.0": 1.0
+      "illuminance": { //Tingkat Cahaya Iluminasi Jika semakin tinggi maka semakin butuh Paramex.
+        "0.0": 10.0, //SIANG
+        "0.25": 20.0, //SORE
+        "0.35": 70.0, //MAHGRIB
+        "0.5": 50.0, //TENGAH MALAM
+        "0.65": 70.0, //SUBUH
+        "0.75": 20.0, //PAGI
+        "1.0": 10.0 //UPACARA KESIANGAN
       },
-      "color": [ 255.0, 255.0, 255.0, 255.0 ]
+      "color": [ 255.0, 255.0, 255.0, 255.0 ] //Warna sinar matahari
     },
     "moon": { 
-        "illuminance": 14.27,
-        "color": "#41A3DDFF"
+        "illuminance": 2.0, //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
+        "color": [13,85,255,225] //Warna Bulan Biru
     }, 
     "orbital_offset_degrees": 3.0
   },
   "point_lights": { 
       "colors": { 
          "minecraft:soul_torch": "#7BFAFE",
-         "minecraft:torch as": "#EFE39D",
+         "minecraft:torch as": "#FFFF00",
          "minecraft:redstone_torch as": "#FF0000",
          "minecraft:end_rod as": "#FFFFFF",
          "minecraft:lantern as": "#CE8133",
@@ -43,7 +43,7 @@
         "global_metalness_emissive_roughness": [0.0, 0.0, 255]
       },
       "particles": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
+        "global_metalness_emissive_roughness": [0.0, 0.0, 1.0]  
       }
   } 
 }

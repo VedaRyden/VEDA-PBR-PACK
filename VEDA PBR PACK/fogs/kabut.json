@@ -6,37 +6,32 @@
     },
     "volumetric": {
       "density": {
-        "air": { // Copy dari Setingan Custom Render Graphic mine imator 2.0.2
-          "max_density": 1,
+        "air": { // Copy dari Setingan Customan Render Graphic mine imator gw.
+          "max_density": 0.2,
           "zero_density_height": 99,
           "max_density_height": 64,
           "uniform": false
         },
-        "water": {
-          "max_density": 0.1,
-          "uniform": true
+        "water": { //Ketika didalam air
+          "max_density": 0.3,
+          "uniform": true //kalau mau dipisah mending false aja.
         }
       },
       "media_coefficients": {
         "air": {
-          "scattering": [
+          "scattering": [ //Penyebaran
             0.0275,
             0.0275,
             0.0275
           ],
-          "absorption": [ //0 semua
+          "absorption": [ //Penyerapan
             0,
             0,
             0
           ]
-          // "absorption": [ 0.008, 0.008, 0.005 ]
         },
         "cloud": {
-          "scattering": [
-            0.100,
-            0.100,
-            0.100
-          ],
+          "scattering": [0.01, 0.01, 0.01],
           "absorption": [
             0.003,
             0.003,

@@ -8,9 +8,9 @@
     "6.8": 7.0,
     "10.9": 11.0
   },
-  "exposure_compensation": 0.0,
+  "exposure_compensation": 0.0,//Asalnya nol
   "min_luminance": -0.9,
-  "max_luminance": 20.0,
+  "max_luminance": 10.9,
   "f_stop": 19.0,
   "min_white_point": 1.0
 }
