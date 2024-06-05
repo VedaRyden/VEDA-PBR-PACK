@@ -5,33 +5,44 @@
       "illuminance": { //Tingkat Cahaya Iluminasi Jika semakin tinggi maka semakin butuh Paramex.
         "0.0": 10.0, //SIANG
         "0.25": 20.0, //SORE
-        "0.35": 70.0, //MAHGRIB
-        "0.5": 50.0, //TENGAH MALAM
-        "0.65": 70.0, //SUBUH
+        "0.35": 50.0, //MAHGRIB
+        "0.5": 70.0, //TENGAH MALAM
+        "0.65": 50.0, //SUBUH
         "0.75": 20.0, //PAGI
         "1.0": 10.0 //UPACARA KESIANGAN
       },
-      "color": [ 255.0, 255.0, 255.0, 255.0 ] //Warna sinar matahari
+      "color": {
+        "0.15": [255,119,0,225],//Mulai Pagi
+        "0.25": [255,167,89,225],//Pas Pagi
+        "0.39":[255,255,255,255], //Warna sinar matahari owi
+        "0.66": [255,198,148,225],//Mulai Sore
+        "0.75": [255,60,0,255] //Nah pas sore baru Pagi jadi warna Senja.
+      }
     },
     "moon": { 
-        "illuminance": 2.0, //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
+        "illuminance": 15.0, //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
         "color": [13,85,255,225] //Warna Bulan Biru
     }, 
-    "orbital_offset_degrees": 3.0
+    "orbital_offset_degrees": {
+      "0.75": 28.0, // Putaran pagi
+      "1.0": 15.0, // Putaran Siang
+      "0.25": 28.0 // Putaran Sore
+    }
   },
   "point_lights": { 
       "colors": { 
-         "minecraft:soul_torch": "#7BFAFE",
-         "minecraft:torch as": "#FFFF00",
+         "minecraft:soul_torch": "#00FFFF",
+         "minecraft:soul_lantern as": "#00FFFF",
          "minecraft:redstone_torch as": "#FF0000",
+         "minecraft:torch as": "#FFFF00",
          "minecraft:end_rod as": "#FFFFFF",
          "minecraft:lantern as": "#CE8133",
-         "minecraft:soul_lantern as": "#00FFFF"
+         "minecraft:fire": "#d9631e"
       } 
   },
   "pbr": { 
       "blocks": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
+        "global_metalness_emissive_roughness": [0.0, 0.0, 1.0]  
       }, 
       "items": { 
         "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
