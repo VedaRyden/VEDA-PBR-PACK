@@ -10,11 +10,11 @@
   "medium": {
     "bias": 0.00010,
     "slope_bias": 0.00042,
-    "far_plane": 128.0,
-    "near_plane": 0.025,
+    "far_plane": 15.0,
+    "near_plane": 0.1,
     "max_point_light_shadows": 8,
     "resolution": 64
-  },//Custom Point Light Shadow By @Veda_Raiden.
+  }, //Custom Point Light Shadow By @Veda_Raiden.
   "high": {
     "bias": 0.075,
     "slope_bias": 0.003,
@@ -26,8 +26,8 @@
   "ultra": {
     "bias": 0.00010, //Tajam.
     "slope_bias": 0.00042, //Dipertajamkan.
-    "far_plane": 128.0, //Moga Gak Bergaris2.
-    "near_plane": 0.025, //Say Bye To Garis garis :v
+    "far_plane": 15.0, //Moga Gak Bergaris2.
+    "near_plane": 0.1, //Say Bye To Garis garis :v
     "max_point_light_shadows": 16, //Batas Jumlah bayangan dari cahaya.
     "resolution": 256 //Resolusi Bayangan Semakin tinggi maka semakin HD!
   }

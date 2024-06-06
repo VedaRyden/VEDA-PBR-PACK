@@ -3,16 +3,16 @@
     "cascade_bias": [ 0.0, 0.0, 0.0, 0.0 ],
     "cascade_slope_bias": [ 0.0, 0.0, 0.0, 0.0 ],
     "cascade_resolution": [ 512, 512, 512, 512 ],
-    "num_cascade_levels": 1,
-    "num_variable_cascade_levels": 1,
+    "num_cascade_levels": 0,
+    "num_variable_cascade_levels": 0,
     "shadow_range": {
-      "near": 0.001,
+      "near": 0.0,
       "far": 10.0
     },
-    "max_shadow_distance": 1.0,
+    "max_shadow_distance": 0.0,
     "cascade_range": [ 0.1, 0.1, 0.1, 0.1 ],
     "cascade_pcf_width": [ 1.0, 1.0, 1.0, 1.0 ],
-    "shadow_clamp_angle": 0,
+    "shadow_clamp_angle": 30,
     "cloud_shadow_contribution": 0,
     "cloud_shadow_pcf_width": 0,
     "sun_shadows": false,
@@ -23,7 +23,7 @@
     "cascade_bias": [ 0.00010, 0.00010, 0.00010, 0.00010 ],
     "cascade_slope_bias": [ 0.00042, 0.00042, 0.00042, 0.00042 ],
     "cascade_resolution": [ 1024, 1024, 512, 512 ],
-    "num_cascade_levels": 3,
+    "num_cascade_levels": 4,
     "num_variable_cascade_levels": 2,
     "shadow_range": {
       "near": 0.025,
@@ -62,7 +62,7 @@
   "ultra": {
     "cascade_bias": [ 0.00010, 0.00010, 0.00010, 0.00010 ],
     "cascade_slope_bias": [ 0.00042, 0.00042, 0.00042, 0.00042 ],
-    "cascade_resolution": [ 2048, 2048, 2048, 1024 ],
+    "cascade_resolution": [ 2048, 2048, 2048, 2048 ],
     "num_cascade_levels": 4,
     "num_variable_cascade_levels": 2,
     "shadow_range": {
