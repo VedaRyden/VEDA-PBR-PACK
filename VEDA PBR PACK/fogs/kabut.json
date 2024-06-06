@@ -2,7 +2,15 @@
   "format_version": "1.16.100",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "pbr:intense_fog"
+      "identifier": "kabut:biasa"
+    },
+    "distance": {
+      "weather": {
+        "fog_start": 0.17,
+        "fog_end": 0.7,
+        "fog_color": "#000000",
+        "render_distance_type": "render"
+      }
     },
     "volumetric": {
       "density": {
@@ -19,24 +27,16 @@
       },
       "media_coefficients": {
         "air": {
-          "scattering": [ //Penyebaran
-            0.0275,
-            0.0275,
-            0.0275
-          ],
-          "absorption": [ //Penyerapan
-            0,
-            0,
-            0
-          ]
+          "scattering": [ 0.0275, 0.0275, 0.0275], //Penyebaran
+          "absorption": [ 0,0,0 ] //Penyerapan
+        },
+        "water": {
+          "scattering": [ 0, 0.03, 2 ],
+          "absorption": [ 0.0, 0.09, 0.03 ]
         },
         "cloud": {
           "scattering": [0.01, 0.01, 0.01],
-          "absorption": [
-            0.003,
-            0.003,
-            0.003
-          ]
+          "absorption": [1, 1, 1]
         }
       }
     }

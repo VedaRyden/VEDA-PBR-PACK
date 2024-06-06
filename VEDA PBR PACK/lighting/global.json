@@ -3,30 +3,35 @@
   "directional_lights": {
     "sun": {
       "illuminance": { //Tingkat Cahaya Iluminasi Jika semakin tinggi maka semakin butuh Paramex.
-        "0.0" : 10.0, //SIANG
-        "0.25": 20.0, //SORE
+        "0.0" : 17.5, //SIANG
+        "0.25": 25.0, //SORE
         "0.35": 50.0, //MAHGRIB
         "0.5" : 70.0, //TENGAH MALAM
         "0.65": 50.0, //SUBUH
-        "0.75": 20.0, //PAGI
-        "1.0" : 10.0 //UPACARA KESIANGAN
+        "0.75": 30.0, //PAGI
+        "1.0" : 17.5 //UPACARA KESIANGAN
       },
       "color": {
-        "0.15": "#FF7700FF",//Mulai Pagi
-        "0.25": "#E1A759FF",//Pas Pagi
-        "0.39": "#FFFFFFFF",//Warna sinar matahari owi
-        "0.66": "#E1C694FF",//Mulai Sore
-        "0.75": "#E13C00FF" //Nah pas sore baru Pagi jadi warna Senja.
+        "0.00": "#FFFF7700",//Mulai Pagi
+        "0.15": "#FFFFBB7F",//Mulai Pagi
+        "0.25": "#FFE1A759",//Pas Pagi
+        "0.39": "#FF59749D",//Udah Bukan Warna putih lagi :)
+        "0.66": "#FFE1C694",//Mulai Sore
+        "0.70": "#FFFFDDAA",//Mulai Sore
+        "0.72": "#FF7E3C26",//Mulai Sore
+        "0.75": "#FF6C1F09", //Nah pas sore baru Pagi jadi warna Senja.
+        "0.80": "#FF2D0A03", //Sore Nya udahan
+        "1.00": "#FF080A0D"//Mulai Pagi
       }
     },
     "moon": { 
-        "illuminance": 9.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
-        "color": "#41A3DDFF"//Warna Bulan Biru
+        "illuminance": 11.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
+        "color": "#FF355073"//Warna Bulan Biru RTX.
     }, 
     "orbital_offset_degrees": {
-      "0.75": 28.0,  // Putaran pagi
-      "1.0": 15.0,  // Putaran Siang
-      "0.25": 28.0 // Putaran Sore
+      "0.75": 28.0,  //Putaran pagi.
+      "1.0": 15.0,  //Putaran Siang
+      "0.25": 28.0 //Putaran Sore.
     }
   },
   "point_lights": { 
@@ -42,7 +47,7 @@
   },
   "pbr": { 
       "blocks": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 0.1]  
+        "global_metalness_emissive_roughness": [0.0, 0.0, 0.001]  
       }, 
       "items": { 
         "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
@@ -54,7 +59,7 @@
         "global_metalness_emissive_roughness": [0.0, 0.0, 255]
       },
       "particles": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 0.1]  
+        "global_metalness_emissive_roughness": [0.0, 0.0, 0.001]  
       }
   } 
 }
