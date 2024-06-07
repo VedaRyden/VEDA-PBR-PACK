@@ -5,8 +5,8 @@
     }
  },
  "default": {
-    "fog_identifier": "kabut:biasa",
-    "water_surface_transparency": 1,
+    "fog_identifier": "kabut:kabut",
+    "water_surface_transparency": 0.5,
     "remove_all_prior_fog": false,
     "inherit_from_prior_fog": false
  }

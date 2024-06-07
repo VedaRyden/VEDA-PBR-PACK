@@ -2,19 +2,19 @@
   "format_version": "1.16.100",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "kabut:biasa"
+      "identifier": "kabut:kabut"
     },
     "distance": {
       "weather": {
         "fog_start": 0.17,
         "fog_end": 0.7,
-        "fog_color": "#000000",
+        "fog_color": "#000000", //Biar berkabut pas lagi hujan atau badai.
         "render_distance_type": "render"
       }
     },
     "volumetric": {
       "density": {
-        "air": { // Copy dari Setingan Customan Render Graphic mine imator gw.
+        "air": { //Copy dari Setingan Customan Render Graphic mine imator gw.
           "max_density": 0.2,
           "zero_density_height": 99,
           "max_density_height": 64,
