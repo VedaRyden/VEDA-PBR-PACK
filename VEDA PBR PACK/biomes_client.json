@@ -1,13 +1,11 @@
 {
  "biomes": {
  "cherry_grove": {
-   "fog_identifier": "kabut:cherry"
-    }
- },
+  "fog_identifier": "kabut:cherry"
+  }, 
  "default": {
-    "fog_identifier": "kabut:kabut",
-    "water_surface_transparency": 0.5,
-    "remove_all_prior_fog": false,
-    "inherit_from_prior_fog": false
+  "fog_identifier": "kabut:kabut",
+  "water_surface_transparency": 0.1
+  }
  }
 }

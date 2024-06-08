@@ -28,8 +28,7 @@
      "mid_percent": 0.6,
      "max_seconds": 30
      }
-    }
-   },
+  },
    "volumetric": {
       "density": {
         "air": { // Copy dari Setingan Customan Render Graphic mine imator gw.
@@ -37,10 +36,6 @@
           "zero_density_height": 99,
           "max_density_height": 128,
           "uniform": false
-        },
-        "water": { //Ketika didalam air
-          "max_density": 0.3,
-          "uniform": true //kalau mau dipisah mending false aja.
         }
       },
       "media_coefficients": {
@@ -59,4 +54,5 @@
       }
     }
   }
+ }
 }
