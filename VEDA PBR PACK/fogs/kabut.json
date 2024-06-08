@@ -15,28 +15,29 @@
     "volumetric": {
       "density": {
         "air": { //Copy dari Setingan Customan Render Graphic mine imator gw.
-          "max_density": 0.2,
-          "zero_density_height": 99,
-          "max_density_height": 64,
+          "max_density": 0.021,
+          "max_density_height": 52,
+          "zero_density_height": 300,
           "uniform": false
         },
         "water": { //Ketika didalam air
           "max_density": 0.3,
           "uniform": true //kalau mau dipisah mending false aja.
         }
+        
       },
       "media_coefficients": {
         "air": {
-          "scattering": [ 0.0275, 0.0275, 0.0275], //Penyebaran
-          "absorption": [ 0,0,0 ] //Penyerapan
+          "scattering": [ 0.035, 0.034, 0.034], //Penyebaran
+          "absorption": [ 0.16, 0.019, 0.019 ] //Penyerapan
         },
         "water": {
           "scattering": [ 0, 0.03, 2 ],
           "absorption": [ 0.0, 0.09, 0.03 ]
         },
         "cloud": {
-          "scattering": [0.01, 0.01, 0.01],
-          "absorption": [1, 1, 1]
+          "scattering": [0.1, 0.1, 0.1],
+          "absorption": [0.01, 0.01, 0.01]
         }
       }
     }
