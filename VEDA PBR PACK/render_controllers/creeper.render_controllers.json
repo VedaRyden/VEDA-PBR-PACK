@@ -6,14 +6,17 @@
       "materials": [ { "*": "Material.default" } ],
       "textures": [ "Texture.default" ],
       "overlay_color": {
+<<<<<<< Updated upstream
           "r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
           "g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
           "b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
           "a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 255.0"
+=======
           "r": "((variable.flash == 1.0) || (query.swelling_dir < 0.0)) ? this : 25.0",
           "g": "((variable.flash == 1.0) || (query.swelling_dir < 0.0)) ? this : 25.0",
           "b": "((variable.flash == 1.0) || (query.swelling_dir < 0.0)) ? this : 25.0",
           "a": "((variable.flash == 0.1) || (query.swelling_dir < 0.0)) ? this : 25.0"
+>>>>>>> Stashed changes
       }
     }
   }
