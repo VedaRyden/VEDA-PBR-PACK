@@ -1,15 +1,15 @@
 {
   "low": {
-    "bias": 0.00010,
-    "slope_bias": 0.00042,
+    "bias": 0.0010,
+    "slope_bias": 0.0042,
     "far_plane": 128.0,
     "near_plane": 0.025,
     "max_point_light_shadows": 4,
     "resolution": 32
   },
   "medium": {
-    "bias": 0.00010,
-    "slope_bias": 0.00042,
+    "bias": 0.0010,
+    "slope_bias": 0.0042,
     "far_plane": 15.0,
     "near_plane": 0.1,
     "max_point_light_shadows": 8,
@@ -20,12 +20,12 @@
     "slope_bias": 0.003,
     "far_plane": 15.0,
     "near_plane": 0.1,
-    "max_point_light_shadows": 16,
+    "max_point_light_shadows": 12,
     "resolution": 128
   },
   "ultra": {
-    "bias": 0.00010, //Tajam.
-    "slope_bias": 0.00042, //Dipertajamkan.
+    "bias": 0.0001, //Tajam.
+    "slope_bias": 0.0001, //Dipertajamkan.
     "far_plane": 15.0, //Moga Gak Bergaris2.
     "near_plane": 0.1, //Say Bye To Garis garis :v
     "max_point_light_shadows": 16, //Batas Jumlah bayangan dari cahaya.

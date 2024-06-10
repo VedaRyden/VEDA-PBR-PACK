@@ -1,34 +1,34 @@
 {
 	"low": {
-		"tile_width": 64,
-		"tile_height": 64,
+		"tile_width": 32,
+		"tile_height": 32,
 		"depth_slices": 1,
 		"near_plane": 0.025,
 		"far_plane": 128.0,
 		"shadow_pcf_scale": 0.1
 	},
 	"medium": {
-		"tile_width": 32,
-		"tile_height": 32,
+		"tile_width": 16,
+		"tile_height": 16,
 		"depth_slices": 4,
 		"near_plane": 0.025,
-		"far_plane": 128.0,
+		"far_plane": 250.0,
 		"shadow_pcf_scale": 0.125
 	},
 	"high": {
 		"tile_width": 8,
 		"tile_height": 8,
-		"depth_slices": 8,
-		"near_plane":0.025,
+		"depth_slices": 64,
+		"near_plane": 0.025,
 		"far_plane": 250.0,
 		"shadow_pcf_scale": 0.5
 	},
 	"ultra": {
 		"tile_width": 4,
 		"tile_height": 4,
-		"depth_slices": 1,
-		"near_plane":0.025,
-		"far_plane": 250.0,
-		"shadow_pcf_scale": 1
+		"depth_slices": 16,
+		"near_plane": 0.025,
+		"far_plane": 128.0,
+		"shadow_pcf_scale": 0.25
 	}
 }
