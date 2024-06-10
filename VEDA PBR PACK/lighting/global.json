@@ -13,7 +13,11 @@
         "1.0" : 17.5 //UPACARA KESIANGAN
       },
       "color": {
+<<<<<<< Updated upstream
         "0.0": "#FFFF7700",//Mulai Pagi
+=======
+        "0.00": "#FFFF7700",//Mulai Pagi
+>>>>>>> Stashed changes
         "0.15": "#FFFFBB7F",//Mulai Pagi
         "0.25": "#FFE1A759",//Pas Pagi
         "0.39": "#FF59749D",//Udah Bukan Warna putih lagi :)
