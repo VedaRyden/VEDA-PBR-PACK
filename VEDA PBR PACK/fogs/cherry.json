@@ -6,10 +6,10 @@
 	},
 	"distance": {
 	 "air": {
-		"fog_start": 1,
-		"fog_end": 1000,
-		"render_distance_type": "fixed",
-		"fog_color": "#eb67ab"
+		"fog_start": 0.92,
+        "fog_end": 1.0,
+        "fog_color": "#eb67ab",
+        "render_distance_type": "render"
 				}
 			},
 			"volumetric": {
@@ -27,15 +27,15 @@
 						},
 					"media_coefficients": {
 		"air": {
-			"scattering": [ 0.035, 0.034, 0.034], //Penyebaran
-			"absorption": [ 0.16, 0.019, 0.019 ] //Penyerapan
+			"scattering": [ "#eb67ab"], //Penyebaran
+			"absorption": [0.2, 0.2, 0.2] //Penyerapan
 		},
 		"water": {
 			"scattering": [ 0, 0.03, 2 ],
 			"absorption": [ 1, 1.09, 1.03 ]
 		},
 		"cloud": {
-			"scattering": [1, 1, 1],
+			"scattering": [0.1, 0.1, 0.1],
 			"absorption": [0.1, 0.1, 0.1]
 			 }
 		 }

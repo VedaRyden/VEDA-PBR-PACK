@@ -5,7 +5,7 @@
   }, 
  "default": {
   "fog_identifier": "kabut:kabut",
-  "water_surface_transparency": 0.25
+  "water_surface_transparency": 1
   }
  }
 }

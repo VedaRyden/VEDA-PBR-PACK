@@ -4,12 +4,12 @@
     "sun": {
       "illuminance": { //Tingkat Cahaya Iluminasi Jika semakin tinggi maka semakin butuh Paramex.
         "0.0" : 17.5, //PAGI
-        "0.25": 25.0, //SUDAH PAGI
-        "0.35": 40.0, //MAU SIANG
-        "0.4" : 45.0, //SIANG
-        "0.5" : 50.0, //AGAK SIANG      --- TENGAH PUTARAN
-        "0.65": 37.5, //BURUAN SEKOLAH
-        "0.75": 30.0, //PAGI            -- PUNCAK
+        "0.25": 250.0, //SUDAH PAGI
+        "0.35": 400.0, //MAU SIANG
+        "0.4" : 450.0, //SIANG
+        "0.5" : 500.0, //AGAK SIANG      --- TENGAH PUTARAN
+        "0.65": 370.5, //BURUAN SEKOLAH
+        "0.75": 300.0, //PAGI            -- PUNCAK
         "1.0" : 17.5 //MAU KESIANGAN
       },
       "color": {
@@ -24,14 +24,14 @@
          "0.65": "#FF314250", //SUBUH?
          "0.69": "#FF314250", //SUBUH?
          "0.70": "#FF6C1F09", //PERSIAPAN MAU PAGI DULU GAK SIH
-         "0.75": "#FFBF00BF", //PAGI SUNRISEEEEEE
+         "0.75": "#FFFF7700", //PAGI SUNRISEEEEEE
          "0.80": "#FFFF7700", //BARUU WARNA UNGUU CUY
          "0.85": "#FF59749D", //SIANGG NOON
          "1.0" : "#FFB9EAFF"  //SIANGG NOON Udah Bukan Warna putih lagi :)
       }
     },
     "moon": { 
-        "illuminance": 11.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
+        "illuminance": 12.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
         "color": "#FF355073"//Warna Bulan Biru RTX.
     }, 
     "orbital_offset_degrees": {
@@ -110,16 +110,16 @@
   },
   "pbr": { 
       "blocks": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 0.001]  
+        "global_metalness_emissive_roughness": [0, 0, 1]  
       }, 
       "items": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
+        "global_metalness_emissive_roughness": [0, 0, 255]  
       }, 
       "actors": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 255]
+        "global_metalness_emissive_roughness": [0, 0, 255]
       },
       "environments": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 255]
+        "global_metalness_emissive_roughness": [0, 0, 255]
       },
       "particles": { 
         "global_metalness_emissive_roughness": [0.0, 0.0, 0.001]  
