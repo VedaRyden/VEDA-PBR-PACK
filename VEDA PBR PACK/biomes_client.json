@@ -4,13 +4,8 @@
   "fog_identifier": "kabut:cherry"
   }, 
  "default": {
-<<<<<<< Updated upstream
   "fog_identifier": "kabut:kabut",
   "water_surface_transparency": 0.25
   }
-=======
-   "fog_identifier": "kabut:kabut",
-   "water_surface_transparency": 0.1
->>>>>>> Stashed changes
  }
 }

@@ -1,35 +1,36 @@
 {
     "minecraft:color_grading_settings": {
         "description": {
-            "identifier": "vedapack:default_color_grading"
+            "identifier": "vedapack:veda_color_grading"
         },
         "color_grading": {
             "midtones": {
-                "offset": [0.0, 0.0, 0.0],
-                "contrast": [ 1.5, 1.5, 1.5], //Asalnya 1.3
-                "gamma": [ 2, 2, 2],  // Gamma ACES dari mine imator cuy
-                //"offset": [0.0, 0.0, 0.0],
-                "saturation": [1.05, 1.05, 1.05]
-                //"gain": [1.0, 1.0, 1.0]
+                //"offset": [0.0, 0.0, 0.0],    //Semakin tinggi semakin memudar kek nostalgia.
+                "contrast": [ 1.3, 1.3, 1.3],  //Asalnya 1.3
+                "gamma": [ 2, 2, 2],           // Gamma ACES dari mine imator cuy
+                "gain": [1, 1, 1],
+                "saturation": [1.05, 1.05, 1.05] //Asalnya 1.05
+                
             },
             "highlights": {
-                "highlightsMin": 4,
-                "contrast": [ 1, 1, 1], //Asalnya 1.3
-                //"offset": [0.0, 0.0, 0.0],
-                //"gain": [1.0, 1.0, 1.0],
-                "gamma": [ 2, 2, 2], // Gamma ACES dari mine imator cuy
-                "saturation": [1.05, 1.05, 1.05]
+                "highlightsMin": 4,        //Memungkinkan Bagian terkena sinar atau cahaya lebih berdampak.
+                "contrast": [ 1.3, 1.3, 1.3], //Asalnya 1.3
+                //"offset": [0.0, 0.0, 0.0],  //gausah diapa apain.
+                "gain": [1, 1, 1],
+                "gamma": [ 1, 1, 1],          // Tes Gamma 1
+                "saturation": [1.5, 1.5, 1.5] //Memungkinkan bisa memperbaiki air lebih transparan lagi.
             },
             "shadows": {
-                "shadowsMax": 0.1, //Asalnya 0.7
-                "contrast": [2, 2, 2], // biar warna bayangan lebih dalem gitu
-                //"offset": [-1, -1, -1], //Biar pewarnaan lebih jelas
-                "gamma": [2.2, 2.2, 2.2], //dicoba tambahin 0.2
-                "saturation": [1, 1, 1]
+                "shadowsMax": 0.7,           //Asalnya 0.7
+                "contrast": [1.5, 1.5, 1.5], // biar warna bayangan lebih dalem gitu
+                //"offset": [0, 0, 0],       //Filter Absurd
+                "gamma": [2, 2, 2],
+                "gain": [1, 1, 1],
+                "saturation": [1.5, 1.5, 1.5]    //Saturasi kalau makin naik, warna emisive jadi makin bewarna cuy.
             }
         },
         "tone_mapping": {
-            "operator": "aces"
+            "operator": "aces"             //ACES TONE MAPPING FAVORIT
         }
     }
 }

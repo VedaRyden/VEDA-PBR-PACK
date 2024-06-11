@@ -2,17 +2,17 @@
 	"low": {
 		"tile_width": 32,
 		"tile_height": 32,
-		"depth_slices": 1,
-		"near_plane": 0.025,
-		"far_plane": 128.0,
-		"shadow_pcf_scale": 0.1
+		"depth_slices": 16,
+		"near_plane": 0.010,
+		"far_plane": 10,
+		"shadow_pcf_scale": 0.125
 	},
 	"medium": {
 		"tile_width": 16,
 		"tile_height": 16,
-		"depth_slices": 4,
-		"near_plane": 0.025,
-		"far_plane": 250.0,
+		"depth_slices": 32,
+		"near_plane": 0.010,
+		"far_plane": 10,
 		"shadow_pcf_scale": 0.125
 	},
 	"high": {
@@ -24,11 +24,11 @@
 		"shadow_pcf_scale": 0.5
 	},
 	"ultra": {
-		"tile_width": 4,
-		"tile_height": 4,
-		"depth_slices": 16,
-		"near_plane": 0.025,
-		"far_plane": 128.0,
-		"shadow_pcf_scale": 0.25
+		"tile_width": 2,
+		"tile_height": 2,
+		"depth_slices": 128,
+		"near_plane": 0.10,
+		"far_plane": 10.0,
+		"shadow_pcf_scale": 1
 	}
 }

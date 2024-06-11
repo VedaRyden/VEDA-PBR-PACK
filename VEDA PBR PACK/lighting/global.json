@@ -7,26 +7,27 @@
         "0.25": 25.0, //SUDAH PAGI
         "0.35": 40.0, //MAU SIANG
         "0.4" : 45.0, //SIANG
-        "0.5" : 50.0, //AGAK SIANG
+        "0.5" : 50.0, //AGAK SIANG      --- TENGAH PUTARAN
         "0.65": 37.5, //BURUAN SEKOLAH
-        "0.75": 30.0, //PAGI
-        "1.0" : 17.5 //UPACARA KESIANGAN
+        "0.75": 30.0, //PAGI            -- PUNCAK
+        "1.0" : 17.5 //MAU KESIANGAN
       },
       "color": {
-<<<<<<< Updated upstream
-        "0.0": "#FFFF7700",//Mulai Pagi
-=======
-        "0.00": "#FFFF7700",//Mulai Pagi
->>>>>>> Stashed changes
-        "0.15": "#FFFFBB7F",//Mulai Pagi
-        "0.25": "#FFE1A759",//Pas Pagi
-        "0.39": "#FF59749D",//Udah Bukan Warna putih lagi :)
-        "0.66": "#FFE1C694",//Mulai Sore
-        "0.70": "#FFFFDDAF",//Mulai Sore
-        "0.72": "#FF7E3C26",//Mulai Sore
-        "0.75": "#FF6C1F09", //Nah pas sore baru Pagi jadi warna Senja.
-        "0.80": "#FF2D0A03", //Sore Nya udahan
-        "1.00": "#FF080A0D"//Mulai Pagi
+        "0.0" : "#FFB9EAFF", //SIANGG NOON Udah Bukan Warna putih lagi :)
+        "0.15": "#FFFFB182", //MAU SORE
+        "0.25": "#FF6C1F09", //SOREE SUNSETT
+        "0.30": "#FF2F0C03", //MASIH SORE :)
+        "0.35": "#FF2D0A03", //SUDAH MAU MALAM?
+        "0.40": "#FF3C5164", //MAHGRIB
+        "0.45": "#FF1E252D", //MALAM
+        "0.50": "#FF12181E", //TENGAH MALAM MIDNIGHT              -- AKHIR
+         "0.65": "#FF314250", //SUBUH?
+         "0.69": "#FF314250", //SUBUH?
+         "0.70": "#FF6C1F09", //PERSIAPAN MAU PAGI DULU GAK SIH
+         "0.75": "#FFBF00BF", //PAGI SUNRISEEEEEE
+         "0.80": "#FFFF7700", //BARUU WARNA UNGUU CUY
+         "0.85": "#FF59749D", //SIANGG NOON
+         "1.0" : "#FFB9EAFF"  //SIANGG NOON Udah Bukan Warna putih lagi :)
       }
     },
     "moon": { 

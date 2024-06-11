@@ -1,63 +1,44 @@
 {
  "format_version": "1.16.100",
  "minecraft:fog_settings": {
-  "description": {
-   "identifier": "kabut:cherry"
-  },
-  "distance": {
-   "air": {
-    "fog_start": 1,
-    "fog_end": 100,
-    "render_distance_type": "render",
-    "fog_color": "#eb67ab"
-          }
-       },
-   "volumetric": {
-<<<<<<< Updated upstream
-    "density": {
-     "air": { // Copy dari Setingan Customan Render Graphic mine imator gw.
-     "max_density": 0.021,
-     "max_density_height": 52,
-     "zero_density_height": 300
-    }
-  },
-  "media_coefficients": {
-    "air": {
-      "scattering": [ 0.035, 0.034, 0.034], //Penyebaran
-      "absorption": [ 0.16, 0.019, 0.019 ] //Penyerapan
-    },
-    "water": {
-      "scattering": [ 0, 0.03, 2 ],
-      "absorption": [ 1, 1.09, 1.03 ]
-    },
-    "cloud": {
-      "scattering": [1, 1, 1],
-      "absorption": [0.1, 0.1, 0.1]
-       }
-=======
-      "density": {
-        "air": { // Copy dari Setingan Customan Render Graphic mine imator gw.
-          "max_density": 0.5,
-          "zero_density_height": 99,
-          "max_density_height": 128,
-          "uniform": false
-        }
-       }
-      },
-      "media_coefficients": {
-        "air": {
-          "scattering": [ 0.0275, 0.0275, 0.0275], //Penyebaran
-          "absorption": [ 0,0,0 ] //Penyerapan
-        },
-        "water": {
-          "scattering": [ 0, 0.03, 2 ],
-          "absorption": [ 1, 1.09, 1.03 ]
-        },
-        "cloud": {
-          "scattering": [1, 1, 1],
-          "absorption": [1, 1, 1]
-        }
->>>>>>> Stashed changes
-      }
-    }
-  }
+	"description": {
+	 "identifier": "kabut:cherry"
+	},
+	"distance": {
+	 "air": {
+		"fog_start": 1,
+		"fog_end": 1000,
+		"render_distance_type": "fixed",
+		"fog_color": "#eb67ab"
+				}
+			},
+			"volumetric": {
+						"density": {
+								"air": { //Copy dari Setingan Customan Render Graphic mine imator gw.
+										"max_density": 0.5,
+										"zero_density_height": 99,
+										"max_density_height": 64,
+										"uniform": false
+								},
+								"water": { //Ketika didalam air
+										"max_density": 0.1,
+										"uniform": true //kalau mau dipisah mending false aja.
+								}
+						},
+					"media_coefficients": {
+		"air": {
+			"scattering": [ 0.035, 0.034, 0.034], //Penyebaran
+			"absorption": [ 0.16, 0.019, 0.019 ] //Penyerapan
+		},
+		"water": {
+			"scattering": [ 0, 0.03, 2 ],
+			"absorption": [ 1, 1.09, 1.03 ]
+		},
+		"cloud": {
+			"scattering": [1, 1, 1],
+			"absorption": [0.1, 0.1, 0.1]
+			 }
+		 }
+		}
+	}
+}

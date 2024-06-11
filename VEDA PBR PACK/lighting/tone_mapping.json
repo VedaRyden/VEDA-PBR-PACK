@@ -4,7 +4,7 @@
     "-6.9": -5.0,
     "-3.75": -3.0
   },
-  "exposure_compensation": 0.0,//Asalnya nol
+  "exposure_compensation": 1.0,//Asalnya nol
   "min_luminance": -0.9,
   "max_luminance": 10.9,
   "f_stop": 1.0,
