@@ -105,7 +105,11 @@
          "minecraft:torch as": "#FFFF00",
          "minecraft:end_rod as": "#FFFFFF",
          "minecraft:lantern as": "#FFBF0E",
-         "minecraft:fire": "#D75A02"
+         "minecraft:fire": "#D75A02",
+         "minecraft:lava": "#ff5500",
+         "minecraft:flowing_lava": "#ff5500",
+         "minecraft:enchanting_table": "#5490cc",
+         "minecraft:lit_pumpkin": "#FFFF00"
       } 
   },
   "pbr": { 

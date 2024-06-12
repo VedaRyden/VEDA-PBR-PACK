@@ -27,7 +27,7 @@
 						},
 					"media_coefficients": {
 		"air": {
-			"scattering": [ "#eb67ab"], //Penyebaran
+			"scattering": [0.3, 0.3, 0.3], //Penyebaran
 			"absorption": [0.2, 0.2, 0.2] //Penyerapan
 		},
 		"water": {
