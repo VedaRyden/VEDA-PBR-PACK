@@ -19,11 +19,7 @@
   },
   "mie_start": 0.0,
   "max": {
-  "0.0": 0,
-  "0.25": 0.4,
-  "0.5": 0.4,
-  "0.75": 0.4,
-  "1.0": 0.4
+  "0.0": 0
   }
   },
   "rayleigh_strength": { //Efek bagus buat langit jadi ada ungunya tapi bakal aneh kalau berlebihan
@@ -39,15 +35,7 @@
     "0.81": 2.62
   }, 
   "sun_mie_strength": { //Dari Pogy + edit
-  "0.0": 10.0,
-  "0.25": 0,
-  "0.3": 0,
-  "0.303": 0,
-  "0.324": 0,
-  "0.6": 0,
-  "0.707": 0,
-  "0.75": 0,
-  "0.90": 0
+  "0.0": 10.0
   }, 
   "moon_mie_strength": { //Bulan Nya Bersinar cuy.
   "0.0": 0.0, 
@@ -92,8 +80,8 @@
   "0.5" : "#19263B",                     //Tengah Malam
   "0.7" : "#19263B",                    //Tengah Malam
   "0.75": "#CC3A12",                   //PAGI PURPLE
-  "0.80": "#CC3A12",                  //Ayo Sekolah
-  "0.85": "#716866",                 //Kepagian
+  //"0.80": "#CC3A12",                  //Ayo Sekolah
+  "0.80": "#334967",                 //Kepagian
   "0.95": "#59749D",                //Kepagian
   "1.0" : "#4B6A96"                //SIAAAAANGGGGGGGGGG
   }, 
@@ -102,13 +90,13 @@
   "0.15": "#7CAEEC",            //rada Siang
   "0.2":  "#9CC2DC",           //Mau Sore
   "0.25": "#7E3C26",          //Sore udah
-  "0.35": "#542517",         //Masih Sore Dah Mau Malem
+  "0.35": "#103251",         //Masih Sore Dah Mau Malem
   "0.55": "#344555",        //Malam
   "0.5" : "#3F576B",       //Tengah Malam
   "0.7" : "#3F576B",      //Tengah Malam
   "0.75": "#885842",     //Pagi Meng Ungu
-  "0.8":  "#885842",    //BURUAN SEKOLAH
-  "0.85": "#D1BAB7",   //Kesiangan
+  //"0.8":  "#885842",    //BURUAN SEKOLAH
+  "0.80": "#9CC2DC",   //Kesiangan
   "0.95": "#7DB0EF",  //Mau Siang Tuan
   "1.0" : "#BAECFF"  //SIANG TERIK
   }
