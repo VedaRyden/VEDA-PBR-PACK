@@ -1,6 +1,6 @@
 {
  "capabilities": [
-  "pbr"
+  "pbr", "raytraced"
  ],
  "format_version": 1,
  "header": {
