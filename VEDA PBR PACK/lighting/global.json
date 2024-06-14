@@ -14,7 +14,7 @@
       },
       "color": {
         "0.0" : "#FFB9EAFF", //SIANGG NOON Udah Bukan Warna putih lagi :)
-        "0.15": "#FFFFB182", //MAU SORE
+        "0.2": "#FFFFB182", //MAU SORE
         "0.25": "#FF6C1F09", //SOREE SUNSETT
         "0.30": "#FF2F0C03", //MASIH SORE :)
         "0.35": "#FF2D0A03", //SUDAH MAU MALAM?
@@ -25,7 +25,7 @@
          "0.71": "#FF314250", //SUBUH?
          "0.72": "#FF6C1F09", //PERSIAPAN MAU PAGI DULU GAK SIH
          "0.75": "#FFFF7700", //PAGI SUNRISEEEEEE
-         "0.80": "#FFFF7700", //BARUU WARNA UNGUU CUY
+         "0.80": "#FF59749D", //BARUU WARNA UNGUU CUY
          "0.85": "#FF59749D", //SIANGG NOON
          "1.0" : "#FFB9EAFF"  //SIANGG NOON Udah Bukan Warna putih lagi :)
       }
@@ -106,7 +106,7 @@
          "minecraft:end_rod as": "#FFFFFF",
          "minecraft:lantern as": "#FFBF0E",
          "minecraft:fire": "#D75A02",
-         "minecraft:lava": "#ff5500",
+         //"minecraft:lava": "#ff5500",
          //"minecraft:flowing_lava": "#ff5500", //OOHH MYYY PISSSIIII.
          "minecraft:enchanting_table": "#5490cc",
          "minecraft:lit_pumpkin": "#FFFF00"
@@ -114,19 +114,19 @@
   },
   "pbr": { 
       "blocks": { 
-        "global_metalness_emissive_roughness": [0, 0, 0.0001]  
+        "global_metalness_emissive_roughness": [0, 0, 1]  
       }, 
       "items": { 
         "global_metalness_emissive_roughness": [0, 0, 255]  
       }, 
       "actors": { 
-        "global_metalness_emissive_roughness": [0, 0, 255]
+        "global_metalness_emissive_roughness": "#0000ff"
       },
       "environments": { 
         "global_metalness_emissive_roughness": [0, 0, 255]
       },
       "particles": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 1]  
+        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
       }
   } 
 }
