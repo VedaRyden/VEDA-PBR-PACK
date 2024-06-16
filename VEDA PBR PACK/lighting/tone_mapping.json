@@ -1,5 +1,5 @@
 {
-  "exposure_compensation_type": "aces",
+  "exposure_compensation_type": "constant",
   "custom_exposure_compensation": {
     "-6.9": -5.0,
     "-3.75": -3.0,

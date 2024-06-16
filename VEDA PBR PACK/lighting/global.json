@@ -105,6 +105,11 @@
          "minecraft:torch as": "#FFFF00",
          "minecraft:end_rod as": "#FFFFFF",
          "minecraft:lantern as": "#FFBF0E",
+         "minecraft:lit_redstone_lamp": "#FFEC74",
+         "minecraft:waxed_copper_bulb_lit": "#E6B450",
+         "minecraft:waxed_oxidized_copper_bulb_lit": "#E6B450",
+         "minecraft:waxed_exposed_copper_bulb_lit": "#E6B450",
+         "minecraft:waxed_weathered_copper_bulb_lit": "#E6B450",
          "minecraft:fire": "#D75A02",
          //"minecraft:lava": "#ff5500",
          //"minecraft:flowing_lava": "#ff5500", //OOHH MYYY PISSSIIII.
