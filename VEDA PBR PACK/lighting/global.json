@@ -100,16 +100,21 @@
   "point_lights": { 
       "colors": { 
          "minecraft:soul_torch": "#00FFFF",
-         "minecraft:soul_lantern as": "#00FFFF",
-         "minecraft:redstone_torch as": "#FF0000",
-         "minecraft:torch as": "#FFFF00",
-         "minecraft:end_rod as": "#FFFFFF",
-         "minecraft:lantern as": "#FFBF0E",
+         "minecraft:soul_lantern": "#00FFFF",
+         "minecraft:redstone_torch": "#FF0000",
+         "minecraft:torch": "#FFFF00",
+         "minecraft:end_rod": "#FFFFFF",
+         "minecraft:glow_lichen": "#AEAF8C",
+         "minecraft:lantern": "#FFBF0E",
          "minecraft:lit_redstone_lamp": "#FFEC74",
-         "minecraft:waxed_copper_bulb_lit": "#E6B450",
-         "minecraft:waxed_oxidized_copper_bulb_lit": "#E6B450",
-         "minecraft:waxed_exposed_copper_bulb_lit": "#E6B450",
-         "minecraft:waxed_weathered_copper_bulb_lit": "#E6B450",
+         "minecraft:waxed_copper_bulb": "#E6B450",
+         "minecraft:waxed_oxidized_copper_bulb": "#E6B450",
+         "minecraft:waxed_exposed_copper_bulb": "#E6B450",
+         "minecraft:waxed_weathered_copper_bulb": "#E6B450",
+         "minecraft:copper_bulb": "#E6B450",
+         "minecraft:oxidized_copper_bulb": "#E6B450",
+         "minecraft:exposed_copper_bulb": "#E6B450",
+         "minecraft:weathered_copper_bulb": "#E6B450",
          "minecraft:fire": "#D75A02",
          //"minecraft:lava": "#ff5500",
          //"minecraft:flowing_lava": "#ff5500", //OOHH MYYY PISSSIIII.
@@ -119,19 +124,19 @@
   },
   "pbr": { 
       "blocks": { 
-        "global_metalness_emissive_roughness": [0, 0, 1]  
+        "global_metalness_emissive_roughness": "#0000ff"  
       }, 
       "items": { 
-        "global_metalness_emissive_roughness": [0, 0, 255]  
+        "global_metalness_emissive_roughness": "#0000ff" 
       }, 
       "actors": { 
         "global_metalness_emissive_roughness": "#0000ff"
       },
       "environments": { 
-        "global_metalness_emissive_roughness": [0, 0, 255]
+        "global_metalness_emissive_roughness": "#0000ff"
       },
       "particles": { 
-        "global_metalness_emissive_roughness": [0.0, 0.0, 255]  
+        "global_metalness_emissive_roughness": "#0000ff"  
       }
   } 
 }
