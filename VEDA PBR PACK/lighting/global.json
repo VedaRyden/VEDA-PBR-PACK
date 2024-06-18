@@ -3,14 +3,14 @@
   "directional_lights": {
     "sun": {
       "illuminance": { //Tingkat Cahaya Iluminasi Jika semakin tinggi maka semakin butuh Paramex.
-        "0.0" : 17.5, //PAGI
+        "0.0" : 1, //PAGI
         "0.25": 25.0, //SUDAH PAGI
         "0.35": 40.0, //MAU SIANG
         "0.4" : 45.0, //SIANG
         "0.5" : 50.0, //AGAK SIANG      --- TENGAH PUTARAN
         "0.65": 37.5, //BURUAN SEKOLAH
         "0.75": 30.0, //PAGI            -- PUNCAK
-        "1.0" : 17.5 //MAU KESIANGAN
+        "1.0" : 1 //MAU KESIANGAN
       },
       "color": {
         "0.0" : "#FFB9EAFF", //SIANGG NOON Udah Bukan Warna putih lagi :)

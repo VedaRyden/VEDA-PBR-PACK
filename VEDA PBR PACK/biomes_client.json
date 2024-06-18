@@ -5,6 +5,7 @@
   //}, 
  "default": {
   "fog_identifier": "kabut:biasa",
+  "water_surface_color": "#44AFF5",//modifed
   "water_surface_transparency": 1
   }
  }
