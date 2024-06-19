@@ -1,0 +1,366 @@
+{
+  "bitSet": "1111111111111111",
+  "fallback": "",
+  "hasDefaultBlendMode": false,
+  "flagDefaultValues": {},
+  "variantList": [
+    {
+      "isSupported": true,
+      "flags": {},
+      "shaderCodes": [
+        {
+          "platformShaderStage": {
+            "stageName": "Vertex",
+            "platformName": "Direct3D_SM40",
+            "stage": "Vertex",
+            "platform": "Direct3D_SM40"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "position": {
+                "type": "Vec3",
+                "attribute": "Position",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              },
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": -6568983442071007772,
+            "bgfxShaderData": {
+              "attrs": [
+                5,
+                1
+              ],
+              "size": 96,
+              "magic": 1448298501,
+              "hash": 1240435620,
+              "uniforms": [
+                {
+                  "name": "u_modelViewProj",
+                  "type": 4,
+                  "num": 0,
+                  "regIndex": 0,
+                  "regCount": 4
+                },
+                {
+                  "name": "SkyColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 64,
+                  "regCount": 1
+                },
+                {
+                  "name": "FogColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 80,
+                  "regCount": 1
+                }
+              ],
+              "codeFile": "0.Direct3D_SM40.Vertex.dxbc"
+            }
+          }
+        },
+        {
+          "platformShaderStage": {
+            "stageName": "Fragment",
+            "platformName": "Direct3D_SM50",
+            "stage": "Fragment",
+            "platform": "Direct3D_SM50"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": -3073030156447813593,
+            "bgfxShaderData": {
+              "attrs": [],
+              "size": 0,
+              "magic": 1179863045,
+              "hash": 1240435620,
+              "uniforms": [],
+              "codeFile": "0.Direct3D_SM50.Fragment.dxbc"
+            }
+          }
+        },
+        {
+          "platformShaderStage": {
+            "stageName": "Fragment",
+            "platformName": "Direct3D_SM40",
+            "stage": "Fragment",
+            "platform": "Direct3D_SM40"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": 8514121095946837603,
+            "bgfxShaderData": {
+              "attrs": [],
+              "size": 0,
+              "magic": 1179863045,
+              "hash": 1240435620,
+              "uniforms": [],
+              "codeFile": "0.Direct3D_SM40.Fragment.dxbc"
+            }
+          }
+        },
+        {
+          "platformShaderStage": {
+            "stageName": "Vertex",
+            "platformName": "Direct3D_SM50",
+            "stage": "Vertex",
+            "platform": "Direct3D_SM50"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "position": {
+                "type": "Vec3",
+                "attribute": "Position",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              },
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": -7658622028804149588,
+            "bgfxShaderData": {
+              "attrs": [
+                5,
+                1
+              ],
+              "size": 96,
+              "magic": 1448298501,
+              "hash": 1240435620,
+              "uniforms": [
+                {
+                  "name": "u_modelViewProj",
+                  "type": 4,
+                  "num": 0,
+                  "regIndex": 0,
+                  "regCount": 4
+                },
+                {
+                  "name": "SkyColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 64,
+                  "regCount": 1
+                },
+                {
+                  "name": "FogColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 80,
+                  "regCount": 1
+                }
+              ],
+              "codeFile": "0.Direct3D_SM50.Vertex.dxbc"
+            }
+          }
+        },
+        {
+          "platformShaderStage": {
+            "stageName": "Vertex",
+            "platformName": "Direct3D_SM60",
+            "stage": "Vertex",
+            "platform": "Direct3D_SM60"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "position": {
+                "type": "Vec3",
+                "attribute": "Position",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              },
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": 1354930071235651071,
+            "bgfxShaderData": {
+              "attrs": [
+                5,
+                1
+              ],
+              "size": 96,
+              "magic": 1448298501,
+              "hash": 1240435620,
+              "uniforms": [
+                {
+                  "name": "u_modelViewProj",
+                  "type": 4,
+                  "num": 0,
+                  "regIndex": 0,
+                  "regCount": 4
+                },
+                {
+                  "name": "SkyColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 64,
+                  "regCount": 1
+                },
+                {
+                  "name": "FogColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 80,
+                  "regCount": 1
+                }
+              ],
+              "codeFile": "0.Direct3D_SM60.Vertex.dxbc"
+            }
+          }
+        },
+        {
+          "platformShaderStage": {
+            "stageName": "Fragment",
+            "platformName": "Direct3D_SM65",
+            "stage": "Fragment",
+            "platform": "Direct3D_SM65"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": -3605686964304850794,
+            "bgfxShaderData": {
+              "attrs": [],
+              "size": 0,
+              "magic": 1179863045,
+              "hash": 1240435620,
+              "uniforms": [],
+              "codeFile": "0.Direct3D_SM65.Fragment.dxbc"
+            }
+          }
+        },
+        {
+          "platformShaderStage": {
+            "stageName": "Fragment",
+            "platformName": "Direct3D_SM60",
+            "stage": "Fragment",
+            "platform": "Direct3D_SM60"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": 6379849840451320082,
+            "bgfxShaderData": {
+              "attrs": [],
+              "size": 0,
+              "magic": 1179863045,
+              "hash": 1240435620,
+              "uniforms": [],
+              "codeFile": "0.Direct3D_SM60.Fragment.dxbc"
+            }
+          }
+        },
+        {
+          "platformShaderStage": {
+            "stageName": "Vertex",
+            "platformName": "Direct3D_SM65",
+            "stage": "Vertex",
+            "platform": "Direct3D_SM65"
+          },
+          "shaderCode": {
+            "shaderInputMap": {
+              "position": {
+                "type": "Vec3",
+                "attribute": "Position",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              },
+              "color0": {
+                "type": "Vec4",
+                "attribute": "Color0",
+                "isPerInstance": false,
+                "hasPrecisionConstraint": false,
+                "hasInterpolationConstraint": false
+              }
+            },
+            "sourceHash": -2514437171725723021,
+            "bgfxShaderData": {
+              "attrs": [
+                5,
+                1
+              ],
+              "size": 96,
+              "magic": 1448298501,
+              "hash": 1240435620,
+              "uniforms": [
+                {
+                  "name": "u_modelViewProj",
+                  "type": 4,
+                  "num": 0,
+                  "regIndex": 0,
+                  "regCount": 4
+                },
+                {
+                  "name": "SkyColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 64,
+                  "regCount": 1
+                },
+                {
+                  "name": "FogColor",
+                  "type": 2,
+                  "num": 0,
+                  "regIndex": 80,
+                  "regCount": 1
+                }
+              ],
+              "codeFile": "0.Direct3D_SM65.Vertex.dxbc"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
