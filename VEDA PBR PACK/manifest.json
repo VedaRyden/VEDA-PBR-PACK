@@ -4,13 +4,13 @@
  ],
  "format_version": 1,
  "header": {
-  "description": "VEDA_PACK PBR For Deffered And Ray Tracing Textures\nPBR By : @VEDA_RAIDEN Ver 1,5,7-Beta6",
-  "name": "VEDA PACK PBR V1,5,7-Beta6",
+  "description": "VEDA_PACK PBR For Deffered And Ray Tracing Textures\nPBR By : @VEDA_RAIDEN Ver 1,5,7-Beta7",
+  "name": "VEDA PACK PBR V1,5,7-Beta7",
   "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
   "version": [
    1,
    5,
-   6
+   7
   ]
  },
  "modules": [

@@ -1,8 +1,8 @@
 {
  "biomes": {
- //"cherry_grove": {
-  //"fog_identifier": "kabut:cherry"
-  //}, 
+ "cherry_grove": {
+  "fog_identifier": "kabut:cherry"
+  }, 
  "default": {
   "fog_identifier": "kabut:biasa",
   "water_surface_color": "#44AFF5",//modifed
