@@ -64,9 +64,6 @@
   },
   "seagrass_tall_top_b": {
    "textures": "textures/blocks/seagrass_doubletall_top_a"
-  },
-  "still_water_grey": {
-   "textures": "textures/blocks/water_still"
   }
  },
  "texture_name": "atlas.terrain"

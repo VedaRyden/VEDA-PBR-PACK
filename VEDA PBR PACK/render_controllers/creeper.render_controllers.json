@@ -9,7 +9,7 @@
           "r": "((variable.flash == 255.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
           "g": "((variable.flash == 255.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
           "b": "((variable.flash == 255.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
-          "a": "((variable.flash == 0.1) || (query.swelling_dir < 0.0)) ? this : 255.0"
+          "a": "((variable.flash == 255.0) || (query.swelling_dir < 0.1)) ? this : 255.0"
       }
     }
   }
