@@ -4,34 +4,35 @@
     "sun": {
       "illuminance": { //Tingkat Cahaya Iluminasi Jika semakin tinggi maka semakin butuh Paramex.
         "0.0" : 1, //PAGI
-        "0.25": 25.0, //SUDAH PAGI
-        "0.35": 40.0, //MAU SIANG
-        "0.4" : 45.0, //SIANG
-        "0.5" : 50.0, //AGAK SIANG      --- TENGAH PUTARAN
-        "0.65": 37.5, //BURUAN SEKOLAH
-        "0.75": 30.0, //PAGI            -- PUNCAK
+        "0.25": 30.0, //SUDAH PAGI
+        "0.35": 55.0, //MAU SIANG
+        "0.4" : 60.0, //SIANG
+        "0.5" : 65.0, //AGAK SIANG      --- TENGAH PUTARAN
+        "0.65": 52.5, //BURUAN SEKOLAH
+        "0.75": 45.0, //PAGI            -- PUNCAK
         "1.0" : 1 //MAU KESIANGAN
       },
       "color": {
         "0.0" : "#FFB9EAFF", //SIANGG NOON Udah Bukan Warna putih lagi :)
-        "0.2" : "#FFFFB182", //MAU SORE
+        "0.2" : "#FFFFAA4B", //MAU SORE
+        "0.21": "#FFFFB182", //MAU SORE
         "0.25": "#FF6C1F09", //SOREE SUNSETT
         "0.30": "#FF2F0C03", //MASIH SORE :)
         "0.35": "#FF2D0A03", //SUDAH MAU MALAM?
         "0.40": "#FF3C5164", //MAHGRIB
         "0.45": "#FF1E252D", //MALAM
         "0.50": "#FF12181E", //TENGAH MALAM MIDNIGHT              -- AKHIR
-         "0.65": "#FF314250", //SUBUH?
+         "0.65": "#FF1E252D", //SUBUH?
          "0.71": "#FF314250", //SUBUH?
          "0.72": "#FF6C1F09", //PERSIAPAN MAU PAGI DULU GAK SIH
          "0.75": "#FFFF7700", //PAGI SUNRISEEEEEE
-         "0.80": "#FF59749D", //BARUU WARNA UNGUU CUY
+         "0.80": "#FFFFAA4B", //BARUU PERUBAHAN
          "0.85": "#FF59749D", //SIANGG NOON
          "1.0" : "#FFB9EAFF"  //SIANGG NOON Udah Bukan Warna putih lagi :)
       }
     },
     "moon": { 
-        "illuminance": 11.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
+        "illuminance": 13.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
         "color": "#FF355073"//Warna Bulan Biru RTX.
     }, 
     "orbital_offset_degrees": {

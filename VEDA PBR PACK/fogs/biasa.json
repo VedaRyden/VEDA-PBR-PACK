@@ -1,32 +1,36 @@
 {
 	"format_version": "1.16.100",
 	"minecraft:fog_settings": {
-	  "description": {
-		"identifier": "kabut:biasa"
-	  },
-	  "volumetric": {
+	 "description": {
+	 	"identifier": "kabut:biasa"
+	 },
+	 "volumetric": {
 		"density": {
 				"air": { 
-				  "max_density": 0.2, 
+				  "max_density": 0.07, 
 				  "zero_density_height": 99.0, 
 				  "max_density_height": 64.0,
 				  "uniform": false
 				},
-			  "media_coefficients": {
+				"water": {
+                  "max_density": 0.3,
+                  "uniform": true
+    }
+		  },
+			 "media_coefficients": {
 				"water": { 
-				  "scattering": [ 0.01811, 0.02126, 0.027953 ], 
-				  "absorption": [ 0, 0, 0 ] 
+				  "scattering": [ 0, 0.031, 2.003 ],
+                  "absorption": [ 0, 0.09, 0.03 ] 
 				},
 				"cloud": {
-                  "scattering": [ 0.00055, 0.00055, 0.00055 ],
-                  "absorption": [ 0.003, 0.003, 0.003 ]
+                  "scattering": [ 0.1, 0.1, 0.1 ],
+                  "absorption": [ 0.1, 0.15, 0.0 ]
 				},
 				"air": { 
-				  "scattering": [ 0.0166, 0.0166, 0.0166 ], 
-				  "absorption": [ 0, 0, 0 ] 
+				  "scattering": [ 0.049, 0.049, 0.049 ],
+                  "absorption": [ 0.1, 0.15, 0.0 ]
 				}
-		    }
+		 }
 		}
 	}
-}
 }
