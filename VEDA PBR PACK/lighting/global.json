@@ -126,19 +126,19 @@
   },
   "pbr": { 
       "blocks": { 
-        "global_metalness_emissive_roughness": "#0000ff"  
+        "global_metalness_emissive_roughness": "#000001"  
       }, 
       "items": { 
         "global_metalness_emissive_roughness": "#0000ff" 
       }, 
       "actors": { 
-        "global_metalness_emissive_roughness": "#0000ff"
+        "global_metalness_emissive_roughness": "#000001"
       },
       "environments": { 
         "global_metalness_emissive_roughness": "#0000ff"
       },
       "particles": { 
-        "global_metalness_emissive_roughness": "#0000ff"  
+        "global_metalness_emissive_roughness": "#000001"  
       }
   } 
 }
