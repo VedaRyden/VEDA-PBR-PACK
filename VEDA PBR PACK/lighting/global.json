@@ -4,12 +4,12 @@
     "sun": {
       "illuminance": { //Tingkat Cahaya Iluminasi Jika semakin tinggi maka semakin butuh Paramex.
         "0.0" : 1, //PAGI
-        "0.25": 30.0, //SUDAH PAGI
-        "0.35": 55.0, //MAU SIANG
-        "0.4" : 60.0, //SIANG
-        "0.5" : 65.0, //AGAK SIANG      --- TENGAH PUTARAN
-        "0.65": 52.5, //BURUAN SEKOLAH
-        "0.75": 45.0, //PAGI            -- PUNCAK
+        "0.25": 130.0, //SUDAH PAGI
+        "0.35": 155.5, //MAU SIANG
+        "0.4" : 160.0, //SIANG
+        "0.5" : 1650.0, //AGAK SIANG      --- TENGAH PUTARAN
+        "0.65": 155.5, //BURUAN SEKOLAH
+        "0.75": 130.0, //PAGI            -- PUNCAK
         "1.0" : 1 //MAU KESIANGAN
       },
       "color": {
@@ -32,8 +32,8 @@
       }
     },
     "moon": { 
-        "illuminance": 13.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
-        "color": "#FF355073"//Warna Bulan Biru RTX.
+        "illuminance": 10.0,  //Keterangan dimalam hari disamakan tingkat terang nya dengan versi non deffered.
+        "color": "#FF0072FF"//Warna Bulan Biru RTX. di coba lebih kontras #355073
     }, 
     "orbital_offset_degrees": {
             "0.0": -36.0,

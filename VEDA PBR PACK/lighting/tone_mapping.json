@@ -1,8 +1,8 @@
 {
   "technique": "reinhard_luminance",
-  "brightness": 0,
-  "contrast": 1,
-  "saturation": 1,
+  "brightness": 99,
+  "contrast": 9,
+  "saturation": 9,
   "exposure_compensation_type": "constant",
   "custom_exposure_compensation": {
     "-6.9": -5,
