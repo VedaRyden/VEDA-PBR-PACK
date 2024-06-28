@@ -23,6 +23,12 @@
   "controls": [
     {
       "access_button@debug_screen.access_button": {}
+    },
+    {
+      "special_render@debug_screen.special_render": {}
+    },
+    {
+    "pack_info@debug_screen.pack_info": {}
     }
   ],
   "size": ["100%","100%"],
