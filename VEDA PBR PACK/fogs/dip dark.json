@@ -2,20 +2,20 @@
     "format_version": "1.16.100",
     "minecraft:fog_settings": {
     "description": {
-    "identifier": "kabut:cherry"
+    "identifier": "kabut:kegelapan"
      },
      "distance": {
         "air": {
-        "fog_start": 0.92,
+        "fog_start": 0.9,
             "fog_end": 1,
-                "fog_color": "#eb67ab",
+                "fog_color": "#0D1217",
                 "render_distance_type": "render"
                 }
                 },
                 "volumetric": {
                 "density": {
                 "air": {
-                 "max_density": 1,
+                 "max_density": 0.1,
                  "max_density_height": 130,
                  "zero_density_height": 220,
                  "uniform": false
@@ -23,7 +23,7 @@
                 },
                 "media_coefficients": {
                 "air": {
-                 "scattering": [ 0.4, 0.1, 0.2 ],
+                 "scattering": [ 0, 0, 0.1 ],
                  "absorption": [ 0, 0, 0 ]
                 }
             }
