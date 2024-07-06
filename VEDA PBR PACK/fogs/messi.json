@@ -2,13 +2,13 @@
     "format_version": "1.16.100",
     "minecraft:fog_settings": {
     "description": {
-    "identifier": "kabut:swamp"
+    "identifier": "kabut:mesa"
      },
      "distance": {
         "air": {
-        "fog_start": 0.92,
+        "fog_start": 1,
             "fog_end": 1,
-                "fog_color": "#4c763c",
+                "fog_color": "#BE6520",
                 "render_distance_type": "render"
                 }
                 },
@@ -23,7 +23,7 @@
                 },
                 "media_coefficients": {
                 "air": {
-                 "scattering": [ 0, 0, 0.4 ],
+                 "scattering": [ 0.4, 0, 0.1 ],
                  "absorption": [ 0, 0, 0 ]
                 }
             }
