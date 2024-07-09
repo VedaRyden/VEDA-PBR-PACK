@@ -54,9 +54,9 @@
   "anchor_to": "bottom_right",
   "color": [ 1,1,1 ],
   "shadow": true,
-  "font_scale_factor": 0.7,
-  "alpha": 0.7,
-  "text": "§l§4VEDA §bPACK §1PBR  \n§r§lWITH §4RAIDEN DEFFERED \n§rV1.5.7-Beta8 \n ",
+  "font_scale_factor": 0.6,
+  "alpha": 1,
+  "text": "§l§4VEDA §bPACK §1PBR  \n§r§lWITH §4RAIDEN DEFFERED \n§rV1.5.7-Beta8 \n\n ",
   "type": "label"
  }
 }

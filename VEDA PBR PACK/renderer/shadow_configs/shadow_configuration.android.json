@@ -6,15 +6,15 @@
     "num_cascade_levels": 1,
     "num_variable_cascade_levels": 1,
     "shadow_range": {
-      "near": 0.0,
+      "near": 0.1,
       "far": 10.0
     },
     "max_shadow_distance": 0.0,
     "cascade_range": [ 0.0, 0.0, 0.0, 0.0 ],
     "cascade_pcf_width": [ 0.0, 0.0, 0.0, 0.0 ],
     "shadow_clamp_angle": 1,
-    "cloud_shadow_contribution": 0,
-    "cloud_shadow_pcf_width": 0,
+    "cloud_shadow_contribution": 1,
+    "cloud_shadow_pcf_width": 1,
     "sun_shadows": false,
     "moon_shadows": false,
     "cloud_shadows": false
