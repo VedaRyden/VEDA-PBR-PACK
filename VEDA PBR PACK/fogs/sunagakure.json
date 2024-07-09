@@ -23,8 +23,8 @@
                 },
                 "media_coefficients": {
                 "air": {
-                 "scattering": [ 0.4, 0.4, 0.3 ],
-                 "absorption": [ 0, 0, 0 ]
+                 "scattering": [ 0.4, 0.39, 0.3 ],
+                 "absorption": [ 0.1, 0.01, 0.001 ]
                 }
             }
         }

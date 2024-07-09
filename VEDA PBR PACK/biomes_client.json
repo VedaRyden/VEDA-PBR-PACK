@@ -2,6 +2,15 @@
  "biomes": {
  "cherry_grove": {
   "fog_identifier": "kabut:cherry"
+  },
+  "mesa_bryce": {
+  "fog_identifier": "kabut:mesa"
+  },
+  "mesa_plateau_stone": {
+  "fog_identifier": "kabut:mesa"
+  },
+  "mesa": {
+  "fog_identifier": "kabut:mesa"
   }, 
   "desert": {
   "fog_identifier": "kabut:pasir"
@@ -16,10 +25,10 @@
   "fog_identifier": "kabut:kegelapan"
   },
   "jungle": {
-  "fog_identifier": "kabut:bambu"
+  "fog_identifier": "kabut:rimba"
   }, 
   "jungle_edge": {
-  "fog_identifier": "kabut:bambu"
+  "fog_identifier": "kabut:rimba"
   }, 
   "bamboo_jungle": {
   "fog_identifier": "kabut:bambu"

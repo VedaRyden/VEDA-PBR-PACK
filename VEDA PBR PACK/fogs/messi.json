@@ -6,9 +6,9 @@
      },
      "distance": {
         "air": {
-        "fog_start": 1,
+        "fog_start": 0.5,
             "fog_end": 1,
-                "fog_color": "#BE6520",
+                "fog_color": "#523829",
                 "render_distance_type": "render"
                 }
                 },
@@ -23,8 +23,8 @@
                 },
                 "media_coefficients": {
                 "air": {
-                 "scattering": [ 0.4, 0, 0.1 ],
-                 "absorption": [ 0, 0, 0 ]
+                 "scattering": [ 0.25, 0.15, 0.1 ],
+                 "absorption": [ 0.1, 0.01, 0.001 ]
                 }
             }
         }

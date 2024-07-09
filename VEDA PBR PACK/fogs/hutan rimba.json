@@ -2,13 +2,13 @@
     "format_version": "1.16.100",
     "minecraft:fog_settings": {
     "description": {
-    "identifier": "kabut:cherry"
+    "identifier": "kabut:rimba"
      },
      "distance": {
         "air": {
-        "fog_start": 0.9,
+        "fog_start": 0.25,
             "fog_end": 1,
-                "fog_color": "#eb67ab",
+                "fog_color": "#2A6B09",
                 "render_distance_type": "render"
                 }
                 },
@@ -16,15 +16,15 @@
                 "density": {
                 "air": {
                  "max_density": 1,
-                 "max_density_height": 130,
+                 "max_density_height": 100,
                  "zero_density_height": 220,
                  "uniform": false
                 }
                 },
                 "media_coefficients": {
                 "air": {
-                 "scattering": [ 0.5, 0.05, 0.1 ],
-                 "absorption": [ 0.01, 0.001, 0.002 ]
+                 "scattering": [ 0.05, 0.2, 0 ],
+                 "absorption": [ 0.001, 0.01, 0 ]
                 }
             }
         }
