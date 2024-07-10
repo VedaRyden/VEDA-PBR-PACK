@@ -53,7 +53,7 @@
         }
       },
       {
-        "label": {
+        "label1": {
           "type": "label",
           "color": "$main_header_text_color",
           "layer": 3,
