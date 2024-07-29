@@ -1,0 +1,41 @@
+{
+ "crafting_label": {
+  "anchor_from": "top_left",
+  "anchor_to": "top_left",
+  "bindings": [
+   {
+    "binding_name": "#crafting_label_text"
+   }
+  ],
+  "color": "$title_command_text_color",
+  "layer": 2,
+  "text": "#crafting_label_text",
+  "type": "label"
+ },
+ "creative_label": {
+  "anchor_from": "center",
+  "anchor_to": "center",
+  "bindings": [
+   {
+    "binding_name": "#tab_label_text"
+   }
+  ],
+  "color": "$title_command_text_color",
+  "layer": 2,
+  "size": [
+   "100%",
+   10
+  ],
+  "text": "#tab_label_text",
+  "text_alignment": "right",
+  "type": "label"
+ },
+ "inventory_label": {
+  "anchor_from": "top_left",
+  "anchor_to": "top_left",
+  "color": "$title_command_text_color",
+  "layer": 2,
+  "text": "container.inventory",
+  "type": "label"
+ }
+}

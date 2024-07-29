@@ -1,0 +1,12 @@
+{
+ "namespace": "GambarVedaRTX",
+ "RTX": {
+  "fill": true,
+  "texture": "VedaRTXart",
+  "type": "image",
+  "uv_size": [
+   "100%c",
+   "100%"
+  ]
+ }
+}

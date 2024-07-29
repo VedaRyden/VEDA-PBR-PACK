@@ -1,0 +1,68 @@
+{
+ "copyright": {
+  "controls": [
+   {
+    "label": {
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "color": "$main_header_text_color",
+     "layer": 2,
+     "max_size": [
+      "100%",
+      "100%"
+     ],
+     "size": [
+      "default",
+      10
+     ],
+     "text": "@VEDA_RAIDEN",
+     "type": "label"
+    }
+   },
+   {
+    "label_background": {
+     "alpha": 0.6,
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "layer": 1,
+     "offset": [
+      -1,
+      -1
+     ],
+     "size": [
+      "100%sm + 4px",
+      "100%sm + 2px"
+     ],
+     "texture": "textures/ui/Black",
+     "type": "image"
+    }
+   }
+  ],
+  "type": "panel"
+ },
+ "namespace": "start",
+ "start_screen@common.base_screen": {
+  "$screen_bg_content": "Render_By_Benz.Gambar",
+  "$screen_content": "start.start_screen_content",
+  "button_mappings": [
+   {
+    "from_button_id": "button.menu_cancel",
+    "ignored": "(not $can_quit)",
+    "mapping_type": "global",
+    "to_button_id": "button.menu_exit"
+   },
+   {
+    "from_button_id": "button.controller_select",
+    "ignored": "(not $nx_os)",
+    "mapping_type": "global",
+    "to_button_id": "button.menu_offline"
+   },
+   {
+    "from_button_id": "button.controller_secondary_select",
+    "ignored": "(not $can_swap_vr_mode)",
+    "mapping_type": "global",
+    "to_button_id": "button.menu_swap_vr_mode"
+   }
+  ]
+ }
+}

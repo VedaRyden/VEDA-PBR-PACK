@@ -1,0 +1,15 @@
+{
+  "namespace": "ADIOS_B",
+   "BG2": {
+   "type": "image",
+   "anchor_from": "center",
+   "anchor_to": "center",
+   "size": [ "100%", "100%" ],
+   "uv": "",
+     "controls": [
+      {
+        "Background@ADIOS_A.BG1": {
+       }
+     }
+   ]
+ }
