@@ -1,1 +1,280 @@
-{"format_version":[1,0,0],"directional_lights":{"sun":{"illuminance":{"0.750000":130,"0.000000":10,"0.250000":1300,"0.400000":1600,"0.350000":1550,"1.000000":10,"0.650000":1550,"0.500000":1650},"color":{"0.000000":[185,234,255,255],"0.200000":[255,170,75,255],"0.500000":[18,24,30,255],"0.210000":[255,177,130,255],"0.250000":[108,31,9,255],"0.450000":[30,37,45,255],"0.300000":[47,12,3,255],"0.400000":[60,81,100,255],"0.350000":[45,10,3,255],"0.650000":[30,37,45,255],"0.710000":[49,66,80,255],"0.720000":[108,31,9,255],"0.750000":[255,119,0,255],"0.800000":[255,170,75,255],"0.850000":[89,116,157,255],"1.000000":[185,234,255,255]}},"moon":{"illuminance":{"0.000000":10},"color":{"0.000000":[0,114,255,255]}},"orbital_offset_degrees":{"0.000000":36,"0.210417":0,"0.483000":36,"0.983000":36,"0.742917":0}},"point_lights":{"colors":{"minecraft:soul_torch":[0,255,255],"minecraft:soul_lantern":[0,255,255],"minecraft:soul_fire":[0,255,255],"minecraft:lantern":[255,200,0],"minecraft:glow_lichen":[174,175,140],"minecraft:redstone_torch":[255,0,0],"minecraft:oxidized_copper_bulb":[230,180,80],"minecraft:torch":[255,200,0],"minecraft:end_rod":[255,255,255],"minecraft:lit_redstone_lamp":[255,236,116],"minecraft:waxed_copper_bulb":[230,180,80],"minecraft:waxed_exposed_copper_bulb":[230,180,80],"minecraft:waxed_oxidized_copper_bulb":[230,180,80],"minecraft:waxed_weathered_copper_bulb":[230,180,80],"minecraft:copper_bulb":[230,180,80],"minecraft:exposed_copper_bulb":[230,180,80],"minecraft:weathered_copper_bulb":[230,180,80],"minecraft:fire":[215,90,2],"minecraft:enchanting_table":[84,144,204],"minecraft:lit_pumpkin":[255,255,0]}},"pbr":{"blocks":{"global_metalness_emissive_roughness_subsurface":[0,0,1,0]},"actors":{"global_metalness_emissive_roughness_subsurface":[0,0,1,0]},"particles":{"global_metalness_emissive_roughness_subsurface":[0,0,1,0]},"items":{"global_metalness_emissive_roughness_subsurface":[0,0,255,0]}}}
+{
+    "format_version": [
+      1,
+      0,
+      0
+    ],
+    "directional_lights": {
+      "sun": {
+        "illuminance": {
+          "0.750000": 130,
+          "0.000000": 10,
+          "0.250000": 1300,
+          "0.400000": 1600,
+          "0.350000": 1550,
+          "1.000000": 10,
+          "0.650000": 1550,
+          "0.500000": 1650
+        },
+        "color": {
+          "0.000000": [
+            185,
+            234,
+            255,
+            255
+          ],
+          "0.200000": [
+            255,
+            170,
+            75,
+            255
+          ],
+          "0.500000": [
+            18,
+            24,
+            30,
+            255
+          ],
+          "0.210000": [
+            255,
+            177,
+            130,
+            255
+          ],
+          "0.250000": [
+            108,
+            31,
+            9,
+            255
+          ],
+          "0.450000": [
+            30,
+            37,
+            45,
+            255
+          ],
+          "0.300000": [
+            47,
+            12,
+            3,
+            255
+          ],
+          "0.400000": [
+            60,
+            81,
+            100,
+            255
+          ],
+          "0.350000": [
+            45,
+            10,
+            3,
+            255
+          ],
+          "0.650000": [
+            30,
+            37,
+            45,
+            255
+          ],
+          "0.710000": [
+            49,
+            66,
+            80,
+            255
+          ],
+          "0.720000": [
+            108,
+            31,
+            9,
+            255
+          ],
+          "0.750000": [
+            255,
+            119,
+            0,
+            255
+          ],
+          "0.800000": [
+            255,
+            170,
+            75,
+            255
+          ],
+          "0.850000": [
+            89,
+            116,
+            157,
+            255
+          ],
+          "1.000000": [
+            185,
+            234,
+            255,
+            255
+          ]
+        }
+      },
+      "moon": {
+        "illuminance": {
+          "0.000000": 10
+        },
+        "color": {
+          "0.000000": [
+            0,
+            114,
+            255,
+            255
+          ]
+        }
+      },
+      "orbital_offset_degrees": {
+        "0.000000": 36,
+        "0.210417": 0,
+        "0.483000": 36,
+        "0.983000": 36,
+        "0.742917": 0
+      }
+    },
+    "point_lights": {
+      "colors": {
+        "minecraft:soul_torch": [
+          0,
+          255,
+          255
+        ],
+        "minecraft:soul_lantern": [
+          0,
+          255,
+          255
+        ],
+        "minecraft:soul_fire": [
+          0,
+          255,
+          255
+        ],
+        "minecraft:lantern": [
+          255,
+          200,
+          0
+        ],
+        "minecraft:glow_lichen": [
+          174,
+          175,
+          140
+        ],
+        "minecraft:redstone_torch": [
+          255,
+          0,
+          0
+        ],
+        "minecraft:oxidized_copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:torch": [
+          255,
+          200,
+          0
+        ],
+        "minecraft:end_rod": [
+          255,
+          255,
+          255
+        ],
+        "minecraft:lit_redstone_lamp": [
+          255,
+          236,
+          116
+        ],
+        "minecraft:waxed_copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:waxed_exposed_copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:waxed_oxidized_copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:waxed_weathered_copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:exposed_copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:weathered_copper_bulb": [
+          230,
+          180,
+          80
+        ],
+        "minecraft:fire": [
+          215,
+          90,
+          2
+        ],
+        "minecraft:enchanting_table": [
+          84,
+          144,
+          204
+        ],
+        "minecraft:lit_pumpkin": [
+          255,
+          255,
+          0
+        ]
+      }
+    },
+    "pbr": {
+      "blocks": {
+        "global_metalness_emissive_roughness_subsurface": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "actors": {
+        "global_metalness_emissive_roughness_subsurface": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "particles": {
+        "global_metalness_emissive_roughness_subsurface": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "items": {
+        "global_metalness_emissive_roughness_subsurface": [
+          0,
+          0,
+          255,
+          0
+        ]
+      }
+    },
+    "emissive": {
+        "desaturation": 0.1
+    }
+  }
