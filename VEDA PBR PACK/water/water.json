@@ -5,7 +5,7 @@
         },
         "particle_concentrations": {
             "chlorophyll": 0.5,
-            "suspended_sediment": 0.5,
+            "suspended_sediment": 0.5, //Amogus
             "cdom": 1
         },
         "waves": {
@@ -14,12 +14,12 @@
             "frequency": 1,
             "frequency_scaling": 1.2,
             "mix": 0.2,
-            "octaves": 28,
-            "pull": 0.379,
+            "octaves": 8,
+            "pull": 0.38,
             "sampleWidth": 0.01,
             "shape": 1.5,
-            "speed": 2,
-            "speed_scaling": 1.029
+            "speed": 2, //Kecepatan Gelombang Air
+            "speed_scaling": 1.03
         }
     }
 }
