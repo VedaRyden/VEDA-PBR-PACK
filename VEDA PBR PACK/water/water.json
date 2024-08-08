@@ -16,7 +16,7 @@
             "mix": 0.2,
             "octaves": 28,
             "pull": 0.379,
-            "sampleWidth": 0.0099,
+            "sampleWidth": 0.01,
             "shape": 1.5,
             "speed": 2,
             "speed_scaling": 1.029

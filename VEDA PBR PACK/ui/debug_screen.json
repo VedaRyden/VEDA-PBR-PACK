@@ -23,6 +23,12 @@
   "controls": [
     {
       "access_button@debug_screen.access_button": {}
+    },
+    {
+      "special_render@debug_screen.special_render": {}
+    },
+    {
+    "pack_info@debug_screen.pack_info": {}
     }
   ],
   "size": ["100%","100%"],
@@ -48,8 +54,9 @@
   "anchor_to": "bottom_right",
   "color": [ 1,1,1 ],
   "shadow": true,
-  "font_scale_factor": 0.75,
-  "text": "§l§4VEDA §bPACK §1PBR  \n§r§lWITH §4RAIDEN DEFFERED \n§rV1.5.7-Beta9 \n ",
+  "font_scale_factor": 0.6,
+  "alpha": 1,
+  "text": "§l§4VEDA §bPACK §1PBR  \n§r§lWITH §4RAIDEN DEFFERED \n§rV1.5.7-Beta9 \n\n ",
   "type": "label"
  }
 }
