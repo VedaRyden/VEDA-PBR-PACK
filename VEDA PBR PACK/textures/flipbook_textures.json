@@ -46,76 +46,112 @@
  },
  {
   "atlas_tile": "bubble_column_outer",
+  "atlas_index": 0,
+  "atlas_tile_variant": 0,
   "flipbook_texture": "textures/blocks/bubble_column_outer_a"
  },
  {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
+    "atlas_tile": "bubble_column_outer",
+    "atlas_index": 1,
+    "atlas_tile_variant": 1,
+    "flipbook_texture": "textures/blocks/bubble_column_outer_a"
+   },
+   {
+    "atlas_tile": "bubble_column_outer",
+    "atlas_index": 2,
+    "atlas_tile_variant": 2,
+    "flipbook_texture": "textures/blocks/bubble_column_outer_a"
+   },
+   {
+    "atlas_tile": "bubble_column_outer",
+    "atlas_index": 3,
+    "atlas_tile_variant": 3,
+    "flipbook_texture": "textures/blocks/bubble_column_outer_a"
+   },
+   {
+    "atlas_tile": "bubble_column_outer",
+    "atlas_index": 4,
+    "atlas_tile_variant": 4,
+    "flipbook_texture": "textures/blocks/bubble_column_outer_a"
+   },
+   {
+    "atlas_tile": "bubble_column_outer",
+    "atlas_index": 5,
+    "atlas_tile_variant": 5,
+    "flipbook_texture": "textures/blocks/bubble_column_outer_a"
+   },
+   {
+    "atlas_tile": "bubble_column_outer",
+    "atlas_index": 6,
+    "atlas_tile_variant": 6,
+    "flipbook_texture": "textures/blocks/bubble_column_outer_a"
+   },
+   {
+    "atlas_tile": "bubble_column_outer",
+    "atlas_index": 7,
+    "atlas_tile_variant": 7,
+    "flipbook_texture": "textures/blocks/bubble_column_outer_a"
+   },
+   {
+    "atlas_tile": "bubble_column_up_top",
+    "atlas_index": 0,
+    "atlas_tile_variant": 0,
+    "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
+   },
+   {
+    "atlas_tile": "bubble_column_up_top",
+    "atlas_index": 1,
+    "atlas_tile_variant": 1,
+    "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
+   },
+   {
+    "atlas_tile": "bubble_column_up_top",
+    "atlas_index": 2,
+    "atlas_tile_variant": 2,
+    "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
+   },
+   {
+    "atlas_tile": "bubble_column_up_top",
+    "atlas_index": 3,
+    "atlas_tile_variant": 3,
+    "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
+   },
  {
   "atlas_tile": "bubble_column_down_top",
+  "atlas_index": 0,
+  "atlas_tile_variant": 0,
   "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
  },
  {
-  "atlas_tile": "bubble_column_down_top",
-  "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
- },
- {
-  "atlas_tile": "bubble_column_down_top",
-  "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
- },
- {
-  "atlas_tile": "bubble_column_down_top",
-  "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
- },
+    "atlas_tile": "bubble_column_down_top",
+    "atlas_index": 1,
+    "atlas_tile_variant": 1,
+    "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
+   },
+   {
+    "atlas_tile": "bubble_column_down_top",
+    "atlas_index": 2,
+    "atlas_tile_variant": 2,
+    "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
+   },
+   {
+    "atlas_tile": "bubble_column_down_top",
+    "atlas_index": 3,
+    "atlas_tile_variant": 3,
+    "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
+   },
  {
   "atlas_tile": "bubble_column_mid",
+  "atlas_index": 0,
+  "atlas_tile_variant": 0,
   "flipbook_texture": "textures/blocks/bubble_column_inner_a"
  },
  {
-  "atlas_tile": "bubble_column_mid",
-  "flipbook_texture": "textures/blocks/bubble_column_inner_a"
- },
+    "atlas_tile": "bubble_column_mid",
+    "atlas_index": 1,
+    "atlas_tile_variant": 1,
+    "flipbook_texture": "textures/blocks/bubble_column_inner_a"
+   },
  {
   "atlas_tile": "kelp_a",
   "flipbook_texture": "textures/blocks/kelp_a"
@@ -138,7 +174,7 @@
  },
  {
   "atlas_tile": "kelp_top_bulb",
-  "flipbook_texture": "textures/blocks/kelp_top_bulb"
+  "flipbook_texture": "textures/blocks/kelp_top"
  },
  {
   "atlas_tile": "prismarine",
@@ -224,6 +260,11 @@
   "flipbook_texture": "textures/blocks/chain_command_block_conditional"
  },
  {
+    "atlas_tile": "furnace_front_on",
+    "flipbook_texture": "textures/blocks/furnace_front_on",
+    "ticks_per_frame": 2
+   },
+ {
   "atlas_tile": "blast_furnace_front_on",
   "flipbook_texture": "textures/blocks/blast_furnace_front_on",
   "ticks_per_frame": 2
@@ -237,15 +278,6 @@
   "atlas_tile": "campfire_fire",
   "flipbook_texture": "textures/blocks/campfire",
   "ticks_per_frame": 8
- },
- {
-  "atlas_tile": "lantern",
-  "flipbook_texture": "textures/blocks/lantern",
-  "ticks_per_frame": 8
- },
- {
-  "atlas_tile": "stonecutter2_saw",
-  "flipbook_texture": "textures/blocks/stonecutter2_saw"
  },
  {
   "atlas_tile": "campfire_log_lit",
@@ -265,19 +297,11 @@
  {
   "atlas_tile": "soul_fire_0",
   "flipbook_texture": "textures/blocks/soul_fire_0",
-  "frames": [
-   0,
-   1
-  ],
   "ticks_per_frame": 8
  },
  {
   "atlas_tile": "soul_fire_1",
   "flipbook_texture": "textures/blocks/soul_fire_1",
-  "frames": [
-   0,
-   1
-  ],
   "ticks_per_frame": 8
  },
  {
@@ -288,10 +312,6 @@
  {
   "atlas_tile": "soul_campfire_log_lit",
   "flipbook_texture": "textures/blocks/soul_campfire_log_lit",
-  "frames": [
-   0,
-   1
-  ],
   "ticks_per_frame": 8
  }
 ]

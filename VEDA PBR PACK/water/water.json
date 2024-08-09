@@ -1,1 +1,25 @@
-{"minecraft:water_settings":{"description":{"identifier":"vedapack:gelombang_laut_aman_rek"},"particle_concentrations":{"chlorophyll":0,"suspended_sediment":0,"cdom":0},"waves":{"enabled":true,"frequency":0.2,"octaves":28,"depth":0.2,"sampleWidth":0.009999999776482582,"speed":2,"shape":1,"pull":0.3799999952316284,"mix":0.2,"frequency_scaling":1.2000000476837158,"speed_scaling":1}}}
+{
+    "minecraft:water_settings": {
+      "description": {
+        "identifier": "vedapack:gelombang_laut_aman_rek"
+      },
+      "particle_concentrations": {
+        "chlorophyll": 0,
+        "suspended_sediment": 0,
+        "cdom": 0
+      },
+      "waves": {
+        "enabled": true,
+        "frequency": 0.2,
+        "octaves": 28,
+        "depth": 0.2,
+        "sampleWidth": 0.01,
+        "speed": 2,
+        "shape": 1,
+        "pull": 0.37999999,
+        "mix": 0.2,
+        "frequency_scaling": 1.20001,
+        "speed_scaling": 1
+      }
+    }
+  }
