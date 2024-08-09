@@ -275,6 +275,6 @@
       }
     },
     "emissive": {
-        "desaturation": 0.1
+        "desaturation": 0
     }
   }
