@@ -245,7 +245,7 @@
         "global_metalness_emissive_roughness_subsurface": [
           0,
           0,
-          1,
+          255,
           0
         ]
       },
@@ -253,7 +253,7 @@
         "global_metalness_emissive_roughness_subsurface": [
           0,
           0,
-          1,
+          255,
           0
         ]
       },
@@ -261,7 +261,7 @@
         "global_metalness_emissive_roughness_subsurface": [
           0,
           0,
-          1,
+          255,
           0
         ]
       },
