@@ -119,21 +119,6 @@
             }
           ]
         }
-      },
-      {
-        "gamma_calibration@settings_common.option_slider": {
-          "$option_label": "#gamma_calibration_slider_label",
-          "$slider_name": "gamma_calibration",
-          "$slider_value_binding_name": "#gamma_calibration",
-          "$slider_tts_text_value": "#gamma_calibration_text_value",
-          "$option_enabled_binding_name": "#gamma_calibration_enabled",
-          "$slider_steps_binding_name": "#gamma_calibration_steps",
-          "$label_bindings": [
-            {
-              "binding_name": "$option_label"
-            }
-          ]
-        }
       }
     ]
   },
