@@ -1,0 +1,22 @@
+{
+ "resource_pack_name": "Veda_Pack_Texture",
+ "texture_data": {
+  "bread": {
+      "textures": "textures/Regginang"
+    },
+  "sword": {
+   "textures": [
+    "textures/items/wood_sword",
+    "textures/items/stone_sword",
+    "halilintar",
+    "textures/items/gold_sword",
+    "textures/items/diamond_sword",
+    "textures/items/netherite_sword"
+   ]
+  },
+  "iron_sword": {
+   "textures": "halilintar"
+  }
+ },
+ "texture_name": "atlas.items"
+}

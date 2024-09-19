@@ -1,7 +1,5 @@
 {
   "namespace": "gamma_calibration",
-
-
   "stack_panel_centering_panel": {
     "type": "panel",
     "$control_name|default": "common.empty_panel",
@@ -14,7 +12,6 @@
       }
     ]
   },
-
   "image_panel": {
     "type": "stack_panel",
     "orientation": "vertical",
@@ -48,12 +45,10 @@
       }
     ]
   },
-
   "horizontal_padding": {
     "type": "panel",
     "size": [ 16, 0 ]
   },
-
   "image_stack": {
     "type": "stack_panel",
     "size": "$image_panel_size",
@@ -62,7 +57,7 @@
       {
         "not_visible_image@gamma_calibration.image_panel": {
           "$image_label": "options.brightness.notVisible",
-          "$texture_name": "textures/ui/not_visible_creeper"
+          "$texture_name": "textures/ui/not_visible_raiden_logo"
         }
       },
       {
@@ -71,7 +66,7 @@
       {
         "barely_visible_image@gamma_calibration.image_panel": {
           "$image_label": "options.brightness.barelyVisible",
-          "$texture_name": "textures/ui/barely_visible_creeper"
+          "$texture_name": "textures/ui/barely_visible_raiden_logo"
         }
       },
       {
@@ -80,12 +75,11 @@
       {
         "easily_visible_image@gamma_calibration.image_panel": {
           "$image_label": "options.brightness.easilyVisible",
-          "$texture_name": "textures/ui/easily_visible_creeper"
+          "$texture_name": "textures/ui/easily_visible_raiden_logo"
         }
       }
     ]
   },
-
   "message_panel": {
     "type": "panel",
     "controls": [
@@ -100,7 +94,6 @@
       }
     ]
   },
-
   "calibration_slider": {
     "type": "stack_panel",
     "size": [ "50%", "100%c" ],
@@ -148,15 +141,11 @@
       }
     ]
   },
-
-
-
   "continue_button@common_buttons.light_text_button": {
     "size": [ "20%", 30 ],
     "$pressed_button_name": "button.continue",
     "$button_text": "gui.continue"
   },
-
   "main_panel": {
     "type": "stack_panel",
     "orientation": "vertical",

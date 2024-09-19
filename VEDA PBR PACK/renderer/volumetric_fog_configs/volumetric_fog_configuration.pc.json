@@ -1,34 +1,14 @@
 {
 	"low": {
-		"tile_width": 32,
-		"tile_height": 32,
-		"depth_slices": 32,
-		"near_plane": 0.01,
-		"far_plane": 250.0,
-		"shadow_pcf_scale": 0.001
+		"file": "lods/volumetric_fog_configuration_1.json"
 	},
 	"medium": {
-		"tile_width": 16,
-		"tile_height": 16,
-		"depth_slices": 64,
-		"near_plane": 0.01,
-		"far_plane": 250.0,
-		"shadow_pcf_scale": 0.001
+		"file": "lods/volumetric_fog_configuration_2.json"
 	},
 	"high": {
-		"tile_width": 8,
-		"tile_height": 8,
-		"depth_slices": 128,
-		"near_plane": 0.01,
-		"far_plane": 250.0,
-		"shadow_pcf_scale": 0.001
+		"file": "lods/volumetric_fog_configuration_4.json"
 	},
 	"ultra": {
-		"tile_width": 4,
-		"tile_height": 4,
-		"depth_slices": 128,
-		"near_plane": 0.01,
-		"far_plane": 250.0,
-		"shadow_pcf_scale": 0.001
+		"file": "lods/volumetric_fog_configuration_7.json"
 	}
 }

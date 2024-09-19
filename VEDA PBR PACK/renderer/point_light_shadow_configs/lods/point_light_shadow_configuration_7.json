@@ -1,0 +1,8 @@
+{//ULTRA RATA KANAN
+"bias": 0.001, //Tajam.
+"slope_bias": 0.001, //Dipertajamkan.
+"far_plane": 15.0, //Moga Gak Bergaris2.
+"near_plane": 0.1, //Say Bye To Garis garis :v
+"max_point_light_shadows": 16, //Batas Jumlah bayangan dari cahaya.
+"resolution": 256 //Resolusi Bayangan, Semakin tinggi maka semakin HD!
+}
