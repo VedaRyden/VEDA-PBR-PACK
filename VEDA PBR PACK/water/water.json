@@ -1,8 +1,9 @@
 {
     "minecraft:water_settings": {
-      "description": {
-        "identifier": "vedapack:gelombang_laut_aman_rek"
-      },
+      "format_version": "1.21.40",
+        "description": {
+            "identifier": "vedapack:gelombang_laut_aman_rek"
+        },
       "particle_concentrations": {
         "chlorophyll": 0,
         "suspended_sediment": 0,

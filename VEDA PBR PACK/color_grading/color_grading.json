@@ -1,1 +1,96 @@
-{"minecraft:color_grading_settings":{"description":{"identifier":"vedapack:veda_color_grading"},"color_grading":{"midtones":{"contrast":[1.5,1.5,1.5],"gain":[1,1,1],"gamma":[2.5,2.5,2.5],"offset":[0,0,0],"saturation":[1,1,1]},"highlights":{"highlightsMin":20,"contrast":[1.5,1.5,1.5],"gain":[1,1,1],"gamma":[2,2,2],"offset":[0,0,0],"saturation":[2,2,2]},"shadows":{"shadowsMax":0,"contrast":[2,2,2],"gain":[2,2,2],"gamma":[2,2,2],"offset":[0,0,0],"saturation":[1,1,1]}},"tone_mapping":{"operator":"hable"}}}
+{
+    "minecraft:color_grading_settings": {
+    "format_version": "1.21.40",
+      "description": {
+        "identifier": "vedapack:raiden_color_grading"
+      },
+      "color_grading": {
+        "midtones": {
+          "contrast": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "gain": [
+            1,
+            1,
+            1
+          ],
+          "gamma": [
+            2.5,
+            2.5,
+            2.5
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "saturation": [
+            1,
+            1,
+            1
+          ]
+        },
+        "highlights": {
+          "highlightsMin": 20,
+          "contrast": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "gain": [
+            1,
+            1,
+            1
+          ],
+          "gamma": [
+            2,
+            2,
+            2
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "saturation": [
+            2,
+            2,
+            2
+          ]
+        },
+        "shadows": {
+          "shadowsMax": 0,
+          "contrast": [
+            2,
+            2,
+            2
+          ],
+          "gain": [
+            2,
+            2,
+            2
+          ],
+          "gamma": [
+            2,
+            2,
+            2
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "saturation": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "tone_mapping": {
+        "operator": "hable"
+      }
+    }
+  }

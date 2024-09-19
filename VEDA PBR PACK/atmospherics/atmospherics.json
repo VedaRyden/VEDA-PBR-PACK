@@ -1,4 +1,9 @@
 {
+  "minecraft:atmosphere_settings": {
+        "format_version": "1.21.40",
+        "description": {
+            "identifier": "vedapack:raiden_atmospherics"
+        },
     "sky_zenith_color": {
       "0.000000": [
         75,
@@ -180,3 +185,4 @@
       }
     }
   }
+}
