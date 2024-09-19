@@ -9,14 +9,14 @@ options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing	#
 options.shadowQuality=Kualitas Bayangan	#
 options.shadowQuality.low=Mati§b(FPS BOOST)	#
 options.shadowQuality.medium=Sedang(Rekomendasi)	#
-options.shadowQuality.high=Tinggi(Buram)	#
+options.shadowQuality.high=Tinggi	#
 options.shadowQuality.ultra=Ultra§a(Rata Kanan)	#
 
 options.pointLightShadowQuality=Kualitas Bayangan Cahaya	#
-options.pointLightShadowQuality.off=Mati	#
+options.pointLightShadowQuality.off=Mati§b(FPS BOOST)	#
 options.pointLightShadowQuality.low=Rendah	#
 options.pointLightShadowQuality.medium=Menengah(Rekomendasi)	#
-options.pointLightShadowQuality.high=Tinggi(Buram)	#
+options.pointLightShadowQuality.high=Tinggi	#
 options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan)	#
 
 options.pointLightLODingQuality=Kualitas Cahaya	#
@@ -41,3 +41,5 @@ options.reflectionsQuality.ultra=Ultra§a(Rata Kanan)	#
 
 options.deferred.upscaling=Fallback Upscaling	#
 options.upscaling=DLSS Upscaling	#
+options.upscalingPercentage=Resolusi Upscaling
+options.upscalingPercentage.hundred=Tanpa Upscaling§a(Tajam)
