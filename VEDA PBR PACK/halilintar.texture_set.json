@@ -1,8 +1,8 @@
 {
     "format_version": "1.21.30",
     "minecraft:texture_set": {
-        "color": "bolt_armor_trim_smithing_template",
-        "metalness_emissive_roughness_subsurface": "bolt_armor_trim_smithing_template_m",
-        "heightmap": "bolt_armor_trim_smithing_template_h"
+        "color": "halilintar",
+        "metalness_emissive_roughness_subsurface": "halilintar_m",
+        "heightmap": "halilintar_h"
     }
 }
