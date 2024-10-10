@@ -217,12 +217,6 @@
           "$control_name": "gamma_calibration.continue_button",
           "size": [ "100%", 30 ]
         }
-      },
-      {
-        "reset_button_panel@gamma_calibration.stack_panel_centering_panel": {
-          "$control_name": "gamma_calibration.reset_button",
-          "size": [ "50%", 30 ]
-        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-"tile_width": 16,//MEDIUM DI PC
+"tile_width": 16,
 "tile_height": 16,
 "depth_slices": 32,
 "near_plane": 0.01,

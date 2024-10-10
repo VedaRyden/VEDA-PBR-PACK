@@ -1,5 +1,5 @@
 {
-"tile_width": 32,//LOW DI PC, MEDIUM DI HP COY!
+"tile_width": 32,
 "tile_height": 32,
 "depth_slices": 32,
 "near_plane": 0.01,

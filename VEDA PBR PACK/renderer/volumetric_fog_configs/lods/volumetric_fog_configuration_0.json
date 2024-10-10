@@ -1,5 +1,5 @@
 {
-	"tile_width": 64,//LOW DI ANDROID MAH
+	"tile_width": 64,
 		"tile_height": 64,
 		"depth_slices": 32,
 		"near_plane": 0.010,

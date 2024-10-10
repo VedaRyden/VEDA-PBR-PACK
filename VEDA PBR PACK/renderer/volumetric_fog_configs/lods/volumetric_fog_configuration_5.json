@@ -1,5 +1,5 @@
 {
-	"tile_width": 4,//ULTRA DI ANDROWED
+	"tile_width": 4,
 		"tile_height": 4,
 		"depth_slices": 64,
 		"near_plane": 0.010,

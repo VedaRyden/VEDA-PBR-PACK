@@ -1,5 +1,5 @@
 {
-"tile_width": 8,//HIGH DI PC
+"tile_width": 8,
 "tile_height": 8,
 "depth_slices": 64,
 "near_plane": 0.01,
