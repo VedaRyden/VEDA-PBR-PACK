@@ -9,7 +9,7 @@
     "near": 0.1,
     "far": 10.0
   },
-  "max_shadow_distance": 0.1,
+  "max_shadow_distance": 0,
   "cascade_range": [ 0, 0, 0, 0 ],
   "cascade_pcf_width": [ 0, 0, 0, 0 ],
   "shadow_clamp_angle": 1,

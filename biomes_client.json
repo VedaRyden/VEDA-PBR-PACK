@@ -1,7 +1,8 @@
 {
  "biomes": {
- "cherry_grove": {
-  "fog_identifier": "kabut:cherry"
+  "cherry_grove": {
+  "fog_identifier": "kabut:cherry",
+  "inherit_from_prior_fog": false
   },
   "mesa_bryce": {
   "fog_identifier": "kabut:mesa"
