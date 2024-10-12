@@ -4,10 +4,10 @@
     "description": {
       "identifier": "cherry_grove"
     },
-    "minecraft:sky_color": {
-        "sky_color": "#eb67ab"
-    },
     "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#eb67ab"
+      },
       "minecraft:fog_appearance": {
         "fog_identifier": "kabut:cherry"
       },

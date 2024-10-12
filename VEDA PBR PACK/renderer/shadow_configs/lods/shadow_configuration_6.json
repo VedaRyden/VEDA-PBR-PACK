@@ -5,6 +5,7 @@
     "cascade_light_quantization_steps": [ 1800, 900, 900, 900 ],
     "num_cascade_levels": 1,
     "num_variable_cascade_levels": 1,
+    "normal_offset_strength": 0.065,
     "shadow_range": {
       "near": 0.025,
       "far": 256.0

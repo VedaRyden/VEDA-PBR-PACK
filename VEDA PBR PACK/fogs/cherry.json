@@ -7,9 +7,9 @@
      "distance": {
         "air": {
         "fog_start": 0.9,
-            "fog_end": 1,
-                "fog_color": "#eb67ab",
-                "render_distance_type": "render"
+        "fog_end": 1,
+        "fog_color": "#eb67ab",
+        "render_distance_type": "render"
                 }
                 },
                 "volumetric": {

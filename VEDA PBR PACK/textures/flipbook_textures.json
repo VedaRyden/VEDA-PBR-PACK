@@ -152,29 +152,59 @@
     "atlas_tile_variant": 1,
     "flipbook_texture": "textures/blocks/bubble_column_inner_a"
    },
+   {
+    "flipbook_texture": "textures/blocks/bubble_column_up_top_a",
+    "atlas_index": 0,
+    "atlas_tile_variant": 0,
+    "atlas_tile": "bubble_column_up_top"
+  },
+  {
+    "flipbook_texture": "textures/blocks/bubble_column_up_top_a",
+    "atlas_index": 1,
+    "atlas_tile_variant": 1,
+    "atlas_tile": "bubble_column_up_top"
+  },
+  {
+    "flipbook_texture": "textures/blocks/bubble_column_up_top_a",
+    "atlas_index": 2,
+    "atlas_tile_variant": 2,
+    "atlas_tile": "bubble_column_up_top"
+  },
+  {
+    "flipbook_texture": "textures/blocks/bubble_column_up_top_a",
+    "atlas_index": 3,
+    "atlas_tile_variant": 3,
+    "atlas_tile": "bubble_column_up_top"
+  },
  {
   "atlas_tile": "kelp_a",
-  "flipbook_texture": "textures/blocks/kelp_a"
+  "flipbook_texture": "textures/blocks/kelp_a",
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "kelp_b",
-  "flipbook_texture": "textures/blocks/kelp_a"
+  "flipbook_texture": "textures/blocks/kelp_a",
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "kelp_c",
-  "flipbook_texture": "textures/blocks/kelp_a"
+  "flipbook_texture": "textures/blocks/kelp_a",
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "kelp_d",
-  "flipbook_texture": "textures/blocks/kelp_a"
+  "flipbook_texture": "textures/blocks/kelp_a",
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "kelp_top",
-  "flipbook_texture": "textures/blocks/kelp_top"
+  "flipbook_texture": "textures/blocks/kelp_top",
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "kelp_top_bulb",
-  "flipbook_texture": "textures/blocks/kelp_top"
+  "flipbook_texture": "textures/blocks/kelp_top",
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "prismarine",
@@ -241,19 +271,23 @@
  },
  {
   "atlas_tile": "seagrass_tall_bot_a",
-  "flipbook_texture": "textures/blocks/seagrass_doubletall_bottom_a"
+  "flipbook_texture": "textures/blocks/seagrass_doubletall_bottom_a",
+  "ticks_per_frame": 3
  },
  {
   "atlas_tile": "seagrass_tall_bot_b",
-  "flipbook_texture": "textures/blocks/seagrass_doubletall_bottom_a"
+  "flipbook_texture": "textures/blocks/seagrass_doubletall_bottom_a",
+  "ticks_per_frame": 3
  },
  {
   "atlas_tile": "seagrass_tall_top_a",
-  "flipbook_texture": "textures/blocks/seagrass_doubletall_top_a"
+  "flipbook_texture": "textures/blocks/seagrass_doubletall_top_a",
+  "ticks_per_frame": 3
  },
  {
   "atlas_tile": "seagrass_tall_top_b",
-  "flipbook_texture": "textures/blocks/seagrass_doubletall_top_a"
+  "flipbook_texture": "textures/blocks/seagrass_doubletall_top_a",
+  "ticks_per_frame": 3
  },
  {
   "atlas_tile": "command_block_chain_conditional_side",

@@ -2,7 +2,7 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "pale_hanging_moss_tip",
-        "metalness_emissive_roughness_subsurface": "#00007F00",
+        "metalness_emissive_roughness_subsurface": "grass_top_m",
         "heightmap": "pale_hanging_moss_tip_h"
     }
 }
