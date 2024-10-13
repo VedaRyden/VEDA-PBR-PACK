@@ -1,6 +1,6 @@
 {
+  "format_version": "1.21.40",
   "minecraft:minecraft:point_light_settings": {
-      "format_version": "1.21.40",
       "colors": {
         "minecraft:soul_torch": [
           0,

@@ -1,5 +1,5 @@
 {
-  "cascade_bias": [ 0.00075, 0.00150, 0.00275, 0.00300 ],
+  "cascade_bias": [ 0.00001, 0.00001, 0.00001, 0.00001 ],
   "cascade_slope_bias": [ 0.00042, 0.00042, 0.00042, 0.00042 ],
     "cascade_resolution": [ 2048, 2048, 1024, 1024 ],
     "cascade_light_quantization_steps": [ 1800, 900, 900, 900 ],
