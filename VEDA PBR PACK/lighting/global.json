@@ -35,12 +35,8 @@
         }
       },
       "moon": {
-        "illuminance": {
-          "0.000000": 140
-        },
-        "color": {
-          "0.000000": [0,114,255,255]
-        }
+        "illuminance": 140,
+        "color": "#72ffff"
       },
       "orbital_offset_degrees": 36
     },
@@ -48,7 +44,7 @@
       "desaturation": 0
     },
     "ambient": {
-            "illuminance": 0.02,
+            "illuminance": 0.07,
             "color": "#7F7F7F"
         }
   }
