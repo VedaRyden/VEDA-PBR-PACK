@@ -23,11 +23,11 @@
                   "absorption": [0.2, 0.078, 0.083]
 				},
 				"cloud": {
-                  "scattering": [ 0.1, 0.1, 0.2 ],
+                  "scattering": [ 0.05, 0.05, 0.1 ],
                   "absorption": [ 0, 0, 0 ]
 				},
 				"air": { 
-				  "scattering": [ 0.02, 0.02, 0.03 ],
+				  "scattering": [ 0.02, 0.02, 0.04 ],
                   "absorption": [ 0, 0, 0 ]
 				}
 		 }

@@ -92,7 +92,7 @@
       }
     },
     "tone_mapping": {
-      "operator": "hable"
+      "operator": "reinhard_luminance"
     }
   }
 }
