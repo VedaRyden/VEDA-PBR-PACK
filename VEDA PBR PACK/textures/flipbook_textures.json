@@ -331,12 +331,20 @@
  {
   "atlas_tile": "soul_fire_0",
   "flipbook_texture": "textures/blocks/soul_fire_0",
-  "ticks_per_frame": 8
+  "frames": [
+   0,
+   1
+  ],
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "soul_fire_1",
   "flipbook_texture": "textures/blocks/soul_fire_1",
-  "ticks_per_frame": 8
+  "frames": [
+   0,
+   1
+  ],
+  "ticks_per_frame": 4
  },
  {
   "atlas_tile": "soul_campfire_fire",

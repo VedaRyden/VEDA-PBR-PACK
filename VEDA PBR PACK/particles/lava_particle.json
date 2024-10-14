@@ -66,7 +66,6 @@
         "size": [
           "(variable.particle_random_3 * 0.15 + 0.025) * (1 - Math.pow((variable.particle_age + query.frame_alpha) / variable.particle_lifetime, 2))",
           "(variable.particle_random_3 * 0.15 + 0.025) * (1 - Math.pow((variable.particle_age + query.frame_alpha) / variable.particle_lifetime, 2))"
-
         ],
         "facing_camera_mode": "lookat_xyz",
         "uv": {
@@ -74,7 +73,10 @@
           "texture_height": 128,
           "uv": [ 10, 26 ],
           "uv_size": [ 4, 4 ]
-        }
+        },
+        "minecraft:particle_appearance_tinting": {
+        "color": [1, 1, 1, 1]
+      }
       }
     }
   }
