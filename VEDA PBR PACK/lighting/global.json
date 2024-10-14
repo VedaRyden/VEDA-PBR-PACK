@@ -38,7 +38,7 @@
         "illuminance": 140,
         "color": "#72ffff"
       },
-      "orbital_offset_degrees": 36
+      "orbital_offset_degrees": -36
     },
     "emissive": {
       "desaturation": 0
