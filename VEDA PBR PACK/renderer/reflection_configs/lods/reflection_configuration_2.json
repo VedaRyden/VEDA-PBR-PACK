@@ -11,8 +11,8 @@
       }
     },
     "ibl": {
-      "num_samples": 16,
-      "dimension": 512
+      "num_samples": 64,
+      "dimension": 128
     },
     "ssr_enabled": true,
     "ssr": {
@@ -24,7 +24,7 @@
       "fading_power_horizontal": 3.0,
       "fading_power_vertical": 3.0,
       "fading_distance": 0.3,
-      "roughness_cutoff": 0.4,
-      "roughness_fade_start": 0.3
+      "roughness_cutoff": 1,
+      "roughness_fade_start": 0.001
   }
 }
