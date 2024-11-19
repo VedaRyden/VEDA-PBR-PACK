@@ -1,11 +1,6 @@
 {
-<<<<<<< Updated upstream
-"cascade_bias": [ 0.0, 0.0, 0.0, 0.0 ],
-  "cascade_slope_bias": [ 0.00042, 0.00042, 0.00042, 0.00042 ],
-=======
-"cascade_bias": [ 0.000001, 0.000001, 0.000001, 0.000001 ],
-  "cascade_slope_bias": [ 0.00001, 0.00001, 0.00001, 0.00001 ],
->>>>>>> Stashed changes
+"cascade_bias": [ 0, 0, 0, 0 ],
+  "cascade_slope_bias": [ 0.000001, 0.000001, 0.000001, 0.000001 ],
     "cascade_resolution": [ 2048, 1024, 512, 512 ],
     "cascade_light_quantization_steps": [ 1800, 900, 900, 900 ],
     "num_cascade_levels": 1,
@@ -15,7 +10,7 @@
       "near": 0.025,
       "far": 128.0
     },
-    "max_shadow_distance": 256.0,
+    "max_shadow_distance": 128.0,
     "cascade_range": [ 0.1666, 0.3333, 0.5, 1.0 ],
     "cascade_pcf_width": [ 0.0, 0.0, 0.0, 0.0 ],
     "shadow_clamp_angle": 30,

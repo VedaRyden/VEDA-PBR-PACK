@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:water_settings": {
     "description": {
-      "identifier": "vedapack:bahayarek"
+      "identifier": "vedapack:gelombang_laut"
     },
     "particle_concentrations": {
       "chlorophyll": 0,
