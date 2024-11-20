@@ -7,8 +7,8 @@
     "num_variable_cascade_levels": 1,
     "normal_offset_strength": 0.001,
     "shadow_range": {
-      "near": 0.025,
-      "far": 512.0
+      "near": 0.050,
+      "far": 256.0
     },
     "max_shadow_distance": 256.0,
     "cascade_range": [ 0.1666, 0.3333, 0.5, 1.0 ],

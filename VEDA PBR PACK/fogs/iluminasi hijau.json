@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+	 "description": {
+	 	"identifier": "kabut:iluminasihijau"
+	 },
+	 "volumetric": {
+		"density": {
+				"air": { 
+				  "max_density": 0.01, 
+				  "zero_density_height": 150.0, 
+				  "max_density_height": 50.0,
+				  "uniform": false
+				},
+				"water": {
+                  "max_density": 0.25,
+                  "uniform": true
+    }
+		  },
+			 "media_coefficients": {
+				"water": { 
+				  "scattering": [0.0, 0.021, 0.0], 
+                  "absorption": [0.0, 0.078, 0.0]
+				},
+				"air": { 
+				  "scattering": [ 0.00, 0.04, 0.00 ],
+                  "absorption": [ 0, 0, 0 ]
+				}
+		 }
+		}
+	}
+}
