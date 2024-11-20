@@ -17,14 +17,14 @@
   "ssr_enabled": true,
   "ssr": {
     "enable_gap_fill": false,
-    "linear_search_step_count": 1,
-    "binary_search_step_count": 1,
+    "linear_search_step_count": 600,
+    "binary_search_step_count": 20,
     "ray_step_length": 5.0,
     "ray_offset": 0.01,
     "fading_power_horizontal": 3,
     "fading_power_vertical": 3,
-    "fading_distance": 0.1,
-    "roughness_cutoff": 1.2,
+    "fading_distance": 0.01,
+    "roughness_cutoff": 0.4,
     "roughness_fade_start": 0.001
   }
 }
