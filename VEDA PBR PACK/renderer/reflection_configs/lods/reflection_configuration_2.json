@@ -20,11 +20,11 @@
       "linear_search_step_count": 200,
       "binary_search_step_count": 10,
       "ray_step_length": 5.0,
-      "ray_offset": 0.01,
-      "fading_power_horizontal": 3.0,
-      "fading_power_vertical": 3.0,
-      "fading_distance": 0.3,
-      "roughness_cutoff": 1,
-      "roughness_fade_start": 0.001
+    "ray_offset": 0.01,
+    "fading_power_horizontal": 32,
+    "fading_power_vertical": 32,
+    "fading_distance": 1,
+    "roughness_cutoff": 1,
+    "roughness_fade_start": 0
   }
 }

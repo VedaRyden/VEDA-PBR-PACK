@@ -11,20 +11,20 @@
     }
   },
   "ibl": {
-    "num_samples": 8,
-    "dimension": 128
+    "num_samples": 16,
+    "dimension": 64
   },
   "ssr_enabled": false,
   "ssr": {
     "enable_gap_fill": false,
     "linear_search_step_count": 0,
     "binary_search_step_count": 0,
-    "ray_step_length": 0,
-    "ray_offset": 0,
-    "fading_power_horizontal": 0,
-    "fading_power_vertical": 0,
-    "fading_distance": 0,
-    "roughness_cutoff": 0,
+    "ray_step_length": 5.0,
+    "ray_offset": 0.01,
+    "fading_power_horizontal": 8,
+    "fading_power_vertical": 8,
+    "fading_distance": 1,
+    "roughness_cutoff": 1,
     "roughness_fade_start": 0
   }
 }
