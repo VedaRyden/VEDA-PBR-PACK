@@ -1,0 +1,26 @@
+{
+    "automatic": {
+        "upscaling_factor": 0.00
+    },
+    "one_third": {
+        "upscaling_factor": 0.30
+    },
+    "one_half": {
+        "upscaling_factor": 0.50
+    },
+    "two_thirds": {
+        "upscaling_factor": 0.66
+    },
+    "three_quarters": {
+        "upscaling_factor": 0.75
+    },
+    "native": {
+        "upscaling_factor": 1.00
+    },
+    "taau": {
+        "upscaling_mode": "taau"
+    },
+    "bilinear": {
+        "upscaling_mode": "bilinear"
+    }
+}

@@ -3,9 +3,10 @@
  "format_version": 2,
  "header": {
   "description": "PBR Texture Pack For Ray Tracing\nMemerlukan GPU Yang Support Ray Tracing!\nPBR By : @VEDA_RAIDEN",
-  "name": "VEDA PACK PBR V1,5,7-Beta11",
+  "name": "VEDA PACK RTX V1,5,7-Beta12",
   "uuid": "67b10235-00f4-0484-8b1d-80a101222005",
-  "version": [1,5,7]
+  "version": [1,5,7],
+  "min_engine_version": [ 1, 21, 60 ]
  },
  "modules": [
   {

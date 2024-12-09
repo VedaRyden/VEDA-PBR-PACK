@@ -1,0 +1,10 @@
+{
+    "upscaling_configuration" : {
+        "file": "lods/upscaling_configuration_0.json"
+    },
+
+    "target_resolution": {
+        "x": 1280,
+        "y": 720
+    }
+}

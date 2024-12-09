@@ -1,11 +1,12 @@
 {
  "capabilities": ["pbr"],
- "format_version": 1,
+ "format_version": 2,
  "header": {
   "description": "PBR Texture Pack Untuk Deferred Technical Preview\nRekomendasi Menggunakan Mod Raiden Deferred!\nLightning & PBR By @VEDA_RAIDEN",
-  "name": "VEDA PACK PBR V1,5,7-Beta11",
+  "name": "VEDA PACK PBR V1,5,7-Beta12",
   "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
-  "version": [1,5,7]
+  "version": [1,5,7],
+  "min_engine_version": [ 1, 21, 60 ]
  },
  "modules": [
   {

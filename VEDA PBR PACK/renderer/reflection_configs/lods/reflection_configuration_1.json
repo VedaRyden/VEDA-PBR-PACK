@@ -12,7 +12,8 @@
     },
     "ibl": {
       "num_samples": 32,
-      "dimension": 64
+      "dimension": 32,
+      "convolution_type": "mip_chain"
     },
     "ssr_enabled": true,
     "ssr": {
