@@ -2,7 +2,6 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "Regginang",
-        "metalness_emissive_roughness": "Regginang_m",
-        "heightmap": "Regginang_h"
+        "metalness_emissive_roughness_subsurface": "Regginang_m"
     }
 }

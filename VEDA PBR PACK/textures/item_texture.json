@@ -3,7 +3,10 @@
  "texture_data": {
   "bread": {
       "textures": "textures/Regginang"
-    }
+    },
+    "iron_sword": {
+   "textures": "halilintar"
+  }
  },
  "texture_name": "atlas.items"
 }
