@@ -48,6 +48,8 @@ options.upscalingMode=Mode Upscaling
 options.upscalingModeOptions.taau=TAAU
 options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)
 
-options.graphicsQualityPresetMode=Preset Kualitas(Berat)
+options.graphicsQualityPresetMode=Preset Kualitas
 options.graphicsQualityPresetMode.performance=Utamakan Performa(Ringan)
-options.graphicsQualityPresetMode.visuals=Utamakan Visual(Berat)
+options.graphicsQualityPresetMode.visuals=Utamakan Visual Keindahan(Berat)
+
+options.bloomStrengthSlider=Bloom(Efek Glowing)	#
