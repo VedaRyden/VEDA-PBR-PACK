@@ -25,7 +25,7 @@
 								"source_property_name": "#toggle_state",
 								"target_property_name": "#visible"
 						}
-				],
+				], 
 				"controls": [
 						{
 								"deferred_render_distance_slider@settings_common.option_slider": {
