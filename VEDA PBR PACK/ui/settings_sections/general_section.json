@@ -10,7 +10,7 @@
 				"$toggle_property_bag": {
 						"#panel_title": "Raiden Deferred"
 				}
-		},
+		}, 
 		"raiden_section": {
 				"type": "stack_panel",
 				"size": [ "100%", "100%c" ],
