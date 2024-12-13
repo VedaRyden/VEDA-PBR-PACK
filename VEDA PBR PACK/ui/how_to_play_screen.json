@@ -29,18 +29,6 @@
             { "placing_blocks_button@how_to_play.placing_blocks_button": { "$toggle_group_forced_index": 3 } },
             { "inventory_button@how_to_play.inventory_button": { "$toggle_group_forced_index": 4 } },
 
-            { "preparing_for_the_night_category@how_to_play_common.topic_category": { "$category": "preparingForTheNight" } },
-            { "your_first_craft_button@how_to_play.your_first_craft_button": { "$toggle_group_forced_index": 5 } },
-            { "recipe_book_button@how_to_play.recipe_book_button": { "$toggle_group_forced_index": 6 } },
-            { "the_crafting_table_button@how_to_play.the_crafting_table_button": { "$toggle_group_forced_index": 7 } },
-            { "crafting_a_tool_button@how_to_play.crafting_a_tool_button": { "$toggle_group_forced_index": 8 } },
-            { "mining_button@how_to_play.mining_button": { "$toggle_group_forced_index": 9 } },
-
-            { "surviving_the_first_night_category@how_to_play_common.topic_category": { "$category": "survivingTheFirstNight" } },
-            { "nightfall_new_button@how_to_play.nightfall_new_button": { "$toggle_group_forced_index": 10 } },
-            { "building_a_shelter_button@how_to_play.building_a_shelter_button": { "$toggle_group_forced_index": 11 } },
-            { "death_and_respawn_button@how_to_play.death_and_respawn_button": { "$toggle_group_forced_index": 12 } },
-
             { "getting_settled_category@how_to_play_common.topic_category": { "$category": "gettingSettled" } },
             { "food_button@how_to_play.food_button": { "$toggle_group_forced_index": 13 } },
             { "beds_new_button@how_to_play.beds_new_button": { "$toggle_group_forced_index": 14 } },
@@ -55,8 +43,7 @@
                 "$toggle_group_forced_index": 25,
                 "ignored": "$education_edition"
               }
-            },
-            { "encyclopedia_button@how_to_play.encyclopedia_button": { "$toggle_group_forced_index": 26 } }
+            }
           ]
         }
       }

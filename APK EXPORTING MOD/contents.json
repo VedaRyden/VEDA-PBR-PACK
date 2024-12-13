@@ -1,0 +1,13 @@
+
+        {
+            "path": "ui/start_screen.json"
+        },
+        {
+            "path": "ui/gamma_calibration_screen.json"
+        },
+        {
+            "path": "texts/id_ID.lang"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
