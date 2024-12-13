@@ -1,15 +1,14 @@
 {
- "namespace": "settings",
+	"namespace": "settings",
 	"selector_stack_panel/controls_and_settings_selector_pane": {
 	"modifications": [
 	{
 		"control_name": "video_button",
-		"operation": "insert_before",
+		"operation": "insert_front",
 		"value": [
 		{
 			"raiden_button@general_section.raiden_button": {
-				"$toggle_group_forced_index": 0,
-				"$tts_section_header": "$general_section_header"
+				"$controls_section_header": "options.group.input"
 			}
 		}
 		]
@@ -25,10 +24,10 @@
 		{
 			"raiden_section@general_section.raiden_section": {
 				"visible": false
-			}
-		}
-		]
-	}
-	]
+}
+}
+]
+}
+]
 }
 }
