@@ -491,7 +491,7 @@
         }
       },
       {
-        "contoh": {
+        "contoh1": {
           "type": "image",
           "texture": "ui/shadowon",
           "size": [ "fill", 125 ]
@@ -518,7 +518,7 @@
         }
       },
       {
-        "contoh": {
+        "contoh1": {
           "type": "image",
           "texture": "ui/bayangancahayaon",
           "size": [ "fill", 125 ]
@@ -545,7 +545,7 @@
         }
       },
       {
-        "contoh": {
+        "contoh1": {
           "type": "image",
           "texture": "ui/volumetrikon",
           "size": [ "fill", 125 ]
@@ -572,7 +572,7 @@
         }
       },
       {
-        "contoh": {
+        "contoh1": {
           "type": "image",
           "texture": "ui/SSRon",
           "size": [ "fill", 125 ]
@@ -599,7 +599,7 @@
         }
       },
       {
-        "contoh": {
+        "contoh1": {
           "type": "image",
           "texture": "ui/bloomon",
           "size": [ "fill", 125 ]
@@ -626,7 +626,7 @@
         }
       },
       {
-        "contoh": {
+        "contoh1": {
           "type": "image",
           "texture": "ui/YTTA",
           "size": [ "fill", 125 ]

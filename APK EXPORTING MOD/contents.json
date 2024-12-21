@@ -1,4 +1,5 @@
-
+{
+    "content": [
         {
             "path": "ui/start_screen.json"
         },
@@ -9,5 +10,13 @@
             "path": "texts/id_ID.lang"
         },
         {
-            "path": "texts/en_US.lang"
+            "path": "ui/not_visible_raiden_logo.png"
         },
+        {
+            "path": "ui/easily_visible_raiden_logo.png"
+        },
+        {
+            "path": "ui/barely_visible_raiden_logo.png"
+        }
+    ]
+    }
