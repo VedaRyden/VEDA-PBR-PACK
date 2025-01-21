@@ -1,4 +1,4 @@
-{
+{//PC WINDOWS ULTRA
   "probe_regen": {
     "far_plane_scaling": 1.0,
     "texture_format": "R16G16B16A16_FLOAT",
@@ -11,15 +11,15 @@
     }
   },
   "ibl": {
-    "num_samples": 128,
-    "dimension": 256,
-    "convolution_type": "mip_chain"
+    "num_samples": 64,
+    "dimension": 512,
+    "convolution_type": "importance_sampled"
   },
   "ssr_enabled": true,
   "ssr": {
     "enable_gap_fill": true,
-    "linear_search_step_count": 800,
-    "binary_search_step_count": 30,
+    "linear_search_step_count": 400,
+    "binary_search_step_count": 20,
     "ray_step_length": 5.0,
     "ray_offset": 0.01,
     "fading_power_horizontal": 64,
