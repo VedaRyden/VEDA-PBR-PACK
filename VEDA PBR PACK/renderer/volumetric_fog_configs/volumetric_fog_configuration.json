@@ -1,0 +1,14 @@
+{
+	"low": {
+		"file": "lods/volumetric_fog_configuration_1.json"
+	},
+	"medium": {
+		"file": "lods/volumetric_fog_configuration_2.json"
+	},
+	"high": {
+		"file": "lods/volumetric_fog_configuration_4.json"
+	},
+	"ultra": {
+		"file": "lods/volumetric_fog_configuration_7.json"
+	}
+}
