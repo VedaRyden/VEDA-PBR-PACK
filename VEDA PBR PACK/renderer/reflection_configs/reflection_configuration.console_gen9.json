@@ -1,0 +1,14 @@
+{
+  "low": {
+    "file": "lods/reflection_configuration_2.json"
+  },
+  "medium": {
+    "file": "lods/reflection_configuration_4.json"
+  },
+  "high": {
+    "file": "lods/reflection_configuration_6.json"
+  },
+  "ultra": {
+    "file": "lods/reflection_configuration_7.json"
+  }
+}
