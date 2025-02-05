@@ -1,6 +1,6 @@
 {//SHADOW HIGH = PC WINDOWS
 "cascade_bias": [ 0.0, 0.0, 0.0, 0.0 ],
-    "cascade_slope_bias": [ 0.00042, 0.00042, 0.00042, 0.00042 ],
+   "cascade_slope_bias": [ 0.0002, 0.00042, 0.00042, 0.00042 ],
     "cascade_light_quantization_steps": [ 1800, 900, 900, 900 ],
   "cascade_resolution": [ 2048, 2048, 1024, 1024 ],
     "num_cascade_levels": 1,
