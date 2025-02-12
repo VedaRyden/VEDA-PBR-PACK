@@ -2,8 +2,7 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "creeper_meletup",
-        "metalness_emissive_roughness_subsurface": "creeper_meletup_m",
-        "heightmap": "creeper_meletup_h"
+        "metalness_emissive_roughness_subsurface": "creeper_meletup_m"
 
     }
 }

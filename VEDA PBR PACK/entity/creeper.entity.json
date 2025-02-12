@@ -47,7 +47,7 @@
           "creeper_swelling": "controller.animation.creeper.swelling"
         }
       ],
-      "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor", "controller.render.creeper_meletup" ]
+      "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor" ]
     }
   }
 }

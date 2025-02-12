@@ -6,7 +6,9 @@
   "name": "VEDA PACK PBR V1,5,7-Beta13",
   "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
   "version": [1,5,7],
-  "min_engine_version": [ 1, 21, 70 ]
+  "min_engine_version": [ 1,
+  21,
+  60 ]
  },
  "modules": [
   {
