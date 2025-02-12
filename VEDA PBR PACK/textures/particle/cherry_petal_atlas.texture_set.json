@@ -2,6 +2,8 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "cherry_petal_atlas",
-        "metalness_emissive_roughness": "cherry_petal_atlas_m"
+        "metalness_emissive_roughness_subsurface": "cherry_petal_atlas_m",
+        "heightmap": "cherry_petal_atlas_h"
+        
     }
 }

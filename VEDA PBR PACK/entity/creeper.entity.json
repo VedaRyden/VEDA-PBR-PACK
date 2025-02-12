@@ -10,6 +10,7 @@
       },
       "textures": {
         "default": "textures/entity/creeper/creeper",
+        "meletup": "textures/entity/creeper/creeper_meletup",
         "charged": "textures/entity/creeper/creeper_armor"
       },
       "geometry": {
@@ -46,7 +47,7 @@
           "creeper_swelling": "controller.animation.creeper.swelling"
         }
       ],
-      "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor" ]
+      "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor", "controller.render.creeper_meletup" ]
     }
   }
 }
