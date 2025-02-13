@@ -22,6 +22,7 @@
     },
     "controller.render.ambalabu_muka_ptp":{
       "geometry":"Geometry.muka",
+      "materials": [ { "*": "Material.muka" } ],
       "textures": [
         "q.time_of_day>0.75 || q.time_of_day<0.20 ? Texture.malam : Texture.muka"
       ]
