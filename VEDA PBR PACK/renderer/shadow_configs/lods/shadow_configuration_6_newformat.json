@@ -1,0 +1,82 @@
+{
+  "format_version": "1.21.60",
+  "cascades": [
+    [
+      {
+        "has_static_geometry": false,
+        "has_dynamic_geometry": true,
+        "bias": 0.0,
+        "slope_bias": 0.00042,
+        "light_quantization_steps": 1800,
+        "resolution": 2048,
+        "range": 0.1666,
+        "update_frequency": 1,
+        "update_offset": 0,
+        "pcf_width": 0.0
+      },
+      {
+        "has_static_geometry": false,
+        "has_dynamic_geometry": true,
+        "bias": 0.0,
+        "slope_bias": 0.00042,
+        "light_quantization_steps": 900,
+        "resolution": 2048,
+        "range": 0.3333,
+        "update_frequency": 1,
+        "update_offset": 1,
+        "pcf_width": 0.0
+      },
+      {
+        "has_static_geometry": false,
+        "has_dynamic_geometry": true,
+        "bias": 0.0,
+        "slope_bias": 0.00042,
+        "light_quantization_steps": 900,
+        "resolution": 2048,
+        "range": 0.5,
+        "update_frequency": 1,
+        "update_offset": 1,
+        "pcf_width": 0.0
+      },
+      {
+        "has_static_geometry": false,
+        "has_dynamic_geometry": true,
+        "bias": 0.0,
+        "slope_bias": 0.00042,
+        "light_quantization_steps": 900,
+        "resolution": 2048,
+        "range": 1.0,
+        "update_frequency": 1,
+        "update_offset": 1,
+        "pcf_width": 0
+      }
+    ],
+    [
+      {
+        "has_static_geometry": false,
+        "has_dynamic_geometry": true,
+        "bias": 0.0,
+        "slope_bias": 0.00042,
+        "light_quantization_steps": 900,
+        "resolution": 2048,
+        "range": 0.1,
+        "update_frequency": 1,
+        "update_offset": 1,
+        "pcf_width": 0
+      }
+    ]
+  ],
+  "normal_offset_strength": 0.065,
+  "shadow_range": {
+    "near": 0.025,
+    "far": 128.0
+  },
+  "max_shadow_distance": 128.0,
+  "shadow_clamp_angle": 30,
+  "cloud_shadow_contribution": 0.4,
+  "cloud_shadow_pcf_width": 16.0,
+  "cloud_shadow_quantization_steps": 7200,
+  "sun_shadows": true,
+  "moon_shadows": true,
+  "cloud_shadows": true
+}

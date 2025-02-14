@@ -11,7 +11,7 @@
     }
   },
   "ibl": {
-    "num_samples": 64,
+    "num_samples": 1,
     "dimension": 512,
     "convolution_type": "importance_sampled"
   },
@@ -20,12 +20,12 @@
     "enable_gap_fill": true,
     "linear_search_step_count": 400,
     "binary_search_step_count": 20,
-    "ray_step_length": 5.0,
+    "ray_step_length": 1.0,
     "ray_offset": 0.01,
-    "fading_power_horizontal": 64,
-    "fading_power_vertical": 64,
+    "fading_power_horizontal": 32,
+    "fading_power_vertical": 32,
     "fading_distance": 1,
-    "roughness_cutoff": 1,
+    "roughness_cutoff": 3,
     "roughness_fade_start": 0,
     "thickness": 0.0
   }
