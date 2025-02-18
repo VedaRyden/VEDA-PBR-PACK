@@ -13,7 +13,7 @@
   "ibl": {
     "num_samples": 1,
     "dimension": 128,
-    "convolution_type": "importance_sampled"
+    "convolution_type": "mip_chain"
   },
   "ssr_enabled": false,
   "ssr": {

@@ -1,43 +1,27 @@
-﻿options.hdr_brightness=Kecerahan %s°	#
-options.graphicsMode.deferred=Deffered Rendering	#
+﻿resourcePack.vedapack.desc=PBR Texture Pack For Deferred Technical Preview\nUse Raiden Deferred To Up performance!\nLightning & PBR By @VEDA_RAIDEN	#
+
+options.hdr_brightness=brightness %s°	#
 options.graphicsMode.rayTraced=Ray Tracing	#
-options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
-options.graphicsModeOptions.fancy=Opsi Grafis Indah	#
-options.graphicsModeOptions.deferred=Opsi Grafis Deffered Rendering	#
-options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing	#
 
-options.shadowQuality=Kualitas Bayangan	#
-options.shadowQuality.low=Mati§b(FPS BOOST)	#
-options.shadowQuality.medium=Sedang(Rekomendasi)	#
-options.shadowQuality.high=Tinggi(Buram)	#
-options.shadowQuality.ultra=Ultra§a(Rata Kanan)	#
+options.shadowQuality.low=OFF§b(FPS BOOST!)	#
+options.shadowQuality.medium=Medium(Recommended)	#
+options.shadowQuality.high=High(Blury)	#
+options.shadowQuality.ultra=Ultra§a(HD)	#
 
-options.pointLightShadowQuality=Kualitas Bayangan Cahaya	#
-options.pointLightShadowQuality.off=Mati	#
-options.pointLightShadowQuality.low=Rendah	#
-options.pointLightShadowQuality.medium=Menengah(Rekomendasi)	#
-options.pointLightShadowQuality.high=Tinggi(Buram)	#
-options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan)	#
+options.pointLightShadowQuality.off=OFF	#
+options.pointLightShadowQuality.medium=Menengah(Recommended)	#
+options.pointLightShadowQuality.ultra=Ultra§a(HD)	#
 
-options.pointLightLODingQuality=Kualitas Cahaya	#
-options.pointLightLODingQuality.low=Rendah	#
-options.pointLightLODingQuality.medium=Sedang(Rekomendasi)	#
-options.pointLightLODingQuality.high=Tinggi	#
-options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan)	#
+options.pointLightLODingQuality.medium=Medium(Recommended)	#
+options.pointLightLODingQuality.ultra=Ultra§a(HD)	#
 
-options.volumetricFogQuality=Kualitas Kabut Volumetrik	#
-options.volumetricFogQuality.off=Mati§a§b(FPS BOOST)	#
-options.volumetricFogQuality.low=Rendah(Rekomendasi)	#
-options.volumetricFogQuality.medium=Sedang	#
-options.volumetricFogQuality.high=Tinggi	#
-options.volumetricFogQuality.ultra=Ultra§a(Rata Kanan)	#
+options.volumetricFogQuality.off=OFF§a§b(FPS BOOST!)	#
+options.volumetricFogQuality.low=Low(Recommended)	#
+options.volumetricFogQuality.ultra=Ultra§a(HD)	#
 
-options.reflectionsQuality=Refleksi	#
-options.reflectionsQuality.off=Mati§c(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)	#
-options.reflectionsQuality.low=Rendah(Rekomendasi)	#
-options.reflectionsQuality.medium=Menengah	#
-options.reflectionsQuality.high=Tinggi	#
-options.reflectionsQuality.ultra=Ultra§a(Rata Kanan)	#
+options.reflectionsQuality.off=OFF§c(Not Recommended! Causes Black Metallic Effect)	#
+options.reflectionsQuality.low=Low(Recommended)	#
+options.reflectionsQuality.ultra=Ultra§a(HD)	#
 
 options.deferred.upscaling=Fallback Upscaling	#
 options.upscaling=DLSS Upscaling	#

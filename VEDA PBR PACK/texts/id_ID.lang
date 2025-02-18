@@ -1,4 +1,6 @@
-﻿options.hdr_brightness=Kecerahan %s°	#
+﻿resourcePack.vedapack.desc=Paket Tekstur PBR Untuk Deferred Technical Preview\nDisarankan Menggunakan Mod Raiden Deferred!\nLighting & PBR By @VEDA_RAIDEN	#
+
+options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
 
 options.graphicsMode.deferred=Deferred Rendering	#

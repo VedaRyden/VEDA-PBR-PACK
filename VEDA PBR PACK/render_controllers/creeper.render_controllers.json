@@ -5,7 +5,7 @@
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
       "part_visibility":[{"mulut":"query.swell_amount"}],
-      "textures": [ "query.swelling_dir>0 || query.swelling_dir<0 ? Texture.meletup : Texture.default" ]
+      "textures": [ "((variable.flash == 0) || (query.swelling_dir<0)) ? Texture.default : Texture.meletup" ]
       
     }
   }
