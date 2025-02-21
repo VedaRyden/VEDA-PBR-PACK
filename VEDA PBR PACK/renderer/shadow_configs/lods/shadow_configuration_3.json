@@ -1,16 +1,16 @@
 {//SHADOW ULTRA = ANDROID
 "cascade_bias": [ 0.0, 0.0, 0.0, 0.0 ],
-    "cascade_slope_bias": [ 0.0002, 0.00042, 0.00042, 0.00042 ],
+"cascade_slope_bias": [ 0.00004, 0.00008, 0.00008, 0.00008 ],
     "cascade_light_quantization_steps": [ 1800, 900, 900, 900 ],
   "cascade_resolution": [ 2048, 1024, 512, 512 ],
-    "num_cascade_levels": 1,
+    "num_cascade_levels": 3,
     "num_variable_cascade_levels": 1,
-    "normal_offset_strength": 0.001,
+    "normal_offset_strength": 0.065,
     "shadow_range": {
       "near": 0.025,
-      "far": 512.0
+      "far": 128.0
     },
-    "max_shadow_distance": 512.0,
+    "max_shadow_distance": 128.0,
     "cascade_range": [ 0.1666, 0.3333, 0.5, 1.0 ],
     "cascade_pcf_width": [ 0.0, 0.0, 0.0, 0.0 ],
     "shadow_clamp_angle": 30,

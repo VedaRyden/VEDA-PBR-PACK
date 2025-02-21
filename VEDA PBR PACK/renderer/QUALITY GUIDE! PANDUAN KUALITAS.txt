@@ -1,0 +1,50 @@
+[ INDONESIA ]
+
+[Low End] Disarankan Menggunakan Set Kualitas
+Kualitas Bayangan = OFF
+Kualitas Bayangan Cahaya = OFF
+Kualitas Cahaya = Low
+Kabut Volumetrik = OFF/Low
+Refleksi = OFF/Low/Medium
+Bloom(Mekar) = 0%
+
+[Mid End] Disarankan Menggunakan Set Kualitas
+Kualitas Bayangan = Medium
+Kualitas Bayangan Cahaya = OFF/Medium
+Kualitas Cahaya = Low
+Kabut Volumetrik = Low
+Refleksi = High/Ultra
+
+[High End] Disarankan Menggunakan Set Kualitas
+Kualitas Bayangan = Ultra
+Kualitas Bayangan Cahaya = Ultra
+Kualitas Cahaya = Low
+Kabut Volumetrik = Ultra
+Refleksi = Ultra
+
+
+
+[ ENGLISH ]
+
+[Low End] Using a Quality Set is Recommended
+Shadow = OFF
+Point Light Shadow = OFF
+Point Light Quality = Low
+Volumetric Fogs = OFF/Low
+Reflection = OFF/Low/Medium
+
+[Mid End] Using a Quality Set is Recommended
+Shadow = Medium
+Point Light Shadow = OFF/Medium
+Point Light Quality = Low
+Volumetric Fogs = Low
+Reflection = High/Ultra
+
+[High End] Using a Quality Set is Recommended
+Shadow = Ultra
+Point Light Shadow = Ultra
+Point Light Quality = Low
+Volumetric Fogs = Ultra
+Reflection = Ultra
+
+
