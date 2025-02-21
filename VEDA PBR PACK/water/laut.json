@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:water_settings": {
     "description": {
-      "identifier": "vedapack:gelombang_air"
+      "identifier": "vedapack:gelombang_laut"
     },
     "particle_concentrations": {
       "chlorophyll": 0,
@@ -14,7 +14,7 @@
       "frequency": 1.5,
       "octaves": 7,
       "depth": 0.025,
-      "sampleWidth": 0.009999999776482582,
+      "sampleWidth": 0.009,
       "speed": 2,
       "shape": 5,
       "pull": 0.5,

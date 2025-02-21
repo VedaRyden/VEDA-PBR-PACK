@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:water_settings": {
     "description": {
-      "identifier": "vedapack:gelombang_air"
+      "identifier": "vedapack:air_tenang"
     },
     "particle_concentrations": {
       "chlorophyll": 0,
@@ -10,7 +10,7 @@
       "cdom": 0
     },
     "waves": {
-      "enabled": true,
+      "enabled": false,
       "frequency": 1.5,
       "octaves": 7,
       "depth": 0.025,
