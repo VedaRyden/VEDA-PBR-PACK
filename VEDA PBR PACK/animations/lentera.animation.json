@@ -1,8 +1,8 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.16.0",
 	"animations": {
-		"animation.minecraft:lantern.ptp": {
-			"loop": "hold_on_last_frame",
+		"animation.lentera.ptp": {
+			"loop": true,
 			"bones": {
 				"bone4": {
 					"rotation": [0, -90, 0],
@@ -23,12 +23,12 @@
 				}
 			}
 		},
-		"animation.minecraft:lantern.pov": {
+		"animation.lentera.pov": {
 			"loop": true,
 			"bones": {
 				"lentera": {
 					"rotation": ["c.item_slot== 'off_hand' ? -1.0 : 31.0", "c.item_slot== 'off_hand' ? 62.0 : 18.0", "c.item_slot== 'off_hand' ? -1.0 : -120.0"],
-					"position": ["c.item_slot== 'off_hand' ? -27.3 : 0", "c.item_slot== 'off_hand' ? 12.4 : 30.0", "c.item_slot== 'off_hand' ? 22.4 : 0"]
+					"position": ["c.item_slot== 'off_hand' ? -27.3 : 5", "c.item_slot== 'off_hand' ? 12.4 : 25.0", "c.item_slot== 'off_hand' ? 22.4 : 0"]
 				},
 				"bone2": {
 					"position": [-1, 7, 1],
