@@ -1,0 +1,15 @@
+{
+  "format_version":"1.16.0",
+  "render_controllers":{
+    "controller.render.lentera_pov":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures":["Texture.default"]
+    },
+    "controller.render.lentera_ptp":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures":["Texture.default"]
+    }
+  }
+}
