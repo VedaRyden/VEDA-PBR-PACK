@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.70",
   "minecraft:water_settings": {
     "description": {
       "identifier": "vedapack:gelombang_laut"
@@ -11,16 +11,17 @@
     },
     "waves": {
       "enabled": true,
-      "frequency": 1.5,
-      "octaves": 7,
-      "depth": 0.025,
-      "sampleWidth": 0.009,
-      "speed": 2,
-      "shape": 5,
-      "pull": 0.5,
-      "mix": 0.2,
-      "frequency_scaling": 1,
-      "speed_scaling": 1
+      "depth": 1,
+            "frequency": 1,
+            "frequency_scaling": 1.2000000476837158,
+            "mix": 0.20000000298023224,
+            "octaves": 28,
+            "pull": 0.3799999952316284,
+            "sampleWidth": 0.009999999776482582,
+            "shape": 1.5,
+            "speed": 2,
+            "speed_scaling": 1.0299999713897705,
+      "direction_increment": 80
     }
   }
 }

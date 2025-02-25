@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.70",
   "minecraft:water_settings": {
     "description": {
       "identifier": "vedapack:gelombang_air"
@@ -20,6 +20,7 @@
       "pull": 0.5,
       "mix": 0.2,
       "frequency_scaling": 1,
+      "direction_increment": 80,
       "speed_scaling": 1
     }
   }

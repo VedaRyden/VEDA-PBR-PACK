@@ -4,11 +4,23 @@
     "controller.render.lentera_pov":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
+      "part_visibility":[{"gelap1":"q.swell_amount"},{"gelap2":"q.swell_amount"},{"gelap3":"q.swell_amount"}],
       "textures":["Texture.default"]
     },
     "controller.render.lentera_ptp":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
+      "part_visibility":[{"gelap1":"q.swell_amount"},{"gelap2":"q.swell_amount"},{"gelap3":"q.swell_amount"}],
+      "textures":["Texture.default"]
+    },
+    "controller.render.lentera_redup_pov":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.redup" } ],
+      "textures":["Texture.default"]
+    },
+    "controller.render.lentera_redup_ptp":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.redup" } ],
       "textures":["Texture.default"]
     }
   }

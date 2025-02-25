@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
       "identifier": "desert_hills"
@@ -8,6 +8,9 @@
       "minecraft:fog_appearance": {
         "fog_identifier": "kabut:pasir"
       },
+      "minecraft:water_identifier": {
+      "water_identifier": "vedapack:air_tenang"
+    },
       "minecraft:water_appearance": {
         "surface_color": "#1a7aa1"
       }

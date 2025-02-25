@@ -3,7 +3,7 @@
 	"minecraft:attachable": {
 		"description": {
 			"identifier": "minecraft:iron_sword",
-			"render_controllers": ["controller.render.item_default"],
+			"render_controllers": ["controller.render.pedanghalilintar"],
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest_glint"

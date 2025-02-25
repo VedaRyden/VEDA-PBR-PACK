@@ -2,10 +2,10 @@
   "format_version":"1.16.0",
   "minecraft:attachable":{
     "description":{
-      "identifier":"minecraft:lantern",
+      "identifier":"minecraft:soul_lantern",
       "materials":{"default":"entity_emissive_alpha","redup":"entity_alphatest"},
       "textures":{
-        "default":"lentera"
+        "default":"lenterajawa"
       },
       "geometry":{"default":"geometry.lentera"},
       "scripts":{
