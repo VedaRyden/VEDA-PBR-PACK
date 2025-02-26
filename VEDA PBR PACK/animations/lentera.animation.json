@@ -68,7 +68,7 @@
 			"bones": {
 				"lentera": {
 					"rotation": ["c.item_slot== 'off_hand' ? -1.0 : 31.0", "c.item_slot== 'off_hand' ? 62.0 : 18.0", "c.item_slot== 'off_hand' ? -1.0 : -120.0"],
-					"position": ["c.item_slot== 'off_hand' ? -27.3 : 7", "c.item_slot== 'off_hand' ? 12.4 : 20.0", "c.item_slot== 'off_hand' ? 22.4 : 1"]
+					"position": ["c.item_slot== 'off_hand' ? -27.3 : 7", "c.item_slot== 'off_hand' ? 12.4 : 20.0", "c.item_slot== 'off_hand' ? 22.4 : 3"]
 				},
 				"bone2": {
 					"position": [-1, 7, 1],
