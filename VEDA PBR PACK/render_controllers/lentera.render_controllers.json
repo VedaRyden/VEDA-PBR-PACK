@@ -16,11 +16,13 @@
     "controller.render.lentera_redup_pov":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.redup" } ],
+      "part_visibility":[{"bone4":"q.swell_amount"},{"bone2":"q.swell_amount"},{"bone3":"q.swell_amount"}],
       "textures":["Texture.default"]
     },
     "controller.render.lentera_redup_ptp":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.redup" } ],
+      "part_visibility":[{"bone4":"q.swell_amount"},{"bone2":"q.swell_amount"},{"bone3":"q.swell_amount"}],
       "textures":["Texture.default"]
     }
   }

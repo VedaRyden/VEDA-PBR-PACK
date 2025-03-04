@@ -3,7 +3,7 @@
   "minecraft:attachable":{
     "description":{
       "identifier":"minecraft:lantern",
-      "materials":{"default":"entity_emissive_alpha","redup":"entity_alphatest"},
+      "materials":{"default":"entity_alphatest","redup":"entity_alphatest"},
       "textures":{
         "default":"lentera"
       },
