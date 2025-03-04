@@ -1,17 +1,13 @@
 {
   "format_version": "1.21.40",
-  "minecraft:minecraft:point_light_settings": {
+  "minecraft:point_light_settings": {
       "colors": {
         "minecraft:soul_torch": [
           0,
           255,
           255
         ],
-        "minecraft:portal": [
-          255,
-          0,
-          255
-        ],
+        "minecraft:portal": "#ff00ff",
         "minecraft:soul_lantern": [
           0,
           255,

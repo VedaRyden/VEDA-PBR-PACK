@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "iron_trapdoor",
 		"heightmap": "iron_trapdoor_h",
-		"metalness_emissive_roughness_subsurface": "iron_trapdoor_m"
+		"metalness_emissive_roughness": "iron_trapdoor_m"
 	}
 }
