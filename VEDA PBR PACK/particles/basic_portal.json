@@ -2,9 +2,9 @@
   "format_version": "1.10.0",
   "particle_effect": {
     "description": {
-      "identifier": "minecraft:portal_directional",
+      "identifier": "minecraft:basic_portal_particle",
       "basic_render_parameters": {
-        "material": "particles_opaque",
+        "material": "particles_alpha",
         "texture": "textures/particle/particles_ender"
       }
     },
@@ -27,9 +27,9 @@
 
       "minecraft:particle_motion_parametric": {
         "relative_position": [
-          "variable.alpha = variable.particle_age/variable.particle_lifetime; variable.distance = (1-(-1*(variable.alpha)+Math.Pow((variable.alpha),2)*2)); return variable.direction.x * variable.distance;",
-          "variable.direction.y * variable.distance - variable.alpha",
-          "variable.direction.z * variable.distance"
+          0.0,
+          "-1.0 * (variable.particle_age/variable.particle_lifetime)",
+          0.0
         ]
       },
 

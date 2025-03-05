@@ -5,7 +5,7 @@
       "identifier": "minecraft:mob_portal",
       "basic_render_parameters": {
         "material": "particles_opaque",
-        "texture": "textures/particle/particles"
+        "texture": "textures/particle/particles_ender"
       }
     },
     "components": {
