@@ -1,4 +1,4 @@
-﻿pack.description=Paket Tekstur PBR Untuk Deferred Technical Preview\nDisarankan Menggunakan Mod Raiden Deferred!\nLighting & PBR By @VEDA_RAIDEN	#
+﻿pack.description=Paket Tekstur PBR Untuk Deferred Technical Preview\nDisarankan Menggunakan Mod Raiden Deferred!\nLighting & PBR By @VEDA_RAIDEN\n[RAIDEN DEFERRED TIDAK TERMASUK!]\n[RAIDEN DEFERRED BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI!]	#
 
 options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
@@ -18,14 +18,15 @@ options.shadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.pointLightShadowQuality=Kualitas Bayangan Cahaya 	#
 options.pointLightShadowQuality.off=Mati§b(FPS BOOST)	#
-options.pointLightShadowQuality.low=Rendah	#
-options.pointLightShadowQuality.medium=Menengah(Rekomendasi)	#
+options.pointLightShadowQuality.low=Rendah(Rekomendasi)	#
+options.pointLightShadowQuality.medium=Menengah	#
 options.pointLightShadowQuality.high=Tinggi	#
 options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan)	#
 
 options.pointLightLODingQuality=Kualitas Cahaya 	#
+options.pointLightLODingQuality.off=Mati(Rekomendasi)	### {MaxLength=32}
 options.pointLightLODingQuality.low=Rendah	#
-options.pointLightLODingQuality.medium=Sedang(Rekomendasi)	#
+options.pointLightLODingQuality.medium=Sedang	#
 options.pointLightLODingQuality.high=Tinggi	#
 options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan)	#
 

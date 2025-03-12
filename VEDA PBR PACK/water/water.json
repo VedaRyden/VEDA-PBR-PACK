@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.70",
+  "format_version": "1.21.80",
   "minecraft:water_settings": {
     "description": {
       "identifier": "vedapack:gelombang_air"
@@ -22,6 +22,13 @@
       "frequency_scaling": 1,
       "direction_increment": 80,
       "speed_scaling": 1
+    },
+    "caustics": {
+      "enabled": true,
+      "frame_length": 0.05,
+      "texture": "caustics_terang",
+      "scale": 0.5,
+      "power": 2
     }
   }
 }
