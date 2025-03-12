@@ -1,5 +1,5 @@
 {
-  "bias": 0.001,
+  "bias": 0.0,
   "slope_bias": 0.001,
   "far_plane": 15.0,
   "near_plane": 0.1,
