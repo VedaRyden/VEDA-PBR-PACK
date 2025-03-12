@@ -1,5 +1,5 @@
 {
     "mode": "multi",
-    "upscale_factor": 0.5,
+    "upscale_factor": 0.33,
     "local_exposure": true
 }
