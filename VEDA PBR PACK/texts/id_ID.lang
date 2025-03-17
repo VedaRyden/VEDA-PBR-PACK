@@ -21,14 +21,14 @@ options.pointLightShadowQuality.off=Mati§b(FPS BOOST)	#
 options.pointLightShadowQuality.low=Rendah(Rekomendasi)	#
 options.pointLightShadowQuality.medium=Menengah	#
 options.pointLightShadowQuality.high=Tinggi	#
-options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan)	#
+options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.pointLightLODingQuality=Kualitas Cahaya 	#
 options.pointLightLODingQuality.off=Mati(Rekomendasi)	### {MaxLength=32}
 options.pointLightLODingQuality.low=Rendah	#
 options.pointLightLODingQuality.medium=Sedang	#
 options.pointLightLODingQuality.high=Tinggi	#
-options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan)	#
+options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.volumetricFogQuality=Kualitas Kabut Volumetrik 	#
 options.volumetricFogQuality.off=Mati§a§b(FPS BOOST)	#
