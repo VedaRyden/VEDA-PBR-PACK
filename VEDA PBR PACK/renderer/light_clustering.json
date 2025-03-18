@@ -1,0 +1,7 @@
+{
+	"lights_per_cluster": 50,
+	"cluster_size": [40, 40, 16],
+	"far_plane": 10.0,
+	"cluster_first_depth_max": 3.0,
+	"cluster_second_depth_max": 6.0
+}
