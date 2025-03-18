@@ -1,0 +1,813 @@
+{
+  "android": {
+    "tiers": {
+      "3": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "off",
+            "bloom": false,
+            "point_light_lodding": "off",
+            "reflections": "off",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 1
+          }
+        }
+      ],
+      "4": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "off",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "720p",
+            "default_deferred_distance": 1
+          }
+        }
+      ],
+      "5": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "off",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "off",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "720p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "720p",
+            "default_deferred_distance": 1
+          }
+        }
+      ]
+    },
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.android.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.android.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.android.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.android.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.android.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.android.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  },
+  "chrome_os": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "off",
+          "volumetric_fog": "low",
+          "bloom": false,
+          "point_light_lodding": "off",
+          "reflections": "low",
+          "upscaling_mode": "taau",
+          "target_resolution": "720p",
+          "default_deferred_distance": 8
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "ultra",
+          "point_light_shadows": "off",
+          "volumetric_fog": "ultra",
+          "bloom": true,
+          "point_light_lodding": "off",
+          "reflections": "ultra",
+          "upscaling_mode": "taau",
+          "target_resolution": "720p",
+          "default_deferred_distance": 8
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  },
+  "switch": {
+    "tiers": {
+      "docked": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "off",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "540p",
+            "default_deferred_distance": 6
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "540p",
+            "default_deferred_distance": 6
+          }
+        }
+      ],
+      "handheld": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "off",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "540p",
+            "default_deferred_distance": 6
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "540p",
+            "default_deferred_distance": 6
+          }
+        }
+      ]
+    },
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.switch.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.switch.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.switch.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.switch.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.switch.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.switch.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.switch.json"
+    }
+  },
+  "console": {
+    "tiers": {
+      "1": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "720p",
+            "default_deferred_distance": 8
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "medium",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "720p",
+            "default_deferred_distance": 8
+          }
+        }
+      ],
+      "2": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 12
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "medium",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "high",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 12
+          }
+        }
+      ],
+      "3": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "high",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "high",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1440p",
+            "default_deferred_distance": 16
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "ultra",
+            "point_light_shadows": "off",
+            "volumetric_fog": "high",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "ultra",
+            "upscaling_mode":"taau",
+            "target_resolution": "1440p",
+            "default_deferred_distance": 16
+          }
+        }
+      ]
+    },
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.console.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.console.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.console.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.console.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.console.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.console.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  },
+  "console_gen8": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "off",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "off",
+          "reflections": "low",
+          "upscaling_mode":"bilinear",
+          "target_resolution": "720p",
+          "default_deferred_distance": 8
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "off",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "off",
+          "reflections": "medium",
+          "upscaling_mode":"bilinear",
+          "target_resolution": "720p",
+          "default_deferred_distance": 8
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.console_gen8.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.console_gen8.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.console_gen8.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.console_gen8.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.console_gen8.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.console_gen8.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  },
+  "console_gen8_5": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "off",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "off",
+          "reflections": "low",
+          "upscaling_mode":"bilinear",
+          "target_resolution": "1080p",
+          "default_deferred_distance": 8
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "medium",
+          "point_light_shadows": "off",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "off",
+          "reflections": "medium",
+          "upscaling_mode":"bilinear",
+          "target_resolution": "1080p",
+          "default_deferred_distance": 8
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.console_gen8_5.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.console_gen8_5.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.console_gen8_5.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.console_gen8_5.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.console_gen8_5.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.console_gen8_5.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  },
+  "console_gen9": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "off",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "off",
+          "reflections": "low",
+          "upscaling_mode":"bilinear",
+          "target_resolution": "1440p",
+          "default_deferred_distance": 8
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "high",
+          "point_light_shadows": "off",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "off",
+          "reflections": "high",
+          "upscaling_mode":"taau",
+          "target_resolution": "1440p",
+          "default_deferred_distance": 8
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.console_gen9.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.console_gen9.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.console_gen9.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.console_gen9.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.console_gen9.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.console_gen9.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  },
+  "ios": {
+    "tiers": {
+      "2": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": false,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 4
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 6
+          }
+        }
+      ]
+    },
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.ios.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.ios.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.ios.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.ios.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.ios.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.ios.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  },
+  "pc": {
+    "tiers": {
+      "1": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "720p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 1
+          }
+        }
+      ],
+      "2": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "low",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "medium",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 1
+          }
+        }
+      ],
+      "3": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "high",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "ultra",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 1
+          }
+        }
+      ],
+      "4": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1080p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "ultra",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "ultra",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1440p",
+            "default_deferred_distance": 1
+          }
+        }
+      ],
+      "5": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "high",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "1440p",
+            "default_deferred_distance": 1
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "ultra",
+            "point_light_shadows": "off",
+            "volumetric_fog": "ultra",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "ultra",
+            "upscaling_mode":"bilinear",
+            "target_resolution": "2160p",
+            "default_deferred_distance": 1
+          }
+        }
+      ]
+    },
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.pc.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.pc.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.pc.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.pc.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.pc.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configs/render_distance_configuration.pc.json"
+    },
+    "deferred_lighting_config": {
+      "file":  "deferred_lighting_configs/deferred_lighting_configuration.json"
+    }
+  }
+}

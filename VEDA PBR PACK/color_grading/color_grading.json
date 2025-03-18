@@ -63,7 +63,7 @@
         ]
       },
       "shadows": {
-        "enabled": true,
+        "enabled": false,
         "shadowsMax": 0.4,
         "contrast": [
           1.3,
