@@ -8,7 +8,7 @@
           "global_metalness_emissive_roughness_subsurface": [0, 0, 255, 0]
       },
       "particles": {
-          "global_metalness_emissive_roughness_subsurface": [0, 0, 255, 20]
+          "global_metalness_emissive_roughness_subsurface": [0, 0, 255, 10]
       },
       "items": {
           "global_metalness_emissive_roughness_subsurface": [0, 0, 255, 0]
