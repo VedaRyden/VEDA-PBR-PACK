@@ -4,9 +4,11 @@
     "armor:entity_emissive_alpha": {"emissive_alpha":1},
     "entity_emissive_glint:entity_emissive_alpha": {"emissive_alpha":1},
     "entity_emissive_lens:entity": {"+states": [ "Blending" ]},
-    "entity_emissive_lentera:entity_emissive_alpha": {
-      "+defines": [ "USE_UV_ANIM" ]
-    },
+    "entity_emissive_lentera:entity":{
+            "+defines":[
+                "USE_UV_ANIM"
+            ]
+        },
     "minecart:entity_emissive_alpha": {},
   "bed:entity_emissive_alpha": {},
   "bee:entity_emissive_alpha": {},

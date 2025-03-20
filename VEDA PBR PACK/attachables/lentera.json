@@ -3,16 +3,12 @@
   "minecraft:attachable":{
     "description":{
       "identifier":"minecraft:lantern",
-      "materials":{"default":"entity_emissive_lentera"},
+      "materials":{"default":"entity_emissive_alpha"},
       "textures":{"default":"lentera"},
       "geometry":{"default":"geometry.lentera"},
-      "scripts":{
-      "animate":[{"3rd":"!c.is_first_person && !q.is_name_any('§§')"},{"1st":"c.is_first_person"}]},
+      "scripts":{"animate":[{"3rd":"!c.is_first_person && !q.is_name_any('§§')"},{"1st":"c.is_first_person"}]},
       "animations":{"3rd":"animation.lentera.ptp","1st":"animation.lentera.pov"},
-      "render_controllers":[
-        {"controller.render.lentera_ptp":"!c.is_first_person"},
-        {"controller.render.lentera_pov":"c.is_first_person"}
-      ]
+      "render_controllers":["controller.render.lentera"]
     }
   }
 }
