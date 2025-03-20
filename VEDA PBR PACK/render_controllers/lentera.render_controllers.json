@@ -1,25 +1,21 @@
 {
-  "format_version":"1.16.0",
+  "format_version":"1.8.0",
   "render_controllers":{
     "controller.render.lentera_pov":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "textures":["Texture.default"]
+      "textures":["Texture.default"],
+      "uv_anim": {"scale": [1, "1 / 3"],
+				"offset": [0, "Math.mod(Math.floor(query.life_time * 7), 3) / 3"]
+			}
     },
     "controller.render.lentera_ptp":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "textures":["Texture.default"]
-    },
-    "controller.render.lentera_redup_pov":{
-      "geometry":"Geometry.redup",
-      "materials": [ { "*": "Material.redup" } ],
-      "textures":["Texture.default"]
-    },
-    "controller.render.lentera_redup_ptp":{
-      "geometry":"Geometry.redup",
-      "materials": [ { "*": "Material.redup" } ],
-      "textures":["Texture.default"]
+      "textures":["Texture.default"],
+      "uv_anim": {"scale": [1, "1 / 3"],
+				"offset": [0, "Math.mod(Math.floor(query.life_time * 7), 3) / 3"]
+			}
     }
   }
 }

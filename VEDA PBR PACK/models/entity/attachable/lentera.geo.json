@@ -44,47 +44,6 @@
 					]
 				}
 			]
-		},
-		{
-			"description": {
-				"identifier": "geometry.lenteraredup",
-				"texture_width": 24,
-				"texture_height": 13,
-				"visible_bounds_width": 4,
-				"visible_bounds_height": 3,
-				"visible_bounds_offset": [0, 0.5, 0]
-			},
-			"bones": [
-				{
-					"name": "lentera",
-					"pivot": [0, 0, 0],
-					"binding": "q.item_slot_to_bone_name(c.item_slot)"
-				},
-				{
-					"name": "gelap1",
-					"parent": "lentera",
-					"pivot": [-0.5, 0.5, 0.5],
-					"cubes": [
-						{"origin": [-1, 0, 0], "size": [1, 1, 1], "uv": [18, 0]}
-					]
-				},
-				{
-					"name": "gelap2",
-					"parent": "lentera",
-					"pivot": [-0.5, 0.5, 0.5],
-					"cubes": [
-						{"origin": [-1, 0, 0], "size": [1, 1, 1], "uv": [18, 0]}
-					]
-				},
-				{
-					"name": "gelap3",
-					"parent": "lentera",
-					"pivot": [-0.5, 0.5, 0.5],
-					"cubes": [
-						{"origin": [-1, 0, 0], "size": [1, 1, 1], "uv": [18, 0]}
-					]
-				}
-			]
 		}
 	]
 }
