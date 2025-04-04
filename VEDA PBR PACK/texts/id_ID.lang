@@ -1,9 +1,12 @@
-﻿pack.description=Paket Tekstur PBR Untuk Deferred Technical Preview\nDisarankan Menggunakan Mod Raiden Deferred!\nLighting & PBR By @VEDA_RAIDEN\n[RAIDEN DEFERRED TIDAK TERMASUK!]\n[RAIDEN DEFERRED BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI!]	#
+﻿pack.description=Paket Tekstur PBR & Visuals Pack Untuk Vibrant Visuals\nDisarankan Menggunakan Mod Raiden Visuals!\nLighting & PBR By @VEDA_RAIDEN\n[RAIDEN VISUALS TIDAK TERMASUK!]\n[RAIDEN VISUALS BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI!]	#
+
+createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
+createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
 
 options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
 
-options.graphicsMode.deferred=Deferred Rendering	#
+options.graphicsMode.deferred=Vibrant Visuals	#
 options.graphicsMode.rayTraced=Ray Tracing	#
 options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
 options.graphicsModeOptions.fancy=Opsi Grafis Indah	#
@@ -24,7 +27,7 @@ options.pointLightShadowQuality.high=Tinggi	#
 options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.pointLightLODingQuality=Kualitas Cahaya 	#
-options.pointLightLODingQuality.off=Mati(Rekomendasi)	### {MaxLength=32}
+options.pointLightLODingQuality.off=Mati(Rekomendasi)	###
 options.pointLightLODingQuality.low=Rendah	#
 options.pointLightLODingQuality.medium=Sedang	#
 options.pointLightLODingQuality.high=Tinggi	#
