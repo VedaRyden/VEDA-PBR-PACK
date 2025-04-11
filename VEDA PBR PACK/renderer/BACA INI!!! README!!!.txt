@@ -4,16 +4,18 @@ INI UNTUK PEMASANGAN MANUAL UNTUK USER WINDOWS/PC
 UNTUK ANDROID DOWNLOAD VERSI APK NYA BUKAN YG INI(KECUALI KALAU BISA MASANG SENDIRI)
 CARA PEMASANGAN MANUAL UNTUK ANDROID ADA DI DISCORD "TUTORIAL ANDROID"
 
-"Raiden_Deferred.7z Hanya Untuk Pemasangan Manual Bagi Yg Ngerti Cara Masangnya Sendiri"
+"Raiden_Visuals.7z Hanya Untuk Pemasangan Manual Bagi Yg Ngerti Cara Masangnya Sendiri"
 
 UNTUK CARA MASANG DI PC WINDOWS SUDAH SAYA BUATKAN VIDEO TUTORIALNYA DI DISCORD "TUTORIAL WINDOWS"
 
-RAIDEN DEFERRED INI OPEN SOURCE DAN BOLEH DI MODIFIKASI ATAU COPY PASTE ASALKAN KASIH
-           "//RAIDEN DEFERRED BY @VEDA_RAIDEN" Untuk Credits Nya,
+RAIDEN VISUALS INI OPEN SOURCE DAN BOLEH DI MODIFIKASI ATAU COPY PASTE ASALKAN KASIH
+           "//RAIDEN VISUALS BY @VEDA_RAIDEN" Untuk Credits Nya,
            Gw Berterimakasih Dan Rimspek Buat Yg Nambahin Credits
 
 @VEDA_RAIDEN Hanya Memodifikasi Konfigurasi Dari @Mojang/Microsoft.
-@Mojang, @Microsoft Pembuat Asli Konfigurasi Deferred Technical Preview.
+@Mojang, @Microsoft Pembuat Asli Konfigurasi Vibrant Visuals.
+
+
 
 [ENGLISH]
 If You Download This File
@@ -22,13 +24,13 @@ THIS IS FOR MANUAL INSTALLATION FOR WINDOWS/PC USERS
 FOR ANDROID DOWNLOAD THE APK VERSION NOT THIS ONE (UNLESS YOU CAN INSTALL IT YOURSELF)
 HOW TO INSTALL MANUALLY FOR ANDROID IS ON DISCORD "ANDROID TUTORIAL"
 
-"Raiden_Deferred.7z Only For Manual Installation For Those Who Understand How To Install It Themselves"
+"Raiden_Visuals.7z Only For Manual Installation For Those Who Understand How To Install It Themselves"
 
 FOR HOW TO INSTALL ON WINDOWS PC, I HAVE MADE A VIDEO TUTORIAL ON DISCORD "WINDOWS TUTORIAL"
 
-RAIDEN DEFERRED IS OPEN SOURCE AND CAN BE MODIFIED OR COPY PASTE AS LONG AS YOU GIVE IT
-"//RAIDEN DEFERRED BY @VEDA_RAIDEN" For the Credits,
-I Thank You And Rimspek For Those Who Added Credits
+RAIDEN VISUALS IS OPEN SOURCE AND CAN BE MODIFIED OR COPY PASTE AS LONG AS YOU GIVE IT
+"//RAIDEN VISUALS BY @VEDA_RAIDEN" For the Credits,
+I Thank You And Respect For Those Who Added Credits
 
 @VEDA_RAIDEN Just Modified Configs From @Mojang/Microsoft.
-@Mojang, @Microsoft Original Creators of Deferred Technical Preview Configs.
+@Mojang, @Microsoft Original Creators of Vibrant Visuals Configs.

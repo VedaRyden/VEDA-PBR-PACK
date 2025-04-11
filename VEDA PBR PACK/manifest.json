@@ -8,6 +8,23 @@
   "version": [1,5,7],
   "min_engine_version": [1,21,80]
  },
+ "subpacks": [
+  {
+   "folder_name": "16x",
+   "memory_tier": 2,
+   "name": "Kualitas Bayangan 16x Pixel Perblock(Ringan)\nSeperti Vibrant Visual Yang Bayangan Nya Pixelated. Kualitas Bayangan 16x itu cukup ringan untuk performa :D."
+  },
+  {
+   "folder_name": "512x",
+   "memory_tier": 1,
+   "name": "Kualitas Bayangan 512x Pixel Perblock\nLEBIH TAJAM DAN LEBIH JELAS, Tapi Mungkin Akan Sedikit Berat Jadi Cobalah :D."
+  },
+  {
+    "folder_name": "256x",
+    "memory_tier": 0,
+    "name": "Kualitas Bayangan 256x Pixel Perblock(Bawaan)\nLebih Jelas Dan Tajam Ini Yg Ku Impikan Pengen Benar Benar Bisa Mempertajam Bayangan Tanpa Scaterring. Apa yg ku mau sudah terpenuhi termasuk bayangan tajam dan bersih tanpa gradasi atau efek blur disisinya :D"
+   }
+ ],
  "modules": [
   {
    "description": "Minecraft Max HDR FHD 16K 512FPS",

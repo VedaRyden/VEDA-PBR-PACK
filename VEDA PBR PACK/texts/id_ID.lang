@@ -19,6 +19,12 @@ options.shadowQuality.medium=Sedang(Rekomendasi)	#
 options.shadowQuality.high=Tinggi	#
 options.shadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
+options.cloudQuality=Awan	### Cloud quality slider name {MaxLength=32}
+options.cloudQuality.low=Rendah(Rekomendasi)	### {MaxLength=32}
+options.cloudQuality.medium=Medium	### {MaxLength=32}
+options.cloudQuality.high=Tinggi	### {MaxLength=32}
+options.cloudQuality.ultra=Ultra§a(Rata Kanan!)	### {MaxLength=32}
+
 options.pointLightShadowQuality=Kualitas Bayangan Cahaya 	#
 options.pointLightShadowQuality.off=Mati§b(FPS BOOST)	#
 options.pointLightShadowQuality.low=Rendah(Rekomendasi)	#
@@ -57,8 +63,8 @@ options.upscalingModeOptions.taau=TAAU
 options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)
 
 options.graphicsQualityPresetMode=Preset Kualitas 
-options.graphicsQualityPresetMode.performance=Utamakan Performa(Ringan)
-options.graphicsQualityPresetMode.visuals=Utamakan Keindahan(Berat)
+options.graphicsQualityPresetMode.performance=Utamakan Performa(Ringan & Direkomendasikan)
+options.graphicsQualityPresetMode.visuals=Utamakan Kualitas(Berat)
 
 options.bloomStrengthSlider=Bloom(Efek Glowing) 	#
 

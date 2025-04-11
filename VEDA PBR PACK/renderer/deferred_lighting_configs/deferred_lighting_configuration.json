@@ -1,5 +1,6 @@
 {
-    "mixed_res_enabled": true,
+    "mixed_res_enabled": false,
     "upscale_factor": 0.33,
-    "local_exposure": false
+    "local_exposure": true
+    
 }

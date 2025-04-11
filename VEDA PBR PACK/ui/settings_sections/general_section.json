@@ -32,14 +32,14 @@
   },
   "namespace": "general_section",
   "raiden_button@settings_common.section_toggle_base": {
-    "$toggle_view_binding_name": "Settingan Grafis Deferred",
+    "$toggle_view_binding_name": "Settingan Grafis Vibrant visuals",
     "$glyph_texture": "ui/raiden button glow",
     "$glyph_color_texture": "ui/raiden button",
     "$glyph_offset": [ "-1.0%" , 0],
     "$glyph_size": [ 30, 30 ],
-    "$button_text": "Opsi Deferred",
+    "$button_text": "Opsi Vibrant Visuals",
     "$toggle_property_bag": {
-      "#panel_title": "Settingan Grafis Deferred"
+      "#panel_title": "Settingan Grafis Vibrant visuals"
     }
   }, 
   "raiden_section": {
@@ -52,7 +52,7 @@
     "bindings": [
       {
         "binding_type": "view",
-        "source_control_name": "Settingan Grafis Deferred",
+        "source_control_name": "Settingan Grafis Vibrant visuals",
         "source_property_name": "#toggle_state",
         "target_property_name": "#visible"
       }

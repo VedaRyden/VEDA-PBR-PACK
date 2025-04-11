@@ -1,0 +1,14 @@
+{
+	"low": {
+		"file": "lods/cloud_configuration_0.json"
+	},
+	"medium": {
+		"file": "lods/cloud_configuration_1.json"
+	},
+	"high": {
+		"file": "lods/cloud_configuration_2.json"
+	},
+	"ultra": {
+		"file": "lods/cloud_configuration_3.json"
+	}
+}
