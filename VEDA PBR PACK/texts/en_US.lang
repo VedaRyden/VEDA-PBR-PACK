@@ -1,4 +1,4 @@
-﻿resourcePack.vedapack.desc=PBR Texture Pack For Deferred Technical Preview\nUse Raiden Deferred To Up performance!\nLightning & PBR By @VEDA_RAIDEN	#
+﻿pack.description=PBR Texture Pack For Vibrant Visuals\nUse Raiden Visuals To Up performance!\nLightning & PBR By @VEDA_RAIDEN	#
 
 options.hdr_brightness=brightness %s°	#
 options.graphicsMode.rayTraced=Ray Tracing	#

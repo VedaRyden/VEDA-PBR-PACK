@@ -3,6 +3,8 @@
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
 
+resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG VIBRANT VISUAL, YANG SABAR YA:)	#
+
 options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
 
@@ -10,7 +12,7 @@ options.graphicsMode.deferred=Vibrant Visuals	#
 options.graphicsMode.rayTraced=Ray Tracing	#
 options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
 options.graphicsModeOptions.fancy=Opsi Grafis Indah	#
-options.graphicsModeOptions.deferred=Opsi Grafis Deferred Rendering	#
+options.graphicsModeOptions.deferred=Opsi Grafis Vibrant Visuals	#
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing	#
 
 options.shadowQuality=Kualitas Bayangan 	#
@@ -19,11 +21,11 @@ options.shadowQuality.medium=Sedang(Rekomendasi)	#
 options.shadowQuality.high=Tinggi	#
 options.shadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
-options.cloudQuality=Awan	### Cloud quality slider name {MaxLength=32}
-options.cloudQuality.low=Rendah(Rekomendasi)	### {MaxLength=32}
-options.cloudQuality.medium=Medium	### {MaxLength=32}
-options.cloudQuality.high=Tinggi	### {MaxLength=32}
-options.cloudQuality.ultra=Ultra§a(Rata Kanan!)	### {MaxLength=32}
+options.cloudQuality=Awan	#
+options.cloudQuality.low=Rendah(Rekomendasi)	#
+options.cloudQuality.medium=Medium	#
+options.cloudQuality.high=Tinggi	#
+options.cloudQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.pointLightShadowQuality=Kualitas Bayangan Cahaya 	#
 options.pointLightShadowQuality.off=Mati§b(FPS BOOST)	#
