@@ -2,7 +2,6 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "bush",
-        "metalness_emissive_roughness_subsurface": "bush_m",
-        "heightmap": "bush_h"
+        "metalness_emissive_roughness_subsurface": "bush_m"
     }
 }

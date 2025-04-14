@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:creeper",
@@ -17,6 +17,9 @@
         "default": "geometry.creeper.v1.8",
         "charged": "geometry.creeper.charged.v1.8"
       },
+      "spawn_egg": {
+        "texture": "spawn_egg_creeper"
+      },
       "scripts": {
         "pre_animation": [
           "variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
@@ -29,25 +32,17 @@
       "animations": {
         "creeper_head": "animation.common.look_at_target",
         "creeper_legs": "animation.creeper.legs",
-        "creeper_swelling": "animation.creeper.swelling"
+        "creeper_swelling": "animation.creeper.swelling",
+        "creeper_nyengir": "controller.animation.creeper.nyengir"
       },
       "sound_effects": {
       "hwehehehe": "kriper.hehe",
       "kamu_gitu": "player.diinformasikan"
       },
-      "animation_controllers": [
-        { "creeper_nyengir": "controller.animation.creeper.nyengir" },
-        {
-          "creeper_head": "controller.animation.creeper.head"
-        },
-        {
-          "creeper_legs": "controller.animation.creeper.legs"
-        },
-        {
-          "creeper_swelling": "controller.animation.creeper.swelling"
-        }
-      ],
-      "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor" ]
+      "render_controllers": [
+        "controller.render.creeper",
+        { "controller.render.creeper_armor": "query.is_powered" }
+      ]
     }
   }
 }

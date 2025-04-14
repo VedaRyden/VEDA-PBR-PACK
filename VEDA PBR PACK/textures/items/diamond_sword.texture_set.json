@@ -3,6 +3,6 @@
     "minecraft:texture_set": {
         "color": "diamond_sword",
         "metalness_emissive_roughness_subsurface": "diamond_sword_m",
-        "heightmap": "diamond_sword_h"
+        "normal": "diamond_sword_h"
     }
 }

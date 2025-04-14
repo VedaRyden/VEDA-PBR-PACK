@@ -2,7 +2,7 @@
 	"format_version": "1.21.30",
 	"minecraft:texture_set": {
 		"color": "double_plant_paeonia_bottom",
-		"metalness_emissive_roughness_subsurface": "double_plant_paeonia_bottom_m",
+		"metalness_emissive_roughness_subsurface": "grass_top_m",
 		"heightmap": "double_plant_paeonia_bottom_h"
 	}
 }
