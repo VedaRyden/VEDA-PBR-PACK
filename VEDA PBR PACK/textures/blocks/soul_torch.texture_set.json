@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "soul_torch",
 		"metalness_emissive_roughness": "soul_torch_m",
-		"heightmap": "soul_torch_h"
+		"heightmap": "redstone_torch_off_h"
 	}
 }

@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.30",
 	"minecraft:texture_set": {
 		"color": "glow_lichen",
-		"metalness_emissive_roughness": "glow_lichen_m",
+		"metalness_emissive_roughness_subsurface": "glow_lichen_m",
 		"heightmap": "glow_lichen_h"
 	}
 }
