@@ -11,6 +11,9 @@
       "minecraft:fog_appearance": {
         "fog_identifier": "kabut:seram"
       },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "vedapack:raiden_pale_color_grading"
+      },
       "minecraft:water_appearance": {
         "surface_color": "#76889D"
       }

@@ -1,7 +1,6 @@
 {
-  "format_version": "1.21.70",
+  "format_version": "1.21.80",
   "minecraft:water_settings": {
-    "format_version": "1.21.70",
     "description": {
       "identifier": "vedapack:gelombang_laut"
     },
@@ -9,6 +8,12 @@
       "chlorophyll": 0,
       "suspended_sediment": 0,
       "cdom": 0
+    },
+    "caustics": {
+      "enabled": true,
+      "frame_length": 0.05,
+      "scale": 0.5,
+      "power": 2
     },
     "waves": {
       "enabled": true,
