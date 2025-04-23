@@ -17,7 +17,7 @@
 },
 "ssr_enabled": true,
 "ssr": {
-  "enable_gap_fill": true,
+  "enable_gap_fill": false,
   "linear_search_step_count": 200,
   "binary_search_step_count": 10,
   "ray_step_length": 4.0,
