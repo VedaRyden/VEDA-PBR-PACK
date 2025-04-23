@@ -1,0 +1,11 @@
+[Rendering][error]-Error: err: 0 code: generic:22
+loadFromJsonFile of assets/renderer/platform_configuration.json encountered 9 error(s).
+ loadFromFileReference of assets/renderer/shadow_configs/lods/shadow_configuration.android.low.json from assets/renderer/shadow_configs/shadow_configuration.android.json encountered 3 error(s).
+ missing required field
+ the input must be a number >= 1
+ expected an object
+ Failed to apply override on member: shadow_pcf_scale. Details: Target type differs from override.
+ Failed to apply override on member: shadow_pcf_scale. Details: Target type differs from override.
+ Failed to apply override on member: ssr. Details: Failed to apply override on member: fading_power_vertical. Details: Target type differs from override.
+ Failed to apply override on member: ssr. Details: Failed to apply override on member: fading_power_horizontal. Details: Target type differs from override.
+ Failed to apply override on member: ssr. Details: Failed to apply override on member: roughness_cutoff. Details: Target type differs from override.<:brainrot:1303199577800966164>

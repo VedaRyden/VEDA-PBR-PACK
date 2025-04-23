@@ -1,14 +1,14 @@
 {
   "low": {
-    "file": "lods/reflection_configuration_0.json"
+    "file": "lods/reflection_configuration.android.low.json"
   },
   "medium": {
-    "file": "lods/reflection_configuration_1.json"
+    "file": "lods/reflection_configuration.android.medium.json"
   },
   "high": {
-    "file": "lods/reflection_configuration_2.json"
+    "file": "lods/reflection_configuration.android.high.json"
   },
   "ultra": {
-    "file": "lods/reflection_configuration_3.json"//NO WINDOWS
+    "file": "lods/reflection_configuration.android.ultra.json"
   }
 }

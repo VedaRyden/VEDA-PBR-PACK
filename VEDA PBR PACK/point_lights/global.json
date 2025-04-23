@@ -23,11 +23,7 @@
           200,
           0
         ],
-        "minecraft:glow_lichen": [
-          174,
-          175,
-          140
-        ],
+        //"minecraft:glow_lichen": [ 174,175,140 ],
         "minecraft:redstone_torch": [
           255,
           0,

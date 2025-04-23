@@ -1,0 +1,15 @@
+{
+ "parent": {
+    "file": "reflection_configuration.android.low.json"
+  },
+  "overrides": {
+    "ssr_enabled": true,
+    "ssr": {
+      "linear_search_step_count": 300,
+      "binary_search_step_count": 20,
+      "ray_step_length": 3.0,
+    "fading_power_horizontal": 3,
+    "fading_power_vertical": 3
+  }
+  }
+}

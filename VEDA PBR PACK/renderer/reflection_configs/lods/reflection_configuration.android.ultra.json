@@ -1,0 +1,15 @@
+{
+  "parent": {
+     "file": "reflection_configuration.android.low.json"
+   },
+   "overrides": {
+     "ssr": {//update gak pake gap fill buat ssr ultra android
+  "linear_search_step_count": 200,
+  "ray_step_length": 4.0,
+  "fading_power_horizontal": 3,
+  "fading_power_vertical": 3,
+  "roughness_cutoff": 3
+}
+   }
+ }
+ 
