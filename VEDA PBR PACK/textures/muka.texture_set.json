@@ -2,7 +2,7 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "muka",
-        "metalness_emissive_roughness_subsurface": "muka_m",
+        "metalness_emissive_roughness": "muka_m",
         "normal": "muka_n"
     }
 }
