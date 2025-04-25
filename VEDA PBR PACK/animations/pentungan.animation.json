@@ -1,0 +1,101 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pentungan.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [-161.0113, -21.38517, -102.91111],
+					"position": [0.5, 23, -0.2]
+				},
+				"bone": {
+					"position": [0, 0.75, 0]
+				},
+				"bone3": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone4": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone5": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone6": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone7": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone8": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone9": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone2": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"gagang": {
+					"position": [0, 2.5, 0],
+					"scale": [2, 0.5, 2]
+				}
+			}
+		},
+		"animation.pentungan.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [-90, -1.8, -235],
+					"position": [0.5, 21, -1.2]
+				},
+				"bone": {
+					"position": [0, 0.75, 0]
+				},
+				"bone3": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone4": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone5": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone6": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone7": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone8": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone9": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone2": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"gagang": {
+					"position": [0, 2.5, 0],
+					"scale": [2, 0.5, 2]
+				}
+			}
+		}
+	}
+}

@@ -5,6 +5,14 @@ createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafi
 
 resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG VIBRANT VISUAL, YANG SABAR YA:)	#
 
+item.shield.name=Veda Shield 	#
+item.iron_sword.name=Pedang Halilintar	#
+item.trident.name=Trisula Halilintar 	#
+entity.thrown_trident.name=Trisula Halilintar	# 
+item.wooden_sword.name=Kentungan Kayu	#
+item.bread.name=Regginang	#
+item.totem.name=Ambalabu	#
+
 options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
 
