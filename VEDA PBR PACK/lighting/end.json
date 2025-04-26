@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.80",//Pake format 1.21.60 Malah Ngebug njim Di Yapping Expexted Keyframe Halah.
+  "format_version": "1.21.80",
   "minecraft:lighting_settings": {
     "description": {
       "identifier": "vedapack:end_raiden_lighting"
@@ -7,38 +7,14 @@
       "directional_lights": {
         "orbital": {
         "sun": {
-          "illuminance": {//Pencahayaan Cerah Dari Vibrant Visuals
-            "0.000000": 100.0,
-            "0.050000": 100.0,
-            "1.000000": 100.0,
-            "0.313846": 0.0,
-            "0.684230": 0.0,
-            "0.950000": 100.0
-          },
-          "color": {
-            "0.5": [108,31,9 ],
-            "0.75": [255,119,0 ],
-            "0.82": [76, 58, 15 ],
-            "0.18": [76, 58, 15 ],
-            "0.25": [255,119,0 ],
-            "0.35": [108,31,9 ]
-          }
+          "illuminance": {"0.0": 100.0,"1.0": 100.0},
+          "color": {"0.0": [228, 93, 255 ],"1.0": [228, 93, 255 ]}
         },
-          "moon": {//Pencahayaan Cakep Malam
-            "illuminance": {
-            "0.750000": 0.0,
-            "0.000000": 0.0,
-            "0.200000": 0.0,
-            "1.000000": 0.0,
-            "0.225000": 0.75,
-            "0.735000": 0.75
-          },
-            "color": {
-            "0.000000": [ 114, 255, 255 ],
-            "1.000000": [ 114, 255, 255 ]
-          }
+        "moon": {
+          "illuminance": {"0.0": 0.1,"1.0": 0.1},
+          "color": {"0.0": [228, 93, 255 ],"1.0": [228, 93, 2555 ]}
         },
-        "orbital_offset_degrees": {
+        "orbital_offset_degrees": {//Orbit Matahari 360 Derajat
           "0.5": 330,
           "0.75": 330,
           "0.82": 330,
@@ -51,22 +27,17 @@
         "0.25": 330,
       "0.35": 330
     }
-  },
+      },
     "flash": {
-        "illuminance": 10.0,
-        "color": [ 228, 93, 255 ]
+      "illuminance": 10.0,
+      "color": [228, 93, 255 ]
       }
-      },
-      "emissive": {
-       "desaturation": 0//Biar gak memutih efek bloom/terang nya
-      },
+    },
+    "emissive": {"desaturation": 0},
       "ambient": {
-        "color": "#FFFFFF",
+        "color": "#FF00FF",
         "illuminance": 0.02
-        
       },
-      "sky": {
-        "intensity": 0.25
-    }
+      "sky": {"intensity": 1}
   }
 }

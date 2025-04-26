@@ -6,7 +6,7 @@
     },
     "sword": {
       "textures": [
-        "textures/items/wood_sword",
+        "pentung",
         "textures/items/stone_sword",
         "halilintar",
         "textures/items/gold_sword",
@@ -16,6 +16,9 @@
     },
     "iron_sword": {
    "textures": "halilintar"
+  },
+  "wooden_sword": {
+   "textures": "pentung"
   }
  },
  "texture_name": "atlas.items"

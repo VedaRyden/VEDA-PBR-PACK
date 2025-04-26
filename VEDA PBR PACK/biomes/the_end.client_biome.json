@@ -15,7 +15,7 @@
         "surface_color": "#62529e"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "vedapack:raiden_atmosperics"
+        "atmosphere_identifier": "vedapack:end_raiden_atmosperics"
       },
       "minecraft:color_grading_identifier": {
         "color_grading_identifier": "vedapack:raiden_color_grading"
