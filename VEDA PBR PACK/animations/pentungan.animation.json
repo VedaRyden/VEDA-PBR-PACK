@@ -6,7 +6,7 @@
 			"bones": {
 				"root_item": {
 					"rotation": [0, 0, -145],
-					"position": [0, 26, 3]
+					"position": [0, 26, -1]
 				},
 				"bone": {
 					"position": [0, 0.75, 0]
@@ -54,7 +54,7 @@
 			"bones": {
 				"root_item": {
 					"rotation": [-270, -3.2, -415],
-					"position": [0.5, 21, -1.2]
+					"position": [0, 21, 1.8]
 				},
 				"bone": {
 					"position": [0, 0.75, 0]
