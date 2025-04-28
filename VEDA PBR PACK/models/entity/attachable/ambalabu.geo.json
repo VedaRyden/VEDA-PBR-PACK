@@ -90,7 +90,7 @@
 				"identifier": "geometry.item.ambalabu.muka",
 				"texture_width": 256,
 				"texture_height": 95,
-				"visible_bounds_width": 14,
+				"visible_bounds_width": 17,
 				"visible_bounds_height": 11,
 				"visible_bounds_offset": [0, 3.5, 0]
 			},
@@ -108,9 +108,9 @@
 				{
 					"name": "muka",
 					"parent": "kepala",
-					"pivot": [2, 37, -30],
+					"pivot": [2, 32, 116],
 					"cubes": [
-						{"origin": [2, 37, -90], "size": [0, 95, 128], "pivot": [0, 0, -32], "rotation": [0, 180, 0], "uv": [0, -128]}
+						{"origin": [2, 37, 38], "size": [0, 95, 128], "pivot": [0, 0, 68], "rotation": [0, 180, 0], "uv": [0, -128]}
 					]
 				}
 			]

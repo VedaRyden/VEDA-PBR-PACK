@@ -14,7 +14,7 @@
           "illuminance": {"0.0": 0.1,"1.0": 0.1},
           "color": {"0.0": [228, 20, 20 ],"1.0": [228,20, 20 ]}
         },
-        "orbital_offset_degrees": {//Orbit Matahari 360 Derajat
+        "orbital_offset_degrees": {
           "0.5": 330,
           "0.75": 330,
           "0.82": 330,

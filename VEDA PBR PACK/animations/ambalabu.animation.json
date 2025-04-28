@@ -13,16 +13,8 @@
 					"position": [1, 0, 0]
 				},
 				"badan": {
-					"rotation": [
-						"c.item_slot== 'off_hand' ? -1.0 : 31.0",
-						"c.item_slot== 'off_hand' ? 62.0 : 18.0",
-						"c.item_slot== 'off_hand' ? -1.0 : -120.0"
-					],
-					"position": [
-						"c.item_slot== 'off_hand' ? -27.3 : 2.3",
-						"c.item_slot== 'off_hand' ? 12.4 : 5.0",
-						"c.item_slot== 'off_hand' ? 22.4 : 8.4"
-					],
+					"rotation": ["c.item_slot== 'off_hand' ? -1.0 : 31.0", "c.item_slot== 'off_hand' ? 62.0 : 18.0", "c.item_slot== 'off_hand' ? -1.0 : -120.0"],
+					"position": ["c.item_slot== 'off_hand' ? -27.3 : 2.3", "c.item_slot== 'off_hand' ? 12.4 : 5.0", "c.item_slot== 'off_hand' ? 22.4 : 8.4"],
 					"scale": 0.4
 				},
 				"tangankiri": {
@@ -43,7 +35,7 @@
 					"rotation": [-10, 0, 0]
 				},
 				"muka": {
-					"position": [0.9, -18.01, 24],
+					"position": [0.9, -18.01, -51],
 					"scale": 0.095
 				}
 			}
@@ -60,16 +52,8 @@
 					"position": [1, 0, 0]
 				},
 				"badan": {
-					"rotation": [
-						"c.item_slot== 'off_hand' ? -266 : -274",
-						10,
-						-90
-					],
-					"position": [
-						"c.item_slot== 'off_hand' ? -1 : 0",
-						9,
-						-3.7
-					],
+					"rotation": ["c.item_slot== 'off_hand' ? -266 : -274", 10, -90],
+					"position": ["c.item_slot== 'off_hand' ? -1 : 0", 9, -3.7],
 					"scale": 0.2
 				},
 				"tangankiri": {
@@ -90,7 +74,7 @@
 					"rotation": [-10, 0, 0]
 				},
 				"muka": {
-					"position": [0.9, -18.01, 24],
+					"position": [0.9, -18.01, -51],
 					"scale": 0.095
 				}
 			}
