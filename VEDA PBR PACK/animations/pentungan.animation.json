@@ -5,46 +5,46 @@
 			"loop": true,
 			"bones": {
 				"root_item": {
-					"rotation": [0, 0, -145],
-					"position": [0, 26, -1]
+					"rotation": [15.50409, 14.47751, -121.03287],
+					"position": [0, 23, 2]
 				},
 				"bone": {
 					"position": [0, 0.75, 0]
 				},
 				"bone3": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"bone4": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"bone5": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"bone6": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"bone7": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"bone8": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"bone9": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"bone2": {
-					"position": [0, -2, 0],
+					"position": [0, -2.25, 0],
 					"scale": 1.1
 				},
 				"gagang": {
-					"position": [0, 2.5, 0],
+					"position": [0, -0.75, 0],
 					"scale": [2, 0.5, 2]
 				}
 			}
@@ -54,7 +54,7 @@
 			"bones": {
 				"root_item": {
 					"rotation": [-270, -3.2, -415],
-					"position": [0, 21, 1.8]
+					"position": [0, 21, -2.2]
 				},
 				"bone": {
 					"position": [0, 0.75, 0]
