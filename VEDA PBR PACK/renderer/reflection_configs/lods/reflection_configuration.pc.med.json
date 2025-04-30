@@ -1,4 +1,4 @@
-{//MEDIUM PC WINDOWS
+{
   "probe_regen": {
     "far_plane_scaling": 1.0,
     "texture_format": "R16G16B16A16_FLOAT",
@@ -11,16 +11,16 @@
     }
   },
   "ibl": {
-    "num_samples": 1,
+    "num_samples": 32,
     "dimension": 256,
-    "convolution_type": "mip_chain"
+    "convolution_type": "importance_sampled"
   },
   "ssr_enabled": true,
   "ssr": {
-    "enable_gap_fill": false,
-    "linear_search_step_count": 200,
-    "binary_search_step_count": 10,
-    "roughness_cutoff": 4,
-    "roughness_fade_start": 0
+    "enable_gap_fill": true,
+    "linear_search_step_count": 300,
+    "binary_search_step_count": 15,
+    "roughness_cutoff": 0.4,
+    "roughness_fade_start": 0.3
   }
 }

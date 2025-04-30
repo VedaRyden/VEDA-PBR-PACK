@@ -12,7 +12,7 @@
     "caustics": {
       "enabled": true,
       "frame_length": 0.05,
-      "scale": 0.5,
+      "scale": 0.25,
       "power": 2
     },
     "waves": {

@@ -1,4 +1,4 @@
-{//MEDIUM PC WINDOWS
+{
   "probe_regen": {
     "far_plane_scaling": 1.0,
     "texture_format": "R16G16B16A16_FLOAT",
@@ -12,15 +12,15 @@
   },
   "ibl": {
     "num_samples": 1,
-    "dimension": 256,
+    "dimension": 1,
     "convolution_type": "mip_chain"
   },
-  "ssr_enabled": true,
+  "ssr_enabled": false,
   "ssr": {
     "enable_gap_fill": false,
     "linear_search_step_count": 200,
     "binary_search_step_count": 10,
-    "roughness_cutoff": 4,
+    "roughness_cutoff": 0.4,
     "roughness_fade_start": 0
   }
 }
