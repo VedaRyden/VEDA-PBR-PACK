@@ -3,12 +3,11 @@
     "file": "reflection_configuration.android.low.json"
   },
   "overrides": {
+    "ibl": {"dimension": 64},
     "ssr_enabled": true,
     "ssr": {
-      "enable_gap_fill": false,
-      "linear_search_step_count": 300,
-      "binary_search_step_count": 20,
-      "ray_step_length": 3.0
-  }
+    "linear_search_step_count": 300,
+    "binary_search_step_count": 15
+    }
   }
 }

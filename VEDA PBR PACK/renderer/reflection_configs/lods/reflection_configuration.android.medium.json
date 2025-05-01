@@ -3,14 +3,6 @@
     "file": "reflection_configuration.android.low.json"
   },
   "overrides": {
-    "ssr_enabled": true,
-    "ssr": {
-      "enable_gap_fill": false,
-      "linear_search_step_count": 50,
-      "binary_search_step_count": 10,
-      "ray_step_length": 2.0,
-    "ray_offset": 0.01,
-    "thickness": 0.1
-  }
+    "ssr_enabled": true
   }
 }

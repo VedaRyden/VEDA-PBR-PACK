@@ -15,7 +15,7 @@
     "cascade_pcf_width": [ 0.0, 0.0, 0.0, 0.0 ],
     "shadow_clamp_angle": 30,
     "cloud_shadow_contribution": 0.4,
-  "cloud_shadow_pcf_width": 1.0,
+  "cloud_shadow_pcf_width": 0,
     "cloud_shadow_quantization_steps": 7200,
     "sun_shadows": true,
     "moon_shadows": true,

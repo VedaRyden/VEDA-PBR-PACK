@@ -1,32 +1,23 @@
 {
-  "format_version": "1.21.60",
-  "cascades": [//SHADOW OFF
-      [
-          {
-              "bias": 0,
-              "has_dynamic_geometry": false,
-              "has_static_geometry": false,
-              "light_quantization_steps": 0,
-              "pcf_width": 0,
-              "range": 0,
-              "resolution": 0,
-              "slope_bias": 0,
-              "update_frequency": 1,//TITIK MASALAH
-              "update_offset": 0
-          }
-      ]
-  ],
-  "cloud_shadow_contribution": 0,
-  "cloud_shadow_pcf_width": 0,
-  "cloud_shadow_quantization_steps": 0,
-  "cloud_shadows": false,
-  "max_shadow_distance": 0,
-  "moon_shadows": false,
-  "normal_offset_strength": 0,
-  "shadow_clamp_angle": 0,
-  "shadow_range": {
-      "far": 10,
-      "near": 0.001
-  },
-  "sun_shadows": false
+    "cascade_bias": [ 0, 0, 0, 0 ],
+    "cascade_slope_bias": [ 0, 0, 0, 0 ],
+    "cascade_light_quantization_steps": [ 0, 0, 0, 0 ],
+    "cascade_resolution": [ 1, 1, 1, 1 ],
+    "num_cascade_levels": 1,
+    "num_variable_cascade_levels": 0,
+    "normal_offset_strength": 0,
+    "shadow_range": {
+      "near": 0.001,
+      "far": 10.0
+    },
+    "max_shadow_distance": 0,
+    "cascade_range": [ 0, 0, 0, 0 ],
+    "cascade_pcf_width": [ 0, 0, 0, 0 ],
+    "shadow_clamp_angle": 0,
+    "cloud_shadow_contribution": 0,
+    "cloud_shadow_pcf_width": 0,
+    "cloud_shadow_quantization_steps": 0,
+    "sun_shadows": false,
+    "moon_shadows": false,
+    "cloud_shadows": false
 }

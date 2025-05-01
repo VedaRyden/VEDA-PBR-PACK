@@ -3,8 +3,8 @@
 		"file": "volumetric_fog_configuration.android.low.json"
 	},
 	"overrides": {
-		"tile_width": 4,
-		"tile_height": 4,
-		"depth_slices": 32
+		"tile_width": 8,
+		"tile_height": 8,
+		"depth_slices": 64
 	}
 }

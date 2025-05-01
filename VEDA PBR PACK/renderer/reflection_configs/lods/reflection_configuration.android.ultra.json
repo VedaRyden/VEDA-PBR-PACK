@@ -1,14 +1,9 @@
 {
-  "parent": {
-     "file": "reflection_configuration.android.low.json"
-   },
+  "parent": {"file": "reflection_configuration.android.low.json"},
    "overrides": {
+    "ibl": {"dimension": 128},
     "ssr_enabled": true,
-     "ssr": {//update gak pake gap fill buat ssr ultra android
-     "enable_gap_fill": false,
-  "linear_search_step_count": 200,
-  "ray_step_length": 4.0
-}
-   }
- }
- 
+    "ssr": {//Upgrade Jarak Pantulan Lebih Tinggi Lagi Di Copas Dengan PC Medium
+    "linear_search_step_count": 800,
+    "binary_search_step_count": 40
+}}}
