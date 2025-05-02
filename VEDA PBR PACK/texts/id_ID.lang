@@ -30,8 +30,8 @@ options.shadowQuality.high=Tinggi	#
 options.shadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.cloudQuality=Awan	#
-options.cloudQuality.low=Rendah(Rekomendasi)	#
-options.cloudQuality.medium=Medium	#
+options.cloudQuality.low=Rendah	#
+options.cloudQuality.medium=Medium(Rekomendasi)	#
 options.cloudQuality.high=Tinggi	#
 options.cloudQuality.ultra=Ultra§a(Rata Kanan!)	#
 

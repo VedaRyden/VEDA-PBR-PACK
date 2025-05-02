@@ -1,9 +1,9 @@
 {
   "parent": {"file": "reflection_configuration.android.low.json"},
    "overrides": {
-    "ibl": {"dimension": 128},
+    "ibl": {"dimension": 64},
     "ssr_enabled": true,
     "ssr": {//Upgrade Jarak Pantulan Lebih Tinggi Lagi Di Copas Dengan PC Medium
-    "linear_search_step_count": 800,
-    "binary_search_step_count": 40
+    "linear_search_step_count": 300,
+    "binary_search_step_count": 15
 }}}
