@@ -99,6 +99,12 @@
 				"mata": {
 					"scale": 0.99
 				},
+				"tangankiri": {
+					"rotation": [0, 0, 17.5]
+				},
+				"tangankanan": {
+					"rotation": [0, 0, -17.5]
+				},
 				"root": {
 					"rotation": [0, 0, 0],
 					"position": [-0.5, 1, 0]
