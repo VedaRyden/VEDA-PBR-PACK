@@ -52,9 +52,10 @@
 		"animation.pentungan.third_person_hold": {
 			"loop": true,
 			"bones": {
-				"root_item": {
-					"rotation": [-270, -3.2, -415],
-					"position": [0, 21, -2.2]
+				"Pentungan": {
+					"rotation": [-250, 26.8, -415],
+					"position": [-9, 19, 4.8],
+					"scale": 1.5
 				},
 				"bone": {
 					"position": [0, 0.75, 0]
@@ -94,6 +95,13 @@
 				"gagang": {
 					"position": [0, 2.5, 0],
 					"scale": [2, 0.5, 2]
+				},
+				"mata": {
+					"scale": 0.99
+				},
+				"root": {
+					"rotation": [0, 0, 0],
+					"position": [-0.5, 1, 0]
 				}
 			}
 		}
