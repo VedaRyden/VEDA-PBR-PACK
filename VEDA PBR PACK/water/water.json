@@ -27,7 +27,7 @@
       "enabled": true,
       "frame_length": 0.05,
       "texture": "caustics_terang",
-      "scale": 0.25,
+      "scale": 0.10000000149011612,
       "power": 2
     }
   }

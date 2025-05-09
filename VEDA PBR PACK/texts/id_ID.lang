@@ -4,7 +4,7 @@ createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan me
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
 
 resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG VIBRANT VISUAL, YANG SABAR YA:)	#
-
+info.raidenvisuals=Sesuaikan Dengan Kemampuan Perangkatmu, Matikan Refleksi, Bayangan Atau Kabut Volumetrik Dan Atur Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.	#
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Pedang Halilintar	#
 item.trident.name=Trisula Halilintar 	#

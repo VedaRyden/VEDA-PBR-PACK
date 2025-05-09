@@ -15,7 +15,7 @@
       },
       {
         "@settings_common.radio_with_label": {
-          "ignored": "(not $new_video_settings)",
+          "ignored": "$new_video_settings)",
           "$toggle_state_binding_name": "#graphics_mode_radio_deferred",
           "$option_enabled_binding_name": "#graphics_mode_radio_deferred_enabled",
           "$radio_label_text": "options.graphicsMode.deferred"
@@ -41,7 +41,8 @@
     "$toggle_property_bag": {
       "#panel_title": "Settingan Grafis Vibrant visuals"
     }
-  }, 
+  },
+  
   "raiden_section": {
     "type": "stack_panel",
     "size": [ "100%", "100%c" ],
@@ -246,6 +247,43 @@
       {"msaa_slider@general_section.msaa_slider": {}},
       {"fancy_leaves@general_section.fancy_leaves": {}}
       
+    ]
+  },
+  "info_section": {
+    "type": "panel",
+    "size": [ "100% - 6px", "100%cm" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "info",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "black_background@info_section.background": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 0, 3 ],
+          "size": [ "100%", "100%sm + 2px" ]
+        }
+      },
+      {
+        "renews_text": {
+          "type": "label",
+          "size": [ "100%", "default" ],
+          "color": "$main_header_text_color",
+          "font_type": "smooth",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 3,
+          "offset": [ 2, 4 ],
+          "text": "info.raidenvisuals"
+        }
+      }
     ]
   },
   "max_framerate_slider@settings_common.option_slider": {
