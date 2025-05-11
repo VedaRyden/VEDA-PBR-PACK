@@ -20,10 +20,28 @@
    "name": "Bayangan Halus Tidak Pixelated\n\nMemiliki Efek Subsurface Scattering Atau Gradasi Di Sisi Bayangan Nya, Tapi Mungkin Akan Sedikit Berat Jadi Cobalah :D."
   },
   {
-    "folder_name": "256x",
-    "memory_tier": 0,
-    "name": "Kualitas Bayangan 1024x Pixel Perblock(Bawaan)\n\nLebih Jelas Dan Tajam Ini Yg Ku Impikan Pengen Benar Benar Bisa Mempertajam Bayangan Tanpa Scaterring. Apa yg ku mau sudah terpenuhi termasuk bayangan tajam dan bersih tanpa gradasi atau efek blur disisinya :D"
-   }
+   "folder_name": "256x",
+   "memory_tier": 0,
+   "name": "Kualitas Bayangan 1024x Pixel Perblock(Bawaan)\n\nLebih Jelas Dan Tajam Ini Yg Ku Impikan Pengen Benar Benar Bisa Mempertajam Bayangan Tanpa Scaterring. Apa yg ku mau sudah terpenuhi termasuk bayangan tajam dan bersih tanpa gradasi atau efek blur disisinya :D"
+  }
+ ],
+ "settings": [
+        {
+            "type": "label",
+            "text": "                       Atur Kualitas/Style Bayangan"
+        },
+        {
+            "type": "label",
+            "text": "16x: §iKualitas Bayangan 16x Pixel Perblock(Ringan)."
+        },
+        {
+            "type": "label",
+            "text": "Smooth: §iBayangan Halus Tidak Pixelated(Rekomendasi)."
+        },
+        {
+            "type": "label",
+            "text": "1024x: §iKualitas Bayangan 1024x Pixel Perblock(Bawaan)."
+  }
  ],
  "modules": [
   {
@@ -32,5 +50,9 @@
    "uuid": "04b7e6f2-311d-4bc7-ba0e-183fa719f256",
    "version": [1,5,7]
   }
- ]
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://discord.gg/U2SUvJKQkk"
+ }
 }

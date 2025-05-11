@@ -12,7 +12,7 @@
         "surface_color": "#1787D4"
       },
       "minecraft:water_identifier": {
-      "water_identifier": "vedapack:gelombang_laut"
+      "water_identifier": "vedapack:gelombang_air"
     }
     }
   }

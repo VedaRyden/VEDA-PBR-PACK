@@ -1,15 +1,15 @@
 ![pack_icon](https://github.com/VedaRyden/VEDA-PBR-PACK/assets/117094889/b4e7d479-45a1-4fc1-bd62-c47557837081)
 
-Veda Pack PBR X Raiden Deferred Telah Tiba!
-Bertujuan Buat Peforma Mode Deffered Render Lebih ringan Digunakan Namun Hasilnya lebih baik lagi!
+Veda Pack PBR X Raiden Visuals Telah Tiba!
+Bertujuan Buat Peforma Mode Visuals Render Lebih ringan Digunakan Namun Hasilnya lebih baik lagi!
 
-Support Untuk Versi 1.21.60.23 Keatas!
+Support Untuk Versi Beta 1.21.60.23 Keatas!
+Support Untuk Versi Official 1.21.80 Keatas!
 
 Peringatan
-"Raiden Deffered" Memerlukan Modifikasi Game Untuk Memasukan File Konfigurasinya Agar Berdampak Pada Peningkatan Peforma.
+"Raiden Visuals" Memerlukan Modifikasi Game Untuk Memasukan File Konfigurasinya Agar Berdampak Pada Peningkatan Peforma.
 
-
-KEUNTUNGAN RAIDEN DEFERRED!
+ KEUNTUNGAN RAIDEN Visuals!
 
 Peningkatan Performa Jauh Lebih Ringan!
 
@@ -25,6 +25,6 @@ Peningkatan Performa Jauh Lebih Ringan!
 
 Texture PBR Veda Pack Menghasilkan Warna Lebih Colorfull! Dan masih Ada Lagi...
 
-Gw Mau bobok dulu babay, selamat menikmati atas deffered pack dari saya hehe semoga menyenangkan ^^
-Join Discord Untuk Melihat Proyek Kami Dan Belajar Membuat Texture maupun deferred!
+Gw Mau bobok dulu babay, selamat menikmati atas Visuals Pack dari saya hehe semoga menyenangkan ^^
+Join Discord Untuk Melihat Proyek Kami Dan Belajar Membuat Texture maupun Visuals!
 Link : https://discord.gg/U2SUvJKQkk

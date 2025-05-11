@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_hell"
+        "fog_identifier": "kabut:thenether"
       },
       "minecraft:water_appearance": {
         "surface_color": "#905957"
