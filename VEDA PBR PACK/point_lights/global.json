@@ -7,6 +7,9 @@
           255,
           255
         ],
+        "minecraft:sea_lantern": "#DDE8E2",
+        "minecraft:crying_obsidian": "#2B0178",
+        "minecraft:glowstone": "#FBDA74",
         "minecraft:portal": "#ff00ff",
         "minecraft:soul_lantern": [
           0,
