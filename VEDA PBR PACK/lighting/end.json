@@ -11,7 +11,7 @@
           "color": {"0.0": [228, 93, 255 ],"1.0": [228, 93, 255 ]}
         },
         "moon": {
-          "illuminance": {"0.0": 0.1,"1.0": 0.1},
+          "illuminance": {"0.0": 20,"1.0": 20},
           "color": {"0.0": [228, 93, 255 ],"1.0": [228, 93, 2555 ]}
         },
         "orbital_offset_degrees": {//Orbit Matahari 360 Derajat

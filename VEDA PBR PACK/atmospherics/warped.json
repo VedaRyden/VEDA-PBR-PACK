@@ -5,14 +5,14 @@
 			"identifier":"vedapack:warped_raiden_atmosperics"
 		},
 		"sky_zenith_color":{
-			"0.0":[22, 126, 134 ],
-			"1.0":[20, 120, 130  ]
-		},
-		"sky_horizon_color":{
 			"0.000000":[8, 48, 51 ],
 			"1.000000":[8, 30, 30 ]
 		},
-		"rayleigh_strength":{"0.0":0.01,"1.0":0.01},
+		"sky_horizon_color":{
+			"0.0":[22, 126, 134 ],
+			"1.0":[20, 120, 130  ]
+		},
+		"rayleigh_strength":{"0.0":0.001,"1.0":0.001},
 	"sun_mie_strength":{"0.0": 0,"1.0": 0},
 	"moon_mie_strength":{"0.0": 0.0,"1.0": 0.0},
 	"sun_glare_shape":{"0.0": 0,"1.0": 0},
