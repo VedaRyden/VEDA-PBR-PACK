@@ -123,6 +123,7 @@
           "$option_label": "#hdr_strength_slider_label",
           "$option_enabled_binding_name": "#hdr_strength_enabled",
           "$slider_value_binding_name": "#gamma_calibration",
+          "$slider_tts_text_value": "#gamma_calibration_text_value",
           "$default_focus_precedence": 1,
           "controls": [
             {
@@ -133,6 +134,7 @@
                 "$slider_select_on_hover": true,
                 "$slider_tts_header": "$slider_header",
                 "$slider_tts_name": "",
+                
                 "$slider_tts_text_value": "#gamma_calibration_text_value"
               }
             }
