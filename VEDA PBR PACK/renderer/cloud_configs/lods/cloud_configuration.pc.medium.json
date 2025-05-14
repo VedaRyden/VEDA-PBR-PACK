@@ -1,0 +1,9 @@
+{
+	"parent": {
+		"file": "cloud_configuration.pc.low.json"
+	},
+	"overrides": {
+		"grid_size": 2,
+		"cloud_render_distance_scale": 3.0
+	}
+}

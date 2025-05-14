@@ -1,0 +1,10 @@
+{
+	"parent": {
+		"file": "volumetric_fog_configuration.pc.low.json"
+	},
+	"overrides": {
+		"tile_width": 8,
+		"tile_height": 8,
+		"depth_slices": 64
+	}
+}

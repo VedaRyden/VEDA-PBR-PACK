@@ -1,0 +1,22 @@
+{
+  "cascade_bias": [ 0, 0, 0, 0 ],
+  "cascade_slope_bias": [ 0.00001, 0.00004, 0.00004, 0.00006 ],
+  "cascade_light_quantization_steps": [ 1800, 900, 900, 900 ],
+  "cascade_resolution": [ 2048, 2048, 1024, 1024 ],
+  "num_cascade_levels": 1,
+  "num_variable_cascade_levels": 2,
+  "normal_offset_strength": 0.065,
+  "shadow_range": {
+    "near": 0.025,
+    "far": 128.0
+  },
+  "max_shadow_distance": 128.0,
+  "cascade_range": [ 0.1666, 0.3333, 0.5, 1.0 ],
+  "cascade_pcf_width": [ 0, 0, 0, 0 ],
+  "cloud_shadow_contribution": 0.4,
+  "cloud_shadow_pcf_width": 0,
+  "cloud_shadow_quantization_steps": 7200,
+  "sun_shadows": true,
+  "moon_shadows": true,
+  "cloud_shadows": true
+}
