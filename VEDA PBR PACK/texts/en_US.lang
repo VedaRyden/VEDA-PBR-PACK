@@ -1,7 +1,23 @@
 ﻿pack.description=PBR Texture Pack For Vibrant Visuals\nUse Raiden Visuals To Up performance!\nLightning & PBR By @VEDA_RAIDEN	#
 
-options.hdr_brightness=brightness %s°	#
+info.raidenvisuals=Adjust to Your Device's Capabilities, Turn Off Reflections, Shadows Or Volumetric Fog And Set Upscaling To 33% To Get Better Performance.	#
+
+item.shield.name=Veda Shield 	#
+item.iron_sword.name=Lightning Sword	#
+item.trident.name=Trident of Lightning 	#
+entity.thrown_trident.name=Trident of Lightning	# 
+item.wooden_sword.name=Wooden Clapperboard	#
+item.bread.name=Rice crackers	#
+item.totem.name=Ambalabu	#
+
+options.hdr_brightness=Brightness %s°	#
 options.graphicsMode.rayTraced=Ray Tracing	#
+
+options.cloudQuality=Clouds	#
+options.cloudQuality.low=Low	#
+options.cloudQuality.medium=Medium(Recommended)	#
+options.cloudQuality.high=High	#
+options.cloudQuality.ultra=Ultra§a(HD)	#
 
 options.shadowQuality.low=OFF§b(FPS BOOST!)	#
 options.shadowQuality.medium=Medium(Recommended)	#
@@ -25,3 +41,20 @@ options.reflectionsQuality.ultra=Ultra§a(HD)	#
 
 options.deferred.upscaling=Fallback Upscaling	#
 options.upscaling=DLSS Upscaling	#
+options.upscalingPercentage=Upscaling Resolution
+options.upscalingPercentage.hundred=Without Upscaling§a(Sharp)
+options.upscalingPercentage.zero=Automatic(Recommended 33%)
+options.upscalingMode=Upscaling Mode
+options.upscalingModeOptions.taau=TAAU
+options.upscalingModeOptions.bilinear=Bilinear(Recommended)
+
+options.graphicsQualityPresetMode=Quality Presets 
+options.graphicsQualityPresetMode.performance=Performance First (lighter & Recommended)
+options.graphicsQualityPresetMode.visuals=Prioritize Quality (Heavy)
+
+options.bloomStrengthSlider=Bloom(Glowing Effect) 	#
+
+options.vsync=Use VSync(Synchronization)	#
+options.vsync.off=Turn off VSync(Recommended)	#
+options.vsync.on=Vertical VSync	#
+options.vsync.adaptive=Adaptive Vertical VSync	#

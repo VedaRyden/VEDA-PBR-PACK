@@ -19,7 +19,7 @@ item.totem.name=Ambalabu	#
 options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
 
-options.graphicsMode.deferred=Vibrant Visuals	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.2)	#
 options.graphicsMode.rayTraced=Ray Tracing	#
 options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
 options.graphicsModeOptions.fancy=Opsi Grafis Indah	#
