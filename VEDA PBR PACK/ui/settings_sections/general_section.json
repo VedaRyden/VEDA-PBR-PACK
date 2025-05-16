@@ -266,10 +266,8 @@
       {"max_framerate_slider@general_section.max_framerate_slider": {}},
       {"msaa_slider@general_section.msaa_slider": {}},
       {"fancy_leaves@general_section.fancy_leaves": {}}
-      
     ]
   },
-  
   "max_framerate_slider@settings_common.option_slider": {
    "ignored": "($is_holographic)",
     "$option_label": "#max_framerate_slider_label",
@@ -288,7 +286,6 @@
       { "option_generic_core@settings_common.option_generic_core": {} }
     ]
   },
-  
   "msaa_slider@settings_common.option_slider": {
     "ignored": "($is_holographic)",
     "$option_label": "#msaa_slider_label",
