@@ -26,7 +26,7 @@
         "color_grading_identifier": "vedapack:raiden_color_grading"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "vedapack:warped_raiden_lighting"
+        "lighting_identifier": "vedapack:neder_raiden_lighting"
       },
       "minecraft:water_identifier": {
         "water_identifier": "vedapack:gelombang_air"

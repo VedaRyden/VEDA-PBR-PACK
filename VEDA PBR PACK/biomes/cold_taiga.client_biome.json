@@ -1,18 +1,18 @@
 {
-  "format_version": "1.21.70",
+  "format_version": "1.21.40",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "savanna"
+      "identifier": "cold_taiga"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "kabut:akasia"
+        "fog_identifier": "minecraft:fog_cold_taiga"
       },
       "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "vedapack:raiden_hangat_color_grading"
+        "color_grading_identifier": "vedapack:raiden_sejuk_color_grading"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#2C8B9C"
+        "surface_color": "#205e83"
       }
     }
   }

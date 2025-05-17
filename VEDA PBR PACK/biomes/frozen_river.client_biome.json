@@ -1,21 +1,18 @@
 {
-  "format_version": "1.21.70",
+  "format_version": "1.21.40",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "legacy_frozen_ocean"
+      "identifier": "frozen_river"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_default"
+        "fog_identifier": "minecraft:fog_frozen_river"
       },
       "minecraft:color_grading_identifier": {
         "color_grading_identifier": "vedapack:raiden_sheesh_color_grading"
       },
-      "minecraft:water_identifier": {
-      "water_identifier": "vedapack:gelombang_laut"
-    },
       "minecraft:water_appearance": {
-        "surface_color": "#44AFF5"
+        "surface_color": "#185390"
       }
     }
   }

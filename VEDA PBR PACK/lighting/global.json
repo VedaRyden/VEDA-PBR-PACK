@@ -38,21 +38,8 @@
             "1.000000": [ 114, 255, 255 ]
           }
         },
-        "orbital_offset_degrees": {//Orbit Matahari 360 Derajat
-          "0.5": 330,
-          "0.75": 330,
-          "0.82": 330,
-          "0.93": 310,
-          "0.97": 304,
-          "1.0": 304,
-          "0.03": 304,
-          "0.07": 310,
-          "0.18": 330,
-        "0.25": 330,
-      "0.35": 330
-    }
-  },
-    "flash": {//Fitur Baru Ada Kedipan Cahaya Flash Di End
+        "orbital_offset_degrees": 0.0},
+        "flash": {//Fitur Baru Ada Kedipan Cahaya Flash Di End
         "illuminance": 10.0,
         "color": [ 225, 0, 255 ]
       }

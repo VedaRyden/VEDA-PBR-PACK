@@ -15,8 +15,11 @@
   "Ray Tracing Bukan Shader Apalagi Bukan RTX Juga Dawg",
   "RTX Bukan Artinya Ray Tracing Atau HD Tapi Nama Seri GPU Geforce Nvindia",
   "Paham",
+  "Masing masing Biome Memiliki Warna Gradasi Tersendiri, Cobalah Untuk Pergi Ke Bioma Yang Sejuk Dan Hangat.",
+  "Masing masing Biome Genangan Air Nya Berbeda Ada Yg Keruh, Tenang, Dan Berombak-ombak, Cobalah Untuk Pergi Ke Laut, Sungai, Bioma Swamp Dan Dessert.",
+  "Masing masing Biome Berbeda Kabut, Ada Yang Berkabut Tebal Dan Tipis, Cobalah Untuk Pergi Ke Bioma Cherry, Pale, Dessert, Bamboo, Jungle.",
   "Jangan Lupa cek Pengaturan Video Paling Bawah",
-  "Jangan Lupa Aktifkan Eksperimental 'Render Dragon For Creator' Untuk Yang Udah Masang Visuals Pack Atau Custom Vibrant Visuals",
+  //"Jangan Lupa Aktifkan Eksperimental 'Render Dragon For Creator' Untuk Yang Udah Masang Visuals Pack Atau Custom Vibrant Visuals",
   "Yang Anda Pakai Ini Bukanlah Shader Melainkan Ini Adalah Graphics/Deferred Pack",
   "Jangan Lupa Bersyukur Ya",
   "Semoga Update Kedepan Nya Lebih Ringan Dan Bagus",
@@ -43,11 +46,11 @@
   "Raiden Visuals Bukan SHADER, Raiden Visuals Hanya Mod Untuk Meningkatkan Performa Grafis Vibrant Visuals Saja",
 "Aktifkan Prioritas Laju Bingkai Bagi HP Yg Support dan dapat melancarkan Peforma Gameplay mu",
   "Jangan Lupa Bersyukur Ya",
-"Jangan Lupa Mengunakan Resource Pack PBR/Deferred Nya ya",
-"Ingin Ada Garis Cahaya Kabut? Naikan Resolusi Kabut Volumetrik",
+//"Jangan Lupa Mengunakan Resource Pack PBR/Deferred Nya ya",
+"Mau melihat Godrays? Naikan Kualitas Kabut Volumetrik",
   "Semoga Update Kedepan Nya Lebih Ringan Dan Bagus",
   "Jika Mengalami Lag atau Low FPS, Dianjurkan Untuk Menurunkan Resoulsi/Upscaling lebih rendah.",
   "Udah Rata Kiri Masih LAG?, Tunggu Update kedepan nya mungkin hal ini dapat diatasi :)",
-  "Ciri Ciri Anda Benar-Benar Menggunakan Raiden Visuals Yaitu Bayangan Tajam Dan Tidak, Dan Lebih Ringan Ketimbang Versi Bawaan Nya."
+  "Ciri Ciri Anda Benar-Benar Menggunakan Raiden Visuals Yaitu Bayangan Tajam Dan Tidak Buram, Dan Lebih Ringan Ketimbang Versi Bawaan Nya."
  ]
 }

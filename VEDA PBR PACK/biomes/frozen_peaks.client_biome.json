@@ -2,7 +2,7 @@
   "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "legacy_frozen_ocean"
+      "identifier": "frozen_peaks"
     },
     "components": {
       "minecraft:fog_appearance": {
@@ -11,11 +11,11 @@
       "minecraft:color_grading_identifier": {
         "color_grading_identifier": "vedapack:raiden_sheesh_color_grading"
       },
-      "minecraft:water_identifier": {
-      "water_identifier": "vedapack:gelombang_laut"
-    },
       "minecraft:water_appearance": {
         "surface_color": "#44AFF5"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "frozen_peaks"
       }
     }
   }

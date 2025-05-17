@@ -2,13 +2,13 @@
   "format_version": "1.21.90",
   "minecraft:color_grading_settings": {
  "description": {
-   "identifier": "vedapack:raiden_sejuk_color_grading"
+   "identifier": "vedapack:raiden_adem_color_grading"
  },
  "color_grading": {
   "temperature": {
         "enabled": true,
-        "type": "color_temperature",
-        "temperature": 15000.0
+        "type": "white_balance",
+        "temperature": 10000.0
     },
    "midtones": {
   "contrast": [

@@ -11,6 +11,9 @@
       "minecraft:lighting_identifier": {
         "lighting_identifier": "vedapack:panas_raiden_lighting"
       },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "vedapack:raiden_adem_color_grading"
+      },
       "minecraft:water_identifier": {
       "water_identifier": "vedapack:air_tenang"
     },

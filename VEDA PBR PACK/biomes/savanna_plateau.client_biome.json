@@ -8,6 +8,9 @@
       "minecraft:fog_appearance": {
         "fog_identifier": "kabut:akasia"
       },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "vedapack:raiden_hangat_color_grading"
+      },
       "minecraft:water_appearance": {
         "surface_color": "#2590A8"
       }
