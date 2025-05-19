@@ -29,7 +29,7 @@
         "lighting_identifier": "vedapack:neder_raiden_lighting"
       },
       "minecraft:water_identifier": {
-        "water_identifier": "vedapack:gelombang_air"
+        "water_identifier": "vedapack:air"
       }
     }
   }
