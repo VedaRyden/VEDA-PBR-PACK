@@ -23,7 +23,7 @@
         "atmosphere_identifier": "vedapack:neder_raiden_atmosperics"
       },
       "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "vedapack:raiden_color_grading"
+        "color_grading_identifier": "vedapack:raiden_nether_color_grading"
       },
       "minecraft:lighting_identifier": {
         "lighting_identifier": "vedapack:neder_raiden_lighting"

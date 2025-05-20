@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "gust",
-        "metalness_emissive_roughness_subsurface": "gust_m"
-    }
-}

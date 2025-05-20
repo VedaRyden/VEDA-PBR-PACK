@@ -5,8 +5,8 @@ createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafi
 
 resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG VIBRANT VISUAL, YANG SABAR YA:)	#
 info.raidenvisuals=Sesuaikan Dengan Kemampuan Perangkatmu, Matikan Refleksi, Bayangan Atau Kabut Volumetrik Dan Atur Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.	#
-options.raiden_visuals_resupscale_option.popUp=testct.
-options.raiden_visuals_resupscale.popUp=testctt.
+opti.raidenvisuals=Opsi Raiden Visuals	#
+set.raidenvisuals=Settingan Grafis Raiden visuals	#
 
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Pedang Halilintar	#

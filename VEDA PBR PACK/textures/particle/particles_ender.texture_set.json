@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "particles_ender",
-        "metalness_emissive_roughness": "particles_ender_m"
-    }
-}

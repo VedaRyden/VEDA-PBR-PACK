@@ -1,6 +1,8 @@
 ﻿pack.description=PBR Texture Pack For Vibrant Visuals\nUse Raiden Visuals To Up performance!\nLightning & PBR By @VEDA_RAIDEN	#
 
 info.raidenvisuals=Adjust to Your Device's Capabilities, Turn Off Reflections, Shadows Or Volumetric Fog And Set Upscaling To 33% To Get Better Performance.	#
+opti.raidenvisuals=Raiden Visuals Options	#
+set.raidenvisuals=Raiden visuals Graphics Settings	#
 
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Lightning Sword	#
