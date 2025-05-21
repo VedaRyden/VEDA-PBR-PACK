@@ -3,7 +3,7 @@
     "file": "lods/reflection_configuration.pc.low.json"
   },
   "medium": {
-    "file": "lods/reflection_configuration.pc.med.json"
+    "file": "lods/reflection_configuration.pc.medium.json"
   },
   "high": {
     "file": "lods/reflection_configuration.pc.high.json"

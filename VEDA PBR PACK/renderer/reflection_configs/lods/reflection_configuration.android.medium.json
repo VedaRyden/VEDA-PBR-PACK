@@ -2,7 +2,6 @@
  "parent": {
     "file": "reflection_configuration.android.low.json"
   },
-  "overrides": {
-    "ssr_enabled": true
-  }
+  "overrides": {"ssr_enabled": true},
+    "ssr": {"ssr_scale": 0.1}
 }

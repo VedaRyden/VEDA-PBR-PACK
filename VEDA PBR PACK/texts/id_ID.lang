@@ -1,7 +1,11 @@
-﻿pack.description=Paket Tekstur PBR & Visuals Pack Untuk Vibrant Visuals\nDisarankan Menggunakan Mod Raiden Visuals!\nLighting & PBR By @VEDA_RAIDEN\n[RAIDEN VISUALS TIDAK TERMASUK!]\n[RAIDEN VISUALS BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI!]	#
+pack.description=Paket Tekstur PBR & Visuals Pack Untuk Vibrant Visuals\nDisarankan Menggunakan Mod Raiden Visuals!\nLighting & PBR By @VEDA_RAIDEN\n[RAIDEN VISUALS TIDAK TERMASUK!]\n[RAIDEN VISUALS BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI!]	#
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
+options.graphicsModeSwitch=Allow In-game Graphics Mode Switching
+options.graphicsMode.performanceWarning.title=Yakin Aktifkan Grafis Vibrant Visuals?
+options.graphicsMode.performanceWarning.message=Ini adalah fitur yang membutuhkan banyak grafis yang dapat memberikan pengaruh negatif pada performa game di perangkat Anda.
+options.graphicsMode.performanceWarning.leftButton=Aktifkan
 
 resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG VIBRANT VISUAL, YANG SABAR YA:)	#
 info.raidenvisuals=Sesuaikan Dengan Kemampuan Perangkatmu, Matikan Refleksi, Bayangan Atau Kabut Volumetrik Dan Atur Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.	#
@@ -33,7 +37,7 @@ options.shadowQuality.high=Tinggi	#
 options.shadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.cloudQuality=Awan	#
-options.cloudQuality.low=Rendah	#
+options.cloudQuality.low=Rendah(Tanpa Lighting)	#
 options.cloudQuality.medium=Medium(Rekomendasi)	#
 options.cloudQuality.high=Tinggi	#
 options.cloudQuality.ultra=Ultra§a(Rata Kanan!)	#
@@ -61,10 +65,10 @@ options.volumetricFogQuality.ultra=Ultra§a(Rata Kanan!)	#
 
 options.reflectionsQuality=Refleksi 	#
 options.reflectionsQuality.off=Mati§c(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)	#
-options.reflectionsQuality.low=Rendah(Rekomendasi)	#
-options.reflectionsQuality.medium=Menengah	#
-options.reflectionsQuality.high=Tinggi	#
-options.reflectionsQuality.ultra=Ultra§a(Rata Kanan!)	#
+options.reflectionsQuality.low=Rendah(Scale 0.5 - Rekomendasi)	#
+options.reflectionsQuality.medium=Menengah(SSR Scale 0.1)	#
+options.reflectionsQuality.high=Tinggi(SSR Scale 0.5)	#
+options.reflectionsQuality.ultra=Ultra§a(SSR Scale 1 - Rata Kanan!)	#
 
 options.deferred.upscaling=Fallback Upscaling 	#
 options.upscaling=DLSS Upscaling	#

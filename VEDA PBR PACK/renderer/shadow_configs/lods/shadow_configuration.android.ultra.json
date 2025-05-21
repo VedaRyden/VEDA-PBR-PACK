@@ -4,7 +4,7 @@
     "cascade_light_quantization_steps": [ 1800, 900, 900, 900 ],
   "cascade_resolution": [ 2048, 1024, 512, 512 ],
     "num_cascade_levels": 4,// upgrade dari 3 ke 4 maaf kalau nambah berat tapi ini demi jarak bayangan lebih stabil lagi
-    "num_variable_cascade_levels": 0,
+    "num_variable_cascade_levels": 0,//maaf kalau ini mungkin nambah berat performanya:)
     "normal_offset_strength": 0.065,
     "shadow_range": {
       "near": 0.025,
