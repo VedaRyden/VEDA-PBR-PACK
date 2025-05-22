@@ -15,7 +15,7 @@
         "atmosphere_identifier": "vedapack:raiden_atmosperics"
       },
       "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "minecraft:lush_caves_color_grading"
+        "color_grading_identifier": "vedapack:orpos_raiden_color_grading"
       },
       "minecraft:lighting_identifier": {
         "lighting_identifier": "vedapack:raiden_lighting"
