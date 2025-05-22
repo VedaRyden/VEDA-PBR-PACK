@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "taiga"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "minecraft:fog_taiga"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#287082"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "vedapack:raiden_atmosperics"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "raiden_sejuk_color_grading"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "vedapack:raiden_lighting"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "vedapack:gelombang_air"
+      }
+    }
+  }
+}
