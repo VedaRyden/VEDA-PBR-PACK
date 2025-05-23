@@ -1,4 +1,4 @@
-pack.description=Paket Tekstur PBR & Visuals Pack Untuk Vibrant Visuals\nDisarankan Menggunakan Mod Raiden Visuals!\nLighting & PBR By @VEDA_RAIDEN\n[RAIDEN VISUALS TIDAK TERMASUK!]\n[RAIDEN VISUALS BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI!]	#
+pack.description=Paket Tekstur PBR Dilengkapi Dengan Konfigurasi Vibrant Visuals\nVeda Pack Base Version : V1.5.7\nDisarankan Menggunakan Mod Raiden Visuals!\nCreator : @VEDA_RAIDEN\n[RAIDEN VISUALS TIDAK TERMASUK!]\n[RAIDEN VISUALS BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI UNTUK MENINGKATKAN PERFORMA GRAFIS VIBRANT VISUAL!]	#
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
@@ -9,6 +9,8 @@ options.graphicsMode.performanceWarning.leftButton=Aktifkan
 
 resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG VIBRANT VISUAL, YANG SABAR YA:)	#
 info.raidenvisuals=Sesuaikan Dengan Kemampuan Perangkatmu, Matikan Refleksi, Bayangan Atau Kabut Volumetrik Dan Atur Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.	#
+info.minimumspekandroid.raidenvisuals=Minimum Spesifikasi GPU Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals : Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+.	#
+info.minimumspekpc.raidenvisuals=GPU Mu Harus Support DirectX12 Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals.	#
 opti.raidenvisuals=Opsi Raiden Visuals	#
 set.raidenvisuals=Settingan Grafis Raiden visuals	#
 
@@ -22,12 +24,14 @@ item.totem.name=Ambalabu	#
 
 options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
+options.framePacing=Atur tempo frame(Auto FPS) 
+options.graphicsModeSwitch=Izinkan Ubah Mode Grafis Di Dalam World
 
 options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.2)	#
 options.graphicsMode.rayTraced=Ray Tracing	#
 options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
 options.graphicsModeOptions.fancy=Opsi Grafis Indah	#
-options.graphicsModeOptions.deferred=Opsi Grafis Vibrant Visuals	#
+options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals	#
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing	#
 
 options.shadowQuality=Kualitas Bayangan 	#

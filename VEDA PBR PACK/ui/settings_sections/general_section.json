@@ -23,6 +23,7 @@
       },
       {
         "@settings_common.radio_with_label": {
+          "sound_name": "prank.kegocek",
           "$toggle_state_binding_name": "#graphics_mode_radio_ray_traced",
           "$option_enabled_binding_name": "#graphics_mode_radio_deferred_enabled",
           "$radio_label_text": "options.graphicsMode.rayTraced"
@@ -37,7 +38,7 @@
     "$glyph_color_texture": "ui/raiden button",
     "$glyph_offset": [ "-1.0%" , 0],
     "$glyph_size": [ 30, 30 ],
-    "$button_text": "Opsi Vibrant Visuals",
+    "$button_text": "opti.raidenvisuals",
     "$toggle_property_bag": {
       "#panel_title": "Settingan Grafis Vibrant visuals"
     }
@@ -109,6 +110,8 @@
           ]
         }
       },
+      {"ingfospekandroidmin@general_section.ingfospekandroidmin": {"bindings": [{"binding_name": "#graphics_mode_is_simple_or_fancy","binding_name_override": "#visible"}]}},
+      {"ingfospekpcmin@general_section.ingfospekpcmin": {"bindings": [{"binding_name": "#graphics_mode_is_simple_or_fancy","binding_name_override": "#visible"}]}},
       {
         "render_distance_warning_text": {
           "type": "panel",
@@ -226,6 +229,7 @@
       },
       {
         "option_toggle_improved_input_response@settings_common.option_toggle": {
+          "ignored": "($is_holographic)",
           "$option_label": "options.improvedInputResponsePlaceholder",
           "$option_binding_name": "#improved_input_response_options",
           "$option_enabled_binding_name": "#improved_input_response_options_enabled",
@@ -260,27 +264,41 @@
           "controls": [
             { "frame_pacing_option@general_section.frame_pacing_option": {} },
             { "option_generic_core@settings_common.option_generic_core": {} }
-          ]
+          ],
+          "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
         }
       },
-      {"max_framerate_slider@general_section.max_framerate_slider": {}},
+      {
+        "graphics_mode_switch_toggle@settings_common.option_toggle": {
+          "$option_label": "options.graphicsModeSwitch",
+          "$option_binding_name": "#graphics_mode_switch",
+          "$option_enabled_binding_name": "#graphics_mode_switch_enabled",
+          "$toggle_name": "graphics_mode_switch"
+        }
+      },
+      {"max_framerate_slider@general_section.max_framerate_slider": {"ignored": "($is_holographic)"}},
+      {"fancy_leaves@general_section.fancy_leaves": {}},
       {"msaa_slider@general_section.msaa_slider": {}},
-      {"fancy_leaves@general_section.fancy_leaves": {}}
+      {"option_toggle_hidehud@settings_common.option_toggle": {
+          "ignored": "($is_holographic)",
+          "$option_label": "options.hidehud",
+          "$option_binding_name": "#hide_hud",
+          "$option_enabled_binding_name": "#hide_hud_enabled",
+          "$toggle_name": "hide_hud"
+        }
+      }
     ]
   },
   "max_framerate_slider@settings_common.option_slider": {
-   "ignored": "($is_holographic)",
+    "ignored": "($is_holographic)",
     "$option_label": "#max_framerate_slider_label",
     "$slider_name": "max_framerate",
     "$slider_value_binding_name": "#max_framerate",
     "$slider_tts_text_value": "#max_framerate_text_value",
     "$option_enabled_binding_name": "#max_framerate_enabled",
     "$slider_steps_binding_name": "#max_framerate_steps",
-    "$label_bindings": [
-      {
-        "binding_name": "$option_label"
-      }
-    ],
+    "$label_bindings": [{"binding_name": "$option_label"}],
+    "bindings":[{"binding_name": "#visible","binding_name_override": "#visible"}],
     "controls": [
       { "max_framerate_option@general_section.max_framerate_option": {} },
       { "option_generic_core@settings_common.option_generic_core": {} }
@@ -294,11 +312,8 @@
     "$slider_tts_text_value": "#msaa_text_value",
     "$option_enabled_binding_name": "#msaa_enabled",
     "$slider_steps_binding_name": "#msaa_steps",
-    "$label_bindings": [
-      {
-        "binding_name": "$option_label"
-      }
-    ]
+    "$label_bindings": [{"binding_name": "$option_label"}],
+    "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
   },
    "fancy_leaves@settings_common.option_toggle": {
      "ignored": "($is_holographic)",
@@ -831,6 +846,66 @@
           "layer": 2,
           "offset": [ 2, 0 ],
           "text": "info.raidenvisuals"
+        }
+      } 
+    ]
+  },
+  "ingfospekandroidmin": {
+    "ignored": "($win10_edition)",
+    "type": "panel",
+    "size": [ "100% - 12px", "300%cm" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "black_background@general_section.background": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 0, 0 ],
+          "size": [ "100%", "100%sm + 2px" ]
+        }
+      },
+      {
+        "ingfomintext": {
+          "type": "label",
+          "size": [ "100%", "default" ],
+          "color": "$main_header_text_color",
+          "font_type": "smooth",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 2,
+          "offset": [ 2, 0 ],
+          "text": "info.minimumspekandroid.raidenvisuals"
+        }
+      } 
+    ]
+  },
+  "ingfospekpcmin": {
+    "ignored": "($is_android)",
+    "type": "panel",
+    "size": [ "100% - 12px", "300%cm" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "black_background@general_section.background": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 0, 0 ],
+          "size": [ "100%", "100%sm + 2px" ]
+        }
+      },
+      {
+        "ingfomintext": {
+          "type": "label",
+          "size": [ "100%", "default" ],
+          "color": "$main_header_text_color",
+          "font_type": "smooth",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 2,
+          "offset": [ 2, 0 ],
+          "text": "info.minimumspekpc.raidenvisuals"
         }
       } 
     ]

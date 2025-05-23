@@ -11,11 +11,29 @@
       "minecraft:fog_appearance": {
         "fog_identifier": "kabut:seram"
       },
-      "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "vedapack:raiden_pale_color_grading"
-      },
       "minecraft:water_appearance": {
         "surface_color": "#76889D"
+      },
+      "minecraft:biome_music": {
+        "volume_multiplier": 0
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#878d76"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#778272"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "vedapack:pale_raiden_atmosperics"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "vedapack:raiden_pale_color_grading"//Mengurangi saturasi warna menjadi lebih hampa
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "vedapack:pale_raiden_lighting"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "minecraft:default_water"
       }
     }
   }
