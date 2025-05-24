@@ -23,7 +23,6 @@
       },
       {
         "@settings_common.radio_with_label": {
-          "sound_name": "prank.kegocek",
           "$toggle_state_binding_name": "#graphics_mode_radio_ray_traced",
           "$option_enabled_binding_name": "#graphics_mode_radio_deferred_enabled",
           "$radio_label_text": "options.graphicsMode.rayTraced"
@@ -43,7 +42,6 @@
       "#panel_title": "Settingan Grafis Vibrant visuals"
     }
   },
-  
   "raiden_section": {
     "type": "stack_panel",
     "size": [ "100%", "100%c" ],
@@ -345,7 +343,12 @@
           ]
         }
       },
-      
+      {
+        "spacer_0": {
+          "type": "panel",
+          "size": [ "100%", 4 ]
+        }
+      },
       {"shadowoff@general_section.shadowoff": {"bindings": [
             {
               "binding_name": "#graphics_mode_is_deferred",

@@ -1,5 +1,6 @@
 {
   "namespace": "gamma_calibration",
+        
   "stack_panel_centering_panel": {
     "type": "panel",
     "$control_name|default": "common.empty_panel",

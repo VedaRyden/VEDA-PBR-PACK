@@ -1,7 +1,31 @@
-{
- "parent": {
-    "file": "reflection_configuration.android.low.json"
+{//MEDIUM ANDROID
+  "probe_regen": {
+    "far_plane_scaling": 1.0,
+    "texture_format": "R16G16B16A16_FLOAT",
+    "regen_triggers": {
+      "frames_delta": 600,
+      "gametime_delta": 100,
+      "distance_delta": 500.0,
+      "sky_brightness_delta": 3.0,
+      "block_brightness_delta": 16.0
+    }
   },
-  "overrides": {"ssr_enabled": true},
-    "ssr": {"ssr_scale": 0.1}
+  "ibl": {
+    "num_samples": 1,
+    "dimension": 64,
+    "convolution_type": "mip_chain"
+  },
+  "ssr_enabled": true,
+  "ssr": {
+    "enable_gap_fill": false,
+    "linear_search_step_count": 100,
+    "binary_search_step_count": 10,
+    "roughness_cutoff": 4,
+    "thickness": 0.0,
+    "fading_power_horizontal": 3,
+    "fading_power_vertical": 3,
+    "fading_distance": 0.1,
+    "roughness_fade_start": 0,
+    "ssr_scale": 0.1
+  }
 }

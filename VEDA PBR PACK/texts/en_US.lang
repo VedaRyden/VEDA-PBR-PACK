@@ -51,7 +51,7 @@ options.upscalingModeOptions.taau=TAAU
 options.upscalingModeOptions.bilinear=Bilinear(Recommended)
 
 options.graphicsQualityPresetMode=Quality Presets 
-options.graphicsQualityPresetMode.performance=Performance First (lighter & Recommended)
+options.graphicsQualityPresetMode.performance=Performance First (Recommended)
 options.graphicsQualityPresetMode.visuals=Prioritize Quality (Heavy)
 
 options.bloomStrengthSlider=Bloom(Glowing Effect) 	#

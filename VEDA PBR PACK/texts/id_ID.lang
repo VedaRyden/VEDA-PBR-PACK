@@ -25,6 +25,7 @@ item.totem.name=Ambalabu	#
 options.hdr_brightness=Kecerahan %s°	#
 options.gammaIntensity=Ubah Kecerahan Gamma	#
 options.framePacing=Atur tempo frame(Auto FPS) 
+options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 options.graphicsModeSwitch=Izinkan Ubah Mode Grafis Di Dalam World
 
 options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.2)	#
