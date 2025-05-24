@@ -26,6 +26,6 @@
     "fading_power_vertical": 3,
     "fading_distance": 0.1,
     "roughness_fade_start": 0,
-    "ssr_scale": 0.1
+    "ssr_scale": 0.5
   }
 }

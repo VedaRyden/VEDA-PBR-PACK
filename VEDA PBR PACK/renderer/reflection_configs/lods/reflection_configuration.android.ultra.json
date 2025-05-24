@@ -4,6 +4,5 @@
     "ssr_enabled": true,
     "ssr": {//Upgrade Jarak Pantulan Lebih Tinggi Lagi Di Copas Dengan PC Medium
     "linear_search_step_count": 300,
-    "binary_search_step_count": 15,
-    "ssr_scale": 1
+    "binary_search_step_count": 15
 }}}

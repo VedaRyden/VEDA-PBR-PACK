@@ -7,7 +7,7 @@
     "ssr": {
     "linear_search_step_count": 200,
     "binary_search_step_count": 10,
-    "ssr_scale": 0.5
+    "ssr_scale": 0.75
     }
   }
 }
