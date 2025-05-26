@@ -4,6 +4,7 @@
     "description": {
       "identifier": "vedapack:orpos_raiden_color_grading"
     },
+    "color_grading": {
     "temperature": {
         "enabled": true,
         "temperature": 4800,
