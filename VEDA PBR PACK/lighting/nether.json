@@ -1,23 +1,18 @@
 {
   "format_version": "1.21.80",
   "minecraft:lighting_settings": {
-    "description": {
-      "identifier": "vedapack:neder_raiden_lighting"
-      },
+    "description": {"identifier": "vedapack:neder_raiden_lighting"},
       "directional_lights": {
         "orbital": {
         "sun": {
-          "illuminance": {"0.0": 110000.0,"1.0": 110000.0},
+          "illuminance": {"0.0": 100.0,"1.0": 100.0},
           "color": {"0.0": [128, 53, 53 ],"1.0": [128, 53, 53 ]}
         },
         "moon": {
-          "illuminance": {"0.0": 110000.0,"1.0": 110000.0},
+          "illuminance": {"0.0": 100.0,"1.0": 100.0},
           "color": {"0.0": [128, 20, 20 ],"1.0": [128,20, 20 ]}
-       },
-      "orbital_offset_degrees": 0.0},
+       }},
       "flash": {"illuminance": 1.0,"color": [128, 0, 0 ]}},
-      "emissive": {"desaturation": 0},
-      "ambient": {"color": "#AF4D50","illuminance": 0.02},
-      "sky": {"intensity": 0.1}
+      "ambient": {"color": "#AF4D50","illuminance": 0.5}
   }
 }

@@ -12,7 +12,7 @@
   },
   "ibl": {
     "num_samples": 1,
-    "dimension": 64,
+    "dimension": 256,
     "convolution_type": "mip_chain"
   },
   "ssr_enabled": false,
@@ -26,6 +26,6 @@
     "fading_power_vertical": 3,
     "fading_distance": 0.1,
     "roughness_fade_start": 0,
-    "ssr_scale": 1
+    "ssr_scale": 0.5
   }
 }

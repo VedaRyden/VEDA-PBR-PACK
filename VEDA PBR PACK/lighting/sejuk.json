@@ -2,7 +2,7 @@
   "format_version": "1.21.80",//Pake format 1.21.60 Malah Ngebug njim Di Yapping Expexted Keyframe Halah.
   "minecraft:lighting_settings": {
     "description": {
-      "identifier": "vedapack:raiden_lightning_rawa"
+      "identifier": "vedapack:sejuk_raiden_lighting"
       },
       "directional_lights": {
         "orbital": {//Update Orbit
@@ -22,7 +22,7 @@
             "0.18": [76, 58, 15 ],
             "0.25": [255,119,0 ],
             "0.35": [108,31,9 ],
-            "1.0": [ 255, 227, 215 ]
+            "1.00": [ 255, 227, 215 ]
           }
         },
           "moon": {//Pencahayaan Cakep Malam
@@ -38,35 +38,8 @@
             "0.000000": [ 114, 255, 255 ],
             "1.000000": [ 114, 255, 255 ]
           }
-        },
-        "orbital_offset_degrees": {//Orbit Matahari 360 Derajat
-          "0.5": 330,
-          "0.75": 330,
-          "0.82": 330,
-          "0.93": 310,
-          "0.97": 304,
-          "1.0": 304,
-          "0.03": 304,
-          "0.07": 310,
-          "0.18": 330,
-        "0.25": 330,
-      "0.35": 330
+        }
     }
-  },
-    "flash": {//Fitur Baru Ada Kedipan Cahaya Flash Di End
-        "illuminance": 10.0,
-        "color": [ 225, 0, 255 ]
-      }
-      },
-      "emissive": {
-       "desaturation": 0//Biar gak memutih efek bloom/terang nya
-      },
-      "ambient": {
-        "color": "#FFFFFF",
-        "illuminance": 5
-      },
-      "sky": {//Intesitas Langit
-        "intensity": 0.1
     }
   }
 }
