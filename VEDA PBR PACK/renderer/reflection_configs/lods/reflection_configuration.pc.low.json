@@ -22,9 +22,9 @@
     "binary_search_step_count": 10,
     "roughness_cutoff": 0.4,
     "thickness": 0.0,
-    "fading_power_horizontal": 3,
-    "fading_power_vertical": 3,
-    "fading_distance": 0.1,
+    "fading_power_horizontal": 0,
+    "fading_power_vertical": 0,
+    "fading_distance": 0,
     "ssr_scale": 0.5,
     "roughness_fade_start": 0
   }

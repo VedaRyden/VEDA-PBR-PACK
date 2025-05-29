@@ -32,12 +32,12 @@
  {
   "atlas_tile": "still_lava",
   "flipbook_texture": "textures/blocks/lava_still",
-  "ticks_per_frame": 16
+  "ticks_per_frame": 32
  },
  {
   "atlas_tile": "flowing_lava",
   "flipbook_texture": "textures/blocks/lava_flow",
-  "ticks_per_frame": 16
+  "ticks_per_frame": 32
  },
  {
   "atlas_tile": "magma",

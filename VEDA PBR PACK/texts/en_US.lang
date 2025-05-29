@@ -1,5 +1,9 @@
-﻿pack.description=PBR Texture Pack For Vibrant Visuals\nUse Raiden Visuals To Up performance!\nLightning & PBR By @VEDA_RAIDEN	#
+﻿pack.description=PBR Texture Pack Comes With Vibrant Visuals Configuration\nVeda Pack Base Version : V1.5.7\nRaiden Visuals Mod is Recommended!\nCreator : @VEDA_RAIDEN\n[RAIDEN VISUALS IS NOT INCLUDED!]\n[RAIDEN VISUALS IS NOT A RESOURCE PACK BUT A CONFIGURATION MOD TO IMPROVE VIBRANT VISUAL GRAPHICS PERFORMANCE!]	#
 
+resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)	#
+info.raidenvisuals=Adjust to your device's capabilities, turn off reflections, shadows or volumetric fog and set upscaling to 33% to get better performance..	#
+info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications to Enable Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+.	#
+info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To Enable Vibrant Visuals Graphics Feature.	#
 info.raidenvisuals=Adjust to Your Device's Capabilities, Turn Off Reflections, Shadows Or Volumetric Fog And Set Upscaling To 33% To Get Better Performance.	#
 opti.raidenvisuals=Raiden Visuals Options	#
 set.raidenvisuals=Raiden visuals Graphics Settings	#

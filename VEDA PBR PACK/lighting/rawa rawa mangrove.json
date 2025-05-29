@@ -2,7 +2,7 @@
   "format_version": "1.21.80",//Pake format 1.21.60 Malah Ngebug njim Di Yapping Expexted Keyframe Halah.
   "minecraft:lighting_settings": {
     "description": {
-      "identifier": "vedapack:raiden_lightning_rawa"
+      "identifier": "vedapack:raiden_lightning_rawamangrove"
       },
       "directional_lights": {
         "orbital": {//Update Orbit
@@ -40,6 +40,6 @@
           }
         }
       }
-  }
+    }
   }
 }
