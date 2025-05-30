@@ -26,6 +26,6 @@
     "roughness_cutoff": 0,
     "roughness_fade_start": 0,
     "thickness": 0.0,
-    "ssr_scale": 0.1
+    "ssr_scale": 0.5
   }
 }

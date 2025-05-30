@@ -2,6 +2,6 @@
   "format_version": "1.21.80",
   "minecraft:shadow_settings": {
     "shadow_style": "soft_shadows",
-    "texel_size": 1024//meski pake style soft shadow tetap berpengaruh guys
+    "texel_size": 8192//meski pake style soft shadow tetap berpengaruh guys
   }
 }
