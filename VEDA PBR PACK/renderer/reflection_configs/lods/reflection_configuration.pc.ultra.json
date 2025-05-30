@@ -20,7 +20,7 @@
     "enable_gap_fill": true,
     "linear_search_step_count": 800,
     "binary_search_step_count": 40,
-    "roughness_cutoff": 8,
+    "roughness_cutoff": 0,
     "thickness": 0,
     "fading_power_horizontal": 0,
     "fading_power_vertical": 0,

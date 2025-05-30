@@ -28,7 +28,7 @@ options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 options.graphicsModeSwitch=Izinkan Ubah Mode Grafis Di Dalam World
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.2)	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.4)	#
 options.graphicsMode.rayTraced=Ray Tracing	#
 options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
 options.graphicsModeOptions.fancy=Opsi Grafis Indah	#

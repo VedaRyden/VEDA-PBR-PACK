@@ -7,6 +7,7 @@ info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To E
 info.raidenvisuals=Adjust to Your Device's Capabilities, Turn Off Reflections, Shadows Or Volumetric Fog And Set Upscaling To 33% To Get Better Performance.	#
 opti.raidenvisuals=Raiden Visuals Options	#
 set.raidenvisuals=Raiden visuals Graphics Settings	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.4)	#
 
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Lightning Sword	#
