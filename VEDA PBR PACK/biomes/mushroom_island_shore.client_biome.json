@@ -8,6 +8,15 @@
       "minecraft:fog_appearance": {
         "fog_identifier": "minecraft:fog_mushroom_island_shore"
       },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "vedapack:jamur_raiden_atmosperics"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "vedapack:jamur_raiden_color_grading"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "vedapack:jamur_raiden_lighting"
+      },
       "minecraft:water_identifier": {
       "water_identifier": "vedapack:air_keruh"
     },

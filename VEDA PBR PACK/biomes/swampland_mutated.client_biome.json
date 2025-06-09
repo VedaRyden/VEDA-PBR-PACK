@@ -8,9 +8,18 @@
       "minecraft:fog_appearance": {
         "fog_identifier": "kabut:rawa"
       },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "vedapack:rawa_raiden_atmosperics"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "vedapack:rawamutasi_raiden_color_grading"
+      },
       "minecraft:lighting_identifier": {
         "lighting_identifier": "vedapack:raiden_lightning_rawa"
       },
+      "minecraft:water_identifier": {
+      "water_identifier": "vedapack:air_keruh"
+    },
       "minecraft:water_appearance": {
         "surface_color": "#4c6156"
       }

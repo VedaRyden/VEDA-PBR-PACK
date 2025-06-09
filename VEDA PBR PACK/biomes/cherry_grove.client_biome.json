@@ -8,6 +8,12 @@
       "minecraft:sky_color": {
         "sky_color": "#eb67ab"
       },
+      "minecraft:foliage_appearance": {
+        "color": "#b6db61"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#b6db61"
+      },
       "minecraft:fog_appearance": {
         "fog_identifier": "kabut:cherry"
       },
