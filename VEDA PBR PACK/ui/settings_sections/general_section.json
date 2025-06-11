@@ -15,7 +15,6 @@
       },
       {
         "@settings_common.radio_with_label": {
-          "ignored": "($is_holographic)",
           "$toggle_state_binding_name": "#graphics_mode_radio_deferred",
           "$option_enabled_binding_name": "#graphics_mode_radio_deferred_enabled",
           "$radio_label_text": "options.graphicsMode.deferred"
@@ -227,14 +226,12 @@
       },
       {
         "option_toggle_improved_input_response@settings_common.option_toggle": {
-          "ignored": "($is_holographic)",
           "$option_label": "options.improvedInputResponsePlaceholder",
           "$option_binding_name": "#improved_input_response_options",
           "$option_enabled_binding_name": "#improved_input_response_options_enabled",
           "$toggle_name": "improved_input_response_options",
           "layer": 1,
           "controls": [
-            { "improved_input_response_option@general_section.improved_input_response_option": {} },
             { "option_generic_core@settings_common.option_generic_core": {} }
           ]
         }
@@ -247,7 +244,6 @@
           "$toggle_name": "dynamic_textures",
           "layer": 1,
           "controls": [
-            { "dynamic_textures_option@general_section.dynamic_textures_option": {} },
             { "option_generic_core@settings_common.option_generic_core": {} }
           ]
         }
@@ -260,7 +256,6 @@
           "$toggle_name": "frame_pacing",
           "layer": 1,
           "controls": [
-            { "frame_pacing_option@general_section.frame_pacing_option": {} },
             { "option_generic_core@settings_common.option_generic_core": {} }
           ],
           "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
@@ -274,11 +269,10 @@
           "$toggle_name": "graphics_mode_switch"
         }
       },
-      {"max_framerate_slider@general_section.max_framerate_slider": {"ignored": "($is_holographic)"}},
+      {"max_framerate_slider@general_section.max_framerate_slider": {}},
       {"fancy_leaves@general_section.fancy_leaves": {}},
       {"msaa_slider@general_section.msaa_slider": {}},
       {"option_toggle_hidehud@settings_common.option_toggle": {
-          "ignored": "($is_holographic)",
           "$option_label": "options.hidehud",
           "$option_binding_name": "#hide_hud",
           "$option_enabled_binding_name": "#hide_hud_enabled",
@@ -288,7 +282,6 @@
     ]
   },
   "max_framerate_slider@settings_common.option_slider": {
-    "ignored": "($is_holographic)",
     "$option_label": "#max_framerate_slider_label",
     "$slider_name": "max_framerate",
     "$slider_value_binding_name": "#max_framerate",
@@ -298,7 +291,6 @@
     "$label_bindings": [{"binding_name": "$option_label"}],
     "bindings":[{"binding_name": "#visible","binding_name_override": "#visible"}],
     "controls": [
-      { "max_framerate_option@general_section.max_framerate_option": {} },
       { "option_generic_core@settings_common.option_generic_core": {} }
     ]
   },
@@ -308,10 +300,10 @@
     "$slider_name": "msaa",
     "$slider_value_binding_name": "#msaa",
     "$slider_tts_text_value": "#msaa_text_value",
-    "$option_enabled_binding_name": "#transparent_leaves_enabled",
+    "$option_enabled_binding_name": "#max_framerate_enabled",
     "$slider_steps_binding_name": "#msaa_steps",
     "$label_bindings": [{"binding_name": "$option_label"}],
-    "bindings": [{"binding_name": "#graphics_mode_is_deferred","binding_name_override": "#visible"}]
+    "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
   },
    "fancy_leaves@settings_common.option_toggle": {
      "ignored": "($is_holographic)",
