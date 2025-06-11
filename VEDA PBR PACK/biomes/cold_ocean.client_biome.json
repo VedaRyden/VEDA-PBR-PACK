@@ -11,6 +11,12 @@
       "minecraft:color_grading_identifier": {
         "color_grading_identifier": "vedapack:raiden_sejuk_color_grading"
       },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "vedapack:raiden_atmosperics"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "vedapack:raiden_lighting"
+      },
       "minecraft:water_identifier": {
       "water_identifier": "vedapack:gelombang_laut"
     },
