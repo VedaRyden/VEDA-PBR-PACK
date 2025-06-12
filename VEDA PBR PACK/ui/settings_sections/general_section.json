@@ -228,7 +228,7 @@
         "option_toggle_improved_input_response@settings_common.option_toggle": {
           "$option_label": "options.improvedInputResponsePlaceholder",
           "$option_binding_name": "#improved_input_response_options",
-          "$option_enabled_binding_name": "#improved_input_response_options_enabled",
+          "$option_enabled_binding_name": "#max_framerate_enabled",
           "$toggle_name": "improved_input_response_options",
           "layer": 1,
           "controls": [
