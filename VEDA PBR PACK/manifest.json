@@ -11,12 +11,12 @@
  "subpacks": [
   {
    "folder_name": "16x",
-   "memory_tier": 2,
+   "memory_tier": 1,
    "name": "Kualitas Bayangan 16x Pixel Perblock(Ringan)\n\nSeperti Vibrant Visual Yang Bayangan Nya Pixelated. Kualitas Bayangan 16x itu cukup ringan untuk performa :D."
   },
   {
    "folder_name": "512x",
-   "memory_tier": 1,
+   "memory_tier": 2,
    "name": "Bayangan Halus Tidak Pixelated\n\nMemiliki Efek Subsurface Scattering Atau Gradasi Di Sisi Bayangan Nya, Tapi Mungkin Akan Sedikit Berat Jadi Cobalah :D."
   },
   {
