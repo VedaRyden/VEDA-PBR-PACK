@@ -12,21 +12,21 @@
   },
   "ibl": {
     "num_samples": 1,
-    "dimension": 512,
-    "convolution_type": "importance_sampled"
+    "dimension": 64,
+    "convolution_type": "mip_chain"
   },
   "ssr_enabled": true,
   "ssr": {
-    "enable_gap_fill": true,
-    "linear_search_step_count": 800,
-    "binary_search_step_count": 40,
+    "enable_gap_fill": false,
+    "linear_search_step_count": 1400,
+    "binary_search_step_count": 10,
     "ray_step_length": 1,
-    "thickness": 0,
     "fading_power_horizontal": 0,
     "fading_power_vertical": 0,
     "fading_distance": 1,
     "roughness_cutoff": 0.4,
     "roughness_fade_start": 0.3,
+    "thickness": 0,
     "ssr_scale": 1
   }
 }
