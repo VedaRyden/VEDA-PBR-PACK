@@ -6,7 +6,6 @@
     "ibl": {"dimension": 64},
     "ssr_enabled": true,
     "ssr": {
-      "fading_distance": 1,
     "linear_search_step_count": 200,
     "binary_search_step_count": 10
     }

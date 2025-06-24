@@ -1,4 +1,6 @@
 pack.description=Paket Tekstur PBR Dilengkapi Dengan Konfigurasi Vibrant Visuals\nVeda Pack Base Version : V1.5.7\nDisarankan Menggunakan Mod Raiden Visuals!\nCreator : @VEDA_RAIDEN\n[RAIDEN VISUALS TIDAK TERMASUK!]\n[RAIDEN VISUALS BUKAN RESOURCE PACK MELAINKAN MOD KONFIGURASI UNTUK MENINGKATKAN PERFORMA GRAFIS VIBRANT VISUAL!]	#
+resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
+resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
@@ -27,7 +29,7 @@ options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 options.graphicsModeSwitch=Izinkan Ubah Mode Grafis Di Dalam World
 
 options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.5)	#
-options.graphicsMode.rayTraced=Ray Tracing	#
+options.graphicsMode.rayTraced=Ray Traced	#
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals	#
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing	#
 

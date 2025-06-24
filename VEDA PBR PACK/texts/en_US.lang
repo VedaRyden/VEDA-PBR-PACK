@@ -1,5 +1,7 @@
 ﻿pack.description=PBR Texture Pack Comes With Vibrant Visuals Configuration\nVeda Pack Base Version : V1.5.7\nRaiden Visuals Mod is Recommended!\nCreator : @VEDA_RAIDEN\n[RAIDEN VISUALS IS NOT INCLUDED!]\n[RAIDEN VISUALS IS NOT A RESOURCE PACK BUT A CONFIGURATION MOD TO IMPROVE VIBRANT VISUAL GRAPHICS PERFORMANCE!]	#
 
+resourcePack.vanilla.name=Raiden Visuals Configuration Mod
+resourcePack.vanilla.description=Better Performance And Optimized For Vibrant Visuals!
 resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)	#
 info.raidenvisuals=Adjust to your device's capabilities, turn off reflections, shadows or volumetric fog and set upscaling to 33% to get better performance..	#
 info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications to Enable Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+.	#
@@ -18,9 +20,7 @@ item.bread.name=Rice crackers	#
 item.totem.name=Ambalabu	#
 
 options.hdr_brightness=Brightness %s°	#
-options.graphicsMode.rayTraced=Ray Tracing	#
 
-options.cloudQuality=Clouds	#
 options.cloudQuality.ultra=Ultra§a(Recommended HD)	#
 
 options.shadowQuality.low=OFF§b(FPS BOOST!)	#
