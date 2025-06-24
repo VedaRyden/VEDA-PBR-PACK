@@ -6,8 +6,8 @@ info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications to Enable Vibra
 info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To Enable Vibrant Visuals Graphics Feature.	#
 info.raidenvisuals=Adjust to Your Device's Capabilities, Turn Off Reflections, Shadows Or Volumetric Fog And Set Upscaling To 33% To Get Better Performance.	#
 opti.raidenvisuals=Raiden Visuals Options	#
-set.raidenvisuals=Raiden visuals Graphics Settings	#
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.4)	#
+set.raidenvisuals=Raiden Visuals Graphics Settings	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.5)	#
 
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Lightning Sword	#
@@ -21,14 +21,10 @@ options.hdr_brightness=Brightness %s°	#
 options.graphicsMode.rayTraced=Ray Tracing	#
 
 options.cloudQuality=Clouds	#
-options.cloudQuality.low=Low	#
-options.cloudQuality.medium=Medium(Recommended)	#
-options.cloudQuality.high=High	#
-options.cloudQuality.ultra=Ultra§a(HD)	#
+options.cloudQuality.ultra=Ultra§a(Recommended HD)	#
 
 options.shadowQuality.low=OFF§b(FPS BOOST!)	#
 options.shadowQuality.medium=Medium(Recommended)	#
-options.shadowQuality.high=High(Blury)	#
 options.shadowQuality.ultra=Ultra§a(HD)	#
 
 options.pointLightShadowQuality.off=OFF	#
@@ -52,14 +48,14 @@ options.upscalingPercentage=Upscaling Resolution
 options.upscalingPercentage.hundred=Without Upscaling§a(Sharp)
 options.upscalingPercentage.zero=Automatic(Recommended 33%)
 options.upscalingMode=Upscaling Mode
-options.upscalingModeOptions.taau=TAAU
+options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
 options.upscalingModeOptions.bilinear=Bilinear(Recommended)
 
 options.graphicsQualityPresetMode=Quality Presets 
 options.graphicsQualityPresetMode.performance=Performance First (Recommended)
 options.graphicsQualityPresetMode.visuals=Prioritize Quality (Heavy)
 
-options.bloomStrengthSlider=Bloom(Glowing Effect) 	#
+options.bloomStrengthSlider=Bloom(Glow Effect) 	#
 
 options.vsync=Use VSync(Synchronization)	#
 options.vsync.off=Turn off VSync(Recommended)	#

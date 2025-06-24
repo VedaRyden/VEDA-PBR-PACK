@@ -212,60 +212,7 @@
         }
       },
       {"max_framerate_slider@general_section.max_framerate_slider": {}},
-      {
-        "option_toggle_improved_input_response@settings_common.option_toggle": {
-          "$option_label": "options.improvedInputResponsePlaceholder",
-          "$option_binding_name": "#improved_input_response_options",
-          "$option_enabled_binding_name": "#max_framerate_enabled",
-          "$toggle_name": "improved_input_response_options",
-          "layer": 1,
-          "controls": [
-            { "option_generic_core@settings_common.option_generic_core": {} }
-          ]
-        }
-      },
-      {
-        "dynamic_textures_toggle@settings_common.option_toggle": {
-          "$option_label": "options.dynamicTexturesToggle",
-          "$option_binding_name": "#dynamic_textures",
-          "$option_enabled_binding_name": "#dynamic_textures_enabled",
-          "$toggle_name": "dynamic_textures",
-          "layer": 1,
-          "controls": [
-            { "option_generic_core@settings_common.option_generic_core": {} }
-          ]
-        }
-      },
-      {
-        "frame_pacing_toggle@settings_common.option_toggle": {
-          "$option_label": "options.framePacing",
-          "$option_binding_name": "#frame_pacing",
-          "$option_enabled_binding_name": "#frame_pacing_enabled",
-          "$toggle_name": "frame_pacing",
-          "layer": 1,
-          "controls": [
-            { "option_generic_core@settings_common.option_generic_core": {} }
-          ],
-          "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
-        }
-      },
-      {
-        "graphics_mode_switch_toggle@settings_common.option_toggle": {
-          "$option_label": "options.graphicsModeSwitch",
-          "$option_binding_name": "#graphics_mode_switch",
-          "$option_enabled_binding_name": "#graphics_mode_switch_enabled",
-          "$toggle_name": "graphics_mode_switch"
-        }
-      },
       {"msaa_slider@general_section.msaa_slider": {}},
-      {"fancy_leaves@general_section.fancy_leaves": {}},
-      {"option_toggle_hidehud@settings_common.option_toggle": {
-          "$option_label": "options.hidehud",
-          "$option_binding_name": "#hide_hud",
-          "$option_enabled_binding_name": "#hide_hud_enabled",
-          "$toggle_name": "hide_hud"
-        }
-      },
       {
         "vsync_dropdown@settings_common.option_dropdown": {
           "$option_label": "options.vsync",
@@ -275,6 +222,71 @@
           "$options_dropdown_toggle_label_binding": "#vsync_dropdown_toggle_label",
           "$option_enabled_binding_name": "#vsync_dropdown_enabled",
           "$dropdown_scroll_content_size": [ "100%", "200%" ]
+        }
+      },
+      {"upscaling_toggle@general_section.upscaling_toggle":{"ignored": "($is_holographic)"}},
+      {
+        "option_toggle_improved_input_response@settings_common.option_toggle": {
+          "$option_label": "options.improvedInputResponsePlaceholder",
+          "$option_binding_name": "#improved_input_response_options",
+          "$option_enabled_binding_name": "#max_framerate_enabled",
+          "$toggle_name": "improved_input_response_options",
+          "layer": 1,
+          "controls": [{ "option_generic_core@settings_common.option_generic_core":{}}]
+        }
+      },
+      {
+        "dynamic_textures_toggle@settings_common.option_toggle": {
+          "$option_label": "options.dynamicTexturesToggle",
+          "$option_binding_name": "#dynamic_textures",
+          "$option_enabled_binding_name": "#dynamic_textures_enabled",
+          "$toggle_name": "dynamic_textures",
+          "layer": 1,
+          "controls": [{"option_generic_core@settings_common.option_generic_core":{}}]
+        }
+      },
+      {
+        "frame_pacing_toggle@settings_common.option_toggle": {
+          "$option_label": "options.framePacing",
+          "$option_binding_name": "#frame_pacing",
+          "$option_enabled_binding_name": "#frame_pacing_enabled",
+          "$toggle_name": "frame_pacing",
+          "layer": 1,
+          "controls": [{"option_generic_core@settings_common.option_generic_core":{}}]
+        }
+      },
+      {
+        "graphics_mode_switch_toggle@settings_common.option_toggle": {
+          "$option_label": "options.graphicsModeSwitch",
+          "$option_binding_name": "#graphics_mode_switch",
+          "$option_enabled_binding_name": "#max_framerate_enabled",
+          "$toggle_name": "graphics_mode_switch"
+        }
+      },
+      {"fancy_leaves@general_section.fancy_leaves": {}},
+      {"option_toggle_hidehud@settings_common.option_toggle": {
+          "$option_label": "options.hidehud",
+          "$option_binding_name": "#hide_hud",
+          "$option_enabled_binding_name": "#hide_hud_enabled",
+          "$toggle_name": "hide_hud"
+        }
+      },
+      {
+        "multithreaded_rendering_toggle@settings_common.option_toggle": {
+          "$option_label": "options.dev_multithreadedRendering",
+          "$option_binding_name": "#multithreaded_rendering",
+          "$option_enabled_binding_name": "#multithreaded_rendering_enabled",
+          "$toggle_name": "multithreaded_rendering",
+          "bindings":[{"binding_name": "#visible","binding_name_override": "#visible"}]
+        }
+      },
+      {
+        "enable_texture_hot_reloader_toggle@settings_common.option_toggle": {
+          "$option_label": "options.dev_enable_texture_hot_reloader",
+          "$option_binding_name": "#enable_texture_hot_reloader",
+          "$option_enabled_binding_name": "#texture_hot_reloader_enabled",
+          "$toggle_name": "enable_texture_hot_reloader",
+          "bindings":[{"binding_name": "#visible","binding_name_override": "#visible"}]
         }
       }
     ]
@@ -288,9 +300,7 @@
     "$slider_steps_binding_name": "#max_framerate_steps",
     "$label_bindings": [{"binding_name": "$option_label"}],
     "bindings":[{"binding_name": "#visible","binding_name_override": "#visible"}],
-    "controls": [
-      { "option_generic_core@settings_common.option_generic_core": {} }
-    ]
+    "controls": [{ "option_generic_core@settings_common.option_generic_core":{}}]
   },
   "msaa_slider@settings_common.option_slider": {
     "ignored": "($is_holographic)",
@@ -302,6 +312,17 @@
     "$slider_steps_binding_name": "#msaa_steps",
     "$label_bindings": [{"binding_name": "$option_label"}],
     "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
+  },
+  "upscaling_toggle@settings_common.option_toggle": {
+    "$option_label": "options.upscaling",
+    "$option_binding_name": "#graphics_upscaling",
+    "$option_enabled_binding_name": "#max_framerate_enabled",
+    "$option_tooltip_binding_type": "global",
+    "$option_tooltip_area": "general_and_controls_sections",
+    "$option_tooltip_text_binding_name": "#rtx_disabled_option_upsell_tooltip_text",
+    "$option_tooltip_visible_binding_name": "#rtx_disabled_option_upsell_visible",
+    "$toggle_name": "graphics_upscaling",
+    "controls": [{ "option_generic_core@settings_common.option_generic_core":{}}]
   },
    "fancy_leaves@settings_common.option_toggle": {
      "ignored": "($is_holographic)",

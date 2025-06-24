@@ -2,9 +2,6 @@ pack.description=Paket Tekstur PBR Dilengkapi Dengan Konfigurasi Vibrant Visuals
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
-options.graphicsModeSwitch=Allow In-game Graphics Mode Switching
-options.graphicsMode.performanceWarning.title=Yakin Aktifkan Grafis Vibrant Visuals?
-options.graphicsMode.performanceWarning.leftButton=Aktifkan
 options.deferred.renderDistance=Jarak Render Deferred
 options.deferred.renderDistanceFormat=%s chunk
 
@@ -29,60 +26,46 @@ options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 options.graphicsModeSwitch=Izinkan Ubah Mode Grafis Di Dalam World
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.4)	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.5)	#
 options.graphicsMode.rayTraced=Ray Tracing	#
-options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
-options.graphicsModeOptions.fancy=Opsi Grafis Indah	#
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals	#
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing	#
 
-options.shadowQuality=Kualitas Bayangan 	#
 options.shadowQuality.low=Mati§b(FPS BOOST)	#
 options.shadowQuality.medium=Sedang(Rekomendasi)	#
 options.shadowQuality.high=Tinggi	#
 options.shadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
-options.cloudQuality=Awan	#
 options.cloudQuality.low=Rendah(Tanpa Lighting)	#
 options.cloudQuality.medium=Medium(Rekomendasi)	#
 options.cloudQuality.high=Tinggi	#
 options.cloudQuality.ultra=Ultra§a(Rata Kanan!)	#
 
-options.pointLightShadowQuality=Kualitas Bayangan Cahaya 	#
 options.pointLightShadowQuality.off=Mati§b(FPS BOOST)	#
 options.pointLightShadowQuality.low=Rendah(Rekomendasi)	#
-options.pointLightShadowQuality.medium=Menengah	#
-options.pointLightShadowQuality.high=Tinggi	#
 options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan!)	#
 
-options.pointLightLODingQuality=Kualitas Cahaya 	#
-options.pointLightLODingQuality.off=Mati(Rekomendasi)	###
-options.pointLightLODingQuality.low=Rendah	#
-options.pointLightLODingQuality.medium=Sedang	#
-options.pointLightLODingQuality.high=Tinggi	#
+options.pointLightLODingQuality.off=Mati(Rekomendasi)	#
 options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan!)	#
 
-options.volumetricFogQuality=Kualitas Kabut Volumetrik 	#
 options.volumetricFogQuality.off=Mati§a§b(FPS BOOST)	#
 options.volumetricFogQuality.low=Rendah(Rekomendasi)	#
 options.volumetricFogQuality.medium=Sedang	#
 options.volumetricFogQuality.high=Tinggi	#
 options.volumetricFogQuality.ultra=Ultra§a(Rata Kanan!)	#
 
-options.reflectionsQuality=Refleksi 	#
 options.reflectionsQuality.off=Mati§c(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)	#
-options.reflectionsQuality.low=Rendah(Scale 0.5 - Rekomendasi)	#
-options.reflectionsQuality.medium=Menengah(SSR Scale 0.5)	#
-options.reflectionsQuality.high=Tinggi(SSR Scale 0.5)	#
-options.reflectionsQuality.ultra=Ultra§a(SSR Scale 1 - Rata Kanan!)	#
-
+options.reflectionsQuality.low=Rendah(Rekomendasi)	#
+options.reflectionsQuality.medium=Menengah(SSR On)	#
+options.reflectionsQuality.high=Tinggi	#
+options.reflectionsQuality.ultra=Ultra§a(Rata Kanan!)	#
 options.deferred.upscaling=Fallback Upscaling 	#
 options.upscaling=DLSS Upscaling	#
 options.upscalingPercentage=Resolusi Upscaling
 options.upscalingPercentage.hundred=Tanpa Upscaling§a(Tajam)
 options.upscalingPercentage.zero=Otomatis(Disarankan 33%)
 options.upscalingMode=Mode Upscaling
-options.upscalingModeOptions.taau=TAAU
+options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
 options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)
 
 options.graphicsQualityPresetMode=Preset Kualitas 

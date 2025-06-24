@@ -2,5 +2,5 @@
   "deferred_render_distance_configuration": {
     "file": "lods/render_distance_configuration_high.json"
   },
-  "default_deferred_distance": 8
+  "default_deferred_distance": 4
 }
