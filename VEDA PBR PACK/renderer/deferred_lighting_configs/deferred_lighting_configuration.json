@@ -1,6 +1,6 @@
 {
     "mixed_res_enabled": true,
-    "upscale_factor": 0.66,
+    "upscale_factor": 1,
     "local_exposure": true,
     "biome_blending": true
 }
