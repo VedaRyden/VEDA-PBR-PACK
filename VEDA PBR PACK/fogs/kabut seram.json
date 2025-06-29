@@ -1,10 +1,22 @@
 {
-  "format_version": "1.16.100",
+  "format_version": "1.21.90",
   "minecraft:fog_settings": {
     "description": {
       "identifier": "kabut:seram"
     },
     "distance": {
+      "air": {
+        "fog_start": 0.92,
+        "fog_end": 1.0,
+        "fog_color": "#817770",
+        "render_distance_type": "render"
+      },
+      "weather": {
+        "fog_start": 0.23,
+        "fog_end": 0.7,
+        "fog_color": "#403C44",
+        "render_distance_type": "render"
+      },
       "water": {
         "fog_start": 0.0,
         "fog_end": 60.0,
@@ -27,18 +39,22 @@
     "volumetric": {
                 "density": {
                 "air": {
-                 "max_density": 0.75,
-                 "max_density_height": 130,
-                 "zero_density_height": 220,
-                 "uniform": false
+                 "max_density": 0.07,
+                 "zero_density_height": 320.0,
+          "max_density_height": 320.0
                 }
                 },
                 "media_coefficients": {
                 "air": {
-                 "scattering": [ 0.05, 0.076, 0.1 ],
-                 "absorption": [ 0.005, 0.007, 0.01 ]
+                 "scattering": [ 0.45, 0.5, 0.4 ],
+                 "absorption": [ 0.35, 0.125, 0.25 ]
                 }
-            }
+            },
+            "henyey_greenstein_g": {
+              "air": {
+                "henyey_greenstein_g": 0.3
         }
+      }
+   }
   }
 }
