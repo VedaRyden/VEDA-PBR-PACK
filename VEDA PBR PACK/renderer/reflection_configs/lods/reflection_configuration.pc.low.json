@@ -11,15 +11,15 @@
     }
   },
   "ibl": {
-    "num_samples": 1,
-    "dimension": 1,
+    "num_samples": 0,
+    "dimension": 0,
     "convolution_type": "mip_chain"
   },
   "ssr_enabled": false,
   "ssr": {
     "enable_gap_fill": false,
     "linear_search_step_count": 200,
-    "binary_search_step_count": 10,
+    "binary_search_step_count": 0,
     "ray_step_length": 1.0,
     "roughness_cutoff": 0,
     "thickness": 0,

@@ -11,43 +11,31 @@
               "range": 0.1666,
               "resolution": 2048,
               "slope_bias": 0.00001,
-              "update_frequency": 1,
+              "update_frequency": 10,
               "update_offset": 0
           },
           {
               "bias": 0,
-              "has_dynamic_geometry": true,
+              "has_dynamic_geometry": false,
               "has_static_geometry": true,
               "light_quantization_steps": 900,
               "pcf_width": 0,
               "range": 0.3333,
               "resolution": 1024,
               "slope_bias": 0.00008,
-              "update_frequency": 1,
+              "update_frequency": 200,
               "update_offset": 0
           },
           {
               "bias": 0,
-              "has_dynamic_geometry": true,
+              "has_dynamic_geometry": false,
               "has_static_geometry": true,
               "light_quantization_steps": 900,
               "pcf_width": 0,
               "range": 0.5,
               "resolution": 512,
               "slope_bias": 0.00008,
-              "update_frequency": 1,
-              "update_offset": 0
-          },
-          {
-              "bias": 0,
-              "has_dynamic_geometry": true,
-              "has_static_geometry": true,
-              "light_quantization_steps": 900,
-              "pcf_width": 0,
-              "range": 1,
-              "resolution": 512,
-              "slope_bias": 0.00008,
-              "update_frequency": 1,
+              "update_frequency": 1000,
               "update_offset": 0
           }
       ]
@@ -59,9 +47,6 @@
   "max_shadow_distance": 128,
   "moon_shadows": true,
   "normal_offset_strength": 0.065,
-  "shadow_range": {
-      "far": 128,
-      "near": 0.025
-  },
+  "shadow_range": {"far": 128,"near": 0.025},
   "sun_shadows": true
 }

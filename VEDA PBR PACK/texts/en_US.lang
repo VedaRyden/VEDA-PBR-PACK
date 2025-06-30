@@ -3,8 +3,8 @@
 resourcePack.vanilla.name=Raiden Visuals Configuration Mod
 resourcePack.vanilla.description=Better Performance And Optimized For Vibrant Visuals!
 resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)	#
-info.raidenvisuals=Adjust to your device's capabilities, turn off reflections, shadows or volumetric fog and set upscaling to 33% to get better performance..	#
-info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications to Enable Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+.	#
+info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you first enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance. #
+info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications To Be Able To Activate Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. If It Still Doesn't Work and Goes Back To Fancy = Your Phone Is Not Compatible. #
 info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To Enable Vibrant Visuals Graphics Feature.	#
 info.raidenvisuals=Adjust to Your Device's Capabilities, Turn Off Reflections, Shadows Or Volumetric Fog And Set Upscaling To 33% To Get Better Performance.	#
 opti.raidenvisuals=Raiden Visuals Options	#
