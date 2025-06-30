@@ -1,161 +1,152 @@
-Adreno (TM) 304
-Adreno (TM) 305
-Adreno (TM) 306
-Adreno (TM) 308
-Adreno (TM) 320
-Adreno (TM) 330
-Adreno (TM) 405
-Adreno (TM) 418
-Adreno (TM) 420
-Adreno (TM) 430
-Adreno (TM) 504
-Adreno (TM) 505
-Adreno (TM) 506
-Adreno (TM) 508
-Adreno (TM) 509
-Adreno (TM) 510
-Adreno (TM) 512
-Adreno (TM) 530
-Adreno (TM) 540
-Adreno (TM) 610
-Adreno (TM) 611
-Adreno (TM) 612
-Adreno (TM) 613
-Adreno (TM) 615
-Adreno (TM) 616
-Adreno (TM) 618
-Adreno (TM) 619
-Adreno (TM) 619L
-Adreno (TM) 620
-Adreno (TM) 630
-Adreno (TM) 640
-Adreno (TM) 642
-Adreno (TM) 642L
-Adreno (TM) 643
-Adreno (TM) 644
-Adreno (TM) 649
-Adreno (TM) 650
-Adreno (TM) 660
-Adreno (TM) 690
-Adreno (TM) 702
-ANGLE (Qualcomm, Vulkan 1.1.128 (Adreno (TM) 710 (0x07010000)), Qualcomm Technologies Inc. Adreno Vulkan Driver-512.615.92)
-Adreno (TM) 710
-Adreno (TM) 716
-Adreno (TM) 720
-Adreno (TM) 725
-Adreno (TM) 730
-Adreno (TM) 732
-Adreno (TM) 735
-Adreno (TM) 740
-Adreno (TM) 750
-Adreno (TM) 770
-Adreno (TM) 777
-Adreno (TM) 810
-Adreno (TM) 825
-Adreno (TM) 830
-Adreno (TM) 840
-Adreno (TM) 888
-Adreno (TM) A32
-FD307
-FD618
-FD630
-FD640
-FD650
-Mali-400 MP
-Mali-400 MP2
-Mali-450 MP
-Mali-450 MP4
-Mali-470 MP
-Mali-G31
-Mali-G51
-Mali-G52
-Mali G52 MP2
-Mali-G52 MC1
-Mali-G52 MC2
-Mali-G57
-Mali-G57 MC1
-Mali-G57 MC2
-Mali-G57 MC3
-Mali-G57 MC4
-Mali-G57 MC5
-Mali-G610
-Mali-G610 MC3
-Mali-G610 MC4
-Mali-G610 MC6
-Mali-G615 MC2
-Mali-G615 MC5
-Mali-G615 MC6
-Mali-G68
-Mali-G68 MP5
-Mali-G68 MC4
-Mali-G71
-Mali-G71 MP2
-Mali-G710
-Mali-G710 MC10
-Mali-G715
-Mali-G715-Immortalis MC11
-Mali-G72
-Mali-G72 MP3
-Mali-G72 MP18
-Mali-G720 MC7
-Mali-G720-Immortalis MC12
-Mali-G76
-Mali-G76 MP10
-Mali-G76 MP12
-Mali-G76 3EEMC4
-Mali-G76 MC4
-Mali-G77
-Mali-G77 MC1
-Mali-G77 MC2
-Mali-G77 MC3
-Mali-G77 MC4
-Mali-G77 MC5
-Mali-G77 MC6
-Mali-G77 MC7
-Mali-G77 MC8
-Mali-G77 MC9
-Mali-G78
-Mali-G925
-Mali-G925-Immortalis
-Mali-G925-Immortalis MC12
-Mali-T604
-Mali-T624
-Mali-T628
-Mali-T720
-Mali-T760
-Mali-T820
-Mali-T830
-Mali-T860
-Mali-T880
-PowerVR B-Series BXE-2-32
-PowerVR B-Series BXE-4-32
-PowerVR B-Series BXM-4-64
-PowerVR B-Series BXM-8-256
-PowerVR B-Series BXT-32-1024
-PowerVR D-Series DXT-48-1536
-PowerVR Rogue BXE-4-32
-PowerVR Rogue G6110
-PowerVR Rogue G6200
-PowerVR Rogue G6430
-PowerVR Rogue GE7800
-PowerVR Rogue GE8100
-PowerVR Rogue GE8300
-PowerVR Rogue GE8310
-PowerVR Rogue GE8320
-PowerVR Rogue GE8322
-PowerVR Rogue GE9215
-PowerVR Rogue GE9608
-PowerVR Rogue GE9920
-PowerVR Rogue GM9446
-PowerVR Rogue GT7400 Plus
-PowerVR Rogue GX6250
-PowerVR SGX 540
-PowerVR SGX 544
-PowerVR SGX 544MP
-Exynos 1380
-Xclipse 520
-Xclipse 530
-Xclipse 540
-Xclipse 920
-Xclipse 940
-Xclipse 950
+{
+ "gpu": {
+    "Adreno (TM) 304": 4,
+    "Adreno (TM) 305": 4,
+    "Adreno (TM) 306": 4,
+    "Adreno (TM) 308": 4,
+    "Adreno (TM) 320": 4,
+    "Adreno (TM) 330": 4,
+    "Adreno (TM) 405": 4,
+    "Adreno (TM) 418": 4,
+    "Adreno (TM) 420": 4,
+    "Adreno (TM) 430": 4,
+    "Adreno (TM) 504": 4,
+    "Adreno (TM) 505": 4,
+    "Adreno (TM) 506": 4,
+    "Adreno (TM) 508": 4,
+    "Adreno (TM) 509": 4,
+    "Adreno (TM) 510": 4,
+    "Adreno (TM) 512": 4,
+    "Adreno (TM) 530": 4,
+    "Adreno (TM) 540": 4,
+    "Adreno (TM) 610": 4,
+    "Adreno (TM) 611": 4,
+    "Adreno (TM) 612": 4,
+    "Adreno (TM) 613": 4,
+    "Adreno (TM) 615": 4,
+    "Adreno (TM) 616": 4,
+    "Adreno (TM) 618": 4,
+    "Adreno (TM) 619": 4,
+    "Adreno (TM) 619L": 4,
+    "Adreno (TM) 620": 4,
+    "Adreno (TM) 630": 4,
+    "Adreno (TM) 640": 4,
+    "Adreno (TM) 642": 4,
+    "Adreno (TM) 642L": 4,
+    "Adreno (TM) 643": 4,
+    "Adreno (TM) 644": 4,
+    "Adreno (TM) 649": 4,
+    "Adreno (TM) 650": 4,
+    "Adreno (TM) 660": 4,
+    "Adreno (TM) 690": 4,
+    "Adreno (TM) 702": 4,
+    "Adreno (TM) 710": 4,
+    "Adreno (TM) 716": 4,
+    "Adreno (TM) 720": 4,
+    "Adreno (TM) 725": 4,
+    "Adreno (TM) 730": 4,
+    "Adreno (TM) 732": 4,
+    "Adreno (TM) 735": 4,
+    "Adreno (TM) 740": 5,
+    "Adreno (TM) 750": 5,
+    "Adreno (TM) 770": 5,
+    "Adreno (TM) 777": 5,
+    "Adreno (TM) 810": 5,
+    "Adreno (TM) 825": 5,
+    "Adreno (TM) 830": 5,
+    "Adreno (TM) 840": 5,
+    "Adreno (TM) 888": 5,
+    "Adreno (TM) A32": 5,
+    "FD307": 4,
+    "FD618": 4,
+    "FD630": 4,
+    "FD640": 4,
+    "FD650": 4,
+    "Mali-400 MP": 4,
+    "Mali-400 MP2": 4,
+    "Mali-450 MP": 4,
+    "Mali-450 MP4": 4,
+    "Mali-470 MP": 4,
+    "Mali-G31": 4,
+    "Mali-G51": 4,
+    "Mali-G52": 4,
+    "Mali-G52 MC1": 4,
+    "Mali-G52 MC2": 4,
+    "Mali-G57": 4,
+    "Mali-G57 MC2": 4,
+    "Mali-G57 MC3": 4,
+    "Mali-G57 MC4": 4,
+    "Mali-G57 MC5": 4,
+    "Mali-G610": 4,
+    "Mali-G610 MC3": 4,
+    "Mali-G610 MC4": 4,
+    "Mali-G610 MC6": 4,
+    "Mali-G615 MC2": 5,
+    "Mali-G615 MC5": 5,
+    "Mali-G615 MC6": 5,
+    "Mali-G68": 4,
+    "Mali-G68 MC4": 4,
+    "Mali-G71": 4,
+    "Mali-G71 MP2": 4,
+    "Mali-G710": 4,
+    "Mali-G710 MC10": 4,
+    "Mali-G715": 5,
+    "Mali-G715-Immortalis MC11": 5,
+    "Mali-G72": 4,
+    "Mali-G72 MP3": 4,
+    "Mali-G720 MC7": 5,
+    "Mali-G720-Immortalis MC12": 5,
+    "Mali-G76": 4,
+    "Mali-G76 MC4": 4,
+    "Mali-G77": 4,
+    "Mali-G77 MC7": 4,
+    "Mali-G77 MC9": 4,
+    "Mali-G78": 4,
+    "Mali-G925": 5,
+    "Mali-G925-Immortalis": 5,
+    "Mali-G925-Immortalis MC12": 5,
+    "Mali-T604": 4,
+    "Mali-T624": 4,
+    "Mali-T628": 4,
+    "Mali-T720": 4,
+    "Mali-T760": 4,
+    "Mali-T820": 4,
+    "Mali-T830": 4,
+    "Mali-T860": 4,
+    "Mali-T880": 4,
+    "PowerVR B-Series BXE-2-32": 4,
+    "PowerVR B-Series BXE-4-32": 4,
+    "PowerVR B-Series BXM-4-64": 4,
+    "PowerVR B-Series BXM-8-256": 4,
+    "PowerVR B-Series BXT-32-1024": 4,
+    "PowerVR D-Series DXT-48-1536": 4,
+    "PowerVR Rogue BXE-4-32": 4,
+    "PowerVR Rogue G6110": 4,
+    "PowerVR Rogue G6200": 4,
+    "PowerVR Rogue G6430": 4,
+    "PowerVR Rogue GE7800": 4,
+    "PowerVR Rogue GE8100": 4,
+    "PowerVR Rogue GE8300": 4,
+    "PowerVR Rogue GE8310": 4,
+    "PowerVR Rogue GE8320": 4,
+    "PowerVR Rogue GE8322": 4,
+    "PowerVR Rogue GE9215": 4,
+    "PowerVR Rogue GE9608": 4,
+    "PowerVR Rogue GE9920": 4,
+    "PowerVR Rogue GM9446": 4,
+    "PowerVR Rogue GT7400 Plus": 4,
+    "PowerVR Rogue GX6250": 4,
+    "PowerVR SGX 540": 4,
+    "PowerVR SGX 544": 4,
+    "PowerVR SGX 544MP": 4,
+    "Xclipse 520": 4,
+    "Xclipse 530": 4,
+    "Xclipse 540": 4,
+    "Xclipse 920": 5,
+    "Xclipse 940": 5,
+    "Xclipse 950": 5,
+    "Maleoon 910": 4,
+    "ANGLE (Qualcomm, Vulkan 1.1.128 (Adreno (TM) 710 (0x07010000)), Qualcomm Technologies Inc. Adreno Vulkan Driver-512.615.92)": 4,
+    "GpuExtendedByVedaRaiden 710": 5
+ }
+}

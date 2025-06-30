@@ -4,12 +4,17 @@ resourcePack.vanilla.name=Raiden Visuals Configuration Mod
 resourcePack.vanilla.description=Better Performance And Optimized For Vibrant Visuals!
 resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)	#
 info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you first enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance. #
-info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications To Be Able To Activate Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. If It Still Doesn't Work and Goes Back To Fancy = Your Phone Is Not Compatible. #
+info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications To Be Able To Activate Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. If It Still Doesn't Work and Goes Back To Fancy = Your Phone Is Not Compatible.	#
+
 info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To Enable Vibrant Visuals Graphics Feature.	#
-info.raidenvisuals=Adjust to Your Device's Capabilities, Turn Off Reflections, Shadows Or Volumetric Fog And Set Upscaling To 33% To Get Better Performance.	#
+info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you just enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance.	#
+info.ingfosupportvv.raidenvisuals=Your device does not support Vibrant Visuals! Even though it is on the list, your device refuses to activate it. Don't cry, don't force it too much. Hopefully you will be bought a new better device soon^^.	#
+
+
 opti.raidenvisuals=Raiden Visuals Options	#
 set.raidenvisuals=Raiden Visuals Graphics Settings	#
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.5)	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.6)	#
+options.dynamicTexturesToggle=Use Recommended Texture Limit
 
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Lightning Sword	#

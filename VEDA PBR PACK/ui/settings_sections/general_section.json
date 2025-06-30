@@ -97,16 +97,13 @@
             { "render_distance_warning@general_section.render_distance_warning": {} },
             { "option_generic_core@settings_common.option_generic_core": {} }
           ],
-          "bindings": [
-            {
-              "binding_name": "#show_render_distance",
-              "binding_name_override": "#visible"
-            }
-          ]
+          "bindings": [{"binding_name": "#show_render_distance","binding_name_override": "#visible"}]
         }
       },
       {"ingfospekandroidmin@general_section.ingfospekandroidmin": {"bindings": [{"binding_name": "#graphics_mode_is_simple_or_fancy","binding_name_override": "#visible"}]}},
       {"ingfospekpcmin@general_section.ingfospekpcmin": {"bindings": [{"binding_name": "#graphics_mode_is_simple_or_fancy","binding_name_override": "#visible"}]}},
+      {"ingfosupportvv@general_section.ingfosupportvv": {"bindings": [{"binding_name": "#graphics_mode_option_warning_visible","binding_name_override": "#visible"}]}},
+      {"momenketikavvgaksupport@general_section.momenketikavvgaksupport": {"bindings": [{"binding_name": "#graphics_mode_option_warning_visible","binding_name_override": "#visible"}]}},
       {
         "render_distance_warning_text": {
           "type": "panel",
@@ -149,7 +146,7 @@
           "size": [ 5, 5 ]
         }
       },
-            {
+             {
               "graphics_mode@settings_common.option_dropdown": {
                 "$option_label": "options.graphicsMode",
                 "$dropdown_content": "general_section.graphics_mode_dropdown_content",
@@ -157,7 +154,11 @@
                 "$dropdown_name": "graphics_mode_dropdown",
                 "$option_enabled_binding_name": "#graphics_mode_dropdown_enabled",
                 "$options_dropdown_toggle_label_binding": "#graphics_mode_dropdown_toggle_label",
-                "$dropdown_scroll_content_size": [ "100%", "255%" ]
+                "$option_tooltip_binding_type": "global",
+                "$option_tooltip_area": "general_and_controls_sections",
+                "$option_tooltip_text_binding_name": "#graphics_mode_option_tooltip_text",
+                "$option_tooltip_visible_binding_name": "#graphics_mode_option_warning_visible",
+                "$dropdown_scroll_content_size": [ "100%", "240%" ]
               }
             },
             {
@@ -922,6 +923,55 @@
           "text": "info.minimumspekpc.raidenvisuals"
         }
       } 
+    ]
+  },
+  "ingfosupportvv": {
+    "type": "panel",
+    "size": [ "100% - 12px", "300%cm" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "black_background@general_section.background": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 0, 0 ],
+          "size": [ "100%", "100%sm + 2px" ]
+        }
+      },
+      {
+        "ingfomintext": {
+          "type": "label",
+          "size": [ "100%", "default" ],
+          "color": "$main_header_text_color",
+          "font_type": "smooth",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 2,
+          "offset": [ 2, 0 ],
+          "text": "info.ingfosupportvv.raidenvisuals"
+        }
+      } 
+    ]
+  },
+  "momenketikavvgaksupport": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100% - 10px", "100%cm" ],
+    "controls": [
+      {
+        "contoh": {
+          "type": "image",
+          "texture": "ui/mkvvgaksupport",
+          "size": [ "fill", 100 ]
+        }
+      },
+      {
+        "heh": {
+          "type": "panel",
+          "size": [ 5, 0 ]
+        }
+      }
     ]
   }
 }
