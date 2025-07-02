@@ -18,13 +18,13 @@
   "ssr_enabled": true,
   "ssr": {
     "enable_gap_fill": false,
-    "linear_search_step_count": 1400,
+    "linear_search_step_count": 1800,
     "binary_search_step_count": 0,
     "ray_step_length": 1,
     "fading_power_horizontal": 0,
     "fading_power_vertical": 0,
     "fading_distance": 1,
-    "roughness_cutoff": 0.4,
+    "roughness_cutoff": 0.1,
     "roughness_fade_start": 0,
     "thickness": 0,
     "ssr_scale": 1

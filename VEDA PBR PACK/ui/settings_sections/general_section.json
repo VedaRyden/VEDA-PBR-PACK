@@ -100,10 +100,10 @@
           "bindings": [{"binding_name": "#show_render_distance","binding_name_override": "#visible"}]
         }
       },
+      {"momenketikavvgaksupport@general_section.momenketikavvgaksupport": {"bindings": [{"binding_name": "#graphics_mode_option_warning_visible","binding_name_override": "#visible"}]}},
+      {"ingfosupportvv@general_section.ingfosupportvv": {"bindings": [{"binding_name": "#graphics_mode_option_warning_visible","binding_name_override": "#visible"}]}},
       {"ingfospekandroidmin@general_section.ingfospekandroidmin": {"bindings": [{"binding_name": "#graphics_mode_is_simple_or_fancy","binding_name_override": "#visible"}]}},
       {"ingfospekpcmin@general_section.ingfospekpcmin": {"bindings": [{"binding_name": "#graphics_mode_is_simple_or_fancy","binding_name_override": "#visible"}]}},
-      {"ingfosupportvv@general_section.ingfosupportvv": {"bindings": [{"binding_name": "#graphics_mode_option_warning_visible","binding_name_override": "#visible"}]}},
-      {"momenketikavvgaksupport@general_section.momenketikavvgaksupport": {"bindings": [{"binding_name": "#graphics_mode_option_warning_visible","binding_name_override": "#visible"}]}},
       {
         "render_distance_warning_text": {
           "type": "panel",

@@ -2,7 +2,7 @@
   "parent": {"file": "reflection_configuration.android.low.json"},
    "overrides": {
     "ssr_enabled": true,
-    "ssr": {//Upgrade Jarak Pantulan Lebih Tinggi Lagi Di Copas Dengan PC Medium
-    "linear_search_step_count": 300,
+    "ssr": {//Upgrade Jarak Pantulan Jadi Lebih FULL!
+    "linear_search_step_count": 3000,
     "binary_search_step_count": 0
 }}}
