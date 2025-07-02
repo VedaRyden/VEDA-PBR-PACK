@@ -11,7 +11,7 @@
               "range": 0.1666,
               "resolution": 2048,
               "slope_bias": 0.00001,
-              "update_frequency": 10,
+              "update_frequency": 2,
               "update_offset": 0
           },
           {
@@ -35,7 +35,7 @@
               "range": 0.5,
               "resolution": 512,
               "slope_bias": 0.00008,
-              "update_frequency": 1000,
+              "update_frequency": 10000,
               "update_offset": 0
           }
       ]

@@ -23,8 +23,8 @@
     "ray_step_length": 1,
     "roughness_cutoff": 0.1,
     "thickness": 0,
-    "fading_power_horizontal": 0,
-    "fading_power_vertical": 0,
+    //"fading_power_horizontal": 0,
+    //"fading_power_vertical": 0,
     "fading_distance": 1,
     "roughness_fade_start": 0,
     "ssr_scale": 0.5

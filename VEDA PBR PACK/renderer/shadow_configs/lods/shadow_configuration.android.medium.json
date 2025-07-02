@@ -4,14 +4,14 @@
       [
           {
               "bias": 0,
-              "has_dynamic_geometry": false,
+              "has_dynamic_geometry": true,
               "has_static_geometry": true,
               "light_quantization_steps": 1800,
               "pcf_width": 0,
               "range": 0.25,
               "resolution": 2048,
               "slope_bias": 0.00001,
-              "update_frequency": 50,
+              "update_frequency": 10,
               "update_offset": 0
           },
           {
