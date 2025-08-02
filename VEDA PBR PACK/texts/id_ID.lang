@@ -11,6 +11,7 @@ options.edgeHighlightEnable=Sorotan Tepi(Edge Highlight)
 options.terrainShadowsEnable=Bayangan Medan(Terrain Shadows)
 options.superFancyWaterEnable=Air Super Keren
 options.bloomEnable=Mekar(Bloom)
+options.showthumbnails=Tampilkan Gambar Contoh Grafis
 
 resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG GRAFIS VIBRANT VISUAL, YANG SABAR YA, KAMU HARUS MENERIMA ITU JANGAN MENANGIS.
 info.raidenvisuals=Atur Dan Sesuaikan Setingan Nya Dengan Kemampuan Perangkatmu, Ketika Baru Memasuki World Atur Jarak Chunk Jadi "8" Lalu Anda bebas bisa pake 1 chunk tanpa delay. Anda Dapat Mematikan Refleksi, Bayangan & Kabut Volumetrik Untuk Mengurangi beban GPU, Jangan Lupa Atur Resolusi Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.

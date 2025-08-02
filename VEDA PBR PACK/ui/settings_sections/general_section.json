@@ -134,6 +134,7 @@
           ]
         }
       },
+      
       {
         "advanced_graphics_options_panel": {
           "type": "stack_panel",
@@ -146,6 +147,7 @@
           "size": [ 5, 5 ]
         }
       },
+      
              {
               "graphics_mode@settings_common.option_dropdown": {
                 "$option_label": "options.graphicsMode",
@@ -193,6 +195,15 @@
               }
             },
             {
+        "websockets_enabled_toggle@settings_common.option_toggle": {
+          "$option_label": "options.showthumbnails",
+          "$option_binding_name": "#websockets_enabled",
+          "$option_enabled_binding_name": "#websockets_enabled_enabled",
+          "$toggle_name": "websockets_enabled",
+          "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
+        }
+      },
+            {
               "advanced_graphics_options_button@common_buttons.light_content_button": {
                 "size": [ "100%", 20 ],
                 "$button_content": "general_section.advanced_graphics_options_button_content",
@@ -212,8 +223,18 @@
           ]
         }
       },
+      
       {"max_framerate_slider@general_section.max_framerate_slider": {}},
       {"msaa_slider@general_section.msaa_slider": {}},
+      {
+        "texel_anti_aliasing_toggle@settings_common.option_toggle": {
+          "$option_label": "options.texelAA",
+          "$option_binding_name": "#texel_aa",
+          "$option_enabled_binding_name": "#texel_aa_enabled",
+          "$toggle_name": "texel_aa",
+          "bindings": [{"binding_name": "#visible","binding_name_override": "#visible"}]
+        }
+      },
       {
         "vsync_dropdown@settings_common.option_dropdown": {
           "$option_label": "options.vsync",
@@ -304,73 +325,6 @@
             }
           ]
         }
-      },
-      {
-        "super_fancy_panel": {
-          "type": "panel",
-          "size": [ "100%", "100%c + 4px" ],
-          "controls": [
-            {
-              "super_fancy_section": {
-                "type": "image",
-                "anchor_from": "top_middle",
-                "anchor_to": "top_middle",
-                "size": [ "100% - 4px", "100%c + 6px" ],
-                "texture": "textures/ui/mainbanners",
-                "controls": [
-                  {
-                    "super_fancy_contents": {
-                      "type": "stack_panel",
-                      "size": [ "100% - 6px", "100%c - 4px" ],
-                      "controls": [
-                        {
-                          "atmospherics_toggle@settings_common.option_toggle": {
-                            "$option_label": "options.atmosphericsEnable",
-                            "$option_binding_name": "#atmospherics",
-                            "$option_enabled_binding_name": "#atmospherics_enabled",
-                            "$toggle_name": "atmospherics"
-                          }
-                        },
-                        {
-                          "edge_highlight_toggle@settings_common.option_toggle": {
-                            "$option_label": "options.edgeHighlightEnable",
-                            "$option_binding_name": "#edge_highlight",
-                            "$option_enabled_binding_name": "#edge_highlight_enabled",
-                            "$toggle_name": "edge_highlight"
-                          }
-                        },
-                        {
-                          "bloom_toggle@settings_common.option_toggle": {
-                            "$option_label": "options.bloomEnable",
-                            "$option_binding_name": "#bloom",
-                            "$option_enabled_binding_name": "#bloom_enabled",
-                            "$toggle_name": "bloom"
-                          }
-                        },
-                        {
-                          "terrain_shadows_toggle@settings_common.option_toggle": {
-                            "$option_label": "options.terrainShadowsEnable",
-                            "$option_binding_name": "#terrain_shadows",
-                            "$option_enabled_binding_name": "#terrain_shadows_enabled",
-                            "$toggle_name": "terrain_shadows"
-                          }
-                        },
-                        {
-                          "super_fancy_water_toggle@settings_common.option_toggle": {
-                            "$option_label": "options.superFancyWaterEnable",
-                            "$option_binding_name": "#super_fancy_water",
-                            "$option_enabled_binding_name": "#super_fancy_water_enabled",
-                            "$toggle_name": "super_fancy_water"
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
       }
     ]
   },
@@ -386,7 +340,6 @@
     "controls": [{ "option_generic_core@settings_common.option_generic_core":{}}]
   },
   "msaa_slider@settings_common.option_slider": {
-    "ignored": "($is_holographic)",
     "$option_label": "#msaa_slider_label",
     "$slider_name": "msaa",
     "$slider_value_binding_name": "#msaa",
@@ -408,13 +361,11 @@
     "controls": [{ "option_generic_core@settings_common.option_generic_core":{}}]
   },
    "fancy_leaves@settings_common.option_toggle": {
-     "ignored": "($is_holographic)",
      "$option_label": "options.transparentleaves",
      "$option_binding_name": "#transparent_leaves",
      "$option_enabled_binding_name": "#transparent_leaves_enabled",
      "$toggle_name": "transparent_leaves"
    },
-   
   "advanced_graphics_options_section": {
     "type": "stack_panel",
     "orientation": "vertical",
@@ -444,12 +395,7 @@
           "size": [ "100%", 4 ]
         }
       },
-      {"shadowoff@general_section.shadowoff": {"bindings": [
-            {
-              "binding_name": "#graphics_mode_is_deferred",
-              "binding_name_override": "#visible"
-            }
-          ]}},
+      {"shadowoff@general_section.shadowoff": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
       {
         "shadow_quality_slider@settings_common.option_slider": {
           "$option_label": "#shadow_quality_slider_label",
@@ -470,12 +416,7 @@
           ]
          }
       },
-      {"cahayabayang@general_section.cahayabayang": {"bindings": [
-            {
-              "binding_name": "#graphics_mode_is_deferred",
-              "binding_name_override": "#visible"
-            }
-          ]}},
+      {"cahayabayang@general_section.cahayabayang": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
       {
         "point_light_shadow_quality_slider@settings_common.option_slider": {
           "$option_label": "#point_light_shadow_quality_slider_label",
@@ -516,7 +457,7 @@
           ]
         }
       },
-      {"awan@general_section.awan": {"bindings": [{"binding_name": "#graphics_mode_is_deferred","binding_name_override": "#visible"}]}},
+      {"awan@general_section.awan": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
       {
         "cloud_quality_slider@settings_common.option_slider": {
           "$option_label": "#cloud_quality_slider_label",
@@ -537,12 +478,7 @@
           ]
         }
       },
-      {"kabutvolumetrik@general_section.kabutvolumetrik": {"bindings": [
-            {
-              "binding_name": "#graphics_mode_is_deferred",
-              "binding_name_override": "#visible"
-            }
-          ]}},
+      {"kabutvolumetrik@general_section.kabutvolumetrik": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
       {
         "volumetric_fog_quality_slider@settings_common.option_slider": {
           "$option_label": "#volumetric_fog_quality_slider_label",
@@ -563,12 +499,7 @@
           ]
         }
       },
-      {"refleksi@general_section.refleksi": {"bindings": [
-            {
-              "binding_name": "#graphics_mode_is_deferred",
-              "binding_name_override": "#visible"
-            }
-          ]}},
+      {"refleksi@general_section.refleksi": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
       {
         "reflections_quality_slider@settings_common.option_slider": {
           "$option_label": "#reflections_quality_slider_label",
@@ -589,12 +520,7 @@
           ]
         }
       },
-      {"bloom@general_section.bloom": {"bindings": [
-            {
-              "binding_name": "#graphics_mode_is_deferred",
-              "binding_name_override": "#visible"
-            }
-          ]}},
+      {"bloom@general_section.bloom": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
       {
         "bloom_strength@settings_common.option_slider": {
           "$option_label": "#bloom_strength_slider_label",
@@ -615,12 +541,7 @@
           ]
         }
       },
-      {"upscaling@general_section.upscaling": {"bindings": [
-            {
-              "binding_name": "#graphics_mode_is_deferred",
-              "binding_name_override": "#visible"
-            }
-          ]}},
+      {"upscaling@general_section.upscaling": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
       {
         "upscaling_mode@settings_common.option_dropdown": {
           "$option_label": "options.upscalingMode",
