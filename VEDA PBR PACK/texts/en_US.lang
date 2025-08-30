@@ -15,6 +15,7 @@ opti.raidenvisuals=Raiden Visuals Options	#
 set.raidenvisuals=Raiden Visuals Graphics Settings	#
 options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.8)	#
 options.dynamicTexturesToggle=Use Recommended Texture Limit
+options.showthumbnails=Show Graphics Example Pictures
 
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Lightning Sword	#

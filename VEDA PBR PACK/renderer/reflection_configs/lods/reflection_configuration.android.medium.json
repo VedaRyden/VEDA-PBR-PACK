@@ -3,8 +3,8 @@
     "far_plane_scaling": 0.1,
     "texture_format": "R16G16B16A16_FLOAT",
     "regen_triggers": {
-      "frames_delta": 600,
-      "gametime_delta": 100,
+      "frames_delta": 10,
+      "gametime_delta": 1,
       "distance_delta": 500.0,
       "sky_brightness_delta": 3.0,
       "block_brightness_delta": 16.0

@@ -163,6 +163,8 @@
                 "$dropdown_scroll_content_size": [ "100%", "240%" ]
               }
             },
+            {"modegrafisabuabu@general_section.modegrafisabuabu": {"bindings": [{"binding_name": "#graphics_mode_switch_disabled","binding_name_override": "#visible"}]}},
+
             {
               "graphics_quality_preset_mode_dropdown_content@settings_common.option_radio_dropdown_group": {
                 "$option_enabled_binding_name": "#graphics_quality_preset_mode_dropdown_enabled",
@@ -259,6 +261,7 @@
       },
       {
         "dynamic_textures_toggle@settings_common.option_toggle": {
+          "ignored": "($is_holographic)",
           "$option_label": "options.dynamicTexturesToggle",
           "$option_binding_name": "#dynamic_textures",
           "$option_enabled_binding_name": "#dynamic_textures_enabled",
@@ -281,11 +284,19 @@
         "graphics_mode_switch_toggle@settings_common.option_toggle": {
           "$option_label": "options.graphicsModeSwitch",
           "$option_binding_name": "#graphics_mode_switch",
-          "$option_enabled_binding_name": "#max_framerate_enabled",
+          "$option_enabled_binding_name": "#graphics_mode_switch_enabled",
           "$toggle_name": "graphics_mode_switch"
         }
       },
-      {"fancy_leaves@general_section.fancy_leaves": {}},
+      {
+        "fancy_leaves_toggle@settings_common.option_toggle": {
+          "$option_label": "options.transparentleaves",
+          "$option_binding_name": "#transparent_leaves",
+          "$option_enabled_binding_name": "#transparent_leaves_enabled",
+          "$toggle_name": "transparent_leaves",
+          "bindings":[{"binding_name": "#visible","binding_name_override": "#visible"}]
+        }
+      },
       {"option_toggle_hidehud@settings_common.option_toggle": {
           "$option_label": "options.hidehud",
           "$option_binding_name": "#hide_hud",
@@ -309,21 +320,6 @@
           "$option_enabled_binding_name": "#texture_hot_reloader_enabled",
           "$toggle_name": "enable_texture_hot_reloader",
           "bindings":[{"binding_name": "#visible","binding_name_override": "#visible"}]
-        }
-      },
-      {
-        "rendering_profile_option_slider@settings_common.option_slider": {
-          "$option_label": "#rendering_profile_slider_label",
-          "$slider_name": "rendering_profile",
-          "$slider_value_binding_name": "#rendering_profile",
-          "$slider_tts_text_value": "#rendering_profile_text_value",
-          "$option_enabled_binding_name": "#rendering_profile_slider_enabled",
-          "$slider_steps_binding_name": "#rendering_profile_steps",
-          "$label_bindings": [
-            {
-              "binding_name": "$option_label"
-            }
-          ]
         }
       }
     ]
@@ -955,6 +951,36 @@
           "layer": 2,
           "offset": [ 2, 0 ],
           "text": "info.ingfosupportvv.raidenvisuals"
+        }
+      } 
+    ]
+  },
+  "modegrafisabuabu": {
+    "type": "panel",
+    "size": [ "100% - 12px", "300%cm" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "$option_enabled_binding_name": "#graphics_mode_switch_disabled",
+    "controls": [
+      {
+        "black_background@general_section.background": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 0, 0 ],
+          "size": [ "100%", "100%sm + 2px" ]
+        }
+      },
+      {
+        "grafisabuabutext": {
+          "type": "label",
+          "size": [ "100%", "default" ],
+          "color": "$main_header_text_color",
+          "font_type": "smooth",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 2,
+          "offset": [ 2, 0 ],
+          "text": "info.modegrafisabuabu.raidenvisuals"
         }
       } 
     ]

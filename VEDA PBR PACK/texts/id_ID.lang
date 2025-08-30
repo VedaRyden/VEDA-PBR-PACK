@@ -17,7 +17,8 @@ resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG GRAFIS VIBRANT 
 info.raidenvisuals=Atur Dan Sesuaikan Setingan Nya Dengan Kemampuan Perangkatmu, Ketika Baru Memasuki World Atur Jarak Chunk Jadi "8" Lalu Anda bebas bisa pake 1 chunk tanpa delay. Anda Dapat Mematikan Refleksi, Bayangan & Kabut Volumetrik Untuk Mengurangi beban GPU, Jangan Lupa Atur Resolusi Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.
 info.minimumspekandroid.raidenvisuals=Minimum Spesifikasi GPU Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals : Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. Jika Masih Gak Bisa Malah Balek Ke Fancy Artinya HP Mu Tidak Kompatibel.
 info.minimumspekpc.raidenvisuals=GPU Mu Harus Support DirectX12 Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals.
-info.ingfosupportvv.raidenvisuals=Perangkat Mu Tidak Support Vibrant Visuals! Meski Sudah Masuk List, Tapi Perangkatmu menolak untuk dapat mengaktifkan, Jangan Menangis Ya, Jangan Terlalu Memaksakan, Semoga cepat dibelikan perangkat baru yang lebih bagus^^.
+info.ingfosupportvv.raidenvisuals=Perangkat Mu Tidak Support Vibrant Visuals! Meski Sudah Masuk List, Tapi Perangkatmu menolak untuk dapat mengaktifkan, Jangan Menangis Ya, Jangan Terlalu Dipaksakan,Tidak Semua HP di GPU Yang Sama Bisa Support:), Semoga cepat dibelikan perangkat baru yang lebih bagus^^.
+info.modegrafisabuabu.raidenvisuals=JANGAN LUPA AKTIFKAN "Izinkan Pergantian Mode Grafis Dalam Game".
 
 opti.raidenvisuals=Opsi Raiden Visuals
 set.raidenvisuals=Settingan Grafis Raiden visuals

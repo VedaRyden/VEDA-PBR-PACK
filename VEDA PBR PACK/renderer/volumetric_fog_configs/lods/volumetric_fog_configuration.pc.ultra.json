@@ -4,6 +4,6 @@
 		"tile_height": 8,//4
 		"depth_slices": 96,//128
 		"near_plane": 0.01,
-		"far_plane": 250.0,
+	"far_plane": 10.0,
 		"shadow_pcf_scale": 1
 }

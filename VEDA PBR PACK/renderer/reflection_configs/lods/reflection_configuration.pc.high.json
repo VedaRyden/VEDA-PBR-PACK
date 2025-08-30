@@ -3,9 +3,9 @@
     "far_plane_scaling": 0.1,
     "texture_format": "R16G16B16A16_FLOAT",
     "regen_triggers": {
-      "frames_delta": 600,
-      "gametime_delta": 100,
-      "distance_delta": 500.0,
+      "frames_delta": 10,
+      "gametime_delta": 9999999,
+      "distance_delta": 1,
       "sky_brightness_delta": 3.0,
       "block_brightness_delta": 16.0
     }
@@ -21,8 +21,6 @@
     "linear_search_step_count": 400,
     "binary_search_step_count": 0,
     "ray_step_length": 1,
-    "fading_power_horizontal": 0,
-    "fading_power_vertical": 0,
     "roughness_cutoff": 0.1,
     "thickness": 0,
     "fading_distance": 1,
