@@ -1,1 +1,98 @@
-{"format_version":"1.21.40","minecraft:color_grading_settings":{"description":{"identifier":"vedapack:raiden_color_grading"},"color_grading":{"midtones":{"contrast":[1.2,1.2,1.2],"gain":[1.2,1.2,1.2],"gamma":[2.200000047683716,2.200000047683716,2.200000047683716],"offset":[0,0,0],"saturation":[1.2,1.2,1.2]},"highlights":{"enabled":true,"highlightsMin":20,"contrast":[1.5,1.5,1.5],"gain":[0.8999999761581421,0.8999999761581421,0.8999999761581421],"gamma":[2.200000047683716,2.200000047683716,2.200000047683716],"offset":[0,0,0],"saturation":[1.25,1.25,1.25]},"shadows":{"enabled":true,"shadowsMax":0.4000000059604645,"contrast":[1.2999999523162842,1.2999999523162842,1.2999999523162842],"gain":[1,1,1],"gamma":[2.380000114440918,2.380000114440918,2.380000114440918],"offset":[0,0,0],"saturation":[1.3200000524520874,1.3200000524520874,1.3200000524520874]}},"tone_mapping":{"operator":"reinhard_luminance"}}}
+{
+  "format_version": "1.21.40",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "vedapack:raiden_color_grading"
+    },
+    "color_grading": {
+      "midtones": {
+        "contrast": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "gain": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "gamma": [
+          2.2,
+          2.2,
+          2.2
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          1.2,
+          1.2,
+          1.2
+        ]
+      },
+      "highlights": {
+        "enabled": true,
+        "highlightsMin": 20,
+        "contrast": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "gain": [
+          0.89,
+          0.899,
+          0.89
+        ],
+        "gamma": [
+          2.2,
+          2.2,
+          2.2
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          1.25,
+          1.25,
+          1.25
+        ]
+      },
+      "shadows": {
+        "enabled": true,
+        "shadowsMax": 0.40,
+        "contrast": [
+          1.29,
+          1.29,
+          1.29
+        ],
+        "gain": [
+          1,
+          1,
+          1
+        ],
+        "gamma": [
+          2.38,
+          2.38,
+          2.38
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          1.32,
+          1.32,
+          1.32
+        ]
+      }
+    },
+    "tone_mapping": {
+      "operator": "reinhard_luminance"
+    }
+  }
+}

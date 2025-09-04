@@ -16,7 +16,9 @@
                 "density": {
                 "air": {
                     "max_density": 0.08,
-                    "uniform": true
+                    "zero_density_height": 150.0, 
+                    "max_density_height": 50.0,
+                    "uniform": false
                 },
                 "water": {
                     "max_density": 0.00,
@@ -34,11 +36,11 @@
                 },
                 "water": {
                     "scattering": [ 0, 0.0, 0.0 ],
-                    "absorption": [ 0.0, 0.0, 0.0 ]
+                    "absorption": [ 0, 0, 0 ]
                 },
                 "cloud": {
-                    "scattering": [ 0, 0, 0 ],
-                    "absorption": [ 0, 0, 0 ]
+                    "scattering": [ 0.59, 0.059, 0.59 ],
+                    "absorption": [ 0.01, 0.1, 0.1 ]
             }
             },
             "henyey_greenstein_g": {

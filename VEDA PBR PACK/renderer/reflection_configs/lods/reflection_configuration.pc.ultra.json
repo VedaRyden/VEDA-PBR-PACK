@@ -4,8 +4,8 @@
     "texture_format": "R16G16B16A16_FLOAT",
     "regen_triggers": {
       "frames_delta": 10,
-      "gametime_delta": 10,
-      "distance_delta": 10,
+      "gametime_delta": 999999,
+      "distance_delta": 1,
       "sky_brightness_delta": 3.0,
       "block_brightness_delta": 16.0
     }
@@ -13,7 +13,7 @@
   "ibl": {
     "num_samples": 0,
     "dimension": 0,
-    "convolution_type": "importance_sampled"
+    "convolution_type": "mip_chain"
   },
   "ssr_enabled": true,
   "ssr": {

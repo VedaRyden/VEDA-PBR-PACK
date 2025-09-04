@@ -3,6 +3,6 @@
     "minecraft:texture_set": {
         "color": "redstone_torch_on",
         "metalness_emissive_roughness_subsurface": "redstone_torch_on_m",
-        "heightmap": "redstone_torch_on_h"
+        "normal": "redstone_torch_on_n"
     }
 }

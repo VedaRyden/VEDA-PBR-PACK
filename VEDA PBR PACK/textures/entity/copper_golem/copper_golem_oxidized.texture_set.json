@@ -1,0 +1,8 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "bahlil_golem_oxidized",
+        "metalness_emissive_roughness": "bahlil_golem_m",
+        "normal": "bahlil_golem_n"
+    }
+}

@@ -3,7 +3,7 @@
  "format_version": 2,
  "header": {
   "description": "pack.description",
-  "name": "VEDA PACK PBR V0-Beta1",
+  "name": "VEDA PACK PBR V0.2",
   "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
   "version": [1,5,7],
   "min_engine_version": [1,21,80]
@@ -12,17 +12,17 @@
   {
    "folder_name": "16x",
    "memory_tier": 1,
-   "name": "Kualitas Bayangan 16x Pixel Perblock(Ringan)\n\nSeperti Vibrant Visual Yang Bayangan Nya Pixelated. Kualitas Bayangan 16x itu cukup ringan untuk performa :D."
+   "name": "Kualitas Bayangan 16x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 16x."
   },
   {
    "folder_name": "512x",
-   "memory_tier": 2,
-   "name": "Bayangan Halus Tidak Pixelated\n\nMemiliki Efek Subsurface Scattering Atau Gradasi Di Sisi Bayangan Nya, Tapi Mungkin Akan Sedikit Berat Jadi Cobalah :D."
+   "memory_tier": 0,
+   "name": "Bayangan Halus Tidak Pixelated(Rekomendasi)\n\nMemiliki Efek Subsurface Scattering Atau Gradasi DiSisi Bayangannya, Direkomendasikan!."
   },
   {
    "folder_name": "256x",
-   "memory_tier": 0,
-   "name": "Kualitas Bayangan 1024x Pixel Perblock(Bawaan)\n\nLebih Jelas Dan Tajam Ini Yg Ku Impikan Pengen Benar Benar Bisa Mempertajam Bayangan Tanpa Scaterring. Apa yg ku mau sudah terpenuhi termasuk bayangan tajam dan bersih tanpa gradasi atau efek blur disisinya :D"
+   "memory_tier": 2,
+   "name": "Kualitas Bayangan 1024x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 1024x. "
   }
  ],
  "settings": [
@@ -32,7 +32,7 @@
         },
         {
             "type": "label",
-            "text": "16x: §iKualitas Bayangan 16x Pixel Perblock(Ringan)."
+            "text": "16x: §iKualitas Bayangan 16x Pixel Perblock(Pixelated)."
         },
         {
             "type": "label",
@@ -40,7 +40,7 @@
         },
         {
             "type": "label",
-            "text": "1024x: §iKualitas Bayangan 1024x Pixel Perblock(Bawaan)."
+            "text": "1024x: §iKualitas Bayangan 1024x Pixel Perblock(Pixelated)."
   }
  ],
  "modules": [
