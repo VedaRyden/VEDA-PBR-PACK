@@ -47,7 +47,6 @@
     "type": "stack_panel",
     "orientation": "vertical",
     "size": [ "33.3333% - 10.66667px", "100%c" ],
-    "$image_label|default": "",
     "controls": [
       {
         "padding": {
@@ -60,7 +59,7 @@
           "type": "image",
           "texture": "$texture_name",
           "size": [ "100%", "100%x" ],
-          "color_corrected": true
+          "color_corrected": false
         }
       }
     ]

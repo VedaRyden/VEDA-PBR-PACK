@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.90",
   "minecraft:color_grading_settings": {
     "description": {
       "identifier": "vedapack:raiden_color_grading"
@@ -27,9 +27,9 @@
           0
         ],
         "saturation": [
-          1.2,
-          1.2,
-          1.2
+          1.1,
+          1.1,
+          1.1
         ]
       },
       "highlights": {
@@ -42,7 +42,7 @@
         ],
         "gain": [
           0.89,
-          0.899,
+          0.89,
           0.89
         ],
         "gamma": [
@@ -56,9 +56,9 @@
           0
         ],
         "saturation": [
-          1.25,
-          1.25,
-          1.25
+          1.15,
+          1.15,
+          1.15
         ]
       },
       "shadows": {
@@ -85,9 +85,9 @@
           0
         ],
         "saturation": [
-          1.32,
-          1.32,
-          1.32
+          1.22,
+          1.22,
+          1.22
         ]
       }
     },

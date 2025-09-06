@@ -36,7 +36,7 @@ options.gammaIntensity=Ubah Kecerahan Gamma
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.7.8)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.8)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing

@@ -3,6 +3,6 @@
     "minecraft:texture_set": {
         "color": "copper_lantern",
         "metalness_emissive_roughness_subsurface": "copper_lantern_m",
-        "heightmap": "lantern_h"
+        "heightmap": "copper_lantern_h"
     }
 }

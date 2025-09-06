@@ -9,20 +9,36 @@
       "light_color": "#7DEE32",
       "light_type": "point_light"
     },
+    "minecraft:waxed_copper_lantern": {
+      "light_color": "#223F0E",
+      "light_type": "point_light"
+    },
+    "minecraft:waxed_exposed_copper_lantern": {
+      "light_color": "#223F0E",
+      "light_type": "point_light"
+    },
+    "minecraft:waxed_weathered_copper_lantern": {
+      "light_color": "#223F0E",
+      "light_type": "point_light"
+    },
+    "minecraft:waxed_oxidized_copper_lantern": {
+      "light_color": "#223F0E",
+      "light_type": "point_light"
+    },
     "minecraft:copper_lantern": {
-      "light_color": "#7DEE32",
+      "light_color": "#223F0E",
       "light_type": "point_light"
     },
     "minecraft:exposed_copper_lantern": {
-      "light_color": "#7DEE32",
+      "light_color": "#223F0E",
       "light_type": "point_light"
     },
     "minecraft:weathered_copper_lantern": {
-      "light_color": "#7DEE32",
+      "light_color": "#223F0E",
       "light_type": "point_light"
     },
     "minecraft:oxidized_copper_lantern": {
-      "light_color": "#7DEE32",
+      "light_color": "#223F0E",
       "light_type": "point_light"
     },
     "minecraft:oxidized_copper_bulb": {
@@ -73,6 +89,10 @@
       "light_color": "#ff00ff",
       "light_type": "point_light"
     },
+    "minecraft:enchanting_table": {
+      "light_color": "#4AEDD1",
+      "light_type": "static_light"
+    },
     "minecraft:redstone_torch": {
       "light_color": "#BF2F2F",
       "light_type": "point_light"
@@ -106,7 +126,7 @@
       "light_type": "static_light"
     },
     "minecraft:lantern": {
-      "light_color": "#FFE87C",
+      "light_color": "#7F733E",
       "light_type": "point_light"
     },
     "minecraft:soul_lantern": {
@@ -135,10 +155,6 @@
     },
     "minecraft:lit_blast_furnace": {
       "light_color": "#FFA500",
-      "light_type": "static_light"
-    },
-    "minecraft:campfire_cooked_food": {
-      "light_color": "#FFAA00",
       "light_type": "static_light"
     },
     "minecraft:candle": {
