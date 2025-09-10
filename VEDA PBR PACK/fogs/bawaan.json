@@ -7,8 +7,9 @@
 	 "volumetric": {
 		"density": {
 				 "air": {
-                    "max_density": 0.01,
-                    "uniform": true
+                    "max_density": 0.07,
+                    "zero_density_height": 320.0,
+                 "max_density_height": 320.0
                 },
                 "water": {
                     "max_density": 0.00,
@@ -22,15 +23,15 @@
 			"media_coefficients": {
 				"water": { 
 				  "scattering": [ 0.01, 0.029, 0.029 ], 
-                  "absorption": [ 0.5, 0.5, 0.015 ]
+                  "absorption": [ 0.9, 0.15, 0.15 ]
 				},
 				"cloud": {
-                  "scattering": [ 0.04, 0.1, 0.1 ],
-                  "absorption": [ 0.8, 0.8, 0.01 ]
+                  "scattering": [ 0.5, 0.5, 0.59 ],
+                  "absorption": [ 0.39, 0.29, 0.29 ]
 				},
 				"air": { 
-				  "scattering": [ 0.1, 0.29, 0.29 ],
-                  "absorption": [ 0.5, 0.5, 0.015 ]
+				  "scattering": [ 0.3, 0.3, 0.59 ],
+                  "absorption": [ 0.059, 0.03, 0.03 ]
 				}
 			},
 			"henyey_greenstein_g": {

@@ -1,6 +1,6 @@
 {//MEDIUM ANDROID
   "probe_regen": {
-    "far_plane_scaling": 0.1,
+    "far_plane_scaling": 0.4,
     "texture_format": "R16G16B16A16_FLOAT",
     "regen_triggers": {
       "frames_delta": 10,

@@ -17,7 +17,7 @@
                 "air": {
                     "max_density": 0.07,
                  "zero_density_height": 320.0,
-          "max_density_height": 320.0
+                 "max_density_height": 320.0
                 }
             },
             "media_coefficients": {

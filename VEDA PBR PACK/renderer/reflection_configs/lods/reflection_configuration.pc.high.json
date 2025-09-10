@@ -1,6 +1,6 @@
 {
   "probe_regen": {
-    "far_plane_scaling": 0.1,
+    "far_plane_scaling": 0.4,
     "texture_format": "R16G16B16A16_FLOAT",
     "regen_triggers": {
       "frames_delta": 10,
@@ -21,7 +21,7 @@
     "linear_search_step_count": 400,
     "binary_search_step_count": 0,
     "ray_step_length": 1,
-    "roughness_cutoff": 0.03,
+    "roughness_cutoff": 0.2,
     "thickness": 0,
     "fading_distance": 1,
     "roughness_fade_start": 0,
