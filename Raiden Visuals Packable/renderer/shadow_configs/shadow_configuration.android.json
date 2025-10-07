@@ -1,0 +1,14 @@
+{
+  "low": {
+    "file": "lods/shadow_configuration.android.low.json"
+  },
+  "medium": {
+    "file": "lods/shadow_configuration.android.medium.json"
+  },
+  "high": {
+    "file": "lods/shadow_configuration.android.high.json"
+  },
+  "ultra": {
+    "file": "lods/shadow_configuration.android.ultra.json"
+  }
+}

@@ -1,0 +1,49 @@
+{
+ "capabilities": ["pbr"],
+ "format_version": 2,
+ "header": {
+  "description": "pack.description",
+  "name": "Raiden Visuals 1.8.3",
+  "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
+  "version": [1,8,3],
+  "min_engine_version": [1,21,101]
+ },
+ "modules": [
+  {
+   "description": "Mimpi basah User Android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat resource pac dan di versi official",
+   "type": "resources",
+   "uuid": "04b7e6f3-312d-4bc8-ba1e-183fa719f512",
+   "version": [1,8,3]
+  }
+ ],
+ "subpacks": [
+  {
+   "folder_name": "tanpa pantulan awan",
+   "memory_tier": 1,
+   "name": "Refleksi Awan Tidak Aktif"
+  },
+  {
+   "folder_name": "dengan pantulan awan",
+   "memory_tier": 2,
+   "name": "Refleksi Awan Aktif"
+  }
+ ],
+ "settings": [
+        {
+            "type": "label",
+            "text": "                    Aktifkan Atau Nonaktifkan Awan Di Refleksi"
+        },
+        {
+            "type": "label",
+            "text": "Refleksi Awan Aktif : §iAnda Bisa melihat Awan Di Pantulan seperti Air dan blok Metalik lainnya."
+        },
+        {
+            "type": "label",
+            "text": "Refleksi Awan Mati : §iAnda Tidak Bisa melihat Awan Di Pantulan seperti Air dan blok Metalik lainnya."
+  }
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://discord.gg/U2SUvJKQkk"
+ }
+}
