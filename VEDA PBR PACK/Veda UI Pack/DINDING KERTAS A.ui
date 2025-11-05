@@ -1,0 +1,12 @@
+{
+ "Gambar": {
+  "fill": true,
+  "texture": "VedaWallpaper",
+  "type": "image",
+  "uv_size": [
+   "100%c",
+   "100%"
+  ]
+ },
+ "namespace": "Render_By_Benz"
+}

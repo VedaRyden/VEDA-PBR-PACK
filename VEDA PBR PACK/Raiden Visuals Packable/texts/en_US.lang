@@ -1,0 +1,69 @@
+﻿pack.description=§c§lREQUIRES MB LOADER v2.0+ APPLICATION & MC PATCH IS NOT SUPPORTED!, §rMake sure it is opened via MB Loader in the Latest Version, Signs of Effect Can Be Seen From Its Deferred Chunk Can be 1 to 28 if it is still 2 to 16 Means No Effect!, This Package is Not a Shader but a Deferred Configuration. Donate : https://trakteer.id/veda_raiden/gift
+
+resourcePack.vanilla.name=Raiden Visuals Configuration Mod
+resourcePack.vanilla.description=Better Performance And Optimized For Vibrant Visuals!
+resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)	#
+info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you first enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance. #
+info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications To Be Able To Activate Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. If It Still Doesn't Work and Goes Back To Fancy = Your Phone Is Not Compatible.	#
+
+info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To Enable Vibrant Visuals Graphics Feature.	#
+info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you just enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance.	#
+info.ingfosupportvv.raidenvisuals=Your device does not support Vibrant Visuals! Even though it is on the list, your device refuses to activate it. Don't cry, don't force it too much. Hopefully you will be bought a new better device soon^^.	#
+options.bloomEnable=Bloom
+
+opti.raidenvisuals=Raiden Visuals Options	#
+set.raidenvisuals=Raiden Visuals Graphics Settings	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.9.0)	#
+options.dynamicTexturesToggle=Use Recommended Texture Limit
+options.showthumbnails=Show Graphics Example Pictures
+
+item.shield.name=Veda Shield 	#
+item.iron_sword.name=Lightning Sword	#
+item.trident.name=Trident of Lightning 	#
+entity.thrown_trident.name=Trident of Lightning	# 
+item.wooden_sword.name=Wooden Clapperboard	#
+item.bread.name=Rice crackers	#
+item.totem.name=Ambalabu	#
+
+options.hdr_brightness=Brightness %s°	#
+
+options.cloudQuality.ultra=Ultra§a(Recommended HD)	#
+
+options.shadowQuality.low=OFF§b(FPS BOOST!)	#
+options.shadowQuality.medium=Medium(Recommended)	#
+options.shadowQuality.ultra=Ultra§a(HD)	#
+
+options.pointLightShadowQuality.off=OFF	#
+options.pointLightShadowQuality.medium=Menengah(Recommended)	#
+options.pointLightShadowQuality.ultra=Ultra§a(HD)	#
+
+options.pointLightLODingQuality.medium=Medium(Recommended)	#
+options.pointLightLODingQuality.ultra=Ultra§a(HD)	#
+
+options.volumetricFogQuality.off=OFF§a§b(FPS BOOST!)	#
+options.volumetricFogQuality.low=Low(Recommended)	#
+options.volumetricFogQuality.ultra=Ultra§a(HD)	#
+
+options.reflectionsQuality.off=OFF§c(Not Recommended! Causes Black Metallic Effect)	#
+options.reflectionsQuality.low=Low(Recommended)	#
+options.reflectionsQuality.ultra=Ultra§a(HD)	#
+
+options.deferred.upscaling=Fallback Upscaling	#
+options.upscaling=DLSS Upscaling	#
+options.upscalingPercentage=Upscaling Resolution
+options.upscalingPercentage.hundred=Without Upscaling§a(Sharp)
+options.upscalingPercentage.zero=Automatic(Recommended 33%)
+options.upscalingMode=Upscaling Mode
+options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
+options.upscalingModeOptions.bilinear=Bilinear(Recommended)
+
+options.graphicsQualityPresetMode=Quality Presets 
+options.graphicsQualityPresetMode.performance=Performance First (Recommended)
+options.graphicsQualityPresetMode.visuals=Prioritize Quality (Heavy)
+
+options.bloomStrengthSlider=Bloom(Glow Effect) 	#
+
+options.vsync=Use VSync(Synchronization)	#
+options.vsync.off=Turn off VSync(Recommended)	#
+options.vsync.on=Vertical VSync	#
+options.vsync.adaptive=Adaptive Vertical VSync	#

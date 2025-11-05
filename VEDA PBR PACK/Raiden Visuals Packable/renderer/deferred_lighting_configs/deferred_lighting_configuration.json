@@ -1,0 +1,7 @@
+{
+    "mixed_res_enabled": true,
+    "upscale_factor": 0.5,
+    "local_exposure": true,
+    "biome_blending": true,
+    "optimize_gamma_correction": true
+}
