@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "cherry_grove"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#eb67ab"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#b6db61"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#b6db61"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "kabut:cherry"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "vedapack:raiden_atmosperics"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "vedapack:raiden_color_grading"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "vedapack:raiden_lighting"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "vedapack:gelombang_air"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef"
+      }
+    }
+  }
+}

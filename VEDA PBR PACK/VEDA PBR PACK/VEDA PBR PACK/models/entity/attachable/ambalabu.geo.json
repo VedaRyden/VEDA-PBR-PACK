@@ -1,0 +1,119 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.item.ambalabu",
+				"texture_width": 256,
+				"texture_height": 95,
+				"visible_bounds_width": 18,
+				"visible_bounds_height": 16,
+				"visible_bounds_offset": [0, 7, 0]
+			},
+			"bones": [
+				{
+					"name": "badan",
+					"pivot": [0.5, 12, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-5.3432, 8.43988, -5.59616], "size": [5, 12, 10], "uv": [28, 16]}
+					]
+				},
+				{
+					"name": "tangankiri",
+					"parent": "badan",
+					"pivot": [-3.3432, 20.43988, -7.59616],
+					"cubes": [
+						{"origin": [-5.3432, 12.43988, -9.59616], "size": [4, 8, 4], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "tangankanan",
+					"parent": "badan",
+					"pivot": [-3.3432, 20.43988, 6.40384],
+					"cubes": [
+						{"origin": [-5.3432, 12.43988, 4.40384], "size": [4, 8, 4], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "kepala",
+					"parent": "badan",
+					"pivot": [-3.3432, 20.43988, 6.40384],
+					"cubes": [
+						{"origin": [-5.3432, 20.43988, -7.59616], "size": [5, 12, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "muka",
+					"parent": "kepala",
+					"pivot": [-3.3432, 2.43988, -0.59616],
+					"cubes": [
+						{"origin": [-3.3432, 2.43988, -0.59616], "size": [0, 95, 128], "uv": [0, -128]}
+					]
+				},
+				{
+					"name": "kupingkanan",
+					"parent": "kepala",
+					"pivot": [-2.3432, 32.43988, -1.59616],
+					"cubes": [
+						{"origin": [-3.3432, 32.43988, -6.59616], "size": [2, 7, 5], "uv": [40, 0]}
+					]
+				},
+				{
+					"name": "kupingkiri",
+					"parent": "kepala",
+					"pivot": [-2.3432, 32.43988, 0.40384],
+					"cubes": [
+						{"origin": [-3.3432, 32.43988, 0.40384], "size": [2, 7, 5], "uv": [40, 0]}
+					]
+				},
+				{
+					"name": "kakikanan",
+					"parent": "badan",
+					"pivot": [-3.3432, 8.43988, 2.40384],
+					"cubes": [
+						{"origin": [-5.3432, 2.43988, 0.40384], "size": [4, 6, 4], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "kakikiri",
+					"parent": "badan",
+					"pivot": [-3.3432, 8.43988, -3.59616],
+					"cubes": [
+						{"origin": [-5.3432, 2.43988, -5.59616], "size": [4, 6, 4], "uv": [24, 0]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.item.ambalabu.muka",
+				"texture_width": 256,
+				"texture_height": 95,
+				"visible_bounds_width": 17,
+				"visible_bounds_height": 20,
+				"visible_bounds_offset": [0, 5, 0]
+			},
+			"bones": [
+				{
+					"name": "badan",
+					"pivot": [0.5, 12, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)"
+				},
+				{
+					"name": "kepala",
+					"parent": "badan",
+					"pivot": [-3.3432, 20.4399, 6.4038]
+				},
+				{
+					"name": "muka",
+					"parent": "kepala",
+					"pivot": [-3.3432, 2.4399, -0.5962],
+					"cubes": [
+						{"origin": [0, 0, 0], "size": [0, 95, 128], "pivot": [0, 0, 0], "rotation": [0, 180, 0], "uv": [0, -128]}
+					]
+				}
+			]
+		}
+	]
+}
