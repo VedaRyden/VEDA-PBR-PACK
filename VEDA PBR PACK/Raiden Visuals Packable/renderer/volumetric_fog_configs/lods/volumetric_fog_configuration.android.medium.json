@@ -1,0 +1,10 @@
+{
+	"parent": {
+		"file": "volumetric_fog_configuration.android.low.json"
+	},
+	"overrides": {
+		"tile_width": 32,
+		"tile_height": 32,
+		"depth_slices": 16
+	}
+}

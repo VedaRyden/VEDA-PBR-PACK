@@ -1,0 +1,25 @@
+{
+ "format_version": 1,
+ "header": {
+  "description": "UI PACK",
+  "name": "VEDA UI PACK SERVER",
+  "uuid": "67a10235-00f4-0484-8d1b-80b110011997",
+  "version": [
+   1,
+   5,
+   2
+  ]
+ },
+ "modules": [
+  {
+   "description": "UI",
+   "type": "resources",
+   "uuid": "04d7e6f2-311a-4dc7-bb0e-183fb719f638",
+   "version": [
+    1,
+    5,
+    2
+   ]
+  }
+ ]
+}

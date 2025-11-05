@@ -1,0 +1,85 @@
+pack.description=§c§lMEMERLUKAN APLIKASI MB LOADER v2.0+ & MC PATCH TIDAK DIDUKUNG!, §rPastikan dibuka lewat MB Loader Di Versi Terbaru, Tanda2 Ngefek Bisa Dilihat Dari Chunks Deferred Nya Bisa 1 Sampai 28 kalau masih 2 sampai 16 Berarti Tidak Ngefek!, Paket Ini Bukan Shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/gift
+resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
+resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
+
+createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
+createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
+options.deferred.renderDistance=Jarak Render Deferred
+options.deferred.renderDistanceFormat=%s chunk
+options.atmosphericsEnable=Atmosfer
+options.edgeHighlightEnable=Sorotan Tepi(Edge Highlight)
+options.terrainShadowsEnable=Bayangan Medan(Terrain Shadows)
+options.superFancyWaterEnable=Air Super Keren
+options.bloomEnable=Mekar(Bloom)
+options.showthumbnails=Tampilkan Gambar Contoh Grafis
+
+resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG GRAFIS VIBRANT VISUAL, YANG SABAR YA, KAMU HARUS MENERIMA ITU JANGAN MENANGIS.
+info.raidenvisuals=Atur Dan Sesuaikan Setingan Nya Dengan Kemampuan Perangkatmu, Ketika Baru Memasuki World Atur Jarak Chunk Jadi "8" Lalu Anda bebas bisa pake 1 chunk tanpa delay. Anda Dapat Mematikan Refleksi, Bayangan & Kabut Volumetrik Untuk Mengurangi beban GPU, Jangan Lupa Atur Resolusi Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.
+info.minimumspekandroid.raidenvisuals=Minimum Spesifikasi GPU Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals : Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. Jika Masih Gak Bisa Malah Balek Ke Fancy Artinya HP Mu Tidak Kompatibel.
+info.minimumspekpc.raidenvisuals=GPU Mu Harus Support DirectX12 Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals.
+info.ingfosupportvv.raidenvisuals=Perangkat Mu Tidak Support Vibrant Visuals! Meski Sudah Masuk List, Tapi Perangkatmu menolak untuk dapat mengaktifkan, Jangan Menangis Ya, Jangan Terlalu Dipaksakan,Tidak Semua HP di GPU Yang Sama Bisa Support:), Semoga cepat dibelikan perangkat baru yang lebih bagus^^.
+info.modegrafisabuabu.raidenvisuals=JANGAN LUPA AKTIFKAN "Izinkan Pergantian Mode Grafis Dalam Game".
+
+opti.raidenvisuals=Opsi Raiden Visuals
+set.raidenvisuals=Settingan Grafis Raiden visuals
+
+item.shield.name=Veda Shield 
+item.iron_sword.name=Pedang Halilintar
+item.trident.name=Trisula Halilintar 
+entity.thrown_trident.name=Trisula Halilintar
+item.wooden_sword.name=Kentungan Kayu
+item.bread.name=Regginang
+item.totem.name=Ambalabu
+
+options.hdr_brightness=Kecerahan %s°
+options.gammaIntensity=Ubah Kecerahan Gamma
+options.framePacing=Atur tempo frame(Auto FPS)
+options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
+
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.9.0)
+options.graphicsMode.rayTraced=Ray Traced
+options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
+options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing
+
+options.shadowQuality.low=Mati§b(FPS BOOST)
+options.shadowQuality.medium=Sedang(Rekomendasi)
+options.shadowQuality.ultra=Ultra§a(Rata Kanan!)
+
+options.cloudQuality.low=Rendah(Tanpa Lighting)
+options.cloudQuality.medium=Medium(Rekomendasi)
+options.cloudQuality.ultra=Ultra§a(Rata Kanan!)
+
+options.pointLightShadowQuality.off=Mati§b(FPS BOOST)
+options.pointLightShadowQuality.low=Rendah(Rekomendasi)
+options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan!)
+
+options.pointLightLODingQuality.off=Mati(Rekomendasi)
+options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan!)
+
+options.volumetricFogQuality.off=Mati§a§b(FPS BOOST)
+options.volumetricFogQuality.low=Rendah(Rekomendasi)
+options.volumetricFogQuality.ultra=Ultra§a(Rata Kanan!)
+
+options.reflectionsQuality.off=Mati§c(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)
+options.reflectionsQuality.low=Rendah(Rekomendasi)
+options.reflectionsQuality.medium=Menengah(SSR On)
+options.reflectionsQuality.ultra=Ultra§a(Rata Kanan!)
+
+options.deferred.upscaling=Fallback Upscaling
+options.upscaling=DLSS Upscaling
+options.upscalingPercentage=Resolusi Upscaling
+options.upscalingPercentage.hundred=Tanpa Upscaling§a(Tajam)
+options.upscalingPercentage.zero=Otomatis(§cGIMMICK!§r, Disarankan 33%)
+options.upscalingMode=Mode Upscaling
+options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
+options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)
+
+options.graphicsQualityPresetMode=Preset Kualitas
+options.graphicsQualityPresetMode.performance=Utamakan Performa(Ringan & Direkomendasikan)
+options.graphicsQualityPresetMode.visuals=Utamakan Kualitas(Berat)
+options.bloomStrengthSlider=Bloom(Efek Glowing)
+
+options.vsync=Gunakan VSync(Sinkronisasi)
+options.vsync.off=Matikan VSync(Rekomendasi)
+options.vsync.on=VSync Vertikal
+options.vsync.adaptive=VSync Vertikal Adaptif

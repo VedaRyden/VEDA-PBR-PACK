@@ -1,0 +1,10 @@
+{
+  "bias": 0.001,
+  "slope_bias": 0.025,
+  "far_plane": 15.0,
+  "near_plane": 0.1,
+  "max_point_light_shadows": 4,
+  "resolution": 32,
+  "cached_shadows" : true
+}
+ 

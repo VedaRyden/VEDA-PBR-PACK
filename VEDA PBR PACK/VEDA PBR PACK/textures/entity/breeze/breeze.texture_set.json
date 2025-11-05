@@ -1,0 +1,8 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "breeze",
+        "metalness_emissive_roughness_subsurface": "breeze_m",
+        "heightmap": "breeze_h"
+    }
+}

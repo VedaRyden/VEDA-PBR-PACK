@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.enderman": {
+      "arrays": {
+        "materials": {
+          "Array.materials": [ "Material.default", "Material.invisible" ]
+        }
+      },
+       "geometry": "Geometry.default",
+       "materials": [ { "*": "Array.materials[query.is_invisible]" } ],
+       "textures": [ "Texture.default" ],
+       "part_visibility":[{"triggered":"!query.is_angry"}]
+    },
+    "controller.render.endermarah": {
+      "arrays": {
+        "materials": {
+          "Array.materials": [ "Material.mata", "Material.invisible" ]
+        }
+      },
+      "part_visibility":[{"triggered":"query.is_angry"}],
+       "geometry": "Geometry.kisama",
+       "materials": [ { "*": "Array.materials[query.is_invisible]" } ],
+       "textures": [ "Texture.kisama" ],
+       "ignore_lighting": true
+    }
+  }
+}

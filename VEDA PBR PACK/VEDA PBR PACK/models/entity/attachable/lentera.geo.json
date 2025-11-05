@@ -1,0 +1,97 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lentera",
+				"texture_width": 24,
+				"texture_height": 28,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "lentera",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-6, 0, 0], "size": [6, 7, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "animasi0",
+					"parent": "lentera",
+					"pivot": [-3, 3.5, 3],
+					"cubes": [
+						{"origin": [-6, 1, 0], "size": [6, 5, 6], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "tutupanim0",
+					"parent": "animasi0",
+					"pivot": [-2.5, 4.5, 2.5],
+					"cubes": [
+						{"origin": [-3, 4, 2], "size": [1, 1, 1], "uv": [18, 0]}
+					]
+				},
+				{
+					"name": "animasi1",
+					"parent": "lentera",
+					"pivot": [-3, 3.5, 3],
+					"cubes": [
+						{"origin": [-6, 1, 0], "size": [6, 5, 6], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "tutupanim1",
+					"parent": "animasi1",
+					"pivot": [-2.5, 4.5, 2.5],
+					"cubes": [
+						{"origin": [-3, 4, 2], "size": [1, 1, 1], "uv": [18, 2]}
+					]
+				},
+				{
+					"name": "animasi2",
+					"parent": "lentera",
+					"pivot": [-3, 3.5, 3],
+					"cubes": [
+						{"origin": [-6, 1, 0], "size": [6, 5, 6], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "tutupanim2",
+					"parent": "animasi2",
+					"pivot": [-2.5, 4.5, 2.5],
+					"cubes": [
+						{"origin": [-3, 4, 2], "size": [1, 1, 1], "uv": [18, 4]}
+					]
+				},
+				{
+					"name": "tutup",
+					"parent": "lentera",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, 0], "size": [1, 2, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "rantai",
+					"parent": "lentera",
+					"pivot": [-1.5, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, 0], "size": [3, 2, 0], "uv": [0, 3]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "rantai",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, 0], "size": [3, 2, 0], "uv": [0, 3]}
+					]
+				}
+			]
+		}
+	]
+}

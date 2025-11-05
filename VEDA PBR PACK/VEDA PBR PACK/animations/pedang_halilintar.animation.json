@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pedang_halilintar.new": {
+			"loop": true,
+			"bones": {
+				"PEDANG_HALILINTAR_REMAKE": {
+					"rotation": [139.41788, 70.56671, -38.93002],
+					"position": [-4, 29, 0]
+				}
+			}
+		},
+		"animation.pedang_halilintar.pegangpov": {
+			"loop": true,
+			"bones": {
+				"PEDANG_HALILINTAR_REMAKE": {
+					"rotation": [116.54611, 64.07398, -39.74026],
+					"position": [-4, 29, 0]
+				}
+			}
+		},
+		"animation.pedang_halilintar.pegang3rd": {
+			"loop": true,
+			"bones": {
+				"PEDANG_HALILINTAR_REMAKE": {
+					"rotation": [90, 0, 0],
+					"position": [0, 22.5, 0]
+				},
+				"GAGANG": {
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}
