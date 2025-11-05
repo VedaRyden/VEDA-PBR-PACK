@@ -1,0 +1,14 @@
+{
+	"low": {
+		"file": "lods/point_light_configuration_1.json"
+	},
+	"medium": {
+		"file": "lods/point_light_configuration_3.json"
+	},
+	"high": {
+		"file": "lods/point_light_configuration_5.json"
+	},
+	"ultra": {
+		"file": "lods/point_light_configuration_7.json"
+	}
+}

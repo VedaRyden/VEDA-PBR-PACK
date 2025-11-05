@@ -1,0 +1,62 @@
+﻿options.hdr_brightness=Kecerahan %s°	#
+options.gammaIntensity=Ubah Kecerahan Gamma	#
+
+options.graphicsMode.deferred=Deferred Rendering	#
+options.graphicsMode.rayTraced=Ray Tracing	#
+options.graphicsModeOptions.simple=Opsi Grafis Sederhana	#
+options.graphicsModeOptions.fancy=Opsi Grafis Indah	#
+options.graphicsModeOptions.deferred=Opsi Grafis Deferred Rendering	#
+options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing	#
+
+options.shadowQuality=Kualitas Bayangan 	#
+options.shadowQuality.low=Mati§b(FPS BOOST)	#
+options.shadowQuality.medium=Sedang(Rekomendasi)	#
+options.shadowQuality.high=Tinggi	#
+options.shadowQuality.ultra=Ultra§a(Rata Kanan!)	#
+
+options.pointLightShadowQuality=Kualitas Bayangan Cahaya 	#
+options.pointLightShadowQuality.off=Mati§b(FPS BOOST)	#
+options.pointLightShadowQuality.low=Rendah	#
+options.pointLightShadowQuality.medium=Menengah(Rekomendasi)	#
+options.pointLightShadowQuality.high=Tinggi	#
+options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan)	#
+
+options.pointLightLODingQuality=Kualitas Cahaya 	#
+options.pointLightLODingQuality.low=Rendah	#
+options.pointLightLODingQuality.medium=Sedang(Rekomendasi)	#
+options.pointLightLODingQuality.high=Tinggi	#
+options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan)	#
+
+options.volumetricFogQuality=Kualitas Kabut Volumetrik 	#
+options.volumetricFogQuality.off=Mati§a§b(FPS BOOST)	#
+options.volumetricFogQuality.low=Rendah(Rekomendasi)	#
+options.volumetricFogQuality.medium=Sedang	#
+options.volumetricFogQuality.high=Tinggi	#
+options.volumetricFogQuality.ultra=Ultra§a(Rata Kanan!)	#
+
+options.reflectionsQuality=Refleksi 	#
+options.reflectionsQuality.off=Mati§c(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)	#
+options.reflectionsQuality.low=Rendah(Rekomendasi)	#
+options.reflectionsQuality.medium=Menengah	#
+options.reflectionsQuality.high=Tinggi	#
+options.reflectionsQuality.ultra=Ultra§a(Rata Kanan!)	#
+
+options.deferred.upscaling=Fallback Upscaling 	#
+options.upscaling=DLSS Upscaling	#
+options.upscalingPercentage=Resolusi Upscaling
+options.upscalingPercentage.hundred=Tanpa Upscaling§a(Tajam)
+options.upscalingPercentage.zero=Otomatis(Disarankan 33%)
+options.upscalingMode=Mode Upscaling
+options.upscalingModeOptions.taau=TAAU
+options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)
+
+options.graphicsQualityPresetMode=Preset Kualitas 
+options.graphicsQualityPresetMode.performance=Utamakan Performa(Ringan)
+options.graphicsQualityPresetMode.visuals=Utamakan Keindahan(Berat)
+
+options.bloomStrengthSlider=Bloom(Efek Glowing) 	#
+
+options.vsync=Gunakan VSync(Sinkronisasi)	#
+options.vsync.off=Matikan VSync(Rekomendasi)	#
+options.vsync.on=VSync Vertikal	#
+options.vsync.adaptive=VSync Vertikal Adaptif	#

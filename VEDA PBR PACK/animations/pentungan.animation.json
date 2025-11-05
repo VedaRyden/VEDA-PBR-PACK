@@ -1,0 +1,115 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pentungan.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [15.50409, 14.47751, -121.03287],
+					"position": [0, 23, 2]
+				},
+				"bone": {
+					"position": [0, 0.75, 0]
+				},
+				"bone3": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"bone4": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"bone5": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"bone6": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"bone7": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"bone8": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"bone9": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"bone2": {
+					"position": [0, -2.25, 0],
+					"scale": 1.1
+				},
+				"gagang": {
+					"position": [0, -0.75, 0],
+					"scale": [2, 0.5, 2]
+				}
+			}
+		},
+		"animation.pentungan.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"Pentungan": {
+					"rotation": [-250, 26.8, -415],
+					"position": [-9, 19, 4.8],
+					"scale": 1.5
+				},
+				"bone": {
+					"position": [0, 0.75, 0]
+				},
+				"bone3": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone4": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone5": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone6": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone7": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone8": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone9": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"bone2": {
+					"position": [0, -2, 0],
+					"scale": 1.1
+				},
+				"gagang": {
+					"position": [0, 2.5, 0],
+					"scale": [2, 0.5, 2]
+				},
+				"mata": {
+					"scale": 0.99
+				},
+				"tangankiri": {
+					"rotation": [0, 0, 17.5]
+				},
+				"tangankanan": {
+					"rotation": [0, 0, -17.5]
+				},
+				"root": {
+					"rotation": [0, 0, 0],
+					"position": [-0.5, 1, 0]
+				}
+			}
+		}
+	}
+}

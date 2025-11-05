@@ -1,0 +1,12 @@
+{
+ "namespace": "KENA_RICKROLL",
+ "RICKROLLED": {
+  "fill": true,
+  "texture": "RICKROLL NYA WIDESCREEN COYY",
+  "type": "image",
+  "uv_size": [
+   "100%c",
+   "100%"
+  ]
+ }
+}

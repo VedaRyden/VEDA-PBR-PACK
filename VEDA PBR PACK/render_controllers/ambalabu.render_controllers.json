@@ -1,0 +1,31 @@
+{
+  "format_version":"1.16.0",
+  "render_controllers":{
+    "controller.render.ambalabu_pov":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "part_visibility":[{"muka":"q.swell_amount"}],
+      "textures":["Texture.default"]
+    },
+    "controller.render.ambalabu_ptp":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "part_visibility":[{"muka":"q.swell_amount"}],
+      "textures":["Texture.default"]
+    },
+    "controller.render.ambalabu_muka_pov":{
+      "geometry":"Geometry.muka",
+      "materials": [ { "*": "Material.muka" } ],
+      "textures": [
+        "q.time_of_day>0.75 || q.time_of_day<0.20 ? Texture.malam : Texture.muka"
+      ]
+    },
+    "controller.render.ambalabu_muka_ptp":{
+      "geometry":"Geometry.muka",
+      "materials": [ { "*": "Material.muka" } ],
+      "textures": [
+        "q.time_of_day>0.75 || q.time_of_day<0.20 ? Texture.malam : Texture.muka"
+      ]
+    }
+  }
+}
