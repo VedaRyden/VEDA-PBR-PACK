@@ -6,7 +6,7 @@
   "name": "VEDA PACK PBR V0.2",
   "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
   "version": [1,5,7],
-  "min_engine_version": [1,21,80]
+  "min_engine_version": [1,21,130]
  },
  "subpacks": [
   {

@@ -1,8 +1,0 @@
-{
-	"tile_width": 4,
-		"tile_height": 4,
-		"depth_slices": 32,
-		"near_plane": 0.01,
-		"far_plane": 10.0,
-		"shadow_pcf_scale": 0
-}

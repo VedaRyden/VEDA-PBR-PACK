@@ -11,7 +11,7 @@
               "range": 0.25,
               "resolution": 2048,
               "slope_bias": 0.00001,
-              "update_frequency": 5,
+              "update_frequency": 2,
               "update_offset": 0
           },
           {

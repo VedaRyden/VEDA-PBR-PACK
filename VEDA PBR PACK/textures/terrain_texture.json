@@ -28,13 +28,6 @@
   },
   "vault_bottom": {
       "textures": [
-        "textures/blocks/vault_bottom",
-        "textures/blocks/vault_bottom",
-        "textures/blocks/vault_bottom",
-        "textures/blocks/vault_bottom",
-        "textures/blocks/vault_bottom",
-        "textures/blocks/vault_bottom",
-        "textures/blocks/vault_bottom",
         "textures/blocks/vault_bottom"
       ]
     },

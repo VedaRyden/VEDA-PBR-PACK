@@ -1,4 +1,4 @@
-pack.description=§c§lMEMERLUKAN APLIKASI MB LOADER v2.0+ & MC PATCH TIDAK DIDUKUNG!, §rPastikan dibuka lewat MB Loader Di Versi Terbaru, Tanda2 Ngefek Bisa Dilihat Dari Chunk Deferred Nya Bisa 1 Sampai 28 kalau masih 2 sampai 16 Berarti Tidak Ngefek!, Paket Ini Bukan Shader melaikan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/gift
+pack.description=§c§lMEMERLUKAN APLIKASI MB LOADER v2.0+ & MC PATCH TIDAK DIDUKUNG!, §rPastikan dibuka lewat MB Loader Di Versi Terbaru, Tanda2 Ngefek Bisa Dilihat Dari Chunks Deferred Nya Bisa 1 Sampai 28 kalau masih 2 sampai 16 Berarti Tidak Ngefek!, Paket Ini Bukan Shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/gift
 resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
 
@@ -36,7 +36,7 @@ options.gammaIntensity=Ubah Kecerahan Gamma
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.8.3)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.9.0)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing

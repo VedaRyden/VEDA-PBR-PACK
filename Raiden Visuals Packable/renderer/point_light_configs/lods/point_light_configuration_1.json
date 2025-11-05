@@ -7,5 +7,6 @@
 	"start_specular_fade_out": 10.0,
 	"end_specular_fade_out": 16.0,
 	"enable_fade_out_diffuse": false,
-	"enable_fade_out_specular": false
+	"enable_fade_out_specular": false,
+	"light_update_frequency": 60
 }
