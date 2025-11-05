@@ -1,0 +1,11 @@
+{
+  "furnace_label": {
+    "type": "label",
+    "offset": [ 0, -3 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "text": "$container_title",
+    "color": "#FFFFFF",
+    "layer": 2
+  }
+}
