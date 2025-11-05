@@ -1,0 +1,13 @@
+{
+  "namespace": "chest",
+  "chest_label": {
+    "type": "label",
+    "offset": [ 7, -1 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "text": "§r§cDILARANG MENCURI INGAT!",
+    "size": [ "90%", "default" ],
+    "color": "#ffffff",
+    "layer": 2
+  }
+}

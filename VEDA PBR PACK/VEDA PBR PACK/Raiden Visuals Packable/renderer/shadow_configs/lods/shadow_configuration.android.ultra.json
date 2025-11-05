@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.60",
+  "cascades": [
+      [
+          {
+              "bias": 0,
+              "has_dynamic_geometry": true,
+              "has_static_geometry": true,
+              "light_quantization_steps": 1800,
+              "pcf_width": 0,
+              "range": 0.1666,
+              "resolution": 2048,
+              "slope_bias": 0.00001,
+              "update_frequency": 2,
+              "update_offset": 0
+          },
+          {
+              "bias": 0,
+              "has_dynamic_geometry": false,
+              "has_static_geometry": true,
+              "light_quantization_steps": 1,
+              "pcf_width": 0,
+              "range": 0.3333,
+              "resolution": 1024,
+              "slope_bias": 0.00008,
+              "update_frequency": 200,
+              "update_offset": 10000
+          },
+          {
+              "bias": 0,
+              "has_dynamic_geometry": false,
+              "has_static_geometry": true,
+              "light_quantization_steps": 1,
+              "pcf_width": 0,
+              "range": 0.5,
+              "resolution": 512,
+              "slope_bias": 0.00008,
+              "update_frequency": 1000,
+              "update_offset": 20000
+          }
+      ]
+  ],
+  "cloud_shadow_contribution": 0.4,
+  "cloud_shadow_pcf_width": 0,
+  "cloud_shadow_quantization_steps": 900,
+  "cloud_shadows": true,
+  "max_shadow_distance": 128,
+  "moon_shadows": true,
+  "normal_offset_strength": 0.065,
+  "shadow_range": {"far": 128,"near": 0.025},
+  "sun_shadows": true
+}

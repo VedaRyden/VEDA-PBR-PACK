@@ -1,0 +1,12 @@
+{
+ "BG0": {
+  "fill": true,
+  "texture": "DUNIA",
+  "type": "image",
+  "uv_size": [
+   "100%c",
+   "100%"
+  ]
+ },
+ "namespace": "DUNIA"
+}

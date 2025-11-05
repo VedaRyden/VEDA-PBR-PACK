@@ -1,0 +1,14 @@
+{
+	"low": {
+		"file": "lods/volumetric_fog_configuration.android.low.json"
+	},
+	"medium": {
+		"file": "lods/volumetric_fog_configuration.android.medium.json"
+	},
+	"high": {
+		"file": "lods/volumetric_fog_configuration.android.high.json"
+	},
+	"ultra": {
+		"file": "lods/volumetric_fog_configuration.android.ultra.json"
+	}
+}

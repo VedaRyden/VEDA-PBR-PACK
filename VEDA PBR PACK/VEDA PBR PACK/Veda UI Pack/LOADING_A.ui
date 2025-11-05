@@ -1,0 +1,12 @@
+{
+ "namespace": "LOADING_A",
+ "UI1": {
+  "fill": true,
+  "texture": "LOADINGWALL",
+  "type": "image",
+  "uv_size": [
+   "100%c",
+   "100%"
+  ]
+ }
+}

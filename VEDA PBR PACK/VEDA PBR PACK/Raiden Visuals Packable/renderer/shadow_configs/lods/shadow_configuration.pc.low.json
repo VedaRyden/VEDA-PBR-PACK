@@ -1,0 +1,22 @@
+{//NO SHADOW NEW FORMAT HEHEHEHA:V
+  "format_version": "1.21.60",
+  "cascades": [
+      [{"bias": 0,
+              "has_dynamic_geometry": false,
+              "has_static_geometry": false,
+              "light_quantization_steps": 0,
+              "pcf_width": 0,"range": 0,
+              "resolution": 1,"slope_bias": 0,
+              "update_frequency": 100000000,
+              "update_offset": 0}]
+  ],
+  "cloud_shadow_contribution": 0,
+  "cloud_shadow_pcf_width": 0,
+  "cloud_shadow_quantization_steps": 0,
+  "cloud_shadows": false,
+  "max_shadow_distance": 0,
+  "moon_shadows": false,
+  "normal_offset_strength": 0,
+  "shadow_range": {"far": 0,"near": 0},
+  "sun_shadows": false
+}
