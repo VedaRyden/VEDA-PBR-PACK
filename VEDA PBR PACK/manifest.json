@@ -3,7 +3,7 @@
  "format_version": 2,
  "header": {
   "description": "pack.description",
-  "name": "VEDA PACK PBR V0.2",
+  "name": "VEDA PACK PBR V0.1",
   "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
   "version": [1,5,7],
   "min_engine_version": [1,21,130]
@@ -53,6 +53,8 @@
  ],
  "metadata": {
   "authors": [ "VEDA_RAIDEN" ],
-  "url": "https://discord.gg/U2SUvJKQkk"
+  "url": "https://discord.gg/U2SUvJKQkk",
+  "changelog": "CHANGELOG.md",
+  "readme": "README.md"
  }
 }

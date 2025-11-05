@@ -2,29 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
-
-### Added
-
-- (No unreleased changes yet.)
-
 ## [1.0.0] - 2025-11-05
 
-Versi: 1.0.0
+Version: 1.0.0
 
-Deskripsi perubahan dan penambahan:
+Description of changes and additions:
 
-- Menambahkan cubemaps dan local lighting.
-- Menambahkan muka Bahlil untuk Copper Golem (varian baru: tembaga dan oxidized; varian lain belum diperbarui).
-- Mengubah bunga mawar menjadi sebotol bensin ber-ethanol tinggi pada Copper Golem.
-- Botol ethanol dapat menyala/berderang di area gelap.
-- Menambahkan pesan loading baru.
-- Mengubah warna malam pada atmosfer.
-- Menambahkan ambient fog berwarna langit dan kabut jamur.
-- Mengubah tekstur batang kayu MERS dengan memanfaatkan kontrol SSS sehingga terlihat berbentuk bulat saat terkena cahaya.
-- Mengubah padding terrain texture dari 8 menjadi 1.
-- Menambahkan PBR untuk semua blok concrete beserta varian warnanya.
-- Menambahkan PBR baru untuk blok:
+- Added cubemaps and local lighting.
+- Added the Bahlil face for the Copper Golem (new variants: copper and oxidized; other variants not updated yet).
+- Replaced the rose with a high-ethanol gasoline bottle on the Copper Golem.
+- The ethanol bottle can glow in dark areas.
+- Added new loading messages.
+- Modified night color in the atmosphere.
+- Added ambient fog colored like the sky and mushroom fog.
+- Modified the MERS wood log texture using SSS controls so it appears rounded when lit.
+- Changed terrain texture padding from 8 to 1.
+- Added PBR to all concrete blocks and their color variants.
+- Added new PBR for blocks:
   - ice, snow
   - sculk, sculk catalyst, sculk sensor, sculk shrieker, sculk vein, calibrated_sculk_sensor
   - end_rod, shroomlight
@@ -35,18 +29,18 @@ Deskripsi perubahan dan penambahan:
   - basalt, polished_basalt, smooth_basalt, blackstone, polished_blackstone
   - warped_fungus, warped_roots, crimson_fungus
 
-- Menambahkan PBR baru pada entity:
+- Added new PBR for entities:
   - brown_mooshroom_v2
   - mooshroom_v2
 
-- Perbaikan pada texture set:
-  - Wool berwarna kuning yang salah diperbaiki.
-  - Memperbaiki logs yang mengganggu pada chicken texture set.
-  - Memperbaiki beberapa kabut pada bioma tertentu seperti Cherry Grove dan Plains.
-  - Mengubah lebih banyak pada texture set untuk blocks menggunakan format baru agar dapat SSS (bagian paling melelahkan).
-  - Color grading dirubah sedikit agar tampak lebih enak dipandang, dengan kontras dan saturasi yang pas.
+- Texture set fixes:
+  - Fixed incorrectly colored yellow wool.
+  - Fixed logs causing issues in the chicken texture set.
+  - Fixed some fog issues in certain biomes like Cherry Grove and Plains.
+  - Updated more texture sets for blocks to the new format to support SSS (the most tedious part).
+  - Slight color grading adjustments for better contrast and saturation.
 
-- Perbaikan PBR pada block:
+- PBR fixes for blocks:
   - soul_lantern, lantern
   - stripped & pale_oak_log_side
   - wool_colored_yellow
@@ -61,12 +55,12 @@ Deskripsi perubahan dan penambahan:
   - grass_side, grass_top, dirt
   - fire_0, fire_1, lava_still
   - crying_obsidian, obsidian
-  - deepslate_iron_ore dan semua ores
+  - deepslate_iron_ore and all ores
   - glow_item_frame, glow_lichen
   - enchanting_table_side & top
   - magma
 
-- Perbaikan PBR pada entity:
+- PBR fixes for entities:
   - muka_malam (Ambalabu)
   - lentera, lenterajawa
   - spider
@@ -76,10 +70,10 @@ Deskripsi perubahan dan penambahan:
   - endercrystal
   - breeze_eyes
 
-- Perbaikan PBR pada item:
+- PBR fixes for items:
   - diamond_sword
   - bucket_lava
 
 ---
 
-Catatan: Jika diperlukan, ubah judul versi dan tambahkan detail lebih lanjut tentang mana file/texture yang diubah dalam commit atau daftar file terpisah.
+Note: Update the version title if needed and add more detailed file-level change lists in commits or a separate file.
