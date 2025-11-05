@@ -1,0 +1,103 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "vedapack:orpos_raiden_color_grading"
+    },
+    "color_grading": {
+    "temperature": {
+        "enabled": true,
+        "temperature": 4800,
+        "type": "color_temperature"
+      },
+      "midtones": {
+        "contrast": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "gain": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "gamma": [
+          2.2,
+          2.2,
+          2.2
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          1.2,
+          1.2,
+          1.2
+        ]
+      },
+      "highlights": {
+        "enabled": true,
+        "highlightsMin": 20,
+        "contrast": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "gain": [
+          0.8999999761581421,
+          0.8999999761581421,
+          0.8999999761581421
+        ],
+        "gamma": [
+          2.2,
+          2.2,
+          2.2
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          1.25,
+          1.25,
+          1.25
+        ]
+      },
+      "shadows": {
+        "enabled": true,
+        "shadowsMax": 0.4000000059604645,
+        "contrast": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "gain": [
+          1,
+          1,
+          1
+        ],
+        "gamma": [
+          2.380000114440918,
+          2.380000114440918,
+          2.380000114440918
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          1.3200000524520874,
+          1.3200000524520874,
+          1.3200000524520874
+        ]
+      }
+    },
+    "tone_mapping": {
+      "operator": "reinhard_luminance"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "capabilities": ["pbr"],
+ "format_version": 2,
+ "header": {
+  "description": "pack.description",
+  "name": "VEDA PACK PBR V0.1",
+  "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
+  "version": [1,5,7],
+  "min_engine_version": [1,21,130]
+ },
+ "subpacks": [
+  {
+   "folder_name": "16x",
+   "memory_tier": 1,
+   "name": "Kualitas Bayangan 16x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 16x."
+  },
+  {
+   "folder_name": "512x",
+   "memory_tier": 0,
+   "name": "Bayangan Halus Tidak Pixelated(Rekomendasi)\n\nMemiliki Efek Subsurface Scattering Atau Gradasi DiSisi Bayangannya, Direkomendasikan!."
+  },
+  {
+   "folder_name": "256x",
+   "memory_tier": 2,
+   "name": "Kualitas Bayangan 1024x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 1024x. "
+  }
+ ],
+ "settings": [
+        {
+            "type": "label",
+            "text": "                       Atur Kualitas/Style Bayangan"
+        },
+        {
+            "type": "label",
+            "text": "16x: §iKualitas Bayangan 16x Pixel Perblock(Pixelated)."
+        },
+        {
+            "type": "label",
+            "text": "Smooth: §iBayangan Halus Tidak Pixelated(Rekomendasi)."
+        },
+        {
+            "type": "label",
+            "text": "1024x: §iKualitas Bayangan 1024x Pixel Perblock(Pixelated)."
+  }
+ ],
+ "modules": [
+  {
+   "description": "Minecraft Max HDR FHD 16K 512FPS",
+   "type": "resources",
+   "uuid": "04b7e6f2-311d-4bc7-ba0e-183fa719f256",
+   "version": [1,5,7]
+  }
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://discord.gg/U2SUvJKQkk",
+  "changelog": "CHANGELOG.md",
+  "readme": "README.md"
+ }
+}
