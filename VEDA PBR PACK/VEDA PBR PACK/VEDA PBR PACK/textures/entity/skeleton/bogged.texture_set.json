@@ -1,8 +1,0 @@
-{
-	"format_version": "1.21.30",
-	"minecraft:texture_set": {
-		"color": "bogged",
-		"metalness_emissive_roughness_subsurface": "bogged_m",
-		"heightmap": "bogged_h"
-	}
-}

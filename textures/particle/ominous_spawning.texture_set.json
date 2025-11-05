@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "ominous_spawning",
-        "metalness_emissive_roughness_subsurface": "ominous_spawning_m"
-    }
-}

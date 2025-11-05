@@ -1,8 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "muka_malam",
-        "metalness_emissive_roughness": "muka_malam_m",
-        "normal": "muka_malam_n"
-    }
-}

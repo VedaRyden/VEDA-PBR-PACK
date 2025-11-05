@@ -1,8 +1,0 @@
-{
-	"format_version": "1.21.30",
-	"minecraft:texture_set": {
-		"color": "web",
-		"metalness_emissive_roughness_subsurface": "grass_top_m",
-		"heightmap": "web_h"
-	}
-}

@@ -1,8 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "mushroom_brown",
-        "metalness_emissive_roughness_subsurface": "mushroom_brown_m",
-        "heightmap": "mushroom_brown_h"
-    }
-}

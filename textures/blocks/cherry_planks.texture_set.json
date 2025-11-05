@@ -1,8 +1,0 @@
-{
-	"format_version": "1.21.30",
-	"minecraft:texture_set": {
-		"color": "cherry_planks",
-		"metalness_emissive_roughness_subsurface": "cherry_planks_m",
-		"heightmap": "cherry_planks_h"
-	}
-}
