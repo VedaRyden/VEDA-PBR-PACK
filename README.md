@@ -1,63 +1,34 @@
-<!-- VEDA PBR PACK - Detailed README -->
+![pack_icon](https://github.com/VedaRyden/VEDA-PBR-PACK/assets/117094889/b4e7d479-45a1-4fc1-bd62-c47557837081)
 
-# VEDA PBR PACK
+Veda Pack PBR X Raiden Visuals Telah Tiba!
+Bertujuan Buat Peforma Mode Visuals Render Lebih ringan Digunakan Namun Hasilnya lebih baik lagi!
 
-**VEDA PBR Pack** — peningkatan visual berbasis PBR (Physically Based Rendering) untuk Minecraft.
+Support Untuk Versi Beta 1.21.60.23 Keatas!
+Support Untuk Versi Official 1.21.80 Keatas!
 
-Versi: **1.0.0**
+Peringatan
+"Raiden Visuals" Memerlukan Modifikasi Game Untuk Memasukan File Konfigurasinya Agar Berdampak Pada Peningkatan Peforma.
 
-Ringkasan singkat
-- Menambahkan cubemaps, local lighting, dan banyak perbaikan PBR pada blok, entitas, dan item.
-- Menyertakan penyesuaian color grading, fog, dan dukungan subsurface scattering (SSS) pada tekstur tertentu.
+KEUNTUNGAN RAIDEN Visuals!
 
-Fitur utama
-- Cubemaps & improved reflections
-- Local lighting dan SSS untuk material yang lebih realistis
-- PBR textures untuk blok, entitas, dan item
-- Penyesuaian atmosfer: fog, night coloring, ambient tweaks
-- Berbagai optimasi kualitas (pilihan 16x / 256x / 512x)
+Peningkatan Performa Jauh Lebih Ringan!
 
-Persyaratan
-- Minecraft Bedrock edition (sesuaikan versi sesuai paket). Periksa kompatibilitas di deskripsi pack.
-- Untuk beberapa fitur (mis. integrasi Raiden Visuals) mungkin memerlukan konfigurasi tambahan atau modifikasi game.
+![Screenshot 2024-06-23 231533](https://github.com/VedaRyden/VEDA-PBR-PACK/assets/117094889/aba3b095-37fc-43c6-83e8-da360c372252)
 
-Instalasi
-1. Ekstrak folder `VEDA PBR PACK` ke folder `resource_packs` pada perangkat Anda.
-2. Aktifkan resource pack dari Settings → Global Resources (atau Resource Packs) di Minecraft.
-3. Pilih subpack sesuai performa: `16x` (low), `256x` (medium/high), `512x` (recommended high quality).
+— Bayangan Lebih Tajam Pada Kualitas Medium Dan Lebih Ringan.
+— Kabut Volumetrik Lebih Tajam Dan Ringan(Rendah Sampai Tinggi).
+— Screen Space Reflection Lebih Tajam, lebih luas dan lebih ringan.
+— Bayangan Pada Cahaya Block Lebih Tajam Dan Ringan.
 
-Konfigurasi & Tips
-- Gunakan subpack `16x` jika perangkat Anda terbatas memori/GPU.
-- Jika Anda ingin hasil terbaik, gunakan `512x` dan aktifkan fitur grafis di pengaturan Minecraft.
-- Untuk beberapa efek (SSS, volumetric fog), pastikan pengaturan grafis game dan driver GPU sudah up-to-date.
+![Screenshot 2024-06-28 130446](https://github.com/VedaRyden/VEDA-PBR-PACK/assets/117094889/159d1210-5eb0-478d-85cb-99e4e221db44)
+![Minecraft Preview 23_06_2024 21_16_37](https://github.com/VedaRyden/VEDA-PBR-PACK/assets/117094889/118761a7-79aa-44ea-8690-19e3ce21a689)
 
-Screenshot (preview)
-> Catatan: gambar diambil dari asset pack. Jika gambar tidak muncul di tampilan GitHub, periksa path `ui/` di repository.
+Texture PBR Veda Pack Menghasilkan Warna Lebih Colorfull! Dan masih Ada Lagi...
 
-![UI Raiden Button](ui/raiden button.png)
-![Awan Ultra](ui/awanultra.png)
-![SSR On Preview](ui/SSRon.png)
+Gw Mau bobok dulu babay, selamat menikmati atas Visuals Pack dari saya hehe semoga menyenangkan ^^
+Join Discord Untuk Melihat Proyek Kami Dan Belajar Membuat Texture maupun Visuals!
+Link : https://discord.gg/U2SUvJKQkk
 
-Contoh perubahan (selengkapnya lihat CHANGELOG)
-- Menambahkan PBR untuk banyak blok (concrete, copper variants, sculk, mushroom blocks, dll.)
-- Perbaikan texture & PBR pada entitas dan item (mooshrooms, lanterns, swords, bucket_lava, dll.)
-
-Troubleshooting
-- Jika pack tidak muncul di game: pastikan struktur folder tidak berubah dan Anda menaruh `VEDA PBR PACK` langsung di `resource_packs`.
-- Jika terjadi crash atau artefak grafis: coba subpack resolusi lebih rendah (16x) dan periksa log/game output.
-
-Kontribusi
-- Kalau Anda mau berkontribusi: fork repo, buat perubahan pada branch baru, lalu buka Pull Request. Sertakan preview screenshot untuk perubahan tekstur.
-
-Lisensi & Kontak
-- Author: VEDA_RAIDEN
-- Discord: https://discord.gg/U2SUvJKQkk
-- Untuk lisensi spesifik, periksa file LICENSE (jika ada) atau hubungi author lewat Discord.
-
-Changelog
-- Lihat `CHANGELOG.md` untuk daftar perubahan lengkap dan riwayat rilis.
-
-Terima kasih telah menggunakan VEDA PBR Pack — selamat menikmati visual yang ditingkatkan!
 ---
 
 # VEDA PBR PACK (Additional description)

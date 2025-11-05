@@ -1,8 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "harness_red",
-        "metalness_emissive_roughness_subsurface": "harness_red_m",
-        "heightmap": "harness_red_h"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "trial_omen",
-        "metalness_emissive_roughness_subsurface": "raid_omen_m"
-    }
-}

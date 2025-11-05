@@ -1,9 +1,0 @@
-{
-	"cloud_lighting_parameters": {
-		"cloud_lighting_enabled": true
-	},
-	"grid_size": 3,
-	"cloud_mesh_size": 64,
-	"cloud_render_distance_scale": 4.0,
-	"enable_cloud_render_distance": true
-}

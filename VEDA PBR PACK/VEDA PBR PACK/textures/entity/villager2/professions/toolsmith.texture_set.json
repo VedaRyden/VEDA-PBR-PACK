@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "toolsmith",
-        "metalness_emissive_roughness_subsurface": "toolsmith_m"
-    }
-}
