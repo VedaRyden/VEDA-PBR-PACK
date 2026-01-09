@@ -11,7 +11,7 @@
               "range": 0.25,
               "resolution": 2048,
               "slope_bias": 0.00001,
-              "update_frequency": 2,
+              "update_frequency": 1,
               "update_offset": 0
           },
           {
@@ -45,6 +45,7 @@
   "cloud_shadow_quantization_steps": 1,
   "cloud_shadows": false,
   "max_shadow_distance": 128,
+  "max_shadow_frustum_radius": 192.0,
   "moon_shadows": true,
   "normal_offset_strength": 0.065,
   "shadow_range": {"far": 128,"near": 0.025},

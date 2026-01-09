@@ -36,14 +36,14 @@ options.gammaIntensity=Ubah Kecerahan Gamma
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.9.0)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.10.0)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing
 
 options.shadowQuality.low=Mati§b(FPS BOOST)
 options.shadowQuality.medium=Sedang(Rekomendasi)
-options.shadowQuality.ultra=Ultra§a(Rata Kanan!)
+options.shadowQuality.ultra=Ultra+§a(Berkualitas Tinggi!)
 
 options.cloudQuality.low=Rendah(Tanpa Lighting)
 options.cloudQuality.medium=Medium(Rekomendasi)
@@ -58,12 +58,12 @@ options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan!)
 
 options.volumetricFogQuality.off=Mati§a§b(FPS BOOST)
 options.volumetricFogQuality.low=Rendah(Rekomendasi)
-options.volumetricFogQuality.ultra=Ultra§a(Rata Kanan!)
+options.volumetricFogQuality.ultra=Ultra+§a(Berkualitas Tinggi!)
 
 options.reflectionsQuality.off=Mati§c(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)
-options.reflectionsQuality.low=Rendah(Rekomendasi)
+options.reflectionsQuality.low=Rendah(SSR OFF)
 options.reflectionsQuality.medium=Menengah(SSR On)
-options.reflectionsQuality.ultra=Ultra§a(Rata Kanan!)
+options.reflectionsQuality.ultra=Ultra+§a(Berkualitas Tinggi!)
 
 options.deferred.upscaling=Fallback Upscaling
 options.upscaling=DLSS Upscaling

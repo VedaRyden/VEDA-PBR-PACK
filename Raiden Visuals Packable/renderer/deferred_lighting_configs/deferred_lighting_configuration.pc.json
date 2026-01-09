@@ -3,5 +3,6 @@
     "upscale_factor": 1.0,
     "local_exposure": true,
     "biome_blending": true,
-    "optimize_gamma_correction": true
+    "optimize_gamma_correction": true,
+    "water_extinction_distance_shift" : 0.0
 }

@@ -6,23 +6,23 @@
   "name": "VEDA PACK PBR V0.1",
   "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
   "version": [1,5,7],
-  "min_engine_version": [1,21,130]
+  "min_engine_version": [1,21,120]
  },
  "subpacks": [
   {
    "folder_name": "16x",
-   "memory_tier": 1,
+   "memory_tier": 0,
    "name": "Kualitas Bayangan 16x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 16x."
   },
   {
-   "folder_name": "512x",
-   "memory_tier": 0,
-   "name": "Bayangan Halus Tidak Pixelated(Rekomendasi)\n\nMemiliki Efek Subsurface Scattering Atau Gradasi DiSisi Bayangannya, Direkomendasikan!."
+   "folder_name": "256x",
+   "memory_tier": 1,
+   "name": "Kualitas Bayangan 1024x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 1024x. "
   },
   {
-   "folder_name": "256x",
+   "folder_name": "512x",
    "memory_tier": 2,
-   "name": "Kualitas Bayangan 1024x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 1024x. "
+   "name": "Bayangan Halus Tidak Pixelated(Rekomendasi)\n\nMemiliki Efek Subsurface Scattering Atau Gradasi DiSisi Bayangannya, Direkomendasikan!."
   }
  ],
  "settings": [

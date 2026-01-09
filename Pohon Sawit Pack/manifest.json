@@ -1,0 +1,23 @@
+{
+ "capabilities": ["pbr"],
+ "format_version": 2,
+ "header": {
+  "description": "Pohon Sawit Di Minecraft Itu Nyata Dawg",
+  "name": "Mengubah Pohon Oak Menjadi Pohon Sawit",
+  "uuid": "67b10336-00f5-0486-8b3d-80a120012005",
+  "version": [1,0,0],
+"min_engine_version": [1,21,104]
+ },
+ "modules": [
+  {
+   "description": "Pohon Sawit Di Minecraft Its Real",
+   "type": "resources",
+   "uuid": "04b5e6f3-315d-4bc5-ba5e-183fa519f512",
+   "version": [1,0,0]
+  }
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://discord.gg/U2SUvJKQkk"
+ }
+}
