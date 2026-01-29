@@ -1,4 +1,4 @@
-pack.description=§c§lMEMERLUKAN APLIKASI MB LOADER v2.0+ & MC PATCH TIDAK DIDUKUNG!, §rPastikan dibuka lewat MB Loader Di Versi Terbaru, Tanda2 Ngefek Bisa Dilihat Dari Chunks Deferred Nya Bisa 1 Sampai 28 kalau masih 2 sampai 16 Berarti Tidak Ngefek!, Paket Ini Bukan Shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/gift
+pack.description=§c§lWAJIB PAKAI MB LOADER v2.0+ Untuk Android & MC PATCH TIDAK DIDUKUNG!, §rPastikan Update MB Loader Di Versi Terbaru, Tanda-Tanda Raiden Visuals Ngefek Bisa Dilihat Dari Jarak Render Chunks DeferredNya Bisa 1 Sampai 50 kalau masih 2 sampai 16 Berarti Tidak Ngefek!, Paket Ini Bukan Shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
 resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
 
@@ -36,40 +36,40 @@ options.gammaIntensity=Ubah Kecerahan Gamma
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.10.0)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.11.0)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing
 
-options.shadowQuality.low=Mati§b(FPS BOOST)
+options.shadowQuality.low=Mati(FPS BOOST)
 options.shadowQuality.medium=Sedang(Rekomendasi)
-options.shadowQuality.ultra=Ultra+§a(Berkualitas Tinggi!)
+options.shadowQuality.ultra=Ultra+(Berkualitas Tinggi!)
 
 options.cloudQuality.low=Rendah(Tanpa Lighting)
 options.cloudQuality.medium=Medium(Rekomendasi)
 options.cloudQuality.ultra=Ultra§a(Rata Kanan!)
 
-options.pointLightShadowQuality.off=Mati§b(FPS BOOST)
+options.pointLightShadowQuality.off=Mati(FPS BOOST)
 options.pointLightShadowQuality.low=Rendah(Rekomendasi)
-options.pointLightShadowQuality.ultra=Ultra§a(Rata Kanan!)
+options.pointLightShadowQuality.ultra=Ultra(Rata Kanan!)
 
 options.pointLightLODingQuality.off=Mati(Rekomendasi)
-options.pointLightLODingQuality.ultra=Ultra§a(Rata Kanan!)
+options.pointLightLODingQuality.ultra=Ultra(Rata Kanan!)
 
-options.volumetricFogQuality.off=Mati§a§b(FPS BOOST)
+options.volumetricFogQuality.off=Mati(FPS BOOST)
 options.volumetricFogQuality.low=Rendah(Rekomendasi)
-options.volumetricFogQuality.ultra=Ultra+§a(Berkualitas Tinggi!)
+options.volumetricFogQuality.ultra=Ultra+(Berkualitas Tinggi!)
 
-options.reflectionsQuality.off=Mati§c(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)
+options.reflectionsQuality.off=Mati(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)
 options.reflectionsQuality.low=Rendah(SSR OFF)
 options.reflectionsQuality.medium=Menengah(SSR On)
-options.reflectionsQuality.ultra=Ultra+§a(Berkualitas Tinggi!)
+options.reflectionsQuality.ultra=Ultra+(Berkualitas Tinggi!)
 
 options.deferred.upscaling=Fallback Upscaling
 options.upscaling=DLSS Upscaling
 options.upscalingPercentage=Resolusi Upscaling
-options.upscalingPercentage.hundred=Tanpa Upscaling§a(Tajam)
-options.upscalingPercentage.zero=Otomatis(§cGIMMICK!§r, Disarankan 33%)
+options.upscalingPercentage.hundred=Tanpa Upscaling(Tajam)
+options.upscalingPercentage.zero=Otomatis(GIMMICK!, Disarankan 33%)
 options.upscalingMode=Mode Upscaling
 options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
 options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)

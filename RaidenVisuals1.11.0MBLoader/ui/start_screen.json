@@ -40,7 +40,7 @@
           "type": "label",
           "color": "$main_header_text_color",
           "layer": 2,
-          "text": "Raiden Visuals 1.10.0/          ",
+          "text": "Raiden Visuals 1.11.0/          ",
           "size": [ "default", 10 ],
           "max_size": [ "100%", "100%" ],
           "anchor_from": "top_right",

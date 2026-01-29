@@ -1,0 +1,89 @@
+{
+ "capabilities": ["pbr"],
+ "format_version": 3,
+ "header": {
+  "description": "pack.description",
+  "name": "Raiden Visuals 1.11.0",
+  "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
+  "version": {
+			"buildMeta": "beta",
+			"major": 1,
+			"minor": 11,
+			"patch": 1,
+			"preRelease": ""
+		},
+  "pack_optimization_version":"0.1.0",
+  "min_engine_version": "1.21.130"
+ },
+ "modules": [
+  {
+   "description": "Mimpi basah User Android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs dan di versi official",
+   "type": "resources",
+   "uuid": "04b7e6f3-312d-4bc8-ba1e-183fa719f512",
+   "version": {
+			"buildMeta": "beta",
+			"major": 1,
+			"minor": 11,
+			"patch": 1,
+			"preRelease": ""
+		}
+  }
+ ],
+ "subpacks": [
+  {
+   "folder_name": "shadow fix",
+   "memory_performance_tier":1,
+   "name": "SHADOW FIX(v1.21.132-)"
+  },
+  {
+   "folder_name": "perbaikan bayangan",
+   "memory_performance_tier":2,
+   "name": "NEW OPTIMIZED SHADOW(v26.0.29+)"
+  }
+ ],
+ "settings": [
+    {
+        "type": "label",
+        "text": "Sesuakan Dengan Versi Beta/Release Di Minecraft Bedrockmu\n\n§iNEW OPTIMIZED SHADOW : Kali Ini Hanya Berfungsi DI Versi Beta Terbaru.\n\nSHADOW FIX : §iGunakan Ini Ketika Shadownya Bermasalah Di Versi Release Terbaru Atau Versi Beta Terlama.\n\nDonasi : https://trakteer.id/veda_raiden/tip"
+    },
+	{
+        "type": "label",
+        "text": "Pengaturan ini Masih Dalam Tahap Eksperimental Dan Belum Dapat Digunakan Sepenuhnya"
+    },
+    {
+			"type": "toggle",
+			"text": "Tampilkan Opsi Raiden Visuals Di Pengaturan",
+			"name": "raidenvisual:option_shortcut",
+			"default": true
+		},
+    {
+			"type": "dropdown",
+			"text": "Tampilkan Awan Didalam Pantulan",
+			"name": "raidenvisual:cloudssr",
+			"options": [
+				{
+					"text": "Tampilkan",
+					"name": "unhide"
+				},
+				{
+					"text": "Sembunyikan",
+					"name": "hide"
+				}
+			],
+			"default": "unhide"
+		},
+        {
+			"type": "slider",
+			"text": "Resolusi Screen Space Reflection",
+			"name": "raidenvisual:screen_space_reflection_resolution",
+			"step": 1,
+			"min": 50,
+			"max": 100,
+			"default": 50
+		}
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://discord.gg/U2SUvJKQkk"
+ }
+}

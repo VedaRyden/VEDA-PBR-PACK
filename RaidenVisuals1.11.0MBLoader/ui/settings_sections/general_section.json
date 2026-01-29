@@ -259,6 +259,17 @@
           "controls": [{ "option_generic_core@settings_common.option_generic_core":{}}]
         }
       },
+       {
+        "texture_streaming_toggle@settings_common.option_toggle": {
+          "$option_label": "menu.video.texture_streaming",
+          "$option_binding_name": "#texture_streaming",
+          "$option_enabled_binding_name": "#texture_streaming_enabled",
+          "$option_tooltip_binding_type": "global",
+          "$option_tooltip_area": "general_and_controls_sections",
+          "$option_tooltip_text_binding_name": "#texture_streaming_option_tooltip_text",
+          "$toggle_name": "texture_streaming"
+        }
+      },
       {
         "dynamic_textures_toggle@settings_common.option_toggle": {
           "ignored": "($is_holographic)",
