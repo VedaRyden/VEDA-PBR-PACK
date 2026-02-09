@@ -10,5 +10,8 @@
   },
   "ultra": {
     "file": "lods/shadow_configuration.pc.ultra.json"
+  },
+  "superultra": {
+    "file": "lods/shadow_configuration.pc.superultra.json"
   }
 }

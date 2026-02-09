@@ -30,15 +30,15 @@
   }
  ],
  "subpacks": [
+	{
+   "folder_name": "perbaikan bayangan",
+   "memory_performance_tier":2,
+   "name": "NEW OPTIMIZED SHADOW(v26.0.29+)"
+  },
   {
    "folder_name": "shadow fix",
    "memory_performance_tier":1,
    "name": "SHADOW FIX(v1.21.132-)"
-  },
-  {
-   "folder_name": "perbaikan bayangan",
-   "memory_performance_tier":2,
-   "name": "NEW OPTIMIZED SHADOW(v26.0.29+)"
   }
  ],
  "settings": [

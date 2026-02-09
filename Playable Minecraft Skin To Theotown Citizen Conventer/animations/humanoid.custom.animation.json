@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.humanoid.theotown": {
+			"loop": true,
+			"bones": {
+				"kaki": {
+					"position": [-0.5, 5.5, 0.5],
+					"scale": 12
+				},
+				"badan": {
+					"position": [-0.5, 16.5, 0.5],
+					"scale": 12
+				},
+				"kepala": {
+					"position": [-0.5, 27.5, 0.5],
+					"scale": 12
+				},
+				"waist": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.humanoid.tangantp": {
+			"loop": true,
+			"bones": {
+				"kaki": {
+					"position": [-0.5, 5.5, 0.5],
+					"scale": 12
+				},
+				"badan": {
+					"position": [-0.5, 16.5, 0.5],
+					"scale": 12
+				},
+				"kepala": {
+					"position": [-0.5, 27.5, 0.5],
+					"scale": 12
+				},
+				"waist": {
+					"rotation": [0, 0, 0],
+					"scale": 1
+				},
+				"head": {
+					"scale": 0
+				},
+				"leftArm": {
+					"scale": 0
+				},
+				"rightArm": {
+					"scale": 0
+				},
+				"jacket": {
+					"scale": 0
+				},
+				"leftLeg": {
+					"scale": 0
+				},
+				"rightLeg": {
+					"scale": 0
+				},
+				"tangan": {
+					"scale": 0
+				},
+				"tangan2": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

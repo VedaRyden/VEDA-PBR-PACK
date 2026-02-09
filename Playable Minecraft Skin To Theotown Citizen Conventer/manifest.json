@@ -1,0 +1,23 @@
+{
+ "capabilities": ["pbr"],
+ "format_version": 2,
+ "header": {
+  "description": "Aku Warga Theotown",
+  "name": "MC Skin To Theotown Citizen Converter",
+  "uuid": "65b10236-02f5-0386-8b4d-80a124612005",
+  "version": [1,0,0],
+"min_engine_version": [1,21,104]
+ },
+ "modules": [
+  {
+   "description": "Minecraft X Theotown?",
+   "type": "resources",
+   "uuid": "04b4e6f3-314d-4bc6-ba4e-183fa619f412",
+   "version": [1,0,0]
+  }
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://discord.gg/U2SUvJKQkk"
+ }
+}
