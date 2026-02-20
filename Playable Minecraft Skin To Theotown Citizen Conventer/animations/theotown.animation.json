@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.humanoid.theotown": {
+		"animation.warga.theotown": {
 			"loop": true,
 			"bones": {
 				"kaki": {
@@ -21,21 +21,9 @@
 				}
 			}
 		},
-		"animation.humanoid.tangantp": {
+		"animation.warga.tangantp": {
 			"loop": true,
 			"bones": {
-				"kaki": {
-					"position": [-0.5, 5.5, 0.5],
-					"scale": 12
-				},
-				"badan": {
-					"position": [-0.5, 16.5, 0.5],
-					"scale": 12
-				},
-				"kepala": {
-					"position": [-0.5, 27.5, 0.5],
-					"scale": 12
-				},
 				"waist": {
 					"rotation": [0, 0, 0],
 					"scale": 1

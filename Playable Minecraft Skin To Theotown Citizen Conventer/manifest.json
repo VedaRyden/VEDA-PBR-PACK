@@ -1,6 +1,6 @@
 {
  "capabilities": ["pbr"],
- "format_version": 2,
+ "format_version": 1,
  "header": {
   "description": "Aku Warga Theotown",
   "name": "MC Skin To Theotown Citizen Converter",

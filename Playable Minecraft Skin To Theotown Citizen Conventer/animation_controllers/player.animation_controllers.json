@@ -190,7 +190,7 @@
                             "first_person_swap_item": "!query.blocking"
                         },
                         {
-                            "tanganfp": "variable.is_first_person"
+                            "tanganfp": "!variable.is_first_person"
                         },
                         {
                             "first_person_shield_block": "query.blocking"
