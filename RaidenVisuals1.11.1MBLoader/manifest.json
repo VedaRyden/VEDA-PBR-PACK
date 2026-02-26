@@ -3,13 +3,13 @@
  "format_version": 3,
  "header": {
   "description": "pack.description",
-  "name": "Raiden Visuals 1.11.0",
+  "name": "Raiden Visuals 1.11.1",
   "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
   "version": {
 			"buildMeta": "beta",
 			"major": 1,
 			"minor": 11,
-			"patch": 1,
+			"patch": 2,
 			"preRelease": ""
 		},
   "pack_optimization_version":"0.1.0",
@@ -24,16 +24,16 @@
 			"buildMeta": "beta",
 			"major": 1,
 			"minor": 11,
-			"patch": 1,
+			"patch": 2,
 			"preRelease": ""
 		}
   }
  ],
  "subpacks": [
 	{
-   "folder_name": "perbaikan bayangan",
+   "folder_name": "bayangan vv update frustum radius",
    "memory_performance_tier":2,
-   "name": "NEW OPTIMIZED SHADOW(v26.0.29+)"
+   "name": "NEW OPTIMIZED SHADOW(26.0+/26.0.29+)"
   },
   {
    "folder_name": "shadow fix",
@@ -44,7 +44,7 @@
  "settings": [
     {
         "type": "label",
-        "text": "Sesuakan Dengan Versi Beta/Release Di Minecraft Bedrockmu\n\n§iNEW OPTIMIZED SHADOW : Kali Ini Hanya Berfungsi DI Versi Beta Terbaru.\n\nSHADOW FIX : §iGunakan Ini Ketika Shadownya Bermasalah Di Versi Release Terbaru Atau Versi Beta Terlama.\n\nDonasi : https://trakteer.id/veda_raiden/tip"
+        "text": "Sesuakan Dengan Versi Beta/Release Di Minecraft Bedrockmu\n\n§rNEW OPTIMIZED SHADOW : §iHanya Berfungsi Di Versi Official/Beta Terbaru.\n\n§rSHADOW FIX : §iGunakan Opsi Ini Ketika Bayangannya Bermasalah Di Minecraft Versi Lama.\n\n§rDonasi : §ihttps://trakteer.id/veda_raiden/tip"
     },
 	{
         "type": "label",
