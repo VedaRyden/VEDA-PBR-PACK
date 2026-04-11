@@ -1,4 +1,4 @@
-[ INDONESIA ]
+>>>>>>>>>>>>>[ INDONESIA ]<<<<<<<<<<<<<<<<<<<
 
 [Low End] Disarankan Menggunakan Set Kualitas
 Kualitas Bayangan = OFF
@@ -27,7 +27,7 @@ Refleksi = Medium/Ultra
 
 
 
-[ ENGLISH ]
+>>>>>>>>>>>>>>>[ ENGLISH ]<<<<<<<<<<<<<<<<<<<
 
 [Low End] Using a Quality Set is Recommended
 Shadow = OFF
