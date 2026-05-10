@@ -1,11 +1,11 @@
 {//LOW ANDROID
   "probe_regen": {
-    "far_plane_scaling": 0.4,
+    "far_plane_scaling": 0.1,
     "texture_format": "R16G16B16A16_FLOAT",
     "regen_triggers": {
       "frames_delta": 50,
       "gametime_delta": 50,
-      "distance_delta": 1,
+      "distance_delta": 0,
       "sky_brightness_delta": 0,
       "block_brightness_delta": 0
     }
@@ -18,13 +18,13 @@
   "ssr_enabled": false,
   "ssr": {
     "enable_gap_fill": false,
-    "linear_search_step_count": 100,
+    "linear_search_step_count": 0,
     "binary_search_step_count": 0,
-    "ray_step_length": 1,
-    "roughness_cutoff": 0.4,
+    "ray_step_length": 0,
+    "roughness_cutoff": 0,
     "thickness": 0,
-    "fading_distance": 1,
-    "roughness_fade_start": 0,
-    "ssr_scale": 0.5
+    "fading_distance": 0,
+    "ssr_scale": 0.01,
+    "roughness_fade_start": 0
   }
 }

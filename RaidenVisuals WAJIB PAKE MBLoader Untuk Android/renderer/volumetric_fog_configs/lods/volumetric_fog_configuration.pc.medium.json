@@ -5,6 +5,7 @@
 	"overrides": {
 		"tile_width": 16,
 		"tile_height": 16,
-		"depth_slices": 64
+		"depth_slices": 64,
+		"shadow_pcf_scale": 0.125
 	}
 }

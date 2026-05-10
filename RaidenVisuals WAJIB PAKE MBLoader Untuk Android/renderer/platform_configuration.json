@@ -14,7 +14,8 @@
             "reflections": "off",
             "upscaling_mode": "bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -29,7 +30,8 @@
             "reflections": "medium",
             "upscaling_mode": "bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         }
       ],
@@ -46,7 +48,8 @@
             "reflections": "off",
             "upscaling_mode": "bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -61,7 +64,8 @@
             "reflections": "medium",
             "upscaling_mode": "bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         }
       ],
@@ -78,7 +82,8 @@
             "shadows": "low",
             "target_resolution": "480p",
             "upscaling_mode": "bilinear",
-            "volumetric_fog": "low"
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -93,7 +98,8 @@
             "shadows": "medium",
             "target_resolution": "480p",
             "upscaling_mode": "bilinear",
-            "volumetric_fog": "low"
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
           }
         }
       ],
@@ -110,7 +116,8 @@
             "shadows": "medium",
             "target_resolution": "480p",
             "upscaling_mode": "bilinear",
-            "volumetric_fog": "low"
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -125,7 +132,8 @@
             "shadows": "medium",
             "target_resolution": "480p",
             "upscaling_mode": "bilinear",
-            "volumetric_fog": "low"
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
           }
         }
       ],
@@ -142,7 +150,8 @@
             "shadows": "medium",
             "target_resolution": "480p",
             "upscaling_mode": "bilinear",
-            "volumetric_fog": "low"
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -157,7 +166,8 @@
             "shadows": "medium",
             "target_resolution": "480p",
             "upscaling_mode": "bilinear",
-            "volumetric_fog": "low"
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
           }
         }
       ]
@@ -208,7 +218,8 @@
             "reflections": "off",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -223,7 +234,8 @@
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 8
+            "default_deferred_distance": 8,
+            "lighting_mixed_res_upscale": 1
           }
         }
       ],
@@ -240,7 +252,8 @@
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -255,7 +268,8 @@
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 8
+            "default_deferred_distance": 8,
+            "lighting_mixed_res_upscale": 1
           }
         }
       ],
@@ -272,7 +286,8 @@
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -287,7 +302,8 @@
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 8
+            "default_deferred_distance": 8,
+            "lighting_mixed_res_upscale": 1
           }
         }
       ],
@@ -304,7 +320,8 @@
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -319,7 +336,8 @@
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 8
+            "default_deferred_distance": 8,
+            "lighting_mixed_res_upscale": 1
           }
         }
       ],
@@ -336,7 +354,8 @@
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 2
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
           }
         },
         {
@@ -351,7 +370,8 @@
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
-            "default_deferred_distance": 8
+            "default_deferred_distance": 8,
+            "lighting_mixed_res_upscale": 1
           }
         }
       ]

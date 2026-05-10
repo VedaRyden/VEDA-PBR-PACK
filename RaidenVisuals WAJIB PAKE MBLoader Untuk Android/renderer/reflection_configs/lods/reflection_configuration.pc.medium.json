@@ -4,8 +4,7 @@
     "texture_format": "R16G16B16A16_FLOAT",
     "regen_triggers": {
       "frames_delta": 50,
-      "gametime_delta": 50
-      ,
+      "gametime_delta": 50,
       "distance_delta": 0,
       "sky_brightness_delta": 0,
       "block_brightness_delta": 0

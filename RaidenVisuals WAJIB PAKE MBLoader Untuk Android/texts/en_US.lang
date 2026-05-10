@@ -13,9 +13,11 @@ options.bloomEnable=Bloom
 
 opti.raidenvisuals=Raiden Visuals Options	#
 set.raidenvisuals=Raiden Visuals Graphics Settings	#
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.11.1)	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.11.3)	#
 options.dynamicTexturesToggle=Use Recommended Texture Limit
 options.showthumbnails=Show Graphics Example Pictures
+options.graphicsMode.rayTraced.tooltip=Just buy an RTX 2050+ or ​​RX 6600+ GPU and you can use Ray Traced Graphics Mode :v IT WILL NEVER BE POSSIBLE ON A PHONE, DO YOU UNDERSTAND!? >:v.
+options.graphicsMode.combined.tooltip=SORRY, YOUR DEVICE IS SO POTATO THAT THE VIBRANT VISUALS GRAPHICS MODE IS NOT COMPATIBLE WITH YOUR CURRENT DEVICE. Maybe it will be possible in the future, but if your specs are already outdated, what can you expect? :).
 
 item.shield.name=Veda Shield 	#
 item.iron_sword.name=Lightning Sword	#

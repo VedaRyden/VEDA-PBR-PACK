@@ -19,6 +19,8 @@ info.minimumspekandroid.raidenvisuals=Minimum Spesifikasi GPU Untuk Dapat mengak
 info.minimumspekpc.raidenvisuals=GPU Mu Harus Support DirectX12 Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals.
 info.ingfosupportvv.raidenvisuals=Perangkat Mu Tidak Support Vibrant Visuals! Meski Sudah Masuk List, Tapi Perangkatmu menolak untuk dapat mengaktifkan, Jangan Menangis Ya, Jangan Terlalu Dipaksakan,Tidak Semua HP di GPU Yang Sama Bisa Support:), Semoga cepat dibelikan perangkat baru yang lebih bagus^^.
 info.modegrafisabuabu.raidenvisuals=JANGAN LUPA AKTIFKAN "Izinkan Pergantian Mode Grafis Dalam Game".
+options.graphicsMode.rayTraced.tooltip=Tinggal Beli GPU RTX 2050+ atau RX 6600+ Udah Bisa Pake Mode Grafis Ray Traced Tuh :v DI HP GAAKAN PERNAH BISA, NGERTI!? >:v
+options.graphicsMode.combined.tooltip=MAAF DEVICE MU BEGITU KENTANG SEHINGGA MODE GRAFIS VIBRANT VISUALS TIDAK KOMPATIBEL UNTUK DEVICE MU SAAT INI. Mungkin Kedepannya Bakal Bisa Tapi Kalau Spekmu Udah Jadul Mau Berharap Apa? :).
 
 opti.raidenvisuals=Opsi Raiden Visuals
 set.raidenvisuals=Settingan Grafis Raiden visuals
@@ -36,7 +38,7 @@ options.gammaIntensity=Ubah Kecerahan Gamma
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.11.1)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 1.11.3)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing

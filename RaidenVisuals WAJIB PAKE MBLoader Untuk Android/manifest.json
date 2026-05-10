@@ -3,42 +3,30 @@
  "format_version": 3,
  "header": {
   "description": "pack.description",
-  "name": "Raiden Visuals 1.11.2",
+  "name": "Raiden Visuals 1.11.3",
   "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
-  "version": {
-			"buildMeta": "beta",
-			"major": 1,
-			"minor": 11,
-			"patch": 3,
-			"preRelease": ""
-		},
+  "version": "1.11.3+beta",
   "pack_optimization_version":"0.1.0",
-  "min_engine_version": "1.21.130"
+  "min_engine_version": "1.26.0"
  },
  "modules": [
   {
    "description": "Mimpi basah User Android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs dan di versi official",
    "type": "resources",
    "uuid": "04b7e6f3-312d-4bc8-ba1e-183fa719f512",
-   "version": {
-			"buildMeta": "beta",
-			"major": 1,
-			"minor": 11,
-			"patch": 2,
-			"preRelease": ""
-		}
+   "version": "1.11.3+beta"
   }
  ],
  "subpacks": [
 	{
    "folder_name": "New Point Lights",
    "memory_performance_tier":2,
-   "name": "NEW Point Light Configuration(v26.20.21+)"
+   "name": "Beta/Preview(v26.20.21+)"
   },
   {
    "folder_name": "OfficialFIx",
    "memory_performance_tier":1,
-   "name": "Point Light Fix(v1.26.0-)"
+   "name": "Official Release(v1.26.0-)"
   }
  ],
  "settings": [
@@ -48,7 +36,7 @@
     },
 	{
         "type": "label",
-        "text": "Pengaturan ini Masih Tidak Dapat Digunakan Sepenuhnya"
+        "text": "Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya"
     },
     {
 			"type": "toggle",

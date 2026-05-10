@@ -1,11 +1,8 @@
 {
-	"parent": {
-		"file": "volumetric_fog_configuration.android.low.json"
-	},
-	"overrides": {
-		"tile_width": 16,
-		"tile_height": 16,
-		"near_plane": 0.01,
-		"depth_slices": 23
-	}
+	"tile_width": 16,
+	"tile_height": 16,
+	"near_plane": 0.01,
+	"far_plane": 10.0,
+	"depth_slices": 23,
+	"shadow_pcf_scale": 0.25
 }
