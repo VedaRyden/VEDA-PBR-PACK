@@ -45,7 +45,7 @@
   "cloud_shadow_quantization_steps": 1,
   "cloud_shadows": false,
   "max_shadow_distance": 128,
-  "max_shadow_frustum_radius": 192.0,
+  "max_shadow_frustum_radius": 0,
   "moon_shadows": true,
   "normal_offset_strength": 0.065,
   "shadow_range": {"far": 128,"near": 0.025},

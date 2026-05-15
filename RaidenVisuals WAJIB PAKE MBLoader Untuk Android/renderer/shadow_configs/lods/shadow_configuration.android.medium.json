@@ -10,7 +10,7 @@
     "near": 0.025,
     "far": 128.0
   },
-  "max_shadow_frustum_radius": 192.0,
+  "max_shadow_frustum_radius": 0,
   "max_shadow_distance": 128.0,
   "cascade_range": [ 0.25, 1.0, 1.0, 1.0 ],
   "cascade_pcf_width": [ 0, 0, 0, 0 ],
