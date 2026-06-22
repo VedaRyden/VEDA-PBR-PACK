@@ -1,6 +1,9 @@
-pack.description=§c§lWAJIB PAKAI MB LOADER v2.0+ Untuk Android & MC PATCH TIDAK DIDUKUNG!, §rPastikan Update MB Loader Di Versi Terbaru, Tanda-Tanda Raiden Visuals Ngefek Bisa Dilihat Dari Jarak Render Chunks DeferredNya Bisa 1 Sampai 50 kalau masih 2 sampai 16 Berarti Tidak Ngefek!, Paket Ini Bukan Shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
+pack.description=§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Atau Ambient Untuk Android,MC PATCH TIDAK DIDUKUNG!, §rPastikan Deferred Render Distance Dapat di Set ke 1 Chunks, Jika batas minimum jarak Render Deferred hanya "2" atau "8" itu artinya Raiden Visuals tidak berfungsi, Paket ini bukan shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
 resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
+label.description.1=Sesuakan Dengan Versi Beta/Release Di Minecraft Bedrockmu §eUntuk Pengguna Android Harap Gunakan Aplikasi MB LOADER Jika Tidak, Raiden Visuals Tidak Akan Berfungsi Sama Sekali.\n\n§rNEW Point Light Configuration : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rPoint Light Fix : §eGunakan Opsi Ini Ketika Terjadi Masalah Di Minecraft Versi Lama, Tetapi Akan Bermasalah Pada Minecraft Versi Terbaru.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip
+label.description.2=BARU! Raiden Visuals Versi 2.0! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.
+label.description.3=Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
@@ -25,20 +28,12 @@ options.graphicsMode.combined.tooltip=MAAF DEVICE MU BEGITU KENTANG SEHINGGA MOD
 opti.raidenvisuals=Opsi Raiden Visuals
 set.raidenvisuals=Settingan Grafis Raiden visuals
 
-item.shield.name=Veda Shield 
-item.iron_sword.name=Pedang Halilintar
-item.trident.name=Trisula Halilintar 
-entity.thrown_trident.name=Trisula Halilintar
-item.wooden_sword.name=Kentungan Kayu
-item.bread.name=Regginang
-item.totem.name=Ambalabu
-
 options.hdr_brightness=Kecerahan %s°
 options.gammaIntensity=Ubah Kecerahan Gamma
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.0 Beta)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.0)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing

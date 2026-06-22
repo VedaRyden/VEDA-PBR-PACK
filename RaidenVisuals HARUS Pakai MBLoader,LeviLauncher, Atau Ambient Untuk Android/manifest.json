@@ -1,0 +1,82 @@
+{
+ "capabilities": ["pbr"],
+ "format_version": 3,
+ "header": {
+  "description": "pack.description",
+  "name": "Raiden Visuals 2.0",
+  "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
+  "version": "2.0.0",
+  "pack_optimization_version":"0.1.0",
+  "min_engine_version": "1.26.0"
+ },
+ "modules": [
+  {
+   "description": "Mimpi basah user android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs di versi official",
+   "type": "resources",
+   "uuid": "04b7e6f3-312d-4bc8-ba1e-183fa719f512",
+   "version": "2.0.0"
+  }
+ ],
+ "subpacks": [
+    {
+   "folder_name": "New Point Lights",
+   "memory_performance_tier":2,
+   "name": "Beta/Preview(v26.40.26+)"
+  },
+  {
+   "folder_name": "OfficialFIx",
+   "memory_performance_tier":1,
+   "name": "Official Release(v26.30-)"
+  }
+  
+ ],
+ "settings": [
+    {
+        "type": "label",
+        "text": "label.description.1"
+    },
+    {
+        "type": "label",
+        "text": "label.description.2"
+    },
+	{
+        "type": "label",
+        "text": "label.description.3"
+    },
+    {
+		"type": "toggle",
+		"text": "Tampilkan Opsi Raiden Visuals Di Pengaturan",
+		"name": "raidenvisual:option_shortcut",
+		"default": true
+	},
+    {
+			"type": "dropdown",
+			"text": "Tampilkan Awan Didalam Pantulan",
+			"name": "raidenvisual:cloudssr",
+			"options": [
+				{
+					"text": "Tampilkan",
+					"name": "unhide"
+				},
+				{
+					"text": "Sembunyikan",
+					"name": "hide"
+				}
+			],
+			"default": "unhide"
+		},
+        {
+			"type": "slider",
+			"text": "Resolusi Screen Space Reflection",
+			"name": "raidenvisual:screen_space_reflection_resolution",
+			"step": 1,
+			"min": 50,
+			"max": 100,
+			"default": 50
+		}
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://discord.gg/U2SUvJKQkk"
+ }
+}

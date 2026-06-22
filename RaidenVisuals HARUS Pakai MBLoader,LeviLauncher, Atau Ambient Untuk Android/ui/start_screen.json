@@ -1,0 +1,14 @@
+{//Makasih Mas Han's Rimpek banget buat beliau gw kecup jauh marah gak ya?
+  "namespace": "start",
+  "version/label": {
+    "text": "#rv",
+    "bindings": [
+      {"binding_name": "#version"},
+      {
+        "binding_type": "view",
+        "source_property_name": "('Raiden Visuals 2.0' + ' | ' + #version)",
+        "target_property_name": "#rv"
+      }
+    ]
+  }
+}

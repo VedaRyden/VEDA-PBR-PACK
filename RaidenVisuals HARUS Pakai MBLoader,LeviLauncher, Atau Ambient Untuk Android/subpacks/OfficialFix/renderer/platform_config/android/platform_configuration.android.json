@@ -1,0 +1,206 @@
+{
+  "android": {
+    "tiers": {
+      "1": [
+        {
+          "name": "Performance",
+          "lods": {
+            "clouds": "low",
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "off",
+            "bloom": false,
+            "point_light_lodding": "off",
+            "reflections": "off",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "clouds": "low",
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
+          }
+        }
+      ],
+      "2": [
+        {
+          "name": "Performance",
+          "lods": {
+            "clouds": "low",
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "off",
+            "bloom": false,
+            "point_light_lodding": "off",
+            "reflections": "off",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "clouds": "low",
+            "shadows": "medium",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "off",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear",
+            "target_resolution": "480p",
+            "default_deferred_distance": 2,
+            "lighting_mixed_res_upscale": 0.5
+          }
+        }
+      ],
+      "3": [
+        {
+          "name": "Performance",
+          "lods": {
+            "bloom": false,
+            "clouds": "low",
+            "default_deferred_distance": 2,
+            "point_light_lodding": "off",
+            "point_light_shadows": "off",
+            "reflections": "off",
+            "shadows": "low",
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "bloom": true,
+            "clouds": "ultra",
+            "default_deferred_distance": 2,
+            "point_light_lodding": "off",
+            "point_light_shadows": "off",
+            "reflections": "medium",
+            "shadows": "medium",
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
+          }
+        }
+      ],
+      "4": [
+        {
+          "name": "Performance",
+          "lods": {
+            "bloom": true,
+            "clouds": "medium",
+            "default_deferred_distance": 2,
+            "point_light_lodding": "off",
+            "point_light_shadows": "off",
+            "reflections": "off",
+            "shadows": "medium",
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "bloom": true,
+            "clouds": "ultra",
+            "default_deferred_distance": 2,
+            "point_light_lodding": "off",
+            "point_light_shadows": "off",
+            "reflections": "medium",
+            "shadows": "medium",
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
+          }
+        }
+      ],
+      "5": [
+        {
+          "name": "Performance",
+          "lods": {
+            "bloom": true,
+            "clouds": "medium",
+            "default_deferred_distance": 2,
+            "point_light_lodding": "off",
+            "point_light_shadows": "off",
+            "reflections": "low",
+            "shadows": "medium",
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "bloom": true,
+            "clouds": "ultra",
+            "default_deferred_distance": 2,
+            "point_light_lodding": "off",
+            "point_light_shadows": "off",
+            "reflections": "medium",
+            "shadows": "medium",
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_upscale": 0.5
+          }
+        }
+      ]
+    },
+    "cloud_config": {
+      "file": "cloud_configuration.android.json"
+    },
+    "shadow_config": {
+      "file": "shadow_configuration.android.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configuration.android.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configuration.android.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configuration.android.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configuration.android.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configuration.android.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configuration.android.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configuration.android.json"
+    },
+    "deferred_lighting_config": {
+      "file": "deferred_lighting_configuration.android.json"
+    }
+  }
+}
