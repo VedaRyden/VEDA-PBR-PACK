@@ -2,7 +2,7 @@ pack.description=§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Atau Ambie
 resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
 label.description.1=Sesuakan Dengan Versi Beta/Release Di Minecraft Bedrockmu §eUntuk Pengguna Android Harap Gunakan Aplikasi MB LOADER Jika Tidak, Raiden Visuals Tidak Akan Berfungsi Sama Sekali.\n\n§rNEW Point Light Configuration : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rPoint Light Fix : §eGunakan Opsi Ini Ketika Terjadi Masalah Di Minecraft Versi Lama, Tetapi Akan Bermasalah Pada Minecraft Versi Terbaru.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip
-label.description.2=BARU! Raiden Visuals Versi 2.0! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.
+label.description.2=BARU! Raiden Visuals Versi 2.1-beta2! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.
 label.description.3=Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
@@ -33,7 +33,7 @@ options.gammaIntensity=Ubah Kecerahan Gamma
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.0)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.1-Beta2)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing

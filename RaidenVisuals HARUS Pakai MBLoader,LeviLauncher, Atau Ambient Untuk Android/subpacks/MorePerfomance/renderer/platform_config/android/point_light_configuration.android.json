@@ -1,0 +1,14 @@
+{
+  "low": {
+    "light_update_frequency": 60
+  },
+  "medium": {
+    "light_update_frequency": 60
+  },
+  "high": {
+    "light_update_frequency": 60
+  },
+  "ultra": {
+    "light_update_frequency": 60
+  }
+}

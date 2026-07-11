@@ -3,7 +3,7 @@ resourcePack.vanilla.name=Raiden Visuals Configuration Mod
 resourcePack.vanilla.description=Better Performance And Optimized For Vibrant Visuals!
 resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)	#
 label.description.1=Compatible with the Beta/Release Version of your Minecraft Bedrock. For Android users, please use the MB LOADER app. Otherwise, Raiden Visuals will not work at all.\n\n§rNEW Point Light Configuration: §eOnly works in the latest Beta version. It may cause problems if used on older versions of Minecraft.\n\n§rPoint Light Fix: §eUse this option when problems occur in older versions of Minecraft, but will also work on the latest version of Minecraft.\n\n§rDonate: §9https://trakteer.id/veda_raiden/tip
-label.description.2=NEW! Raiden Visuals Version 2.0! Mojang has changed the folder directory in the Renderer Config so that Raiden Visuals Version 2.0 will continue to work in the future. Conversely, if you use Raiden Visuals Version 1.11.3 previously, it will not work fully on the latest version of Minecraft.
+label.description.2=NEW! Raiden Visuals Version 2.1-beta2! Mojang has changed the folder directory in the Renderer Config so that Raiden Visuals Version 2.0 will continue to work in the future. Conversely, if you use Raiden Visuals Version 1.11.3 previously, it will not work fully on the latest version of Minecraft.
 label.description.3=This Gimmick Setting Cannot Be Fully Used
 
 info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you first enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance. #
@@ -16,7 +16,7 @@ options.bloomEnable=Bloom
 
 opti.raidenvisuals=Raiden Visuals Options	#
 set.raidenvisuals=Raiden Visuals Graphics Settings	#
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.0)	#
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.1-beta2)	#
 options.dynamicTexturesToggle=Use Recommended Texture Limit
 options.showthumbnails=Show Graphics Example Pictures
 options.graphicsMode.rayTraced.tooltip=Just buy an RTX 2050+ or ​​RX 6600+ GPU and you can use Ray Traced Graphics Mode :v IT WILL NEVER BE POSSIBLE ON A PHONE, DO YOU UNDERSTAND!? >:v.

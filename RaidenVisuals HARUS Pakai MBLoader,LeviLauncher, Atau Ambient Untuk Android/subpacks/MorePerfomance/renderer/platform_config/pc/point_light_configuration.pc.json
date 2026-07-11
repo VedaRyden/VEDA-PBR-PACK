@@ -27,7 +27,7 @@
   },
   //==================================
   "medium": {
-    "light_update_frequency": 60,
+    "light_update_frequency": 30,
     "bias": 0,
     "slope_bias": 0.002,
     "far_plane": 15.0,
@@ -48,12 +48,12 @@
     "base_invalidate_cooldown_ms": 10,
     "budget_skip_cooldown_ms": 50,
     "fullness_frame_window": 4,
-    "cache_duration_ms": 2000,
+    "cache_duration_ms": 500,
     "atlas_resolution": 1024
   },
   //==================================
   "high": {
-    "light_update_frequency": 60,
+    "light_update_frequency": 30,
     "bias": 0,
     "slope_bias": 0.002,
     "far_plane": 15.0,
@@ -79,7 +79,7 @@
   },
   //==================================
   "ultra": {
-    "light_update_frequency": 60,
+    "light_update_frequency": 30,
     "bias": 0,
     "slope_bias": 0.001001,
     "far_plane": 15.0,

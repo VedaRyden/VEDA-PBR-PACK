@@ -1,0 +1,828 @@
+﻿{
+    "gpu":  {
+                "Adreno (TM) 104":  {
+                                        "tier":  1,
+                                        "hash":  1198096943
+                                    },
+                "Adreno (TM) 225":  {
+                                        "tier":  1,
+                                        "hash":  1285731891
+                                    },
+                "Adreno (TM) 304":  {
+                                        "tier":  1,
+                                        "hash":  2146277937
+                                    },
+                "Adreno (TM) 305":  {
+                                        "tier":  1,
+                                        "hash":  1816700978
+                                    },
+                "Adreno (TM) 306":  {
+                                        "tier":  1,
+                                        "hash":  1487124019
+                                    },
+                "Adreno (TM) 308":  {
+                                        "tier":  1,
+                                        "hash":  827970101
+                                    },
+                "Adreno (TM) 320":  {
+                                        "tier":  1,
+                                        "hash":  186481711
+                                    },
+                "Adreno (TM) 330":  {
+                                        "tier":  1,
+                                        "hash":  694913328
+                                    },
+                "Adreno (TM) 405":  {
+                                        "tier":  1,
+                                        "hash":  1217049651
+                                    },
+                "Adreno (TM) 418":  {
+                                        "tier":  1,
+                                        "hash":  736750391
+                                    },
+                "Adreno (TM) 420":  {
+                                        "tier":  1,
+                                        "hash":  1734314032
+                                    },
+                "Adreno (TM) 430":  {
+                                        "tier":  1,
+                                        "hash":  95262001
+                                    },
+                "Adreno (TM) 470":  {
+                                        "tier":  1,
+                                        "hash":  2128988469
+                                    },
+                "Adreno (TM) 504":  {
+                                        "tier":  2,
+                                        "hash":  946975283
+                                    },
+                "Adreno (TM) 505":  {
+                                        "tier":  2,
+                                        "hash":  617398324
+                                    },
+                "Adreno (TM) 506":  {
+                                        "tier":  2,
+                                        "hash":  287821365
+                                    },
+                "Adreno (TM) 508":  {
+                                        "tier":  2,
+                                        "hash":  1776151095
+                                    },
+                "Adreno (TM) 509":  {
+                                        "tier":  2,
+                                        "hash":  1446574136
+                                    },
+                "Adreno (TM) 510":  {
+                                        "tier":  2,
+                                        "hash":  626231088
+                                    },
+                "Adreno (TM) 512":  {
+                                        "tier":  2,
+                                        "hash":  2114560818
+                                    },
+                "Adreno (TM) 530":  {
+                                        "tier":  2,
+                                        "hash":  1643094322
+                                    },
+                "Adreno (TM) 540":  {
+                                        "tier":  2,
+                                        "hash":  4042291
+                                    },
+                "Adreno (TM) 610":  {
+                                        "tier":  3,
+                                        "hash":  26579761
+                                    },
+                "Adreno (TM) 611":  {
+                                        "tier":  3,
+                                        "hash":  1844486450
+                                    },
+                "Adreno (TM) 612":  {
+                                        "tier":  3,
+                                        "hash":  1514909491
+                                    },
+                "Adreno (TM) 613":  {
+                                        "tier":  3,
+                                        "hash":  1185332532
+                                    },
+                "Adreno (TM) 615":  {
+                                        "tier":  3,
+                                        "hash":  526178614
+                                    },
+                "Adreno (TM) 616":  {
+                                        "tier":  3,
+                                        "hash":  196601655
+                                    },
+                "Adreno (TM) 618":  {
+                                        "tier":  3,
+                                        "hash":  1684931385
+                                    },
+                "Adreno (TM) 619":  {
+                                        "tier":  3,
+                                        "hash":  1355354426
+                                    },
+                "Adreno (TM) 619L":  {
+                                         "tier":  3,
+                                         "hash":  1264751751
+                                     },
+                "Adreno (TM) 620":  {
+                                        "tier":  3,
+                                        "hash":  535011378
+                                    },
+                "Adreno (TM) 629":  {
+                                        "tier":  3,
+                                        "hash":  1863786043
+                                    },
+                "Adreno (TM) 630":  {
+                                        "tier":  3,
+                                        "hash":  1043442995
+                                    },
+                "Adreno (TM) 640":  {
+                                        "tier":  4,
+                                        "hash":  1551874612
+                                    },
+                "Adreno (TM) 642":  {
+                                        "tier":  4,
+                                        "hash":  892720694
+                                    },
+                "Adreno (TM) 642L":  {
+                                         "tier":  4,
+                                         "hash":  802118019
+                                     },
+                "Adreno (TM) 643":  {
+                                        "tier":  4,
+                                        "hash":  563143735
+                                    },
+                "Adreno (TM) 644":  {
+                                        "tier":  4,
+                                        "hash":  233566776
+                                    },
+                "Adreno (TM) 649":  {
+                                        "tier":  4,
+                                        "hash":  733165629
+                                    },
+                "Adreno (TM) 650":  {
+                                        "tier":  4,
+                                        "hash":  2060306229
+                                    },
+                "Adreno (TM) 660":  {
+                                        "tier":  4,
+                                        "hash":  421254198
+                                    },
+                "Adreno (TM) 690":  {
+                                        "tier":  4,
+                                        "hash":  1946549049
+                                    },
+                "Adreno (TM) 702":  {
+                                        "tier":  4,
+                                        "hash":  406826547
+                                    },
+                "Adreno (TM) 710":  {
+                                        "tier":  4,
+                                        "hash":  1574412082
+                                    },
+                "Adreno (TM) 714":  {
+                                        "tier":  4,
+                                        "hash":  256104246
+                                    },
+                "Adreno (TM) 716":  {
+                                        "tier":  4,
+                                        "hash":  1744433976
+                                    },
+                "Adreno (TM) 720":  {
+                                        "tier":  4,
+                                        "hash":  2082843699
+                                    },
+                "Adreno (TM) 722":  {
+                                        "tier":  4,
+                                        "hash":  1423689781
+                                    },
+                "Adreno (TM) 725":  {
+                                        "tier":  4,
+                                        "hash":  434958904
+                                    },
+                "Adreno (TM) 730":  {
+                                        "tier":  4,
+                                        "hash":  443791668
+                                    },
+                "Adreno (TM) 732":  {
+                                        "tier":  4,
+                                        "hash":  1932121398
+                                    },
+                "Adreno (TM) 735":  {
+                                        "tier":  4,
+                                        "hash":  943390521
+                                    },
+                "Adreno (TM) 740":  {
+                                        "tier":  5,
+                                        "hash":  952223285
+                                    },
+                "Adreno (TM) 750":  {
+                                        "tier":  5,
+                                        "hash":  1460654902
+                                    },
+                "Adreno (TM) 752":  {
+                                        "tier":  5,
+                                        "hash":  801500984
+                                    },
+                "Adreno (TM) 760":  {
+                                        "tier":  5,
+                                        "hash":  1969086519
+                                    },
+                "Adreno (TM) 770":  {
+                                        "tier":  5,
+                                        "hash":  330034488
+                                    },
+                "Adreno (TM) 777":  {
+                                        "tier":  5,
+                                        "hash":  170479423
+                                    },
+                "Adreno (TM) 810":  {
+                                        "tier":  5,
+                                        "hash":  974760755
+                                    },
+                "Adreno (TM) 812":  {
+                                        "tier":  5,
+                                        "hash":  315606837
+                                    },
+                "Adreno (TM) 825":  {
+                                        "tier":  5,
+                                        "hash":  1982791225
+                                    },
+                "Adreno (TM) 826":  {
+                                        "tier":  5,
+                                        "hash":  1653214266
+                                    },
+                "Adreno (TM) 829":  {
+                                        "tier":  5,
+                                        "hash":  664483389
+                                    },
+                "Adreno (TM) 830":  {
+                                        "tier":  5,
+                                        "hash":  1991623989
+                                    },
+                "Adreno (TM) 840":  {
+                                        "tier":  5,
+                                        "hash":  352571958
+                                    },
+                "Adreno (TM) 845":  {
+                                        "tier":  5,
+                                        "hash":  852170811
+                                    },
+                "Adreno (TM) 850":  {
+                                        "tier":  5,
+                                        "hash":  861003575
+                                    },
+                "Adreno (TM) 888":  {
+                                        "tier":  5,
+                                        "hash":  1897166402
+                                    },
+                "Adreno (TM) A12":  {
+                                        "tier":  4,
+                                        "hash":  1361195838
+                                    },
+                "Adreno (TM) A21":  {
+                                        "tier":  4,
+                                        "hash":  51720766
+                                    },
+                "Adreno (TM) A32":  {
+                                        "tier":  5,
+                                        "hash":  230575424
+                                    },
+                "FD307":  {
+                              "tier":  1,
+                              "hash":  320413993
+                          },
+                "FD506":  {
+                              "tier":  2,
+                              "hash":  253042986
+                          },
+                "FD618":  {
+                              "tier":  3,
+                              "hash":  405089838
+                          },
+                "FD630":  {
+                              "tier":  3,
+                              "hash":  2046497832
+                          },
+                "FD640":  {
+                              "tier":  4,
+                              "hash":  2063472425
+                          },
+                "FD643":  {
+                              "tier":  4,
+                              "hash":  118498092
+                          },
+                "FD650":  {
+                              "tier":  4,
+                              "hash":  2080447018
+                          },
+                "FD690":  {
+                              "tier":  4,
+                              "hash":  861742
+                          },
+                "FD702":  {
+                              "tier":  4,
+                              "hash":  2130646312
+                          },
+                "Maleoon 910":  {
+                                    "tier":  4,
+                                    "hash":  1826709136
+                                },
+                "Maleoon 920":  {
+                                    "tier":  4,
+                                    "hash":  1090873233
+                                },
+                "Maleoon 920A":  {
+                                     "tier":  4,
+                                     "hash":  1496726995
+                                 },
+                "Maleoon 920C":  {
+                                     "tier":  4,
+                                     "hash":  597971925
+                                 },
+                "Maleoon 935":  {
+                                    "tier":  4,
+                                    "hash":  1846190743
+                                },
+                "Mali-400 MP":  {
+                                    "tier":  1,
+                                    "hash":  731097868
+                                },
+                "Mali-400 MP2":  {
+                                     "tier":  1,
+                                     "hash":  361421887
+                                 },
+                "Mali-450 MP":  {
+                                    "tier":  1,
+                                    "hash":  266258705
+                                },
+                "Mali-450 MP4":  {
+                                     "tier":  1,
+                                     "hash":  1145311302
+                                 },
+                "Mali-470 MP":  {
+                                    "tier":  1,
+                                    "hash":  939316499
+                                },
+                "Mali-G1-Ultra MC12":  {
+                                           "tier":  5,
+                                           "hash":  1089019266
+                                       },
+                "Mali-G31":  {
+                                 "tier":  3,
+                                 "hash":  1690055267
+                             },
+                "Mali-G31 MC1":  {
+                                     "tier":  3,
+                                     "hash":  1946863432
+                                 },
+                "Mali-G310":  {
+                                  "tier":  4,
+                                  "hash":  572111508
+                              },
+                "Mali-G51":  {
+                                 "tier":  3,
+                                 "hash":  215629413
+                             },
+                "Mali-G52":  {
+                                 "tier":  3,
+                                 "hash":  804210022
+                             },
+                "Mali-G52 MC1":  {
+                                     "tier":  3,
+                                     "hash":  1061018187
+                                 },
+                "Mali-G52 MC2":  {
+                                     "tier":  3,
+                                     "hash":  1685382476
+                                 },
+                "Mali-G57":  {
+                                 "tier":  4,
+                                 "hash":  1599629419
+                             },
+                "Mali-G57 MC1":  {
+                                     "tier":  4,
+                                     "hash":  1856437584
+                                 },
+                "Mali-G57 MC2":  {
+                                     "tier":  4,
+                                     "hash":  333318225
+                                 },
+                "Mali-G57 MC3":  {
+                                     "tier":  4,
+                                     "hash":  957682514
+                                 },
+                "Mali-G57 MC4":  {
+                                     "tier":  4,
+                                     "hash":  1582046803
+                                 },
+                "Mali-G57 MC5":  {
+                                     "tier":  4,
+                                     "hash":  58927444
+                                 },
+                "Mali-G610":  {
+                                  "tier":  4,
+                                  "hash":  1581698199
+                              },
+                "Mali-G610 MC2":  {
+                                      "tier":  4,
+                                      "hash":  409752189
+                                  },
+                "Mali-G610 MC3":  {
+                                      "tier":  4,
+                                      "hash":  1957584510
+                                  },
+                "Mali-G610 MC4":  {
+                                      "tier":  4,
+                                      "hash":  1357933183
+                                  },
+                "Mali-G610 MC6":  {
+                                      "tier":  4,
+                                      "hash":  158630529
+                                  },
+                "Mali-G615 MC2":  {
+                                      "tier":  5,
+                                      "hash":  821590658
+                                  },
+                "Mali-G615 MC5":  {
+                                      "tier":  5,
+                                      "hash":  1170120325
+                                  },
+                "Mali-G615 MC6":  {
+                                      "tier":  5,
+                                      "hash":  570468998
+                                  },
+                "Mali-G625 MC2":  {
+                                      "tier":  5,
+                                      "hash":  1410171267
+                                  },
+                "Mali-G68":  {
+                                 "tier":  4,
+                                 "hash":  377255277
+                             },
+                "Mali-G68 MC4":  {
+                                     "tier":  4,
+                                     "hash":  359672661
+                                 },
+                "Mali-G71":  {
+                                 "tier":  3,
+                                 "hash":  888687207
+                             },
+                "Mali-G71 MP2":  {
+                                     "tier":  3,
+                                     "hash":  63401050
+                                 },
+                "Mali-G710":  {
+                                  "tier":  4,
+                                  "hash":  1918227096
+                              },
+                "Mali-G710 MC10":  {
+                                       "tier":  4,
+                                       "hash":  489277870
+                                   },
+                "Mali-G715":  {
+                                  "tier":  5,
+                                  "hash":  182581917
+                              },
+                "Mali-G715 MC10":  {
+                                       "tier":  5,
+                                       "hash":  901116339
+                                   },
+                "Mali-G715-Immortalis MC11":  {
+                                                  "tier":  5,
+                                                  "hash":  1585751565
+                                              },
+                "Mali-G72":  {
+                                 "tier":  3,
+                                 "hash":  1477267816
+                             },
+                "Mali-G72 MP3":  {
+                                     "tier":  3,
+                                     "hash":  1276345948
+                                 },
+                "Mali-G720":  {
+                                  "tier":  5,
+                                  "hash":  359324057
+                              },
+                "Mali-G720 MC7":  {
+                                      "tier":  5,
+                                      "hash":  484088708
+                                  },
+                "Mali-G720 MC8":  {
+                                      "tier":  5,
+                                      "hash":  2031921029
+                                  },
+                "Mali-G720-Immortalis":  {
+                                             "tier":  5,
+                                             "hash":  1976402930
+                                         },
+                "Mali-G720-Immortalis MC12":  {
+                                                  "tier":  5,
+                                                  "hash":  1377934602
+                                              },
+                "Mali-G76":  {
+                                 "tier":  3,
+                                 "hash":  1684106604
+                             },
+                "Mali-G76 MC2":  {
+                                     "tier":  3,
+                                     "hash":  417795410
+                                 },
+                "Mali-G76 MC4":  {
+                                     "tier":  3,
+                                     "hash":  1666523988
+                                 },
+                "Mali-G77":  {
+                                 "tier":  4,
+                                 "hash":  125203565
+                             },
+                "Mali-G77 MC7":  {
+                                     "tier":  4,
+                                     "hash":  1980713816
+                                 },
+                "Mali-G77 MC9":  {
+                                     "tier":  4,
+                                     "hash":  1081958746
+                                 },
+                "Mali-G78":  {
+                                 "tier":  4,
+                                 "hash":  713784174
+                             },
+                "Mali-G925":  {
+                                  "tier":  5,
+                                  "hash":  1444220320
+                              },
+                "Mali-G925-Immortalis":  {
+                                             "tier":  5,
+                                             "hash":  913815545
+                                         },
+                "Mali-G925-Immortalis MC11":  {
+                                                  "tier":  5,
+                                                  "hash":  699906320
+                                              },
+                "Mali-G925-Immortalis MC12":  {
+                                                  "tier":  5,
+                                                  "hash":  315347217
+                                              },
+                "Mali-T604":  {
+                                  "tier":  2,
+                                  "hash":  505685671
+                              },
+                "Mali-T624":  {
+                                  "tier":  2,
+                                  "hash":  1682846889
+                              },
+                "Mali-T628":  {
+                                  "tier":  2,
+                                  "hash":  1153324205
+                              },
+                "Mali-T720":  {
+                                  "tier":  2,
+                                  "hash":  401414822
+                              },
+                "Mali-T760":  {
+                                  "tier":  2,
+                                  "hash":  608253610
+                              },
+                "Mali-T820":  {
+                                  "tier":  2,
+                                  "hash":  737943719
+                              },
+                "Mali-T830":  {
+                                  "tier":  2,
+                                  "hash":  1326524328
+                              },
+                "Mali-T860":  {
+                                  "tier":  2,
+                                  "hash":  944782507
+                              },
+                "Mali-T880":  {
+                                  "tier":  2,
+                                  "hash":  2121943725
+                              },
+                "Mali-TDVX":  {
+                                  "tier":  2,
+                                  "hash":  1342612735
+                              },
+                "Mali-TNAX":  {
+                                  "tier":  2,
+                                  "hash":  937643508
+                              },
+                "NVIDIA Tegra":  {
+                                     "tier":  2,
+                                     "hash":  125097178
+                                 },
+                "NVIDIA Tegra 3":  {
+                                       "tier":  2,
+                                       "hash":  332596527
+                                   },
+                "NVIDIA Tegra K1":  {
+                                        "tier":  2,
+                                        "hash":  351074681
+                                    },
+                "NVIDIA Tegra X1":  {
+                                        "tier":  3,
+                                        "hash":  518234758
+                                    },
+                "PowerVR B-Series BXE-2-32":  {
+                                                  "tier":  3,
+                                                  "hash":  2076679608
+                                              },
+                "PowerVR B-Series BXE-4-32":  {
+                                                  "tier":  3,
+                                                  "hash":  1634453434
+                                              },
+                "PowerVR B-Series BXM-4-64":  {
+                                                  "tier":  3,
+                                                  "hash":  1155781831
+                                              },
+                "PowerVR B-Series BXM-8-256":  {
+                                                   "tier":  3,
+                                                   "hash":  767902719
+                                               },
+                "PowerVR B-Series BXT-32-1024":  {
+                                                     "tier":  3,
+                                                     "hash":  788933215
+                                                 },
+                "PowerVR C-Series CXTP-48-1536":  {
+                                                      "tier":  3,
+                                                      "hash":  233872065
+                                                  },
+                "PowerVR D-Series DXT-48-1536":  {
+                                                     "tier":  3,
+                                                     "hash":  946520690
+                                                 },
+                "PowerVR Rogue BXE-4-32":  {
+                                               "tier":  3,
+                                               "hash":  650756575
+                                           },
+                "PowerVR Rogue G6110":  {
+                                            "tier":  1,
+                                            "hash":  1271143449
+                                        },
+                "PowerVR Rogue G6200":  {
+                                            "tier":  1,
+                                            "hash":  1404312345
+                                        },
+                "PowerVR Rogue G6430":  {
+                                            "tier":  1,
+                                            "hash":  775712286
+                                        },
+                "PowerVR Rogue GE7800":  {
+                                             "tier":  2,
+                                             "hash":  1395881830
+                                         },
+                "PowerVR Rogue GE8100":  {
+                                             "tier":  2,
+                                             "hash":  1743982688
+                                         },
+                "PowerVR Rogue GE8300":  {
+                                             "tier":  2,
+                                             "hash":  956510818
+                                         },
+                "PowerVR Rogue GE8310":  {
+                                             "tier":  2,
+                                             "hash":  1771848803
+                                         },
+                "PowerVR Rogue GE8320":  {
+                                             "tier":  2,
+                                             "hash":  439703140
+                                         },
+                "PowerVR Rogue GE8322":  {
+                                             "tier":  2,
+                                             "hash":  764116070
+                                         },
+                "PowerVR Rogue GE9215":  {
+                                             "tier":  3,
+                                             "hash":  1642308200
+                                         },
+                "PowerVR Rogue GE9608":  {
+                                             "tier":  3,
+                                             "hash":  812387694
+                                         },
+                "PowerVR Rogue GE9920":  {
+                                             "tier":  3,
+                                             "hash":  1037945963
+                                         },
+                "PowerVR Rogue GM9446":  {
+                                             "tier":  3,
+                                             "hash":  1236436342
+                                         },
+                "PowerVR Rogue GT7400 Plus":  {
+                                                  "tier":  2,
+                                                  "hash":  2069636922
+                                              },
+                "PowerVR Rogue GX6250":  {
+                                             "tier":  1,
+                                             "hash":  1867806839
+                                         },
+                "PowerVR SGX 540":  {
+                                        "tier":  1,
+                                        "hash":  1190650511
+                                    },
+                "PowerVR SGX 544":  {
+                                        "tier":  1,
+                                        "hash":  2019826323
+                                    },
+                "PowerVR SGX 544MP":  {
+                                          "tier":  1,
+                                          "hash":  274971954
+                                      },
+                "PXA1928":  {
+                                "tier":  3,
+                                "hash":  328053188
+                            },
+                "V3D 4.2":  {
+                                "tier":  2,
+                                "hash":  1304236936
+                            },
+                "V3D 4.2.14":  {
+                                   "tier":  2,
+                                   "hash":  529058334
+                               },
+                "V3D 4.2.14.0":  {
+                                     "tier":  2,
+                                     "hash":  1331084158
+                                 },
+                "V3D 7.1":  {
+                                "tier":  3,
+                                "hash":  1170217354
+                            },
+                "V3D 7.1.10.2":  {
+                                     "tier":  3,
+                                     "hash":  1094169470
+                                 },
+                "V3D 7.1.7":  {
+                                  "tier":  3,
+                                  "hash":  2092835569
+                              },
+                "V3D 7.1.7.0":  {
+                                    "tier":  3,
+                                    "hash":  1878701137
+                                },
+                "VideoCore IV HW":  {
+                                        "tier":  2,
+                                        "hash":  1015369485
+                                    },
+                "VideoCore V HW (V3D-510)":  {
+                                                 "tier":  2,
+                                                 "hash":  363593422
+                                             },
+                "VideoCore V HW (V3D-520)":  {
+                                                 "tier":  2,
+                                                 "hash":  1216222159
+                                             },
+                "VideoCore VI HW (V3D-620)":  {
+                                                  "tier":  2,
+                                                  "hash":  860562714
+                                              },
+                "VideoCore VI HW (V3D-630)":  {
+                                                  "tier":  2,
+                                                  "hash":  942816027
+                                              },
+                "Vivante GC2000":  {
+                                       "tier":  1,
+                                       "hash":  1678596183
+                                   },
+                "Vivante GC7000NanoUltra":  {
+                                                "tier":  1,
+                                                "hash":  63840249
+                                            },
+                "Vivante GC7000UL":  {
+                                         "tier":  1,
+                                         "hash":  505332223
+                                     },
+                "Vivante GC7000XS":  {
+                                         "tier":  1,
+                                         "hash":  1460622601
+                                     },
+                "Xclipse 530":  {
+                                    "tier":  4,
+                                    "hash":  812400795
+                                },
+                "Xclipse 540":  {
+                                    "tier":  4,
+                                    "hash":  76564892
+                                },
+                "Xclipse 550":  {
+                                    "tier":  4,
+                                    "hash":  1488212637
+                                },
+                "Xclipse 920":  {
+                                    "tier":  5,
+                                    "hash":  1018714014
+                                },
+                "Xclipse 940":  {
+                                    "tier":  5,
+                                    "hash":  1694525856
+                                },
+                "Xclipse 950":  {
+                                    "tier":  5,
+                                    "hash":  958689953
+                                },
+                "Xclipse 960":  {
+                                    "tier":  5,
+                                    "hash":  222854050
+                                }
+            }
+}
