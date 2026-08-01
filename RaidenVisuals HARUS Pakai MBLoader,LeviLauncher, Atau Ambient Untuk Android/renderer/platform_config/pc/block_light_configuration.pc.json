@@ -1,8 +1,12 @@
 {
+  //==================================
+  "low": {},
+  //==================================
   "medium": {
+    "point_lights": {
     "light_update_frequency": 30,
     "bias": 0,
-    "slope_bias": 0.004,
+    "slope_bias": 0.005,
     "far_plane": 15.0,
     "near_plane": 0.1,
     "max_point_lights": 4,
@@ -23,12 +27,14 @@
     "fullness_frame_window": 3,
     "cache_duration_ms": 500,
     "atlas_resolution": 256
+    }
   },
   //==================================
   "high": {
-    "light_update_frequency": 30,
+    "point_lights": {
+    "light_update_frequency": 60,
     "bias": 0,
-    "slope_bias": 0.002,
+    "slope_bias": 0.004,
     "far_plane": 15.0,
     "near_plane": 0.1,
     "max_point_lights": 8,
@@ -49,12 +55,14 @@
     "fullness_frame_window": 4,
     "cache_duration_ms": 2000,
     "atlas_resolution": 1024
+    }
   },
   //==================================
   "ultra": {
-    "light_update_frequency": 30,
+    "point_lights": {
+    "light_update_frequency": 60,
     "bias": 0,
-    "slope_bias": 0.001001,
+    "slope_bias": 0.004,
     "far_plane": 15.0,
     "near_plane": 0.1,
     "max_point_lights": 16,
@@ -75,5 +83,6 @@
     "fullness_frame_window": 4,
     "cache_duration_ms": 3000,
     "atlas_resolution": 4096
+    }
   }
 }

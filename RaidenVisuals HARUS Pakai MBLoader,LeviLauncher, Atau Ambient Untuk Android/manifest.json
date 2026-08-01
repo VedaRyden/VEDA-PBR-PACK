@@ -3,9 +3,9 @@
  "format_version": 3,
  "header": {
   "description": "pack.description",
-  "name": "Raiden Visuals 2.1-beta2",
+  "name": "Raiden Visuals 2.1",
   "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "pack_optimization_version":"0.1.0",
   "min_engine_version": "1.26.0"
  },
@@ -14,26 +14,30 @@
    "description": "Mimpi basah user android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs di versi official",
    "type": "resources",
    "uuid": "04b7e6f3-312d-4bc8-ba1e-183fa719f512",
-   "version": "2.0.4"
+   "version": "2.1.0"
   }
  ],
  "subpacks": [
     {
-   "folder_name": "MorePerfomance",
-   "memory_performance_tier":1,
-   "name": "Beta/Preview(v26.40.30+)"
-  },
-    {
-   "folder_name": "New Point Lights",
-   "memory_performance_tier":2,
-   "name": "Beta/Preview(v26.40.30+)"
+   "folder_name": "Release MorePerformance",
+   "memory_performance_tier":0,
+   "name": "More Performance For Official Release(v26.20.20+)"
   },
   {
-   "folder_name": "OfficialFix",
-   "memory_performance_tier":3,
+   "folder_name": "Beta Preview MorePerformance",
+   "memory_performance_tier":0,
+   "name": "More Performance For Beta/Preview(v26.40.50+)"
+  },
+  {
+   "folder_name": "New Block Lights and configuration",
+   "memory_performance_tier":0,
+   "name": "Beta/Preview(v26.40.50+)"
+  },
+  {
+   "folder_name": "Release Fix",
+   "memory_performance_tier":1,
    "name": "Official Release(v26.30-)"
   }
-  
  ],
  "settings": [
     {
@@ -66,6 +70,10 @@
 				{
 					"text": "Sembunyikan",
 					"name": "hide"
+				},
+				{
+					"text": "Yo ndak tau kok tanya saya?",
+					"name": "yntkts"
 				}
 			],
 			"default": "unhide"

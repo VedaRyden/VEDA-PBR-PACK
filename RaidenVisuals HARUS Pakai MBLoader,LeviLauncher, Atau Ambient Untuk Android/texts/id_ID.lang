@@ -1,14 +1,15 @@
-pack.description=§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Atau Ambient Untuk Android,MC PATCH TIDAK DIDUKUNG!, §rPastikan Deferred Render Distance Dapat di Set ke 1 Chunks, Jika batas minimum jarak Render Deferred hanya "2" atau "8" itu artinya Raiden Visuals tidak berfungsi, Paket ini bukan shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
+pack.description=§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Ambient atau Flarial Client Untuk Android,MC PATCH TIDAK DIDUKUNG!, §rPastikan Deferred Render Distance Dapat di Set ke 1 Chunks itu artinya Raiden Visuals sudah berfungsi, Paket ini bukan shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
 resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
-label.description.1=Sesuakan Dengan Versi Beta/Release Di Minecraft Bedrockmu §eUntuk Pengguna Android Harap Gunakan Aplikasi MB LOADER Jika Tidak, Raiden Visuals Tidak Akan Berfungsi Sama Sekali.\n\n§rNEW Point Light Configuration : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rPoint Light Fix : §eGunakan Opsi Ini Ketika Terjadi Masalah Di Minecraft Versi Lama, Tetapi Akan Bermasalah Pada Minecraft Versi Terbaru.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip
-label.description.2=BARU! Raiden Visuals Versi 2.1-beta2! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.
+label.description.1=Sesuaikan dengan versi Beta/Release di Minecraft Bedrockmu §euntuk pengguna Android harap gunakan aplikasi MB LOADER jika tidak, Raiden Visuals tidak akan berfungsi sama sekali.\n\n§rAktifkan tampilan log konten untuk mengecek apakah Raiden Visual error di versi Minecraftmu?\n\n§r Beta/Preview : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rOfficial Release : §eGunakan Opsi Ini jika anda bermain di versi Official Release.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip \n§rKunjungi Website Raiden Visuals Resmi : §9https://vedaryden.github.io/RaidenVisuals  
+label.description.2=BARU! Raiden Visuals Versi 2.1! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 keatas Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.\n
 label.description.3=Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
 createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
 options.deferred.renderDistance=Jarak Render Deferred
 options.deferred.renderDistanceFormat=%s chunk
+options.deferred.renderDistance.description=Sesuaikan Jarak render dengan kemampuan perangkatmu. semakin tinggi jarak render semakin luas yang terlihat namum sangat berat bagi performa.
 options.atmosphericsEnable=Atmosfer
 options.edgeHighlightEnable=Sorotan Tepi(Edge Highlight)
 options.terrainShadowsEnable=Bayangan Medan(Terrain Shadows)
@@ -30,21 +31,40 @@ set.raidenvisuals=Settingan Grafis Raiden visuals
 
 options.hdr_brightness=Kecerahan %s°
 options.gammaIntensity=Ubah Kecerahan Gamma
+menu.video.gamma=Kecerahan Gamma
+menu.video.gamma.description=Sesuaikan Kecerahan Gamma yang pas untuk dilihat
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
+options.framerateLimit=Batas FPS
+options.framerateLimit.maxTumpah Tumpah
+options.maxFramerate=Batas FPS
+options.maxFramerate.description=Atur Batas FPS untuk menghindari overheat agar performanya stabil. jika merasa perangkatnya cukup panas segera turunkan ke 30 FPS!
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.1-Beta2)
+
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.1)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing
+options.graphicsMode.deferred.description=Vibrant visuals untuk grafis yang lebih kaya dan lebih terlihat imersif. tetapi membutuhkan perangkat dan konten Marketplace yang kompatibel
+options.graphicsMode.rayTraced.description=Ray Tracing Mengunakan Tehnik Pencahayaan dan refleksi real-time tingkat lanjut membutuhkan dukungan DXR
 
 options.shadowQuality.low=Mati(FPS BOOST)
 options.shadowQuality.medium=Sedang(Rekomendasi)
 options.shadowQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.shadowQuality.description=Semakin Tinggi maka resolusi bayangannya makin tinggi dan lebih Luas tetapi membutuhkan GPU yang lebih kuat.
 
 options.cloudQuality.low=Rendah(Tanpa Lighting)
 options.cloudQuality.medium=Medium(Rekomendasi)
-options.cloudQuality.ultra=Ultra§a(Rata Kanan!)
+options.cloudQuality.ultra=Ultra(Rata Kanan!)
+options.cloudQuality.description=Atur jarak render awan. yang ini dampak performa nya cukup kecil.
+
+options.blockLightQuality=Kualitas Blok Cahaya
+options.blockLightQuality.description=Mengatur kualitas dari cahaya blok, Kualitas Standar mengahsilkan cahaya statis dan ringan untuk banyak blok bercahaya, kualitas volumetrik menghasilkan cahaya dinamis dan sangat berat jika ada banyak blok bercahaya.
+options.blockLightQuality.off=Standar(Rekomendasi)
+options.blockLightQuality.low=Volumetrik(HD)
+options.blockLightQuality.medium=Point Lights Medium
+options.blockLightQuality.high=Point Lights Tinggi
+options.blockLightQuality.ultra=Point Lights Ultra(Rata Kanan!)
 
 options.pointLightShadowQuality.off=Mati(FPS BOOST)
 options.pointLightShadowQuality.low=Rendah(Rekomendasi)
@@ -56,11 +76,13 @@ options.pointLightLODingQuality.ultra=Ultra(Rata Kanan!)
 options.volumetricFogQuality.off=Mati(FPS BOOST)
 options.volumetricFogQuality.low=Rendah(Rekomendasi)
 options.volumetricFogQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.volumetricFogQuality.description=Resolusi Kabut Volumetrik semakin tinggi semakin tebal dan jelas kabutnya tetapi membutuhkan GPU yang kuat.
 
 options.reflectionsQuality.off=Mati(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)
-options.reflectionsQuality.low=Rendah(SSR OFF)
-options.reflectionsQuality.medium=Menengah(SSR On)
+options.reflectionsQuality.low=Rendah(SSR OFF - Recommended)
+options.reflectionsQuality.medium=Medium(SSR On)
 options.reflectionsQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.reflectionsQuality.description=Mengontrol resolusi dan kualitas samples refleksi ruang layar. semakin tingi jarak pantulan semakin luas pantulannya, tetapi GPUnya ngos ngosan.
 
 options.deferred.upscaling=Fallback Upscaling
 options.upscaling=DLSS Upscaling
@@ -70,11 +92,24 @@ options.upscalingPercentage.zero=Otomatis(GIMMICK!, Disarankan 33%)
 options.upscalingMode=Mode Upscaling
 options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
 options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)
+options.upscalingPercentage.description=Disarankan menggunakan resolusi 33%, tetapi kalau ingin Screenshoot atau GPUmu sanggup maka dipersilahkan menggunakan resolusi Native
+options.upscalingMode.description=Pilih teknik upscaling yang Anda inginkan. Rekomendasi menggunakan tehnik Bilinear.
+options.upscalingModeOptions.taau.description=TAAU dapat menghasilkan gambar yang lebih baik tapi meningkatkan sedikit beban GPU.
+options.upscalingModeOptions.bilinear.description=Bilinear sangat ringan untuk digunakan tetapi dapat menghasilkan gambar yang lembut atau buram.
 
+options.graphicsQualityPresetMode.name=Pilih Preset Setingan Vibrant Visuals
 options.graphicsQualityPresetMode=Preset Kualitas
 options.graphicsQualityPresetMode.performance=Utamakan Performa(Ringan & Direkomendasikan)
 options.graphicsQualityPresetMode.visuals=Utamakan Kualitas(Berat)
+options.graphicsQualityPresetMode.performance.name=Utamakan Performa
+options.graphicsQualityPresetMode.performance.description=FPS Lebih tinggi dengan tambahan upscaling 33% membuatmu bersyukur dengan nikmat yang ada.
+options.graphicsQualityPresetMode.visuals.name=Utamakan Kualitas
+options.graphicsQualityPresetMode.description=Pilih kubu performa atau kubu yang penting enak dilihat dan gak peduli FPS dibawah 30.
+options.graphicsQualityPresetMode.custom.description=Plih Peforma untuk mengutamakan FPS Tertinggi, Pilih Kualitas untuk Hasil Yang Seimbang Namun Membutuhkan GPU yang cukup kuat
+options.graphicsQualityPresetMode.visuals.description=Yang Penting enak dilihat dengan performa yang seimbang jangan lupa bersyukur dengan yang kita miliki.
+
 options.bloomStrengthSlider=Bloom(Efek Glowing)
+options.bloomStrengthSlider.description=Kontrol intensitas efek bloom semakin tinggi semakin silau.
 
 options.vsync=Gunakan VSync(Sinkronisasi)
 options.vsync.off=Matikan VSync(Rekomendasi)

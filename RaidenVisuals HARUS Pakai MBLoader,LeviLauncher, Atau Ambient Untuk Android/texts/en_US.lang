@@ -26,29 +26,37 @@ options.hdr_brightness=Brightness %s°	#
 
 options.cloudQuality.ultra=Ultra§a(Recommended HD)	#
 
-options.shadowQuality.low=OFF§b(FPS BOOST!)	#
+options.shadowQuality.low=OFF(FPS BOOST!)	#
 options.shadowQuality.medium=Medium(Recommended)	#
-options.shadowQuality.ultra=Ultra§a(HD)	#
+options.shadowQuality.ultra=Ultra(HD)	#
+
+options.blockLightQuality=Block Light Quality
+options.blockLightQuality.description=Adjust the quality of block lighting
+options.blockLightQuality.off=Standard
+options.blockLightQuality.low=Volumetric Lights
+options.blockLightQuality.medium=Point Lights Medium
+options.blockLightQuality.high=Point Lights High
+options.blockLightQuality.ultra=Point Lights Ultra
 
 options.pointLightShadowQuality.off=OFF	#
 options.pointLightShadowQuality.medium=Menengah(Recommended)	#
-options.pointLightShadowQuality.ultra=Ultra§a(HD)	#
+options.pointLightShadowQuality.ultra=Ultra(HD)	#
 
 options.pointLightLODingQuality.medium=Medium(Recommended)	#
-options.pointLightLODingQuality.ultra=Ultra§a(HD)	#
+options.pointLightLODingQuality.ultra=Ultra(HD)	#
 
-options.volumetricFogQuality.off=OFF§a§b(FPS BOOST!)	#
+options.volumetricFogQuality.off=OFF(FPS BOOST!)	#
 options.volumetricFogQuality.low=Low(Recommended)	#
-options.volumetricFogQuality.ultra=Ultra§a(HD)	#
+options.volumetricFogQuality.ultra=Ultra(HD)	#
 
-options.reflectionsQuality.off=OFF§c(Not Recommended! Causes Black Metallic Effect)	#
+options.reflectionsQuality.off=OFF(Not Recommended! Causes Black Metallic Effect)	#
 options.reflectionsQuality.low=Low(Recommended)	#
-options.reflectionsQuality.ultra=Ultra§a(HD)	#
+options.reflectionsQuality.ultra=Ultra(HD)	#
 
 options.deferred.upscaling=Fallback Upscaling	#
 options.upscaling=DLSS Upscaling	#
 options.upscalingPercentage=Upscaling Resolution
-options.upscalingPercentage.hundred=Without Upscaling§a(Sharp)
+options.upscalingPercentage.hundred=Without Upscaling(Sharp)
 options.upscalingPercentage.zero=Automatic(Recommended 33%)
 options.upscalingMode=Upscaling Mode
 options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
@@ -69,7 +77,7 @@ pesan.tersirat.1=Join Discord Guys: https://discord.gg/U2SUvJKQkk
 pesan.tersirat.2=Donate https://trakteer.id/veda_raiden/tip
 pesan.tersirat.3=Made In Indonesia
 pesan.tersirat.4=Fun Fact: Veda Raiden is a Member of the Strawberry Developer Team
-pesan.tersirat.5=Get Strawberry Vibrant Enhanced for Only Rp 160,000!
+pesan.tersirat.5=Get Strawberry Vibrant Enhanced for Only $10!
 pesan.tersirat.6=When The Creator Gets a Graphics Card T.T
 pesan.tersirat.7=When The Creator Gets a Graphics Card :(
 pesan.tersirat.8=If You Know That Making Deferred/Visuals Packs Is 'Easy', You Can Learn It on Our Discord, Hehe.

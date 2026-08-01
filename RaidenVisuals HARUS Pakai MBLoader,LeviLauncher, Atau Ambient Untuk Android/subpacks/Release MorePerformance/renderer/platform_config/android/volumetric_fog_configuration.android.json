@@ -1,0 +1,38 @@
+{
+  //==================================
+  "low": {
+    "tile_width": 64,
+		"tile_height": 64,
+		"depth_slices": 32,
+		"near_plane": 0.01,
+		"far_plane": 10.0,
+		"shadow_pcf_scale": 0
+  },
+  //==================================
+  "medium": {
+    "tile_width": 32,
+		"tile_height": 32,
+		"depth_slices": 16,
+		"near_plane": 0.01,
+		"far_plane": 10.0,
+		"shadow_pcf_scale": 0
+  },
+  //==================================
+  "high": {
+    "tile_width": 16,
+	"tile_height": 16,
+	"near_plane": 0.01,
+	"far_plane": 10.0,
+	"depth_slices": 23,
+	"shadow_pcf_scale": 0
+  },
+  //==================================
+  "ultra": {
+    "tile_width": 8,//4
+	"tile_height": 8,//4
+	"depth_slices": 64,//128
+	"near_plane": 0.01,
+	"far_plane": 10.0,//0.025
+	"shadow_pcf_scale": 0
+  }
+}

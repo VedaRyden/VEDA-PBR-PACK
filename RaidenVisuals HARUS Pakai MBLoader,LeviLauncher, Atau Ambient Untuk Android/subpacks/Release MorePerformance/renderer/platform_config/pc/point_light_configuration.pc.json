@@ -1,5 +1,6 @@
 {
-  "medium": {
+  //==================================
+  "low": {
     "light_update_frequency": 30,
     "bias": 0,
     "slope_bias": 0.004,
@@ -25,7 +26,7 @@
     "atlas_resolution": 256
   },
   //==================================
-  "high": {
+  "medium": {
     "light_update_frequency": 30,
     "bias": 0,
     "slope_bias": 0.002,
@@ -47,8 +48,34 @@
     "base_invalidate_cooldown_ms": 10,
     "budget_skip_cooldown_ms": 50,
     "fullness_frame_window": 4,
-    "cache_duration_ms": 2000,
+    "cache_duration_ms": 500,
     "atlas_resolution": 1024
+  },
+  //==================================
+  "high": {
+    "light_update_frequency": 30,
+    "bias": 0,
+    "slope_bias": 0.002,
+    "far_plane": 15.0,
+    "near_plane": 0.1,
+    "max_point_lights": 16,
+    "score_compute_batch_size": 128,
+    "max_probe_updates_per_frame": 1,
+    "max_growths_per_frame": 2,
+    "max_shrinks_per_frame": 2,
+    "max_invalidates_per_frame": 6,
+    "start_tile_dimension": 8,
+    "min_tile_dimension": 8,
+    "max_tile_dimension": 32,
+    "tile_growth_increment": 8,
+    "min_growth_threshold": 1,
+    "base_grow_cooldown_ms": 250,
+    "base_shrink_cooldown_ms": 100,
+    "base_invalidate_cooldown_ms": 10,
+    "budget_skip_cooldown_ms": 50,
+    "fullness_frame_window": 4,
+    "cache_duration_ms": 2000,
+    "atlas_resolution": 2048
   },
   //==================================
   "ultra": {

@@ -1,7 +1,7 @@
 {
   "upscaling_configuration": {
     "automatic": {
-      "upscaling_factor": 0.33
+      "upscaling_factor": 0.16
     },
     "one_third": {
       "upscaling_factor": 0.33
