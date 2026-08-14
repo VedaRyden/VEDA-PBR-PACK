@@ -1,7 +1,7 @@
 pack.description=§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Ambient atau Flarial Client Untuk Android,MC PATCH TIDAK DIDUKUNG!, §rPastikan Deferred Render Distance Dapat di Set ke 1 Chunks itu artinya Raiden Visuals sudah berfungsi, Paket ini bukan shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
 resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
-label.description.1=Sesuaikan dengan versi Beta/Release di Minecraft Bedrockmu §euntuk pengguna Android harap gunakan aplikasi MB LOADER jika tidak, Raiden Visuals tidak akan berfungsi sama sekali.\n\n§rAktifkan tampilan log konten untuk mengecek apakah Raiden Visual error di versi Minecraftmu?\n\n§r Beta/Preview : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rOfficial Release : §eGunakan Opsi Ini jika anda bermain di versi Official Release.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip \n§rKunjungi Website Raiden Visuals Resmi : §9https://vedaryden.github.io/RaidenVisuals  
+label.description.1=Sesuaikan dengan versi Beta/Release di Minecraft Bedrockmu §euntuk pengguna Android harap gunakan aplikasi MB LOADER jika tidak, Raiden Visuals tidak akan berfungsi sama sekali.\n\n§rAktifkan tampilan log konten untuk mengecek apakah Raiden Visual error di versi Minecraftmu?\n\n§rBeta/Preview : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rOfficial Release : §eGunakan Opsi Ini jika anda bermain di versi Official Release.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip \n§rKunjungi Website Raiden Visuals Resmi : §9https://vedaryden.github.io/RaidenVisuals  
 label.description.2=BARU! Raiden Visuals Versi 2.1! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 keatas Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.\n
 label.description.3=Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya
 
@@ -36,7 +36,7 @@ menu.video.gamma.description=Sesuaikan Kecerahan Gamma yang pas untuk dilihat
 options.framePacing=Atur tempo frame(Auto FPS)
 options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
 options.framerateLimit=Batas FPS
-options.framerateLimit.maxTumpah Tumpah
+options.framerateLimit.max=Tumpah Tumpah
 options.maxFramerate=Batas FPS
 options.maxFramerate.description=Atur Batas FPS untuk menghindari overheat agar performanya stabil. jika merasa perangkatnya cukup panas segera turunkan ke 30 FPS!
 
@@ -153,7 +153,7 @@ pesan.tersirat.34=Tolong Pengaturan Videonya Diperhatikan Yah
 pesan.tersirat.35=Jangan Lupa Bersyukur Ya
 pesan.tersirat.36=Semoga Update Kedepan Nya Lebih Ringan Dan Bagus
 pesan.tersirat.37=Jika Mengalami Lag atau Low FPS, Dianjurkan Untuk Menurunkan Resoulsi yang disarankan.
-pesan.tersirat.38=Udah Rata Kiri Masih LAG?, Tunggu Update kedepan nya mungkin hal ini dapat diatasi :)
+pesan.tersirat.38=Dapatkan Strawberry Vibrant Enhanced di Marketplace Hanya 990 Minecoins!
 pesan.tersirat.39=Raiden Visuals Hanya Sebuah Konfigurasi Deferred Yang Dikustomisasi Bertujuan Untuk Meningkatkan Performa Lebih Optimal
 pesan.tersirat.40=Subscribe YT : @Veda Raiden Untuk dapatkan Info Update Mod Raiden Visuals
 pesan.tersirat.41=Atur Upscaling Menjadi 33% Untuk Mendapatkan Performa Lebih baik

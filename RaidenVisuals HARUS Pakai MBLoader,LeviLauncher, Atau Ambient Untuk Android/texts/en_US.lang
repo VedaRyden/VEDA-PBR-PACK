@@ -1,34 +1,35 @@
 ﻿pack.description=§c§lMUST USE MB LOADER, Levi launcher, or Ambient Application for Android, MC PATCH IS NOT SUPPORTED!, §rMake sure Deferred Render Distance can be set to 1 Chunks, if the minimum Deferred Render distance limit is only "2" or "8" it means Raiden Visuals is not working, this package is not a shader but a Deferred Configuration. Donation: https://trakteer.id/veda_raiden/tip
 resourcePack.vanilla.name=Raiden Visuals Configuration Mod
 resourcePack.vanilla.description=Better Performance And Optimized For Vibrant Visuals!
-resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)	#
-label.description.1=Compatible with the Beta/Release Version of your Minecraft Bedrock. For Android users, please use the MB LOADER app. Otherwise, Raiden Visuals will not work at all.\n\n§rNEW Point Light Configuration: §eOnly works in the latest Beta version. It may cause problems if used on older versions of Minecraft.\n\n§rPoint Light Fix: §eUse this option when problems occur in older versions of Minecraft, but will also work on the latest version of Minecraft.\n\n§rDonate: §9https://trakteer.id/veda_raiden/tip
-label.description.2=NEW! Raiden Visuals Version 2.1-beta2! Mojang has changed the folder directory in the Renderer Config so that Raiden Visuals Version 2.0 will continue to work in the future. Conversely, if you use Raiden Visuals Version 1.11.3 previously, it will not work fully on the latest version of Minecraft.
+resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)
+label.description.1=Match this to the Beta/Release version of your Minecraft Bedrock. §eAndroid users: please use the MB LOADER app; otherwise, Raiden Visuals will not work at all.\n\n§rEnable the content log display to check if Raiden Visuals is encountering errors on your Minecraft version.\n\n§rBeta/Preview: §eWorks only on the latest Beta version. May cause issues if used on older Minecraft versions.\n\n§rOfficial Release: §eUse this option if you are playing on the Official Release version.\n\n§rDonate: §9https://trakteer.id/veda_raiden/tip \n§rVisit the official Raiden Visuals website: §9https://vedaryden.github.io/RaidenVisuals
+label.description.2=NEW! Raiden Visuals Version 2.1! Mojang has changed the folder directory for the renderer config, ensuring that Raiden Visuals Version 2.0 and above will continue to work in the future. Conversely, the older Raiden Visuals Version 1.11.3 will not function fully on future Minecraft versions.
 label.description.3=This Gimmick Setting Cannot Be Fully Used
 
-info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you first enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance. #
-info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications To Be Able To Activate Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. If It Still Doesn't Work and Goes Back To Fancy = Your Phone Is Not Compatible.	#
+info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you first enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance.
+info.minimumspekandroid.raidenvisuals=Minimum GPU Specifications To Be Able To Activate Vibrant Visuals Graphics Feature: Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. If It Still Doesn't Work and Goes Back To Fancy = Your Phone Is Not Compatible.
 
-info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To Enable Vibrant Visuals Graphics Feature.	#
-info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you just enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance.	#
-info.ingfosupportvv.raidenvisuals=Your device does not support Vibrant Visuals! Even though it is on the list, your device refuses to activate it. Don't cry, don't force it too much. Hopefully you will be bought a new better device soon^^.	#
+info.minimumspekpc.raidenvisuals=Your GPU Must Support DirectX12 To Be Able To Enable Vibrant Visuals Graphics Feature.
+info.raidenvisuals=Set and adjust the settings according to your device's capabilities, when you just enter the world, set the chunk distance to "8" then you are free to use 1 chunk without delay. You can turn off reflections, shadows and volumetric fog to reduce GPU load, don't forget to set the upscaling resolution to 33% to get better performance.
+info.ingfosupportvv.raidenvisuals=Your device does not support Vibrant Visuals! Even though it is on the list, your device refuses to activate it. Don't cry, don't force it too much. Hopefully you will be bought a new better device soon^^.
 options.bloomEnable=Bloom
 
-opti.raidenvisuals=Raiden Visuals Options	#
-set.raidenvisuals=Raiden Visuals Graphics Settings	#
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.1-beta2)	#
+opti.raidenvisuals=Raiden Visuals Options
+set.raidenvisuals=Raiden Visuals Graphics Settings
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.1-beta2)
 options.dynamicTexturesToggle=Use Recommended Texture Limit
 options.showthumbnails=Show Graphics Example Pictures
 options.graphicsMode.rayTraced.tooltip=Just buy an RTX 2050+ or ​​RX 6600+ GPU and you can use Ray Traced Graphics Mode :v IT WILL NEVER BE POSSIBLE ON A PHONE, DO YOU UNDERSTAND!? >:v.
 options.graphicsMode.combined.tooltip=SORRY, YOUR DEVICE IS SO POTATO THAT THE VIBRANT VISUALS GRAPHICS MODE IS NOT COMPATIBLE WITH YOUR CURRENT DEVICE. Maybe it will be possible in the future, but if your specs are already outdated, what can you expect? :).
+info.modegrafisabuabu.raidenvisuals=Don't forget to enable "Allow Graphics Mode Switching In-Game."".
 
-options.hdr_brightness=Brightness %s°	#
+options.hdr_brightness=Brightness %s°
 
-options.cloudQuality.ultra=Ultra§a(Recommended HD)	#
+options.cloudQuality.ultra=Ultra§a(Recommended HD)
 
-options.shadowQuality.low=OFF(FPS BOOST!)	#
-options.shadowQuality.medium=Medium(Recommended)	#
-options.shadowQuality.ultra=Ultra(HD)	#
+options.shadowQuality.low=OFF(FPS BOOST!)
+options.shadowQuality.medium=Medium(Recommended)
+options.shadowQuality.ultra=Ultra(HD)
 
 options.blockLightQuality=Block Light Quality
 options.blockLightQuality.description=Adjust the quality of block lighting
@@ -38,23 +39,23 @@ options.blockLightQuality.medium=Point Lights Medium
 options.blockLightQuality.high=Point Lights High
 options.blockLightQuality.ultra=Point Lights Ultra
 
-options.pointLightShadowQuality.off=OFF	#
-options.pointLightShadowQuality.medium=Menengah(Recommended)	#
-options.pointLightShadowQuality.ultra=Ultra(HD)	#
+options.pointLightShadowQuality.off=OFF
+options.pointLightShadowQuality.medium=Menengah(Recommended)
+options.pointLightShadowQuality.ultra=Ultra(HD)
 
-options.pointLightLODingQuality.medium=Medium(Recommended)	#
-options.pointLightLODingQuality.ultra=Ultra(HD)	#
+options.pointLightLODingQuality.medium=Medium(Recommended)
+options.pointLightLODingQuality.ultra=Ultra(HD)
 
-options.volumetricFogQuality.off=OFF(FPS BOOST!)	#
-options.volumetricFogQuality.low=Low(Recommended)	#
-options.volumetricFogQuality.ultra=Ultra(HD)	#
+options.volumetricFogQuality.off=OFF(FPS BOOST!)
+options.volumetricFogQuality.low=Low(Recommended)
+options.volumetricFogQuality.ultra=Ultra(HD)
 
-options.reflectionsQuality.off=OFF(Not Recommended! Causes Black Metallic Effect)	#
-options.reflectionsQuality.low=Low(Recommended)	#
-options.reflectionsQuality.ultra=Ultra(HD)	#
+options.reflectionsQuality.off=OFF(Not Recommended! Causes Black Metallic Effect)
+options.reflectionsQuality.low=Low(Recommended)
+options.reflectionsQuality.ultra=Ultra(HD)
 
-options.deferred.upscaling=Fallback Upscaling	#
-options.upscaling=DLSS Upscaling	#
+options.deferred.upscaling=Fallback Upscaling
+options.upscaling=DLSS Upscaling
 options.upscalingPercentage=Upscaling Resolution
 options.upscalingPercentage.hundred=Without Upscaling(Sharp)
 options.upscalingPercentage.zero=Automatic(Recommended 33%)
@@ -66,12 +67,12 @@ options.graphicsQualityPresetMode=Quality Presets
 options.graphicsQualityPresetMode.performance=Performance First (Recommended)
 options.graphicsQualityPresetMode.visuals=Prioritize Quality (Heavy)
 
-options.bloomStrengthSlider=Bloom(Glow Effect) 	#
+options.bloomStrengthSlider=Bloom(Glow Effect) 
 
-options.vsync=Use VSync(Synchronization)	#
-options.vsync.off=Turn off VSync(Recommended)	#
-options.vsync.on=Vertical VSync	#
-options.vsync.adaptive=Adaptive Vertical VSync	#
+options.vsync=Use VSync(Synchronization)
+options.vsync.off=Turn off VSync(Recommended)
+options.vsync.on=Vertical VSync
+options.vsync.adaptive=Adaptive Vertical VSync
 
 pesan.tersirat.1=Join Discord Guys: https://discord.gg/U2SUvJKQkk
 pesan.tersirat.2=Donate https://trakteer.id/veda_raiden/tip
@@ -79,7 +80,7 @@ pesan.tersirat.3=Made In Indonesia
 pesan.tersirat.4=Fun Fact: Veda Raiden is a Member of the Strawberry Developer Team
 pesan.tersirat.5=Get Strawberry Vibrant Enhanced for Only $10!
 pesan.tersirat.6=When The Creator Gets a Graphics Card T.T
-pesan.tersirat.7=When The Creator Gets a Graphics Card :(
+pesan.tersirat.7=When The Creator Gets a Graphics Card:(
 pesan.tersirat.8=If You Know That Making Deferred/Visuals Packs Is 'Easy', You Can Learn It on Our Discord, Hehe.
 pesan.tersirat.9=Want to Try Something Better? Try Strawberry Visuals.
 pesan.tersirat.10=Very few Indonesians make visual packs, let alone Renderdragon shaders. If you're interested, you can learn on our Discord.
@@ -109,7 +110,8 @@ pesan.tersirat.33=Don't forget to check the vibrant visuals option in the video 
 pesan.tersirat.34=Please pay attention to your video settings
 pesan.tersirat.35=Don't forget to be grateful
 pesan.tersirat.36=Hopefully, future updates will be lighter and better
-pesan.tersirat.37=If you experience lag or low FPS, it is recommended to lower the recommended resolution. pesan.tersirat.38=Aligned to the left, but still lagging? Wait for a future update, maybe this can be resolved :)
+pesan.tersirat.37=If you experience lag or low FPS, it is recommended to lower the recommended resolution.
+pesan.tersirat.38=Get the Vibrant Enhanced Strawberry in the Marketplace for just 990 Minecoins!
 pesan.tersirat.39=Raiden Visuals is just a customized deferred configuration aimed at optimizing performance.
 pesan.tersirat.40=Subscribe to YouTube: @Veda Raiden to get Raiden Visuals Mod Updates.
 pesan.tersirat.41=Set Upscaling to 33% for better performance.
@@ -126,4 +128,7 @@ pesan.tersirat.51=Don't Forget to Enable the Experimental 'Render Dragon For Cre
 pesan.tersirat.52=Raiden Visuals is not a shader, it's just a mod to improve Vibrant Visuals' graphical performance.
 pesan.tersirat.53=Enable Frame Rate Priority for supported phones and improve your gameplay performance.
 pesan.tersirat.54=Want to see Godrays? Increase the Volumetric Fog Quality.
-pesan.tersirat.55=Hopefully, in a future update.
+pesan.tersirat.55=Hopefully, future updates will be lighter and better.
+pesan.tersirat.56=If you experience lag or low FPS, it is recommended to lower the resolution or upscaling settings.
+pesan.tersirat.57=Still lagging even with settings at the minimum? Please wait for future updates; this issue might be resolved then :)
+pesan.tersirat.58=Signs that you are truly using Raiden Visuals include sharp, non-blurry shadows and better performance compared to the default version.

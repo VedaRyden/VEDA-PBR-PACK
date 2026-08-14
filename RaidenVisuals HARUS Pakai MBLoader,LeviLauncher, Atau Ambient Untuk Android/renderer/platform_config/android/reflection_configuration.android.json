@@ -1,17 +1,6 @@
 {
   //==========================================================
   "low": {
-    "probe_regen": {
-    "far_plane_scaling": 0.1,
-    "texture_format": "R16G16B16A16_FLOAT",
-    "regen_triggers": {
-      "frames_delta": 50,
-      "gametime_delta": 50,
-      "distance_delta": 0,
-      "sky_brightness_delta": 0,
-      "block_brightness_delta": 0
-    }
-  },
   "ibl": {
     "num_samples": 0,
     "dimension": 128,
@@ -32,17 +21,6 @@
   },
   //==========================================================
   "medium": {
-    "probe_regen": {
-    "far_plane_scaling": 0.4,
-    "texture_format": "R16G16B16A16_FLOAT",
-    "regen_triggers": {
-      "frames_delta": 50,
-      "gametime_delta": 50,
-      "distance_delta": 0,
-      "sky_brightness_delta": 0,
-      "block_brightness_delta": 0
-    }
-  },
   "ibl": {
     "num_samples": 0,
     "dimension": 128,
@@ -94,17 +72,6 @@
   },
   //==========================================================
   "ultra": {
-    "probe_regen": {
-    "far_plane_scaling": 0.4,
-    "texture_format": "R16G16B16A16_FLOAT",
-    "regen_triggers": {
-      "frames_delta": 50,
-      "gametime_delta": 50,
-      "distance_delta": 0,
-      "sky_brightness_delta": 0,
-      "block_brightness_delta": 0
-    }
-  },
   "ibl": {
     "num_samples": 0,
     "dimension": 1024,//Extended from 512 to 1024
