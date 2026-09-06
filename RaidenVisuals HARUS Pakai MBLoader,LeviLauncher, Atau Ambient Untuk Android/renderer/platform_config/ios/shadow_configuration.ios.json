@@ -36,18 +36,18 @@
           "range": 0.25,
           "resolution": 2048,
           "slope_bias": 0.00001,
-          "update_frequency": 3,
+          "update_frequency": 2,
           "update_offset": 0
         }
       ]
     ],
-    "cloud_shadow_contribution": 0,
+    "cloud_shadow_contribution": 0.4,
     "cloud_shadow_pcf_width": 0,
-    "cloud_shadow_quantization_steps": 0,
+    "cloud_shadow_quantization_steps": 7200,
     "cloud_shadows": false,
     "max_shadow_frustum_radius": 192.0,
     "max_shadow_distance": 128,
-    "moon_shadows": false,
+    "moon_shadows": true,
     "normal_offset_strength": 0.065,
     "shadow_range": {
       "far": 128,
@@ -68,7 +68,7 @@
               "range": 0.25,
               "resolution": 2048,
               "slope_bias": 0.00001,
-              "update_frequency": 3,
+              "update_frequency": 2,
               "update_offset": 0
           },
           {
@@ -97,13 +97,13 @@
           }
       ]
   ],
-  "cloud_shadow_contribution": 0,
+  "cloud_shadow_contribution": 0.4,
   "cloud_shadow_pcf_width": 0,
-  "cloud_shadow_quantization_steps": 0,
+  "cloud_shadow_quantization_steps": 1,
   "cloud_shadows": false,
   "max_shadow_distance": 128,
   "max_shadow_frustum_radius": 192.0,
-  "moon_shadows": false,
+  "moon_shadows": true,
   "normal_offset_strength": 0.065,
   "shadow_range": {"far": 128,"near": 0.025},
   "sun_shadows": true
@@ -121,7 +121,7 @@
               "range": 0.1666,
               "resolution": 2048,
               "slope_bias": 0.00001,
-              "update_frequency": 3,
+              "update_frequency": 2,
               "update_offset": 0
           },
           {
@@ -162,13 +162,13 @@
           }
       ]
   ],
-  "cloud_shadow_contribution": 0,
+  "cloud_shadow_contribution": 0.4,
   "cloud_shadow_pcf_width": 0,
-  "cloud_shadow_quantization_steps": 0,
-  "cloud_shadows": false,
+  "cloud_shadow_quantization_steps": 7200,
+  "cloud_shadows": true,
   "max_shadow_distance": 128,
   "max_shadow_frustum_radius": 192.0,
-  "moon_shadows": false,
+  "moon_shadows": true,
   "normal_offset_strength": 0.065,
   "shadow_range": {
       "far": 128,

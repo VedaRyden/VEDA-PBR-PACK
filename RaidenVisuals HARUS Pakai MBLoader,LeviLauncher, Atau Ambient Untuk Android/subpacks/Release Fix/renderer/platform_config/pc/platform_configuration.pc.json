@@ -7,10 +7,9 @@
           "lods": {
             "clouds": "low",
             "shadows": "medium",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "off",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "off",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -41,10 +40,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "medium",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "off",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -57,10 +55,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "medium",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "high",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -75,10 +72,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "medium",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "low",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -91,10 +87,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "ultra",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "low",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -109,10 +104,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "medium",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "low",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -125,10 +119,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "ultra",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "low",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -143,10 +136,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "medium",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "low",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "low",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -159,10 +151,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "ultra",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "medium",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -201,6 +192,9 @@
     },
     "deferred_lighting_config": {
       "file":  "deferred_lighting_configuration.pc.json"
+    },
+    "block_light_config": {
+      "file": "block_light_configuration.pc.json"
     }
   }
 }

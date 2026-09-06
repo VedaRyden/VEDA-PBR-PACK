@@ -1,88 +1,158 @@
 {
   //==================================
-  "low": {},
+  "low": {
+    "point_lights_enabled": false,
+    "point_light_budgets": {
+      "light_update_frequency": 30,
+      "max_point_lights": 1,
+      "score_compute_batch_size": 1,
+      "light_score_smoothing_factor": 0.8
+    },
+    "point_light_shadows": {
+      "bias": 0,
+      "slope_bias": 0.002,
+      "far_plane": 15.0,
+      "near_plane": 0.1,
+      "max_probe_updates_per_frame": 1,
+      "max_growths_per_frame": 1,
+      "max_shrinks_per_frame": 1,
+      "max_invalidates_per_frame": 1,
+      "start_tile_dimension": 1,
+      "min_tile_dimension": 1,
+      "max_tile_dimension": 1,
+      "tile_growth_increment": 1,
+      "min_growth_threshold": 1,
+      "base_grow_cooldown_ms": 1,
+      "base_shrink_cooldown_ms": 1,
+      "base_invalidate_cooldown_ms": 1,
+      "budget_skip_cooldown_ms": 1,
+      "fullness_frame_window": 1,
+      "cache_duration_ms": 1,
+      "atlas_resolution": 1
+    },
+    "light_clustering": {
+    "lights_per_cluster": 1,
+    "cluster_size": [ 1, 1, 1 ],
+    "far_plane": 50.0,
+    "cluster_first_depth_max": 1,
+    "cluster_second_depth_max": 1
+  }
+  },
   //==================================
   "medium": {
-    "point_lights": {
-    "light_update_frequency": 30,
+    "point_lights_enabled": true,
+    "point_light_budgets": {
+      "light_update_frequency": 60,
+      "max_point_lights": 32,
+      "score_compute_batch_size": 64,
+    "light_score_smoothing_factor": 0.5
+  },
+  "point_light_shadows": {
     "bias": 0,
-    "slope_bias": 0.005,
-    "far_plane": 15.0,
+    "slope_bias": 0.002,
+    "far_plane": 10.0,
     "near_plane": 0.1,
-    "max_point_lights": 4,
-    "score_compute_batch_size": 64,
     "max_probe_updates_per_frame": 1,
     "max_growths_per_frame": 1,
-    "max_shrinks_per_frame": 4,
-    "max_invalidates_per_frame": 8,
-    "start_tile_dimension": 16,
-    "min_tile_dimension": 16,
-    "max_tile_dimension": 32,
+    "max_shrinks_per_frame": 1,
+    "max_invalidates_per_frame": 2,
+    "start_tile_dimension": 4,
+    "min_tile_dimension": 4,
+    "max_tile_dimension": 16,
     "tile_growth_increment": 4,
-    "min_growth_threshold": 2,
+    "min_growth_threshold": 1,
     "base_grow_cooldown_ms": 500,
-    "base_shrink_cooldown_ms": 10,
-    "base_invalidate_cooldown_ms": 5,
-    "budget_skip_cooldown_ms": 10,
-    "fullness_frame_window": 3,
-    "cache_duration_ms": 500,
+    "base_shrink_cooldown_ms": 250,
+    "base_invalidate_cooldown_ms": 50,
+    "budget_skip_cooldown_ms": 100,
+    "fullness_frame_window": 2,
+    "cache_duration_ms": 1000,
     "atlas_resolution": 256
-    }
+  },
+  "light_clustering": {
+    "lights_per_cluster": 8,
+    "cluster_size": [ 32, 32, 32 ],
+    "far_plane": 50.0,
+    "cluster_first_depth_max": 1.0,
+    "cluster_second_depth_max": 2.0
+  }
   },
   //==================================
   "high": {
-    "point_lights": {
-    "light_update_frequency": 60,
-    "bias": 0,
-    "slope_bias": 0.004,
-    "far_plane": 15.0,
-    "near_plane": 0.1,
-    "max_point_lights": 8,
-    "score_compute_batch_size": 128,
-    "max_probe_updates_per_frame": 1,
-    "max_growths_per_frame": 2,
-    "max_shrinks_per_frame": 2,
-    "max_invalidates_per_frame": 6,
-    "start_tile_dimension": 8,
-    "min_tile_dimension": 8,
-    "max_tile_dimension": 32,
-    "tile_growth_increment": 8,
-    "min_growth_threshold": 1,
-    "base_grow_cooldown_ms": 250,
-    "base_shrink_cooldown_ms": 100,
-    "base_invalidate_cooldown_ms": 10,
-    "budget_skip_cooldown_ms": 50,
-    "fullness_frame_window": 4,
-    "cache_duration_ms": 2000,
-    "atlas_resolution": 1024
-    }
+    "point_lights_enabled": true,
+    "point_light_budgets": {
+      "light_update_frequency": 60,
+      "max_point_lights": 64,
+      "score_compute_batch_size": 64,
+    "light_score_smoothing_factor": 0.5
+    },
+    "point_light_shadows": {
+      "bias": 0,
+      "slope_bias": 0.001,
+      "far_plane": 15.0,
+      "near_plane": 0.1,
+      "max_probe_updates_per_frame": 1,
+      "max_growths_per_frame": 1,
+      "max_shrinks_per_frame": 1,
+      "max_invalidates_per_frame": 2,
+      "start_tile_dimension": 4,
+      "min_tile_dimension": 4,
+      "max_tile_dimension": 16,
+      "tile_growth_increment": 4,
+      "min_growth_threshold": 1,
+      "base_grow_cooldown_ms": 500,
+      "base_shrink_cooldown_ms": 250,
+      "base_invalidate_cooldown_ms": 50,
+      "budget_skip_cooldown_ms": 100,
+      "fullness_frame_window": 2,
+      "cache_duration_ms": 1000,
+      "atlas_resolution": 2048
+    },
+    "light_clustering": {
+    "lights_per_cluster": 8,
+    "cluster_size": [ 32, 32, 32 ],
+    "far_plane": 50.0,
+    "cluster_first_depth_max": 1.0,
+    "cluster_second_depth_max": 2.0
+  }
   },
   //==================================
   "ultra": {
-    "point_lights": {
-    "light_update_frequency": 60,
-    "bias": 0,
-    "slope_bias": 0.004,
-    "far_plane": 15.0,
-    "near_plane": 0.1,
-    "max_point_lights": 16,
-    "score_compute_batch_size": 128,
-    "max_probe_updates_per_frame": 1,
-    "max_growths_per_frame": 2,
-    "max_shrinks_per_frame": 2,
-    "max_invalidates_per_frame": 6,
-    "start_tile_dimension": 8,
-    "min_tile_dimension": 8,
-    "max_tile_dimension": 32,
-    "tile_growth_increment": 8,
-    "min_growth_threshold": 1,
-    "base_grow_cooldown_ms": 250,
-    "base_shrink_cooldown_ms": 100,
-    "base_invalidate_cooldown_ms": 10,
-    "budget_skip_cooldown_ms": 50,
-    "fullness_frame_window": 4,
-    "cache_duration_ms": 3000,
-    "atlas_resolution": 4096
+    "point_lights_enabled": true,
+    "point_light_budgets": {
+      "light_update_frequency": 60,
+      "max_point_lights": 64,
+      "score_compute_batch_size": 64,
+      "light_score_smoothing_factor": 0.5
+    },
+    "point_light_shadows": {
+      "bias": 0,
+      "slope_bias": 0.001,
+      "far_plane": 15.0,
+      "near_plane": 0.1,
+      "max_probe_updates_per_frame": 1,
+      "max_growths_per_frame": 1,
+      "max_shrinks_per_frame": 1,
+      "max_invalidates_per_frame": 2,
+      "start_tile_dimension": 4,
+      "min_tile_dimension": 4,
+      "max_tile_dimension": 16,
+      "tile_growth_increment": 4,
+      "min_growth_threshold": 1,
+      "base_grow_cooldown_ms": 500,
+      "base_shrink_cooldown_ms": 250,
+      "base_invalidate_cooldown_ms": 50,
+      "budget_skip_cooldown_ms": 100,
+      "fullness_frame_window": 2,
+      "cache_duration_ms": 1000,
+      "atlas_resolution": 4096
+    },
+    "light_clustering": {
+      "lights_per_cluster": 24,
+      "cluster_size": [ 48, 48, 48 ],
+      "far_plane": 150.0,
+      "cluster_first_depth_max": 1.5,
+      "cluster_second_depth_max": 3.0
     }
   }
 }

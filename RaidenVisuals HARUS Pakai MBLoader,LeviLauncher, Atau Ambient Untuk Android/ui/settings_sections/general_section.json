@@ -517,7 +517,7 @@
             {
               "binding_name": "$option_label"
             }
-          ],
+          ]
         }
       },
       {"bloom@general_section.bloom": {"bindings": [{"binding_name": "#websocket_encryption_visible","binding_name_override": "#visible"}]}},
@@ -553,7 +553,7 @@
           "$slider_name": "upscaling_percentage",
           "$slider_value_binding_name": "#upscaling_percentage",
           "$slider_tts_text_value": "#upscaling_percentage_text_value",
-          "$slider_steps_binding_name": "#upscaling_percentage_steps",
+          "$slider_steps_binding_name": "#upscaling_percentage_steps"
         }
       },
       {

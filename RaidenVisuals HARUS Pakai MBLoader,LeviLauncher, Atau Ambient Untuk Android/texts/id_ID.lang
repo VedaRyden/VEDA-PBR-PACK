@@ -41,7 +41,7 @@ options.maxFramerate=Batas FPS
 options.maxFramerate.description=Atur Batas FPS untuk menghindari overheat agar performanya stabil. jika merasa perangkatnya cukup panas segera turunkan ke 30 FPS!
 
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.1)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.3)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing

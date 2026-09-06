@@ -1,0 +1,122 @@
+{
+  "ios": {
+    "tiers": {
+      "2": [
+        {
+          "name": "Performance",
+          "lods": {
+            "bloom": false,
+            "clouds": "low",
+            "default_deferred_distance": 2,
+            "block_lights": "off",
+            "reflections": "off",
+            "shadows": "low",
+            "target_frame_rate": 60,
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "off",
+            "lighting_mixed_res_enabled": true
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "bloom": true,
+            "clouds": "low",
+            "default_deferred_distance": 4,
+            "block_lights": "off",
+            "reflections": "medium",
+            "shadows": "medium",
+            "target_frame_rate": 60,
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_enabled": true
+          }
+        }
+      ],
+      "3": [
+        {
+          "name": "Performance",
+          "lods": {
+           "bloom": false,
+            "clouds": "low",
+            "default_deferred_distance": 2,
+            "block_lights": "off",
+            "reflections": "off",
+            "shadows": "low",
+            "target_frame_rate": 60,
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "off",
+            "lighting_mixed_res_enabled": true
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "bloom": true,
+            "default_deferred_distance": 4,
+            "block_lights": "off",
+            "reflections": "medium",
+            "shadows": "medium",
+            "target_frame_rate": 60,
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "high",
+            "lighting_mixed_res_enabled": true
+          }
+        }
+      ],
+      "4": [
+        {
+          "name": "Performance",
+          "lods": {
+            "bloom": false,
+            "clouds": "low",
+            "default_deferred_distance": 2,
+            "block_lights": "off",
+            "reflections": "off",
+            "shadows": "low",
+            "target_frame_rate": 60,
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "off",
+            "lighting_mixed_res_enabled": true
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "bloom": true,
+            "clouds": "high",
+            "default_deferred_distance": 8,
+            "block_lights": "off",
+            "reflections": "medium",
+            "shadows": "medium",
+            "target_frame_rate": 60,
+            "target_resolution": "480p",
+            "upscaling_mode": "bilinear",
+            "volumetric_fog": "low",
+            "lighting_mixed_res_enabled": true
+          }
+        }
+      ]
+    },
+    "shadow_config": {
+      "file": "shadow_configuration.ios.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configuration.ios.json"
+    },
+    "block_light_config": {
+      "file": "block_light_configuration.ios.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configuration.ios.json"
+    },
+    "render_distance_config": {
+      "file":  "render_distance_configuration.ios.json"
+    }
+  }
+}
