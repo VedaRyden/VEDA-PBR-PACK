@@ -2,7 +2,7 @@ pack.description=§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Ambient at
 resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
 label.description.1=Sesuaikan dengan versi Beta/Release di Minecraft Bedrockmu §euntuk pengguna Android harap gunakan aplikasi MB LOADER jika tidak, Raiden Visuals tidak akan berfungsi sama sekali.\n\n§rAktifkan tampilan log konten untuk mengecek apakah Raiden Visual error di versi Minecraftmu?\n\n§rBeta/Preview : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rOfficial Release : §eGunakan Opsi Ini jika anda bermain di versi Official Release.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip \n§rKunjungi Website Raiden Visuals Resmi : §9https://vedaryden.github.io/RaidenVisuals  
-label.description.2=BARU! Raiden Visuals Versi 2.1! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 keatas Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.\n
+label.description.2=BARU! Raiden Visuals Versi 2.2! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 keatas Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.\n
 label.description.3=Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
@@ -41,7 +41,7 @@ options.maxFramerate=Batas FPS
 options.maxFramerate.description=Atur Batas FPS untuk menghindari overheat agar performanya stabil. jika merasa perangkatnya cukup panas segera turunkan ke 30 FPS!
 
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.3)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.2)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing
