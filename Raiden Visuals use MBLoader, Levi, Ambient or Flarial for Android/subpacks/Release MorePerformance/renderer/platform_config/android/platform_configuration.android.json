@@ -187,7 +187,7 @@
     "bloom_config": {
       "file": "bloom_configuration.android.json"
     },
-    "point_light_loding_config": {
+    "point_light_config": {
       "file": "point_light_configuration.android.json"
     },
     "reflection_config": {

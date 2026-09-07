@@ -22,10 +22,9 @@
           "lods": {
             "clouds": "ultra",
             "shadows": "medium",
-            "point_light_shadows": "off",
+            "point_lights": "off",
             "volumetric_fog": "low",
             "bloom": true,
-            "point_light_lodding": "off",
             "reflections": "medium",
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
@@ -178,7 +177,7 @@
     "bloom_config": {
       "file": "bloom_configuration.pc.json"
     },
-    "point_light_loding_config": {
+    "point_light_config": {
       "file": "point_light_configuration.pc.json"
     },
     "reflection_config": {
