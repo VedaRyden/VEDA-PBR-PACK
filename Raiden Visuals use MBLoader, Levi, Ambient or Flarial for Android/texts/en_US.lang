@@ -1,4 +1,4 @@
-﻿pack.description=§c§lMUST USE MB LOADER, Levi launcher, or Ambient Application for Android, MC PATCH IS NOT SUPPORTED!, §rMake sure Deferred Render Distance can be set to 1 Chunks, if the minimum Deferred Render distance limit is only "2" or "8" it means Raiden Visuals is not working, this package is not a shader but a Deferred Configuration. Donation: https://trakteer.id/veda_raiden/tip
+﻿pack.description=NOW WITH CUSTOM SHADERS TWEAKS!, §c§lMUST USE MB LOADER, Levi launcher, or Ambient Application for Android, MC PATCH IS NOT SUPPORTED!, §rMake sure Deferred Render Distance can be set to 1 Chunks, if the minimum Deferred Render distance limit is only "2" or "8" it means Raiden Visuals is not working, this package is not a shader but a Deferred Configuration. Donation: https://trakteer.id/veda_raiden/tip
 resourcePack.vanilla.name=Raiden Visuals Configuration Mod
 resourcePack.vanilla.description=Better Performance And Optimized For Vibrant Visuals!
 resourcePack.incompatible.graphics.pbr=YOUR DEVICE DOES NOT SUPPORT VIBRANT VISUAL, BE PATIENT:)

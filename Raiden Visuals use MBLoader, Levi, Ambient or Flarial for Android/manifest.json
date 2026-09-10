@@ -3,9 +3,9 @@
  "format_version": 3,
  "header": {
   "description": "pack.description",
-  "name": "Raiden Visuals 2.2",
+  "name": "Raiden Visuals 2.3 VIP+?",
   "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
-  "version": "2.2.0",
+  "version": "2.2.2",
   "pack_optimization_version":"0.1.0",
   "min_engine_version": "1.26.40"
  },
@@ -14,7 +14,7 @@
    "description": "Mimpi basah user android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs di versi official",
    "type": "resources",
    "uuid": "04b7e6f3-312d-4bc8-ba1e-183fa719f512",
-   "version": "2.2.0"
+   "version": "2.2.2"
   }
  ],
  "subpacks": [
