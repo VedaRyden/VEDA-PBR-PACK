@@ -1,0 +1,96 @@
+{
+ "capabilities": ["pbr"],
+ "format_version": 3,
+ "header": {
+  "description": "pack.description",
+  "name": "Raiden Visuals 2.4 VIP+",
+  "uuid": "9d602dae-2822-4bb9-914c-288611694fa7",
+  "version": "2.4.0",
+  "pack_optimization_version":"0.1.0",
+  "min_engine_version": "1.26.40"
+ },
+ "modules": [
+  {
+   "description": "Mimpi basah user android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs di versi official",
+   "type": "resources",
+   "uuid": "6163d3cd-bc61-416d-913f-c273fab57ab0",
+   "version": "2.4.0"
+  }
+ ],
+ "subpacks": [
+    {
+   "folder_name": "Release MorePerformance",
+   "memory_performance_tier":0,
+   "name": "More Performance For Official Release(v26.51+)"
+  },
+  {
+   "folder_name": "Beta Preview MorePerformance",
+   "memory_performance_tier":0,
+   "name": "More Performance For Beta/Preview(v26.60.28+)"
+  },
+  {
+   "folder_name": "New Block Lights and configuration",
+   "memory_performance_tier":0,
+   "name": "Beta/Preview(v26.60.28+)"
+  },
+  {
+   "folder_name": "Release Fix",
+   "memory_performance_tier":1,
+   "name": "Official Release(v26.51+)"
+  }
+ ],
+ "settings": [
+    {
+        "type": "label",
+        "text": "label.description.1"
+    },
+    {
+        "type": "label",
+        "text": "label.description.2"
+    },
+	{
+        "type": "label",
+        "text": "label.description.3"
+    },
+    {
+		"type": "toggle",
+		"text": "Tampilkan Opsi Raiden Visuals Di Pengaturan",
+		"name": "raidenvisual:option_shortcut",
+		"default": true
+	},
+    {
+			"type": "dropdown",
+			"text": "Tampilkan Awan Didalam Pantulan",
+			"name": "raidenvisual:cloudssr",
+			"options": [
+				{
+					"text": "Tampilkan",
+					"name": "unhide"
+				},
+				{
+					"text": "Sembunyikan",
+					"name": "hide"
+				},
+				{
+					"text": "Yo ndak tau kok tanya saya?",
+					"name": "yntkts"
+				}
+			],
+			"default": "unhide"
+		},
+        {
+			"type": "slider",
+			"text": "Resolusi Screen Space Reflection",
+			"name": "raidenvisual:screen_space_reflection_resolution",
+			"step": 1,
+			"min": 50,
+			"max": 100,
+			"default": 50
+		}
+ ],
+ "metadata": {
+  "authors": [ "VEDA_RAIDEN" ],
+  "url": "https://vedaryden.github.io/RaidenVisuals",
+  "license": "MIT"
+ }
+}

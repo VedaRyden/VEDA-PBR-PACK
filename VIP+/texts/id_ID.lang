@@ -1,0 +1,176 @@
+pack.description=TOP 1 Vibrant Visuals Optimizer? TERIMA KASIH SUDAH SUPPORT KREATOR DENGAN MEMBELI RAIDEN VISUALSNYA. §c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Ambient atau Flarial Client Untuk Android,MC PATCH TIDAK DIDUKUNG!, §rPastikan Deferred Render Distance Dapat di Set ke 1 Chunks itu artinya Raiden Visuals sudah berfungsi, Paket ini bukan shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
+resourcePack.vanilla.name=Mod Konfigurasi Deferred Dimodifikasi Dengan Raiden Visuals.
+resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
+label.description.1=Sesuaikan dengan versi Beta/Release di Minecraft Bedrockmu §euntuk pengguna Android harap gunakan aplikasi MB LOADER jika tidak, Raiden Visuals tidak akan berfungsi sama sekali.\n\n§rAktifkan tampilan log konten untuk mengecek apakah Raiden Visual error di versi Minecraftmu?\n\n§rBeta/Preview : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rOfficial Release : §eGunakan Opsi Ini jika anda bermain di versi Official Release.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip \n§rKunjungi Website Raiden Visuals Resmi : §9https://vedaryden.github.io/RaidenVisuals  
+label.description.2=BARU! Raiden Visuals Versi 2.4 VIP+! LEBIH PREMIUM UNTUK PERFORMA DAN VISUALS!. Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 keatas Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.\n
+label.description.3=Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya
+
+createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
+createWorldScreen.experimentalDeferredTechnicalPreviewDescription=Aktifkan Grafis Deferred Rendering. Memerlukan paket sumber daya yang mendukung PBR dan perangkat keras yang kompatibel.
+options.deferred.renderDistance=Jarak Render Deferred
+options.deferred.renderDistanceFormat=%s chunk
+options.deferred.renderDistance.description=Sesuaikan Jarak render dengan kemampuan perangkatmu. semakin tinggi jarak render semakin luas yang terlihat namum sangat berat bagi performa.
+options.atmosphericsEnable=Atmosfer
+options.edgeHighlightEnable=Sorotan Tepi(Edge Highlight)
+options.terrainShadowsEnable=Bayangan Medan(Terrain Shadows)
+options.superFancyWaterEnable=Air Super Keren
+options.bloomEnable=Mekar(Bloom)
+options.showthumbnails=Tampilkan Gambar Contoh Grafis
+
+resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG GRAFIS VIBRANT VISUAL, TETAPI ANDA DAPAT MENCOBA FITUR FORCE VIBRANT VISUALS DI MB LOADER ATAU FORCE GRAPHICS DI LEVI LAUNCHER.
+info.raidenvisuals=Atur Dan Sesuaikan Setingan Nya Dengan Kemampuan Perangkatmu, Ketika Baru Memasuki World Atur Jarak Chunk Jadi "8" Lalu Anda bebas bisa pake 1 chunk tanpa delay. Anda Dapat Mematikan Refleksi, Bayangan & Kabut Volumetrik Untuk Mengurangi beban GPU, Jangan Lupa Atur Resolusi Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.
+info.minimumspekandroid.raidenvisuals=Minimum Spesifikasi GPU Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals : Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. Jika Masih Gak Bisa Malah Balek Ke Fancy Artinya HP Mu Tidak Kompatibel.
+info.minimumspekpc.raidenvisuals=GPU Mu Harus Support DirectX12 Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals.
+info.ingfosupportvv.raidenvisuals=Perangkat Mu Tidak Support Vibrant Visuals! Meski Sudah Masuk List, Tapi Perangkatmu menolak untuk dapat mengaktifkan, Jangan Menangis Ya, Jangan Terlalu Dipaksakan,Tidak Semua HP di GPU Yang Sama Bisa Support:), Semoga cepat dibelikan perangkat baru yang lebih bagus^^.
+info.modegrafisabuabu.raidenvisuals=JANGAN LUPA AKTIFKAN "Izinkan Pergantian Mode Grafis Dalam Game".
+options.graphicsMode.rayTraced.tooltip=Tinggal Beli GPU RTX 2050+ atau RX 6600+ Udah Bisa Pake Mode Grafis Ray Traced Tuh :v DI HP GAAKAN PERNAH BISA, NGERTI!? >:v
+options.graphicsMode.combined.tooltip=MAAF DEVICE MU BEGITU KENTANG SEHINGGA MODE GRAFIS VIBRANT VISUALS TIDAK KOMPATIBEL UNTUK DEVICE MU SAAT INI. Mungkin Kedepannya Bakal Bisa Tapi Kalau Spekmu Udah Jadul Mau Berharap Apa? :).
+
+opti.raidenvisuals=Opsi Raiden Visuals
+set.raidenvisuals=Settingan Grafis Raiden visuals
+
+options.hdr_brightness=Kecerahan %s°
+options.gammaIntensity=Ubah Kecerahan Gamma
+menu.video.gamma=Kecerahan Gamma
+menu.video.gamma.description=Sesuaikan Kecerahan Gamma yang pas untuk dilihat
+options.framePacing=Atur tempo frame(Auto FPS)
+options.improvedInputResponsePlaceholder=Tanggapan Input Lebih Baik(Anti Delay)
+options.framerateLimit=Batas FPS
+options.framerateLimit.max=Tumpah Tumpah
+options.maxFramerate=Batas FPS
+options.maxFramerate.description=Atur Batas FPS untuk menghindari overheat agar performanya stabil. jika merasa perangkatnya cukup panas segera turunkan ke 30 FPS!
+
+
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.4 VIP+)
+options.graphicsMode.rayTraced=Ray Traced
+options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
+options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing
+options.graphicsMode.deferred.description=Vibrant visuals untuk grafis yang lebih kaya dan lebih terlihat imersif. tetapi membutuhkan perangkat dan konten Marketplace yang kompatibel
+options.graphicsMode.rayTraced.description=Ray Tracing Mengunakan Tehnik Pencahayaan dan refleksi real-time tingkat lanjut membutuhkan dukungan DXR
+
+options.shadowQuality.low=Mati(FPS BOOST)
+options.shadowQuality.medium=Sedang(Rekomendasi)
+options.shadowQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.shadowQuality.description=Semakin Tinggi maka resolusi bayangannya makin tinggi dan lebih Luas tetapi membutuhkan GPU yang lebih kuat.
+
+options.cloudQuality.low=Rendah(Tanpa Lighting)
+options.cloudQuality.medium=Medium(Rekomendasi)
+options.cloudQuality.ultra=Ultra(Rata Kanan!)
+options.cloudQuality.description=Atur jarak render awan. yang ini dampak performa nya cukup kecil.
+
+options.blockLightQuality=Kualitas Blok Cahaya
+options.blockLightQuality.description=Mengatur kualitas dari cahaya blok, Kualitas Standar mengahsilkan cahaya statis dan ringan untuk banyak blok bercahaya, kualitas volumetrik menghasilkan cahaya dinamis dan sangat berat jika ada banyak blok bercahaya.
+options.blockLightQuality.off=Standar(Rekomendasi)
+options.blockLightQuality.low=Volumetrik(HD)
+options.blockLightQuality.medium=Point Lights Medium
+options.blockLightQuality.high=Point Lights Tinggi
+options.blockLightQuality.ultra=Point Lights Ultra(Rata Kanan!)
+
+options.pointLightShadowQuality.off=Mati(FPS BOOST)
+options.pointLightShadowQuality.low=Rendah(Rekomendasi)
+options.pointLightShadowQuality.ultra=Ultra(Rata Kanan!)
+
+options.pointLightLODingQuality.off=Mati(Rekomendasi)
+options.pointLightLODingQuality.ultra=Ultra(Rata Kanan!)
+
+options.volumetricFogQuality.off=Mati(FPS BOOST)
+options.volumetricFogQuality.low=Rendah(Rekomendasi)
+options.volumetricFogQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.volumetricFogQuality.description=Resolusi Kabut Volumetrik semakin tinggi semakin tebal dan jelas kabutnya tetapi membutuhkan GPU yang kuat.
+
+options.reflectionsQuality.off=Mati(Tidak Disarankan! Menyebabkan Efek Metalik Bewarna Hitam)
+options.reflectionsQuality.low=Rendah(SSR OFF - Recommended)
+options.reflectionsQuality.medium=Medium(SSR On)
+options.reflectionsQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.reflectionsQuality.description=Mengontrol resolusi dan kualitas samples refleksi ruang layar. semakin tingi jarak pantulan semakin luas pantulannya, tetapi GPUnya ngos ngosan.
+
+options.deferred.upscaling=Fallback Upscaling
+options.upscaling=DLSS Upscaling
+options.upscalingPercentage=Resolusi Upscaling
+options.upscalingPercentage.hundred=Tanpa Upscaling(Tajam)
+options.upscalingPercentage.zero=Otomatis(GIMMICK!, Disarankan 33%)
+options.upscalingMode=Mode Upscaling
+options.upscalingModeOptions.taau=TAAU(Temporal Anti-Aliasing Upsampling)
+options.upscalingModeOptions.bilinear=Bilinear(Rekomendasi)
+options.upscalingPercentage.description=Disarankan menggunakan resolusi 33%, tetapi kalau ingin Screenshoot atau GPUmu sanggup maka dipersilahkan menggunakan resolusi Native
+options.upscalingMode.description=Pilih teknik upscaling yang Anda inginkan. Rekomendasi menggunakan tehnik Bilinear.
+options.upscalingModeOptions.taau.description=TAAU dapat menghasilkan gambar yang lebih baik tapi meningkatkan sedikit beban GPU.
+options.upscalingModeOptions.bilinear.description=Bilinear sangat ringan untuk digunakan tetapi dapat menghasilkan gambar yang lembut atau buram.
+
+options.graphicsQualityPresetMode.name=Pilih Preset Setingan Vibrant Visuals
+options.graphicsQualityPresetMode=Preset Kualitas
+options.graphicsQualityPresetMode.performance=Utamakan Performa(Ringan & Direkomendasikan)
+options.graphicsQualityPresetMode.visuals=Utamakan Kualitas(Berat)
+options.graphicsQualityPresetMode.performance.name=Utamakan Performa
+options.graphicsQualityPresetMode.performance.description=FPS Lebih tinggi dengan tambahan upscaling 33% membuatmu bersyukur dengan nikmat yang ada.
+options.graphicsQualityPresetMode.visuals.name=Utamakan Kualitas
+options.graphicsQualityPresetMode.description=Pilih kubu performa atau kubu yang penting enak dilihat dan gak peduli FPS dibawah 30.
+options.graphicsQualityPresetMode.custom.description=Plih Peforma untuk mengutamakan FPS Tertinggi, Pilih Kualitas untuk Hasil Yang Seimbang Namun Membutuhkan GPU yang cukup kuat
+options.graphicsQualityPresetMode.visuals.description=Yang Penting enak dilihat dengan performa yang seimbang jangan lupa bersyukur dengan yang kita miliki.
+
+options.bloomStrengthSlider=Bloom(Efek Glowing)
+options.bloomStrengthSlider.description=Kontrol intensitas efek bloom semakin tinggi semakin silau.
+
+options.vsync=Gunakan VSync(Sinkronisasi)
+options.vsync.off=Matikan VSync(Rekomendasi)
+options.vsync.on=VSync Vertikal
+options.vsync.adaptive=VSync Vertikal Adaptif
+
+pesan.tersirat.1=Join Discord Cuy : https://discord.gg/U2SUvJKQkk
+pesan.tersirat.2=Donasi https://trakteer.id/veda_raiden/tip
+pesan.tersirat.3=Made In Indonesia
+pesan.tersirat.4=Fun Fact : Veda Raiden Ternyata Salah Satu Anggota Dari Tim Strawberry Developer
+pesan.tersirat.5=Dapatkan Strawberry Vibrant Enhanced Hanya Seharga Rp 160.000!
+pesan.tersirat.6=When Yah Admin Punya Kartu Grafis
+pesan.tersirat.7=Kapan Yah Admin Punya Kartu Grafis
+pesan.tersirat.8=Andai Kalian Tahu Kalau Membuat Deferred/Visuals Pack Itu 'Mudah' anda bisa mempelajarinya di discord kami hehe.
+pesan.tersirat.9=Mau Coba Yang Lebih Berkualitas? Cobalah Strawberry Visuals.
+pesan.tersirat.10=Sangat Sedikit Orang Indonesia Membuat Visuals Pack Apalagi Shader Renderdragon Jika Ber Minaj Kalian Bisa Belajar Di Discord Kami.
+pesan.tersirat.11=Semoga Banyak Rejekinya ya^^
+pesan.tersirat.12=Menemukan Bau Relink? laporkan Segera ke Admin Berwajib!
+pesan.tersirat.13=Vibrant Visuals BUKAN SHADER Melainkan Nama Grafis Baru Untuk Minecraft
+pesan.tersirat.14=Raiden Visuals BUKAN SHADER Melainkan Mod Konfigurasi
+pesan.tersirat.15=Raiden Visuals Terselamatkan karena adanya MB Loader untuk android, tanpa itu Raiden Visual hanya hadir untuk windows saja
+pesan.tersirat.16=Strawberry Visuals BUKAN SHADER Melainkan Vibrant Visuals Pack
+pesan.tersirat.17=Vibrant Visuals Dulu Namanya Deferred Technical Preview
+pesan.tersirat.18=HATI HATI Dengan Konten Palsu Atau Orang Lain Yang Menyamar Sebagai Veda Raiden.
+pesan.tersirat.19=Lebih Baik Donasinya Lewat Discord Veda Pack x Raiden Visuals Official lalu ke channel donasinya-orang-baik
+pesan.tersirat.20=Anda Suka Dengan Raiden Visualnya? Bisa Donasi disini https://trakteer.id/veda_raiden/gift
+pesan.tersirat.21=Membuat Konten Penipuan Dan Relink Karya Orang lain Tidak Membuatmu Keren dan hebat
+pesan.tersirat.22=Deferred Technical Preview BUKAN SHADER
+pesan.tersirat.23=Raiden Visuals BUKAN SHADER
+pesan.tersirat.24=Vibrant Visuals BUKAN SHADER
+pesan.tersirat.25=Strawberry Deferred BUKAN SHADER
+pesan.tersirat.26=GPU Bukan Jaminan Utama Buat Memenuhi Syarat Untuk Support Fitur Vibrant Visuals Melainkan Driver OpenGL Mu Harus Kompatibel!.
+pesan.tersirat.27=Kalau Mau Pake 'SHADER' Instal MB Loader Dan Pasang Disini Shader Renderdragon Nya.
+pesan.tersirat.28=Ray Tracing Bukan Shader Apalagi Bukan RTX Juga Dawg
+pesan.tersirat.29=RTX Bukan Artinya Ray Tracing Atau HD Tapi Nama Seri GPU Geforce Nvindia
+pesan.tersirat.30=Masing masing Biome Memiliki Warna Gradasi Tersendiri, Cobalah Untuk Pergi Ke Bioma Yang Sejuk Dan Hangat.
+pesan.tersirat.31=Masing masing Biome Genangan Air Nya Berbeda Ada Yg Keruh, Tenang, Dan Berombak-ombak, Cobalah Untuk Pergi Ke Laut, Sungai, Bioma Swamp Dan Dessert.
+pesan.tersirat.32=Masing masing Biome Berbeda Kabut, Ada Yang Berkabut Tebal Dan Tipis, Cobalah Untuk Pergi Ke Bioma Cherry, Pale, Dessert, Bamboo, Jungle.
+pesan.tersirat.33=Jangan Lupa cek opsi vibrant visuals di pengaturan video
+pesan.tersirat.34=Tolong Pengaturan Videonya Diperhatikan Yah
+pesan.tersirat.35=Jangan Lupa Bersyukur Ya
+pesan.tersirat.36=Semoga Update Kedepan Nya Lebih Ringan Dan Bagus
+pesan.tersirat.37=Jika Mengalami Lag atau Low FPS, Dianjurkan Untuk Menurunkan Resoulsi yang disarankan.
+pesan.tersirat.38=Dapatkan Strawberry Vibrant Enhanced di Marketplace Hanya 990 Minecoins!
+pesan.tersirat.39=Raiden Visuals Hanya Sebuah Konfigurasi Deferred Yang Dikustomisasi Bertujuan Untuk Meningkatkan Performa Lebih Optimal
+pesan.tersirat.40=Subscribe YT : @Veda Raiden Untuk dapatkan Info Update Mod Raiden Visuals
+pesan.tersirat.41=Atur Upscaling Menjadi 33% Untuk Mendapatkan Performa Lebih baik
+pesan.tersirat.42=Terlalu terang? Atau Terlalu Gelap?, Cobalah Atur Gamma Brightness Di Opsi Vibrant visuals.
+pesan.tersirat.43=Semoga Diberlimpahkan Rejekinya ya^^
+pesan.tersirat.44=Free Palestine
+pesan.tersirat.45=Semoga Dilancarkan Rezekinya Agar Bisa Dibelikan Device Bagus
+pesan.tersirat.46=Semoga Kalian Bisa Dibelikan Perangkat Yang Lebih Baik Lagi
+pesan.tersirat.47=Semakin Tinggi Kualitas Dan Resolusi maka semakin berat juga hasilnya, namun Semakin Rendah Kualitas Dan resolusi nya maka semakin ringan.
+pesan.tersirat.48=Disarankan Anda Kustom sendiri Pengaturan Grafik mu
+pesan.tersirat.49=Jangan Lupa Share Ke teman teman mu soal Raiden Visuals, Mod ini Dapat Meningkatkan Performa dan menjadi lebih ringan mengunakan fitur Deferred Technical Preview.
+pesan.tersirat.50=Jangan Lupa Kalau Kalian Menambahkan Cahaya Seperti Obor dan melintasinya akan ada bayangan dirimu jika anda mengaktifkan Point Light Shadows.
+pesan.tersirat.51=Jangan Lupa Aktifkan Eksperimental 'Render Dragon For Creator'
+pesan.tersirat.52=Raiden Visuals Bukan SHADER, Raiden Visuals Hanya Mod Untuk Meningkatkan Performa Grafis Vibrant Visuals Saja
+pesan.tersirat.53=Aktifkan Prioritas Laju Bingkai Bagi HP Yg Support dan dapat melancarkan Peforma Gameplay mu
+pesan.tersirat.54=Mau melihat Godrays? Naikan Kualitas Kabut Volumetrik
+pesan.tersirat.55=Semoga Update Kedepan Nya Lebih Ringan Dan Bagus
+pesan.tersirat.56=Jika Mengalami Lag atau Low FPS, Dianjurkan Untuk Menurunkan Resolusi/Upscaling lebih rendah.
+pesan.tersirat.57=Udah Rata Kiri Masih LAG?, Tunggu Update kedepan nya mungkin hal ini dapat diatasi :)
+pesan.tersirat.58=Ciri Ciri Anda Benar-Benar Menggunakan Raiden Visuals Yaitu Bayangan Tajam Dan Tidak Buram, Dan Lebih Ringan Ketimbang Versi Bawaan Nya.

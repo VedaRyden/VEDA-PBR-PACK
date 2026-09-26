@@ -6,7 +6,19 @@
       "light_update_frequency": 30,
       "max_point_lights": 1,
       "score_compute_batch_size": 1,
-      "light_score_smoothing_factor": 0.8
+      "light_score_smoothing_factor": 0.8,
+      "light_scoring_weights": {
+        "screen_space_angular_radius": 1.0,
+        "frustum_visibility": 1.0,
+        "camera_alignment": 0.1
+      },
+      "transition_step_size": 0.01,
+      "transitioning_ambient_scalar": 0,
+      "max_pending_transition_tasks": 0,
+      "max_staged_transition_results": 0,
+      "max_in_flight_transition_tasks": 0,
+      "max_transition_commits_per_frame": 0,
+      "max_transition_volume_count": 0
     },
     "point_light_shadows": {
       "bias": 0,
@@ -45,7 +57,19 @@
       "light_update_frequency": 60,
       "max_point_lights": 32,
       "score_compute_batch_size": 64,
-    "light_score_smoothing_factor": 0.5
+    "light_score_smoothing_factor": 0.5,
+      "light_scoring_weights": {
+        "screen_space_angular_radius": 1.0,
+        "frustum_visibility": 1.0,
+        "camera_alignment": 0.1
+      },
+      "transition_step_size": 0.01,
+      "transitioning_ambient_scalar": 0,
+      "max_pending_transition_tasks": 0,
+      "max_staged_transition_results": 0,
+      "max_in_flight_transition_tasks": 0,
+      "max_transition_commits_per_frame": 0,
+      "max_transition_volume_count": 0
   },
   "point_light_shadows": {
     "bias": 0,
@@ -84,7 +108,19 @@
       "light_update_frequency": 60,
       "max_point_lights": 64,
       "score_compute_batch_size": 64,
-    "light_score_smoothing_factor": 0.5
+    "light_score_smoothing_factor": 0.5,
+      "light_scoring_weights": {
+        "screen_space_angular_radius": 1.0,
+        "frustum_visibility": 1.0,
+        "camera_alignment": 0.1
+      },
+      "transition_step_size": 0.01,
+      "transitioning_ambient_scalar": 0.65,
+      "max_pending_transition_tasks": 0,
+      "max_staged_transition_results": 0,
+      "max_in_flight_transition_tasks": 0,
+      "max_transition_commits_per_frame": 0,
+      "max_transition_volume_count": 0
     },
     "point_light_shadows": {
       "bias": 0,
@@ -121,9 +157,21 @@
     "point_lights_enabled": true,
     "point_light_budgets": {
       "light_update_frequency": 60,
-      "max_point_lights": 64,
+      "max_point_lights": 256,
       "score_compute_batch_size": 64,
-      "light_score_smoothing_factor": 0.5
+      "light_score_smoothing_factor": 0.5,
+      "light_scoring_weights": {
+        "screen_space_angular_radius": 1.0,
+        "frustum_visibility": 1.0,
+        "camera_alignment": 0.1
+      },
+      "transition_step_size": 0.01,
+      "transitioning_ambient_scalar": 0.65,
+      "max_pending_transition_tasks": 0,
+      "max_staged_transition_results": 0,
+      "max_in_flight_transition_tasks": 0,
+      "max_transition_commits_per_frame": 0,
+      "max_transition_volume_count": 0
     },
     "point_light_shadows": {
       "bias": 0,

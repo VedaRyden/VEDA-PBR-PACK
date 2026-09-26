@@ -1,8 +1,8 @@
-pack.description=BARU! CUSTOM TWEAK SHADER RENDERDRAGON PERTAMA UNTUK RAIDEN VISUALS!§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Ambient atau Flarial Client Untuk Android,MC PATCH TIDAK DIDUKUNG!, §rPastikan Deferred Render Distance Dapat di Set ke 1 Chunks itu artinya Raiden Visuals sudah berfungsi, Paket ini bukan shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
-resourcePack.vanilla.name=Mod Konfigurasi Raiden Visuals
+pack.description=TOP 1 Vibrant Visuals Optimizer?§c§lWAJIB PAKAI Aplikasi MB LOADER, Levi launcher, Ambient atau Flarial Client Untuk Android,MC PATCH TIDAK DIDUKUNG!, §rPastikan Deferred Render Distance Dapat di Set ke 1 Chunks itu artinya Raiden Visuals sudah berfungsi, Paket ini bukan shader melainkan Deferred Configuration. Donasi : https://trakteer.id/veda_raiden/tip
+resourcePack.vanilla.name=Mod Konfigurasi Deferred Dimodifikasi Dengan Raiden Visuals.
 resourcePack.vanilla.description=Performa Yang Lebih Baik dan Dioptimalkan untuk Vibrant Visual.
 label.description.1=Sesuaikan dengan versi Beta/Release di Minecraft Bedrockmu §euntuk pengguna Android harap gunakan aplikasi MB LOADER jika tidak, Raiden Visuals tidak akan berfungsi sama sekali.\n\n§rAktifkan tampilan log konten untuk mengecek apakah Raiden Visual error di versi Minecraftmu?\n\n§rBeta/Preview : §eHanya Berfungsi Di Versi Beta Terbaru. Mungkin Akan Bermasalah Jika Dipakai Pada Minecraft Versi Lama\n\n§rOfficial Release : §eGunakan Opsi Ini jika anda bermain di versi Official Release.\n\n§rDonasi : §9https://trakteer.id/veda_raiden/tip \n§rKunjungi Website Raiden Visuals Resmi : §9https://vedaryden.github.io/RaidenVisuals  
-label.description.2=BARU! Raiden Visuals Versi 2.2! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 keatas Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.\n
+label.description.2=BARU! Raiden Visuals Versi 2.4! Mojang Sudah Mengubah Direktori Folder Pada Renderer Config Jadi Kedepannya Raiden Visuals Versi 2.0 keatas Akan Berfungsi terus Kedepannya. Sebaliknya jika pakai Raiden Visuals Versi 1.11.3 Sebelumnya Bakal tidak berfungsi sepenuhnya pada versi minecraft terbaru nanti.\n
 label.description.3=Pengaturan ini Gimmick Tidak Dapat Digunakan Sepenuhnya
 
 createWorldScreen.experimentalVibrantVisualsDescription=Mengaktifkan ini akan meningkatkan visual game Anda(Tidak Memerlukan Paket Sumber Daya Tambahan)
@@ -17,7 +17,7 @@ options.superFancyWaterEnable=Air Super Keren
 options.bloomEnable=Mekar(Bloom)
 options.showthumbnails=Tampilkan Gambar Contoh Grafis
 
-resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG GRAFIS VIBRANT VISUAL, YANG SABAR YA, KAMU HARUS MENERIMA ITU JANGAN MENANGIS.
+resourcePack.incompatible.graphics.pbr=DEVICE MU TIDAK MENDUKUNG GRAFIS VIBRANT VISUAL, TETAPI ANDA DAPAT MENCOBA FITUR FORCE VIBRANT VISUALS DI MB LOADER ATAU FORCE GRAPHICS DI LEVI LAUNCHER.
 info.raidenvisuals=Atur Dan Sesuaikan Setingan Nya Dengan Kemampuan Perangkatmu, Ketika Baru Memasuki World Atur Jarak Chunk Jadi "8" Lalu Anda bebas bisa pake 1 chunk tanpa delay. Anda Dapat Mematikan Refleksi, Bayangan & Kabut Volumetrik Untuk Mengurangi beban GPU, Jangan Lupa Atur Resolusi Upscaling Jadi 33% Untuk Mendapatkan Performa Yang Lebih Baik.
 info.minimumspekandroid.raidenvisuals=Minimum Spesifikasi GPU Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals : Adreno 610+, Mali-G68+/Mali-G77+, Xclipse 530+. Jika Masih Gak Bisa Malah Balek Ke Fancy Artinya HP Mu Tidak Kompatibel.
 info.minimumspekpc.raidenvisuals=GPU Mu Harus Support DirectX12 Untuk Dapat mengaktifkan Fitur Grafis Vibrant Visuals.
@@ -41,7 +41,7 @@ options.maxFramerate=Batas FPS
 options.maxFramerate.description=Atur Batas FPS untuk menghindari overheat agar performanya stabil. jika merasa perangkatnya cukup panas segera turunkan ke 30 FPS!
 
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.2)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.4)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing

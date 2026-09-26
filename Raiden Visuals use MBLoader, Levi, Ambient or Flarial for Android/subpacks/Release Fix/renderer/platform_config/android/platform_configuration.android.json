@@ -8,6 +8,7 @@
             "clouds": "low",
             "shadows": "low",
             "point_light_shadows": "off",
+            "block_lights": "off",
             "volumetric_fog": "off",
             "bloom": false,
             "point_light_lodding": "off",
@@ -24,6 +25,7 @@
             "clouds": "low",
             "shadows": "medium",
             "point_light_shadows": "off",
+            "block_lights": "off",
             "volumetric_fog": "low",
             "bloom": true,
             "point_light_lodding": "off",
@@ -42,6 +44,7 @@
             "clouds": "low",
             "shadows": "low",
             "point_light_shadows": "off",
+            "block_lights": "off",
             "volumetric_fog": "off",
             "bloom": false,
             "point_light_lodding": "off",
@@ -59,6 +62,8 @@
             "shadows": "medium",
             "point_light_shadows": "off",
             "volumetric_fog": "low",
+            "block_lights": "off",
+
             "bloom": true,
             "point_light_lodding": "off",
             "reflections": "medium",
@@ -75,6 +80,8 @@
           "lods": {
             "bloom": false,
             "clouds": "low",
+                          "block_lights": "off",
+
             "default_deferred_distance": 2,
             "point_light_lodding": "off",
             "point_light_shadows": "off",
@@ -93,6 +100,8 @@
             "clouds": "ultra",
             "default_deferred_distance": 2,
             "point_light_lodding": "off",
+                        "block_lights": "off",
+
             "point_light_shadows": "off",
             "reflections": "medium",
             "shadows": "medium",
@@ -111,6 +120,8 @@
             "clouds": "medium",
             "default_deferred_distance": 2,
             "point_light_lodding": "off",
+                        "block_lights": "off",
+
             "point_light_shadows": "off",
             "reflections": "off",
             "shadows": "medium",
@@ -127,6 +138,8 @@
             "clouds": "ultra",
             "default_deferred_distance": 2,
             "point_light_lodding": "off",
+                        "block_lights": "off",
+
             "point_light_shadows": "off",
             "reflections": "medium",
             "shadows": "medium",
@@ -145,6 +158,8 @@
             "clouds": "medium",
             "default_deferred_distance": 2,
             "point_light_lodding": "off",
+                        "block_lights": "off",
+
             "point_light_shadows": "off",
             "reflections": "low",
             "shadows": "medium",
@@ -161,6 +176,8 @@
             "clouds": "ultra",
             "default_deferred_distance": 2,
             "point_light_lodding": "off",
+                        "block_lights": "off",
+
             "point_light_shadows": "off",
             "reflections": "medium",
             "shadows": "medium",
@@ -174,6 +191,9 @@
     },
     "cloud_config": {
       "file": "cloud_configuration.android.json"
+    },
+    "block_light_config": {
+      "file": "block_light_configuration.android.json"
     },
     "shadow_config": {
       "file": "shadow_configuration.android.json"

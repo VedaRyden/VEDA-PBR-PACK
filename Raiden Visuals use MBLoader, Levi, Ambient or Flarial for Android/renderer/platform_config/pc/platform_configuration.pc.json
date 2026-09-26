@@ -16,7 +16,8 @@
             "upscaling_mode":"bilinear",
             "target_resolution": "480p",
             "default_deferred_distance": 2,
-            "lighting_mixed_res_upscale": 0.5
+            "lighting_mixed_res_upscale": 0.5,
+            "lighting_mixed_res_enabled": false
           }
         },
         {
