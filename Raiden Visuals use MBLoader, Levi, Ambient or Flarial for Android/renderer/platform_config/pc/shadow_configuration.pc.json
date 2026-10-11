@@ -123,7 +123,7 @@
               "pcf_width": 0,
               "range": 0.1666,
               "resolution": 2048,
-              "slope_bias": 0.00001,
+              "slope_bias": 0.00003,
               "update_frequency": 1,
               "update_offset": 0
           },
@@ -147,7 +147,7 @@
               "pcf_width": 0,
               "range": 0.5,
               "resolution": 512,
-              "slope_bias": 0.00008,
+              "slope_bias": 0.00012,
               "update_frequency": 40,
               "update_offset": 0
           },
@@ -159,7 +159,7 @@
               "pcf_width": 0,
               "range": 1,
               "resolution": 512,
-              "slope_bias": 0.00008,
+              "slope_bias": 0.00018,
               "update_frequency": 60,
               "update_offset": 0
           }
@@ -172,7 +172,7 @@
   "max_shadow_distance": 128,
   "max_shadow_frustum_radius": 192.0,
   "moon_shadows": true,
-  "normal_offset_strength": 0,
+  "normal_offset_strength": 0.05,
   "shadow_range": {
       "far": 128,
       "near": 0.025

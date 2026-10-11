@@ -1,0 +1,42 @@
+{
+  //========================================
+  "low": {
+    "cloud_lighting_parameters": {
+		"cloud_lighting_enabled": false
+	},
+	"grid_size": 1,
+	"cloud_mesh_size": 64,
+	"cloud_render_distance_scale": 1.0,
+	"enable_cloud_render_distance": true
+  },
+  //========================================
+  "medium": {
+    "cloud_lighting_parameters": {
+		"cloud_lighting_enabled": true
+	},
+	"grid_size": 2,
+	"cloud_mesh_size": 64,
+	"cloud_render_distance_scale": 3.0,
+	"enable_cloud_render_distance": true
+  },
+  //========================================
+  "high": {
+    "cloud_lighting_parameters": {
+		"cloud_lighting_enabled": true
+	},
+	"grid_size": 3,
+	"cloud_mesh_size": 64,
+	"cloud_render_distance_scale": 4.0,
+	"enable_cloud_render_distance": true
+  },
+  //========================================
+  "ultra": {
+    "cloud_lighting_parameters": {
+		"cloud_lighting_enabled": true
+	},
+	"grid_size": 4,
+	"cloud_mesh_size": 64,
+	"cloud_render_distance_scale": 5.0,
+	"enable_cloud_render_distance": true
+  }
+}
