@@ -3,9 +3,9 @@
  "format_version": 3,
  "header": {
   "description": "pack.description",
-  "name": "Raiden Visuals 2.4.4 VIP+ Experimental",
+  "name": "Raiden Visuals 2.4.5 VIP+",
   "uuid": "9d602dae-2822-4bb9-914c-288611694fa7",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "pack_optimization_version":"0.1.0",
   "min_engine_version": "1.26.40"
  },
@@ -14,7 +14,7 @@
    "description": "Mimpi basah user android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs di versi official",
    "type": "resources",
    "uuid": "6163d3cd-bc61-416d-913f-c273fab57ab0",
-   "version": "2.4.4"
+   "version": "2.4.5"
   }
  ],
  "subpacks": [

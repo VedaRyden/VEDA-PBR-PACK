@@ -3,9 +3,9 @@
  "format_version": 3,
  "header": {
   "description": "pack.description",
-  "name": "Raiden Visuals 2.4 Standard",
+  "name": "Raiden Visuals 2.5 Standard",
   "uuid": "67b10236-00f4-0485-8b2d-80a110012006",
-  "version": "2.4.0",
+  "version": "2.5.1",
   "pack_optimization_version":"0.1.0",
   "min_engine_version": "1.26.40"
  },
@@ -14,29 +14,29 @@
    "description": "Mimpi basah user android jadi kenyataan wak bisa pake raiden visuals di copot pasang lewat Resources Packs di versi official",
    "type": "resources",
    "uuid": "04b7e6f3-312d-4bc8-ba1e-183fa719f512",
-   "version": "2.4.0"
+   "version": "2.5.1"
   }
  ],
  "subpacks": [
     {
    "folder_name": "Release MorePerformance",
    "memory_performance_tier":0,
-   "name": "More Performance For Official Release(v26.51+)"
+   "name": "More Performance For Official Release(v26.60+)"
   },
   {
    "folder_name": "Beta Preview MorePerformance",
    "memory_performance_tier":0,
-   "name": "More Performance For Beta/Preview(v26.60.28+)"
+   "name": "More Performance For Beta/Preview(v26.70.22+)"
   },
   {
-   "folder_name": "New Block Lights and configuration",
+   "folder_name": "Preview Fix",
    "memory_performance_tier":0,
-   "name": "Beta/Preview(v26.60.28+)"
+   "name": "Beta/Preview(v26.70.22+)"
   },
   {
    "folder_name": "Release Fix",
    "memory_performance_tier":1,
-   "name": "Official Release(v26.51+)"
+   "name": "Official Release(v26.60+)"
   }
  ],
  "settings": [
@@ -54,13 +54,13 @@
     },
     {
 		"type": "toggle",
-		"text": "Tampilkan Opsi Raiden Visuals Di Pengaturan",
+		"text": "Tampilkan Opsi Raiden Visuals Di Pengaturan(Fake)",
 		"name": "raidenvisual:option_shortcut",
 		"default": true
 	},
     {
 			"type": "dropdown",
-			"text": "Tampilkan Awan Didalam Pantulan",
+			"text": "Tampilkan Awan Didalam Pantulan(Skem)",
 			"name": "raidenvisual:cloudssr",
 			"options": [
 				{
@@ -80,7 +80,7 @@
 		},
         {
 			"type": "slider",
-			"text": "Resolusi Screen Space Reflection",
+			"text": "Resolusi Screen Space Reflection(Gimmick Abis)",
 			"name": "raidenvisual:screen_space_reflection_resolution",
 			"step": 1,
 			"min": 50,

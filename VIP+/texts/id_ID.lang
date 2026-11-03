@@ -50,7 +50,8 @@ options.graphicsMode.rayTraced.description=Ray Tracing Mengunakan Tehnik Pencaha
 
 options.shadowQuality.low=Mati(FPS BOOST)
 options.shadowQuality.medium=Sedang(Rekomendasi)
-options.shadowQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.shadowQuality.high=Ultra(Berkualitas Tinggi)
+options.shadowQuality.ultra=Cinematic(Experimental)
 options.shadowQuality.description=Semakin Tinggi maka resolusi bayangannya makin tinggi dan lebih Luas tetapi membutuhkan GPU yang lebih kuat.
 
 options.cloudQuality.low=Rendah(Tanpa Lighting)

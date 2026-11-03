@@ -6,7 +6,7 @@
       {"binding_name": "#version"},
       {
         "binding_type": "view",
-        "source_property_name": "('Raiden Visuals 2.4' + ' | ' + #version)",
+        "source_property_name": "('Raiden Visuals Standard 2.5' + ' | ' + #version)",
         "target_property_name": "#rv"
       }
     ]

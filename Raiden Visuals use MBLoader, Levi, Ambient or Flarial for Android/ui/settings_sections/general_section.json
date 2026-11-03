@@ -549,7 +549,12 @@
           "$slider_name": "upscaling_percentage",
           "$slider_value_binding_name": "#upscaling_percentage",
           "$slider_tts_text_value": "#upscaling_percentage_text_value",
-          "$slider_steps_binding_name": "#upscaling_percentage_steps"
+          "$slider_steps_binding_name": "#upscaling_percentage_steps",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
         }
       },
       {

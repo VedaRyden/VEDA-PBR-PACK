@@ -1,17 +1,6 @@
 {
   //==========================================================
   "low": {
-    "probe_regen": {
-    "far_plane_scaling": 0.1,
-    "texture_format": "R16G16B16A16_FLOAT",
-    "regen_triggers": {
-      "frames_delta": 50,
-      "gametime_delta": 50,
-      "distance_delta": 0,
-      "sky_brightness_delta": 0,
-      "block_brightness_delta": 0
-    }
-  },
   "ibl": {
     "num_samples": 1,
     "dimension": 128,
@@ -32,17 +21,6 @@
   },
   //==========================================================
   "medium": {
-    "probe_regen": {
-    "far_plane_scaling": 0.4,
-    "texture_format": "R16G16B16A16_FLOAT",
-    "regen_triggers": {
-      "frames_delta": 50,
-      "gametime_delta": 50,
-      "distance_delta": 0,
-      "sky_brightness_delta": 0,
-      "block_brightness_delta": 0
-    }
-  },
   "ibl": {
     "num_samples": 1,
     "dimension": 128,
@@ -63,17 +41,6 @@
   },
   //==========================================================
   "high": {
-    "probe_regen": {
-    "far_plane_scaling": 0.4,
-    "texture_format": "R16G16B16A16_FLOAT",
-    "regen_triggers": {
-      "frames_delta": 50,
-      "gametime_delta": 50,
-      "distance_delta": 1,
-      "sky_brightness_delta": 0,
-      "block_brightness_delta": 0
-    }
-  },
   "ibl": {
     "num_samples": 1,
     "dimension": 128,
@@ -82,7 +49,7 @@
   "ssr_enabled": true,
   "ssr": {
     "enable_gap_fill": false,
-    "linear_search_step_count": 300,
+    "linear_search_step_count": 100,
     "binary_search_step_count": 0,
     "ray_step_length": 1,
     "roughness_cutoff": 0.4,
@@ -94,17 +61,6 @@
   },
   //==========================================================
   "ultra": {
-    "probe_regen": {
-    "far_plane_scaling": 0.4,
-    "texture_format": "R16G16B16A16_FLOAT",
-    "regen_triggers": {
-      "frames_delta": 50,
-      "gametime_delta": 50,
-      "distance_delta": 0,
-      "sky_brightness_delta": 0,
-      "block_brightness_delta": 0
-    }
-  },
   "ibl": {
     "num_samples": 1,
     "dimension": 128,
@@ -113,14 +69,14 @@
   "ssr_enabled": true,
   "ssr": {
     "enable_gap_fill": false,
-    "linear_search_step_count": 1800,
+    "linear_search_step_count": 100,
     "binary_search_step_count": 0,
     "ray_step_length": 1,
     "fading_distance": 1,
     "roughness_cutoff": 0.4,
     "roughness_fade_start": 0,
     "thickness": 0,
-    "ssr_scale": 0.25
+    "ssr_scale": 0.5
     }
   }
 }

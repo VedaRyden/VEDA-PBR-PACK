@@ -41,7 +41,7 @@ options.maxFramerate=Batas FPS
 options.maxFramerate.description=Atur Batas FPS untuk menghindari overheat agar performanya stabil. jika merasa perangkatnya cukup panas segera turunkan ke 30 FPS!
 
 
-options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.4)
+options.graphicsMode.deferred=Vibrant Visuals(Raiden Visuals 2.5)
 options.graphicsMode.rayTraced=Ray Traced
 options.graphicsModeOptions.deferred=Opsi Grafis Raiden Visuals
 options.graphicsModeOptions.rayTraced=Opsi Grafis Ray Tracing
@@ -50,7 +50,7 @@ options.graphicsMode.rayTraced.description=Ray Tracing Mengunakan Tehnik Pencaha
 
 options.shadowQuality.low=Mati(FPS BOOST)
 options.shadowQuality.medium=Sedang(Rekomendasi)
-options.shadowQuality.ultra=Ultra+(Berkualitas Tinggi!)
+options.shadowQuality.ultra=Ultra(Rata Kanan!)
 options.shadowQuality.description=Semakin Tinggi maka resolusi bayangannya makin tinggi dan lebih Luas tetapi membutuhkan GPU yang lebih kuat.
 
 options.cloudQuality.low=Rendah(Tanpa Lighting)
